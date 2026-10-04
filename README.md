@@ -18,17 +18,30 @@ Luận điểm của paper: draft model nhỏ bỏ sót token mà model lớn c�
 **1. Layer nông chạy đủ**
 
 ```math
-S_\ell = \{1,\dots,T\}, \qquad \ell < \ell_0
+S_\ell = \{1,\dots,T\}, \qquad \ell < \ell_0.
 ```
 
 **2. Chấm điểm trước mỗi layer $\ell \ge \ell_0$** (trên các token còn lại $S_{\ell-1}$, dùng $q, k$ của chính layer $\ell$)
 
 ```math
-a^{h}_{ij} = \operatorname{softmax}_{\,j \in S_{\ell-1},\ p_j \le p_i}\!\left(\frac{q^{h}_i \cdot k^{h}_j}{\sqrt{d}}\right), \qquad i \in O
+a^{h}_{ij}
+=
+\frac{\exp\!\left(\dfrac{q^{(h,\ell)}_i \cdot k^{(h,\ell)}_j}{\sqrt{d}}\right)}
+{\displaystyle
+\sum_{\substack{j'\in S_{\ell-1}\\ p_{j'}\le p_i}}
+\exp\!\left(\dfrac{q^{(h,\ell)}_i \cdot k^{(h,\ell)}_{j'}}{\sqrt{d}}\right)},
+\qquad
+\substack{i\in O,\ j\in S_{\ell-1}\\ p_j\le p_i}.
 ```
 ```math
-s_j = \sum_{i \in O} \max_{h} a^{h}_{ij}, \qquad
-\hat{s}_j = \frac{1}{|\mathcal{N}(j)|} \sum_{j' \in \mathcal{N}(j)} s_{j'}
+s_j
+=
+\sum_{i\in O}\max_{h\in\{1,\dots,H\}} a^{h}_{ij},
+\qquad
+\hat{s}_j
+=
+\frac{1}{|\mathcal{N}(j)|}
+\sum_{j'\in\mathcal{N}(j)} s_{j'}.
 ```
 - $a^h_{ij}$: attention thật (đã softmax, causal) từ token quan sát $i$ tới token $j$ ở head $h$.
 - $\max_h$: chỉ cần một head nhìn mạnh là token được giữ, nên các head tra cứu không bị các head khác pha loãng.
@@ -38,12 +51,21 @@ s_j = \sum_{i \in O} \max_{h} a^{h}_{ij}, \qquad
 **3. Bỏ token điểm thấp**
 
 ```math
-P_\ell = S_{\ell-1} \setminus (Z \cup O), \qquad
-S_\ell = S_{\ell-1} \setminus D_\ell
+P_\ell = S_{\ell-1} \setminus (Z \cup O),
+\qquad
+S_\ell = S_{\ell-1} \setminus D_\ell.
 ```
 ```math
-D_\ell \subseteq P_\ell, \quad |D_\ell| = \lfloor \rho\,|P_\ell| \rfloor, \quad
-\hat{s}_j \le \hat{s}_{j'} \ \ \forall\, j \in D_\ell,\ j' \in P_\ell \setminus D_\ell
+D_\ell \subseteq P_\ell,
+\qquad
+|D_\ell| = \left\lfloor \rho\,|P_\ell| \right\rfloor,
+```
+```math
+\hat{s}_j \le \hat{s}_{j'}
+\qquad
+\forall\, j\in D_\ell,
+\quad
+j'\in P_\ell\setminus D_\ell.
 ```
 - $P_\ell$: token được phép bỏ; $D_\ell$: $\lfloor \rho |P_\ell| \rfloor$ token có $\hat{s}$ nhỏ nhất.
 - Token bị bỏ ra khỏi cả attention lẫn MLP từ layer $\ell$ trở đi. Hidden state của token giữ lại đi tiếp bình thường, vị trí RoPE không đổi.
@@ -56,7 +78,13 @@ D_\ell \subseteq P_\ell, \quad |D_\ell| = \lfloor \rho\,|P_\ell| \rfloor, \quad
 - Tổng token×layer so với dense:
 
 ```math
-\frac{1}{L}\left(\ell_0 + \sum_{k=1}^{L-\ell_0} (1-\rho)^k\right) \approx 0.80
+\frac{1}{L}
+\left(
+\ell_0
++
+\sum_{k=1}^{L-\ell_0}(1-\rho)^k
+\right)
+\approx 0.80.
 ```
 - Chấm điểm thêm chỉ tốn $O(|O| \cdot |S_{\ell-1}|)$ mỗi layer, rất nhỏ so với attention đầy đủ $O(|S_\ell|^2)$.
 
