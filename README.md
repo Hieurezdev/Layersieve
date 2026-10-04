@@ -10,45 +10,55 @@ Luận điểm của paper: draft model nhỏ bỏ sót token mà model lớn c�
 Ý tưởng: không dùng draft model. Chính model lớn chấm điểm token ở từng layer sâu, rồi "sàng" bớt dần token qua các layer.
 
 **Ký hiệu**
-- Prompt dài T token, model có L layer (Qwen2.5-7B: L = 28), H query head, head dim d.
-- `S_ℓ`: tập token đi vào layer ℓ. Mỗi token giữ vị trí gốc `p_j` (dùng cho RoPE).
-- `Z`: n_sink = 128 token đầu (attention sink). `O`: n_obs = 128 token cuối prompt (cửa sổ quan sát). Hai tập này luôn được giữ.
-- `ℓ₀ = 17`: layer bắt đầu sàng. `ρ = 0.12`: tỉ lệ bỏ mỗi layer.
+- Prompt dài $T$ token, model có $L$ layer (Qwen2.5-7B: $L=28$), $H$ query head, head dim $d$.
+- $S_\ell$: tập token đi vào layer $\ell$. Mỗi token $j$ giữ vị trí gốc $p_j$ (dùng cho RoPE).
+- $Z$: $n_{\text{sink}}=128$ token đầu (attention sink). $O$: $n_{\text{obs}}=128$ token cuối prompt (cửa sổ quan sát). Hai tập này luôn được giữ.
+- $\ell_0=17$: layer bắt đầu sàng. $\rho=0.12$: tỉ lệ bỏ mỗi layer.
 
 **1. Layer nông chạy đủ**
 
-```
-S_ℓ = {1, …, T}        với ℓ < ℓ₀
+```math
+S_\ell = \{1,\dots,T\}, \qquad \ell < \ell_0
 ```
 
-**2. Chấm điểm trước mỗi layer ℓ ≥ ℓ₀** (trên các token còn lại `S_ℓ₋₁`, dùng q/k của chính layer ℓ)
+**2. Chấm điểm trước mỗi layer $\ell \ge \ell_0$** (trên các token còn lại $S_{\ell-1}$, dùng $q, k$ của chính layer $\ell$)
 
+```math
+a^{h}_{ij} = \operatorname{softmax}_{\,j \in S_{\ell-1},\ p_j \le p_i}\!\left(\frac{q^{h}_i \cdot k^{h}_j}{\sqrt{d}}\right), \qquad i \in O
 ```
-a_ij^h = softmax_{j ∈ S_ℓ₋₁, p_j ≤ p_i} ( q_i^h · k_j^h / √d )      i ∈ O, j ∈ S_ℓ₋₁
-s_j    = Σ_{i ∈ O} max_h a_ij^h
-ŝ_j    = trung bình của s trên 13 token liền kề j trong S_ℓ₋₁
+```math
+s_j = \sum_{i \in O} \max_{h} a^{h}_{ij}, \qquad
+\hat{s}_j = \frac{1}{|\mathcal{N}(j)|} \sum_{j' \in \mathcal{N}(j)} s_{j'}
 ```
-- `a_ij^h`: attention thật (đã softmax, causal) từ token quan sát i tới token j ở head h.
-- `max_h`: chỉ cần một head nhìn mạnh là token được giữ, nên các head tra cứu không bị các head khác pha loãng.
-- `Σ_{i ∈ O}`: gom phiếu của cả 128 token cuối thay vì chỉ token cuối cùng.
-- `ŝ_j`: làm mượt để giữ trọn cụm token liền nhau (một key/giá trị thường dài nhiều token).
+- $a^h_{ij}$: attention thật (đã softmax, causal) từ token quan sát $i$ tới token $j$ ở head $h$.
+- $\max_h$: chỉ cần một head nhìn mạnh là token được giữ, nên các head tra cứu không bị các head khác pha loãng.
+- $\sum_{i\in O}$: gom phiếu của cả 128 token cuối thay vì chỉ token cuối cùng.
+- $\hat{s}_j$: làm mượt trên $\mathcal{N}(j)$ = 13 token liền kề $j$ trong $S_{\ell-1}$, để giữ trọn cụm token liền nhau (một key/giá trị thường dài nhiều token).
 
 **3. Bỏ token điểm thấp**
 
+```math
+P_\ell = S_{\ell-1} \setminus (Z \cup O), \qquad
+S_\ell = S_{\ell-1} \setminus D_\ell
 ```
-P_ℓ   = S_ℓ₋₁ \ (Z ∪ O)                     token được phép bỏ
-D_ℓ   = ⌊ρ · |P_ℓ|⌋ token có ŝ nhỏ nhất trong P_ℓ
-S_ℓ   = S_ℓ₋₁ \ D_ℓ
+```math
+D_\ell \subseteq P_\ell, \quad |D_\ell| = \lfloor \rho\,|P_\ell| \rfloor, \quad
+\hat{s}_j \le \hat{s}_{j'} \ \ \forall\, j \in D_\ell,\ j' \in P_\ell \setminus D_\ell
 ```
-- Token bị bỏ ra khỏi cả attention lẫn MLP từ layer ℓ trở đi. Hidden state của token giữ lại đi tiếp bình thường, vị trí RoPE không đổi.
-- Số token còn lại ở layer ℓ là `|Z ∪ O| + (1 − ρ)^(ℓ − ℓ₀ + 1) · (T − 256)`. Với ρ = 0.12, đến L27 còn khoảng 24%.
+- $P_\ell$: token được phép bỏ; $D_\ell$: $\lfloor \rho |P_\ell| \rfloor$ token có $\hat{s}$ nhỏ nhất.
+- Token bị bỏ ra khỏi cả attention lẫn MLP từ layer $\ell$ trở đi. Hidden state của token giữ lại đi tiếp bình thường, vị trí RoPE không đổi.
+- Số token còn lại: $|S_\ell| \approx |Z \cup O| + (1-\rho)^{\ell-\ell_0+1}\,(T-256)$. Với $\rho=0.12$, đến L27 còn khoảng 24%.
 
 **4. Decode**
-- Mỗi layer chỉ giữ KV của `S_ℓ`. Token sinh ra có vị trí tiếp nối `T, T+1, …`.
+- Mỗi layer chỉ giữ KV của $S_\ell$. Token sinh ra có vị trí tiếp nối $T, T+1, \dots$
 
 **Chi phí**
-- Tổng token×layer khoảng `(ℓ₀ + Σ_{k=1}^{L−ℓ₀} (1−ρ)^k) / L ≈ 0.80` so với dense.
-- Chấm điểm thêm chỉ tốn `|O| × |S_ℓ|` mỗi layer, rất nhỏ so với attention đầy đủ.
+- Tổng token×layer so với dense:
+
+```math
+\frac{1}{L}\left(\ell_0 + \sum_{k=1}^{L-\ell_0} (1-\rho)^k\right) \approx 0.80
+```
+- Chấm điểm thêm chỉ tốn $O(|O| \cdot |S_{\ell-1}|)$ mỗi layer, rất nhỏ so với attention đầy đủ $O(|S_\ell|^2)$.
 
 **Vì sao bắt đầu ở L17**
 - Probe trên kv cho thấy ở layer nông (vd. L8) evidence chỉ đứng quanh percentile 0.55 theo điểm attention, tức gần ngẫu nhiên.
@@ -89,7 +99,7 @@ Tái lập toàn bộ bảng kv50: `scripts/run_kv50.sh`.
 | Phương pháp | Đúng /50 | TTFT |
 |---|---|---|
 | dense | 35 | 20.8 s |
-| **LayerSieve** (ℓ₀ = 17, ρ = 0.12) | **29** | 15.5 s |
+| **LayerSieve** ($\ell_0=17,\ \rho=0.12$) | **29** | 15.5 s |
 | SlimInfer giữ 0.9/0.75/0.5 | 26 | 16.2 s |
 | SlimInfer giữ 0.8/0.6/0.4 (compute ≈ LayerSieve) | 24 | 13.9 s |
 | SlimInfer giữ 0.5/0.25/0.15 | 10 | 9.4 s |
