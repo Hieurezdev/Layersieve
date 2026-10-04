@@ -1,0 +1,3 @@
+[submodule "baselines/SlimInfer/official"]
+	path = baselines/SlimInfer/official
+	url = https://github.com/Longxmas/SlimInfer.git
