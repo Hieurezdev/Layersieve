@@ -13,7 +13,7 @@ Luận điểm của paper: draft model nhỏ bỏ sót token mà model lớn c�
 - Prompt dài $T$ token, model có $L$ layer (Qwen2.5-7B: $L=28$), $H$ query head, head dim $d$.
 - $S_\ell$: tập token đi vào layer $\ell$. Mỗi token $j$ giữ vị trí gốc $p_j$ (dùng cho RoPE).
 - $Z$: $n_{\text{sink}}=128$ token đầu (attention sink). $O$: $n_{\text{obs}}=128$ token cuối prompt (cửa sổ quan sát). Hai tập này luôn được giữ.
-- $\ell_0=17$: layer bắt đầu sàng. $\rho=0.12$: tỉ lệ bỏ mỗi layer.
+- $\ell_0=17:$  layer bắt đầu sàng. $\rho=0.12:$  tỉ lệ bỏ mỗi layer.
 
 **1. Layer nông chạy đủ**
 
@@ -45,8 +45,8 @@ s_j
 ```
 - $a^h_{ij}$: attention thật (đã softmax, causal) từ token quan sát $i$ tới token $j$ ở head $h$.
 - $\max_h$: chỉ cần một head nhìn mạnh là token được giữ, nên các head tra cứu không bị các head khác pha loãng.
-- $\sum_{i\in O}$: gom phiếu của cả 128 token cuối thay vì chỉ token cuối cùng.
-- $\hat{s}_j$: làm mượt trên $\mathcal{N}(j)$ = 13 token liền kề $j$ trong $S_{\ell-1}$, để giữ trọn cụm token liền nhau (một key/giá trị thường dài nhiều token).
+- $\sum_{i\in O}:$ gom phiếu của cả 128 token cuối thay vì chỉ token cuối cùng.
+- $\hat{s_j}$ : làm mượt trên $\mathcal{N}(j)$ = 13 token liền kề $j$ trong $S_{\ell-1}$, để giữ trọn cụm token liền nhau (một key/giá trị thường dài nhiều token).
 
 **3. Bỏ token điểm thấp**
 
