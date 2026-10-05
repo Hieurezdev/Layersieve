@@ -100,8 +100,10 @@ inmodel_prune/        code LayerSieve
   vllm_patch.py         bản vLLM 0.6.3 (1 request), có kèm SlimInfer cài lại (method="slim")
 baselines/            mỗi thư mục là một paper baseline
   SpecPrefill/          code gốc SpecPrefill (MIT), không sửa
+  specprefill_qwen.py   patch để SpecPrefill chạy với Qwen2 (gốc chỉ hỗ trợ Llama), ghi lại token được giữ
   SlimInfer/            official/ = submodule code gốc (commit 39640a5), run_kv.py = driver chạy kv
 data/build_kv.py      tạo prompt InfiniteBench kv_retrieval đã token hoá (data/*.jsonl không commit)
+data/build_hard.py    tạo prompt ≤30k cho thí nghiệm case khó: kv, variable tracking, HotpotQA/2WikiMQA
 scripts/              chạy thí nghiệm và tổng hợp
 results/              kết quả benchmark (jsonl từng mẫu)
 docs/                 paper liên quan và report
@@ -123,6 +125,8 @@ python scripts/summarize_kv.py
 ```
 Tái lập toàn bộ bảng kv50: `scripts/run_kv50.sh`.
 
+Thí nghiệm case khó cho SpecPrefill: `scripts/run_hard.sh`, tổng hợp bằng `python scripts/summarize_hard.py`.
+
 ## Kết quả hiện có (kv50, Qwen2.5-7B-Instruct-1M, ~170k token, 1×GPU)
 | Phương pháp | Đúng /50 | TTFT |
 |---|---|---|
@@ -134,3 +138,55 @@ Tái lập toàn bộ bảng kv50: `scripts/run_kv50.sh`.
 | SlimInfer cấu hình gốc 12k/6k/4k | 3 | 6.9 s |
 
 Chi tiết: `docs/report_kv50.md`.
+
+## Case khó cho SpecPrefill (draft nhỏ sai, target đúng)
+
+Câu hỏi: khi draft nhỏ không trả lời được câu mà model lớn trả lời được, SpecPrefill có sập không?
+
+**Thiết lập**
+- Target Qwen2.5-7B-Instruct-1M. Draft Qwen2.5-1.5B-Instruct hoặc 0.5B-Instruct.
+- Prompt ≤ 27k token, vì draft chỉ có context 32k. Nếu cho prompt dài hơn, draft sẽ sập vì tràn context chứ không phải vì kém, và kết quả không còn đo đúng điều cần đo.
+- SpecPrefill dùng config gốc: look-ahead 8, chunk 32, pool 13, giữ 10% hoặc 30%. LayerSieve dùng ℓ₀ = 17, ρ = 0.12.
+- Ba loại task (`data/build_hard.py`):
+  - kv: kv_retrieval tự sinh.
+  - vt: variable tracking 4 bước, câu hỏi theo chiều xuôi ("giá trị của VAR Q?"), có chuỗi gây nhiễu.
+  - QA: HotpotQA và 2WikiMQA lấy từ LongBench.
+- Chỉ dùng mẫu target dense trả lời đúng: kv 30, vt 40, Hotpot 30, 2Wiki 30, chọn ngẫu nhiên với seed 0 (`results/hard/ids_sub.txt`).
+  - **Tập khó**: draft dense trả lời sai. **Tập dễ**: draft dense trả lời đúng.
+- "Giữ evidence" nghĩa là mọi span evidence còn ≥ 1/2 số token sau khi cắt (chỉ đo cho kv và vt).
+
+**Draft 1.5B** (đúng / n)
+
+| Task | Tập | n | SP 10% | SP 30% | LayerSieve |
+|---|---|---|---|---|---|
+| kv | khó | 13 | 0 | 4 | 10 |
+| kv | dễ | 17 | 4 | 9 | 14 |
+| vt | khó | 25 | 12 | 17 | **25** |
+| vt | dễ | 15 | 11 | 10 | 14 |
+| 2WikiMQA | khó | 13 | 7 | 11 | 12 |
+| 2WikiMQA | dễ | 17 | 14 | 16 | 17 |
+| HotpotQA | khó | 6 | 5 | 6 | 6 |
+| HotpotQA | dễ | 24 | 22 | 24 | 24 |
+
+**Draft 0.5B, SpecPrefill giữ 10%, tập khó**
+
+| Task | n | SP 10% | LayerSieve | thắng:thua, p (McNemar) |
+|---|---|---|---|---|
+| kv | 15 | 0 | 10 | 0:10, 0.002 |
+| vt | 39 | 11 | 38 | 1:28, <0.001 |
+| 2WikiMQA | 19 | 7 | 18 | 0:11, 0.001 |
+| HotpotQA | 18 | 14 | 18 | 0:4, 0.13 |
+
+TTFT trung bình: dense 0.40 s, LayerSieve 0.36 s, SP 1.5B giữ 30% 0.32 s, SP 1.5B giữ 10% 0.25 s, SP 0.5B giữ 10% 0.16 s.
+
+**Nhận xét**
+- Draft càng yếu thì SpecPrefill sập càng nặng. LayerSieve không dùng draft nên vẫn đạt 97–100% trên tập khó.
+- Ở vt, SpecPrefill thường giữ hop đầu và hop cuối nhưng cắt các hop ở giữa chuỗi, vì draft không lần theo được chuỗi.
+- Target chép lại đáp án sai của draft. Với SP 1.5B giữ 10%, 10/17 câu vt sai trùng đúng con số sai mà draft dense đưa ra; khi giữ 30% còn 4/13. Có thể do các token look-ahead (câu trả lời sai của draft) kéo ngân sách giữ token về phía chuỗi gây nhiễu.
+- Khi giữ 30%, tập khó và tập dễ của vt gần bằng nhau (17/25 so với 10/15). Như vậy chênh lệch do draft kém chỉ rõ ở ngân sách thấp, nhưng SpecPrefill vẫn thua LayerSieve trên vt khó.
+- kv sập ở cả tập dễ, tức là do ngân sách quá thấp chứ không phải do draft. Không nên dùng kv làm bằng chứng cho luận điểm về draft.
+
+**Hạn chế**
+- Mẫu nhỏ: Hotpot khó chỉ có 6 mẫu với draft 1.5B.
+- Ở ≤ 27k token, SpecPrefill có TTFT nhanh hơn LayerSieve, nên so sánh chưa ngang tốc độ.
+- Ngưỡng giữ evidence 1/2 có thể bỏ sót trường hợp mất đúng tên biến.

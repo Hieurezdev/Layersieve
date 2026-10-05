@@ -21,7 +21,7 @@ import torch.nn.functional as F
 
 _CFG = {}
 _ORIG = {}
-_STATE = {"T": None, "kept": None}          # prompt length, tokens kept per layer (index = layer id)
+_STATE = {"T": None, "kept": None, "idx": None}  # prompt length, tokens kept per layer (index = layer id), positions kept at the last layer
 
 
 def _importance(layer, hidden, residual, positions, n_obs, obs_chunk=32):
@@ -160,6 +160,7 @@ def _patched_forward(self, input_ids, positions, kv_caches, attn_metadata, inter
             if do_prune and slim and i in c["slim_layers"]:
                 hidden, positions, orig_idx, residual = hidden[pend], positions[pend], orig_idx[pend], residual[pend]
                 meta = _prefill_meta(attn_metadata, hidden.shape[0])
+        _STATE["idx"] = orig_idx.cpu()
         hidden, _ = self.norm(hidden, residual)
         if hidden.shape[0] != T:                                                     # sampler indexes the full prompt
             full = hidden.new_zeros(T, hidden.shape[1])
@@ -195,6 +196,11 @@ def enable_inmodel_prune(start_layer: int = 17, drop_ratio: float = 0.12, n_obs:
     from vllm.model_executor.models import qwen2
     _ORIG.setdefault("forward", qwen2.Qwen2Model.forward)
     qwen2.Qwen2Model.forward = _patched_forward
+
+
+def last_kept_positions() -> Optional[List[int]]:
+    """Prompt positions that reached the last layer in the most recent prefill."""
+    return _STATE["idx"].tolist() if _STATE["idx"] is not None else None
 
 
 def last_kept() -> Optional[List[int]]:
