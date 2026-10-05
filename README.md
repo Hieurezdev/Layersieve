@@ -116,6 +116,26 @@ uv venv -p 3.10 .venv && uv pip install -p .venv -r requirements.txt
 ```
 Baseline SlimInfer gốc cần env riêng (`baselines/SlimInfer/README.md`).
 
+### Container: lưu và khôi phục môi trường
+Tắt container sẽ mất mọi thứ ngoài `/data`. Code, `.venv` và HF cache (`HF_HOME=/data/env/hf`) nằm trong `/data` nên không mất. Phiên Claude Code (hội thoại, memory) thì phải lưu tay.
+
+Trước khi tắt container:
+```bash
+bash /data/LongContextInferPaper/scripts/save_claude.sh    # lưu ~/.claude vào /data/env/claude-state (không lưu token đăng nhập)
+```
+
+Sau khi bật lại:
+```bash
+bash /data/LongContextInferPaper/scripts/restore_env.sh    # khôi phục ~/.claude, binary claude, CLAUDE_CODE_TMPDIR
+cd /data/speculative_prefill                               # phải đúng thư mục này mới thấy hội thoại cũ
+claude                                                     # /login để đăng nhập lại
+claude --resume                                            # chọn hội thoại cần mở lại
+```
+Git báo "dubious ownership" vì chủ sở hữu của `/data` bị đổi thành uid 65534. Chạy một lần sau mỗi lần khôi phục:
+```bash
+git config --global --add safe.directory /data/speculative_prefill
+```
+
 ## Chạy
 ```bash
 python data/build_kv.py --out data/kv50.jsonl
