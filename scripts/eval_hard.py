@@ -2,10 +2,10 @@
 baselines/specprefill_qwen.py) or LayerSieve. Records answer correctness, TTFT and, for pruning methods, how much of
 the evidence survived (a span counts as kept if >= half of its tokens are kept).
 Usage:
-    python scripts/eval_hard.py --model Qwen/Qwen2.5-1.5B-Instruct --method dense --out results/hard/draft15_dense.jsonl
+    python scripts/eval_hard.py --model Qwen/Qwen2.5-1.5B-Instruct --method dense --out results/moe/sp/draft15_dense.jsonl
     python scripts/eval_hard.py --method specprefill --spec-model Qwen/Qwen2.5-1.5B-Instruct \
-        --spec-config baselines/SpecPrefill/configs/config_p1_full_lah8.yaml --out results/hard/sp15_p1.jsonl
-    python scripts/eval_hard.py --method layersieve --out results/hard/layersieve.jsonl
+        --spec-config baselines/SpecPrefill/configs/config_p1_full_lah8.yaml --out results/moe/sp/sp15_p1.jsonl
+    python scripts/eval_hard.py --method layersieve --out results/moe/hard/base.jsonl
 """
 import argparse
 import json
@@ -29,6 +29,12 @@ ap.add_argument("--start-layer", type=int, default=17)
 ap.add_argument("--drop-ratio", type=float, default=0.12)
 ap.add_argument("--tasks", default="", help="comma list of tasks to run (default all)")
 ap.add_argument("--ids", default="", help="file with one id per line: run only these")
+ap.add_argument("--unit", action="store_true", help="MOE variant: drop whole units (lines/sentences/clauses)")
+ap.add_argument("--accum", action="store_true", help="MOE variant: rank by importance summed over the layers scored so far")
+ap.add_argument("--bm25", type=float, default=0.0, help="MOE variant: protect the BM25-best units, up to this fraction of the prompt")
+ap.add_argument("--score", default="attn", choices=["attn", "bm25"], help="bm25: BM25 replaces attention importance (ablation)")
+ap.add_argument("--gpu-util", type=float, default=0.85)
+ap.add_argument("--decode-ref", type=int, default=None, help="layers < R keep only the KV of tokens that reached R")
 ap.add_argument("--out", required=True)
 a = ap.parse_args()
 
@@ -38,7 +44,8 @@ if a.method == "specprefill":
     kept_positions = specprefill_qwen.last_kept
 elif a.method == "layersieve":
     from inmodel_prune.vllm_patch import enable_inmodel_prune, last_kept_positions
-    enable_inmodel_prune(start_layer=a.start_layer, drop_ratio=a.drop_ratio)
+    enable_inmodel_prune(start_layer=a.start_layer, drop_ratio=a.drop_ratio, unit=a.unit, accum=a.accum,
+                         bm25_frac=a.bm25, score=a.score, decode_ref=a.decode_ref)
     kept_positions = last_kept_positions
 else:
     kept_positions = lambda: None  # noqa: E731
@@ -67,7 +74,7 @@ tasks = set(a.tasks.split(",")) if a.tasks else None
 only = {l.strip() for l in open(a.ids)} if a.ids else None
 
 llm = LLM(a.model, enforce_eager=True, enable_chunked_prefill=False, enable_prefix_caching=False, max_num_seqs=1,
-          max_model_len=32768, gpu_memory_utilization=0.85)
+          max_model_len=32768, gpu_memory_utilization=a.gpu_util)
 first = SamplingParams(temperature=0.0, max_tokens=1)
 for line in open(a.prompts):
     r = json.loads(line)

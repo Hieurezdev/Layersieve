@@ -19,6 +19,8 @@ from typing import List, Optional
 import torch
 import torch.nn.functional as F
 
+from inmodel_prune import units
+
 _CFG = {}
 _ORIG = {}
 _STATE = {"T": None, "kept": None, "idx": None}  # prompt length, tokens kept per layer (index = layer id), positions kept at the last layer
@@ -50,19 +52,50 @@ def _importance(layer, hidden, residual, positions, n_obs, obs_chunk=32):
     return imp
 
 
-def _select(layer, hidden, residual, positions):
+def _select(layer, hidden, residual, positions, aux):
+    """aux: per-token tensors of the current token set (MOE variants): "unit" ids, "protect" mask (BM25),
+    "acc" importance summed over the layers scored so far (updated in place), "lex" BM25 score (score="bm25")."""
     c = _CFG
     T = hidden.shape[0]
-    imp = _importance(layer, hidden, residual, positions, c["n_obs"])
-    if c["pool_kernel"] > 1:
-        imp = F.avg_pool1d(imp[None, None], c["pool_kernel"], 1, c["pool_kernel"] // 2, count_include_pad=False)[0, 0]
+    if c["score"] == "bm25":
+        imp = aux["lex"]
+    else:
+        imp = _importance(layer, hidden, residual, positions, c["n_obs"])
+        if "acc" in aux:
+            aux["acc"] += imp
+            imp = aux["acc"]
     idx = torch.arange(T, device=hidden.device)
     prunable = (positions >= c["n_sink"]) & (idx < T - c["n_obs"])
+    if "protect" in aux:
+        prunable &= ~aux["protect"]
     n_drop = int(int(prunable.sum()) * c["drop_ratio"])
     keep = torch.ones(T, dtype=torch.bool, device=hidden.device)
-    if n_drop > 0:
+    if n_drop > 0 and c["unit"]:
+        keep[units.drop_units(imp, aux["unit"], prunable, n_drop)] = False
+    elif n_drop > 0:
+        if c["pool_kernel"] > 1:
+            imp = F.avg_pool1d(imp[None, None], c["pool_kernel"], 1, c["pool_kernel"] // 2, count_include_pad=False)[0, 0]
         keep[torch.topk(imp.masked_fill(~prunable, float("inf")), n_drop, largest=False).indices] = False
     return idx[keep]
+
+
+def _aux_init(input_ids):
+    """Per-token state for the MOE variants (empty dict for plain LayerSieve)."""
+    c = _CFG
+    aux = {}
+    if c["unit"] or c["bm25_frac"] > 0 or c["score"] == "bm25":
+        aux["unit"] = units.unit_ids(input_ids, c["boundary"].to(input_ids.device), c["unit_max"])
+    if c["bm25_frac"] > 0 or c["score"] == "bm25":
+        T = input_ids.shape[0]
+        s = units.bm25_scores(input_ids, aux["unit"], input_ids[-c["n_obs"]:])
+        if c["bm25_frac"] > 0:
+            obs = torch.arange(T, device=input_ids.device) >= T - c["n_obs"]
+            aux["protect"] = units.bm25_protect(aux["unit"], s, int(c["bm25_frac"] * T), obs)
+        if c["score"] == "bm25":
+            aux["lex"] = s[aux["unit"]]
+    if c["accum"]:
+        aux["acc"] = torch.zeros(input_ids.shape[0], device=input_ids.device)
+    return aux
 
 
 def _slim_select(layer, hidden, residual, positions, keep_tokens):
@@ -96,6 +129,22 @@ def _slim_select(layer, hidden, residual, positions, keep_tokens):
     kept_blocks = bid[torch.topk(bs, n_keep).indices]
     tok_block = positions // c["slim_block"]
     return torch.nonzero(torch.isin(tok_block, kept_blocks)).squeeze(1)
+
+
+def _compact_decode_kv(kv_caches, sets, ref, slot_mapping):
+    """Decode-time KV sieving: every layer i < ref keeps only the KV of the tokens that entered layer ref (sets[ref]).
+    sets[i] = prompt positions whose KV layer i wrote, in order, at logical slots 0..len-1. The kept entries are moved
+    to logical slots 0..n-1 (physical slot of logical j = slot_mapping[j]); returns n."""
+    target = sets[ref]
+    n = target.shape[0]
+    dst = slot_mapping[:n].long()
+    for i in range(ref):
+        if sets[i].shape[0] == n:
+            continue
+        src = slot_mapping[torch.searchsorted(sets[i], target)].long()
+        kv = kv_caches[i].view(2, -1, *kv_caches[i].shape[-2:])                      # [2, slots, Hk, D]
+        kv[:, dst] = kv[:, src].clone()
+    return n
 
 
 def _prefill_meta(meta, n):
@@ -141,11 +190,14 @@ def _patched_forward(self, input_ids, positions, kv_caches, attn_metadata, inter
         orig_idx = torch.arange(T, device=hidden.device)
         meta = attn_metadata
         slim = c["method"] == "slim"
+        aux = _aux_init(input_ids) if do_prune and not slim else {}
+        sets = []                                                                    # positions whose KV layer i writes
         for i in range(self.start_layer, self.end_layer):
             layer = self.layers[i]
             keep = None
             if do_prune and not slim and i >= c["start_layer"]:                        # ours: select BEFORE layer i
-                keep = _select(layer, hidden, residual, positions)
+                keep = _select(layer, hidden, residual, positions, aux)
+                aux = {k: v[keep] for k, v in aux.items()}
             elif do_prune and slim and i in c["slim_layers"]:                          # SlimInfer: decided at layer i,
                 kt = c["slim_layers"][i]                                                  # applied after it
                 kt = kt * T if kt <= 1 else kt * (T / c["slim_ref_len"] if c["slim_ref_len"] else 1)
@@ -155,12 +207,18 @@ def _patched_forward(self, input_ids, positions, kv_caches, attn_metadata, inter
                 residual = residual[keep] if residual is not None else None
                 meta = _prefill_meta(attn_metadata, hidden.shape[0])
             _STATE["kept"].append(hidden.shape[0])
+            sets.append(orig_idx)
             with set_forward_context(meta):
                 hidden, residual = layer(positions, hidden, kv_caches[i - self.start_layer], meta, residual)
             if do_prune and slim and i in c["slim_layers"]:
                 hidden, positions, orig_idx, residual = hidden[pend], positions[pend], orig_idx[pend], residual[pend]
                 meta = _prefill_meta(attn_metadata, hidden.shape[0])
         _STATE["idx"] = orig_idx.cpu()
+        ref = c["decode_ref"]
+        if (do_prune and not slim and ref is not None and self.start_layer == 0 and ref < len(sets)
+                and kv_caches[0].numel() > 0):                                     # no cache yet while profiling
+            n = _compact_decode_kv(kv_caches, sets, ref, attn_metadata.slot_mapping)
+            _STATE["kept"] = [min(k, n) for k in _STATE["kept"]]
         hidden, _ = self.norm(hidden, residual)
         if hidden.shape[0] != T:                                                     # sampler indexes the full prompt
             full = hidden.new_zeros(T, hidden.shape[1])
@@ -180,22 +238,46 @@ def _patched_forward(self, input_ids, positions, kv_caches, attn_metadata, inter
     return hidden
 
 
+def _mlp_chunked(self, x):
+    """Qwen2MLP over token chunks: exact (the MLP is per token), only lowers the peak memory of a long prefill."""
+    n = _CFG["mlp_chunk"]
+    if not n or x.shape[0] <= n:
+        return _ORIG["mlp"](self, x)
+    return torch.cat([_ORIG["mlp"](self, xi) for xi in x.split(n)])
+
+
 def enable_inmodel_prune(start_layer: int = 17, drop_ratio: float = 0.12, n_obs: int = 128, n_sink: int = 128,
                          pool_kernel: int = 13, block_size: int = 16, method: str = "ours",
                          slim_layers=None, slim_ref_len: int = 0, slim_block: int = 64, slim_unit: int = 8,
-                         slim_window: int = 4):
+                         slim_window: int = 4, unit: bool = False, unit_max: int = 128, accum: bool = False,
+                         bm25_frac: float = 0.0, score: str = "attn", tokenizer: str = "Qwen/Qwen2.5-7B-Instruct-1M",
+                         mlp_chunk: int = 0, decode_ref: Optional[int] = None):
     """Monkey-patch vLLM's Qwen2Model.forward. Must match the LLM's block_size (vLLM default 16).
-    method="ours": progressive pruning (start_layer, drop_ratio, ...).
+    method="ours": progressive pruning (start_layer, drop_ratio, ...). Variants borrowed from the top-1 team's
+      SpecPrefill (inmodel_prune/units.py): unit=True drops whole units (<= unit_max tokens, score = max importance)
+      instead of avg-pooled tokens; accum=True ranks by importance summed over all layers scored so far;
+      bm25_frac > 0 never drops the units that best match the last n_obs tokens by BM25 (up to that fraction of the
+      prompt); score="bm25" replaces attention importance by the BM25 score of the token's unit (ablation).
+    mlp_chunk > 0: run every MLP in chunks of that many tokens (exact; lets a ~170k prefill fit on a 48 GB GPU).
+    decode_ref = r: after prefill, every layer < r keeps only the KV of the tokens that reached layer r, so decode reads
+      less KV (shallow layers no longer hold the whole prompt). None = off (layers keep what they computed).
     method="slim": SlimInfer prefill pruning; slim_layers = {layer: tokens kept for later layers}, default = their
       Qwen2.5-7B config {8: 12k, 17: 6k, 25: 4k} (values <= 1 = fraction of the prompt); slim_ref_len > 0 scales the kept counts by prompt_len / slim_ref_len.
       Decode is static here (SlimInfer's decode-time block re-selection / CPU offload is not reproduced)."""
     _CFG.update(start_layer=start_layer, drop_ratio=drop_ratio, n_obs=n_obs, n_sink=n_sink,
                 pool_kernel=pool_kernel, block_size=block_size, method=method,
                 slim_layers=slim_layers or {8: 12 * 1024, 17: 6 * 1024, 25: 4 * 1024}, slim_ref_len=slim_ref_len,
-                slim_block=slim_block, slim_unit=slim_unit, slim_window=slim_window)
+                slim_block=slim_block, slim_unit=slim_unit, slim_window=slim_window, unit=unit, unit_max=unit_max,
+                accum=accum, bm25_frac=bm25_frac, score=score, mlp_chunk=mlp_chunk,
+                decode_ref=decode_ref)
+    if unit or bm25_frac > 0 or score == "bm25":
+        from transformers import AutoTokenizer
+        _CFG["boundary"] = units.boundary_token_ids(AutoTokenizer.from_pretrained(tokenizer))
     from vllm.model_executor.models import qwen2
     _ORIG.setdefault("forward", qwen2.Qwen2Model.forward)
     qwen2.Qwen2Model.forward = _patched_forward
+    _ORIG.setdefault("mlp", qwen2.Qwen2MLP.forward)
+    qwen2.Qwen2MLP.forward = _mlp_chunked
 
 
 def last_kept_positions() -> Optional[List[int]]:

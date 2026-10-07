@@ -73,7 +73,7 @@ def build_vt(target, k):
     names = set()
     while len(names) < a.vt_chains * (a.vt_hops + 1):
         names.add("".join(rng.choices(string.ascii_uppercase, k=5)))
-    names = list(names)
+    names = sorted(names)                                            # set order depends on PYTHONHASHSEED
     vals = rng.sample(range(10000, 99999), a.vt_chains)
     chains = []
     for c in range(a.vt_chains):
