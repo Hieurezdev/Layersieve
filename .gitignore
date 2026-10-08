@@ -6,3 +6,6 @@ build
 data/*.jsonl
 results/**/*.log
 local
+data/ruler/
+data/*.log
+results/**/*.done

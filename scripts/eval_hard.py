@@ -35,6 +35,8 @@ ap.add_argument("--bm25", type=float, default=0.0, help="MOE variant: protect th
 ap.add_argument("--score", default="attn", choices=["attn", "bm25"], help="bm25: BM25 replaces attention importance (ablation)")
 ap.add_argument("--gpu-util", type=float, default=0.85)
 ap.add_argument("--decode-ref", type=int, default=None, help="layers < R keep only the KV of tokens that reached R")
+ap.add_argument("--graph", action="store_true", help="decode in a CUDA graph (prefill stays eager)")
+ap.add_argument("--no-ttft", action="store_true", help="skip the separate 1-token TTFT run (accuracy only)")
 ap.add_argument("--out", required=True)
 a = ap.parse_args()
 
@@ -73,7 +75,7 @@ if os.path.exists(a.out):
 tasks = set(a.tasks.split(",")) if a.tasks else None
 only = {l.strip() for l in open(a.ids)} if a.ids else None
 
-llm = LLM(a.model, enforce_eager=True, enable_chunked_prefill=False, enable_prefix_caching=False, max_num_seqs=1,
+llm = LLM(a.model, enforce_eager=not a.graph, max_seq_len_to_capture=32768, enable_chunked_prefill=False, enable_prefix_caching=False, max_num_seqs=1,
           max_model_len=32768, gpu_memory_utilization=a.gpu_util)
 first = SamplingParams(temperature=0.0, max_tokens=1)
 for line in open(a.prompts):
@@ -81,7 +83,9 @@ for line in open(a.prompts):
     if r["id"] in done or (tasks and r["task"] not in tasks) or (only is not None and r["id"] not in only):
         continue
     p = TokensPrompt(prompt_token_ids=r["prompt_ids"])
-    t0 = time.time(); llm.generate([p], first, use_tqdm=False); ttft = time.time() - t0
+    ttft = None
+    if not a.no_ttft:
+        t0 = time.time(); llm.generate([p], first, use_tqdm=False); ttft = time.time() - t0
     greedy = SamplingParams(temperature=0.0, max_tokens=MAX_TOKENS.get(r["task"], 32))
     pred = llm.generate([p], greedy, use_tqdm=False)[0].outputs[0].text
     rec = {"id": r["id"], "task": r["task"], "len": r["len"], "pred": pred, "ok": correct(r["task"], pred, r["answers"]),

@@ -9,7 +9,8 @@ n tokens writes their KV compactly into logical slots 0..n-1 of that block table
 for the full prompt), and during decode it reads n + (#generated) slots and appends the new token at slot n + g - 1.
 Layers before `start_layer` behave exactly as in stock vLLM. Memory is still allocated for the full prompt.
 
-Requirements: enforce_eager=True, enable_chunked_prefill=False, enable_prefix_caching=False, one request per
+Decode can run in a CUDA graph (enforce_eager=False, max_seq_len_to_capture >= max_model_len); prefill is always eager.
+Requirements: enable_chunked_prefill=False, enable_prefix_caching=False, one request per
 step (max_num_seqs=1), Qwen2 models. Call enable_inmodel_prune(...) before creating the LLM.
 """
 import dataclasses
@@ -23,7 +24,9 @@ from inmodel_prune import units
 
 _CFG = {}
 _ORIG = {}
-_STATE = {"T": None, "kept": None, "idx": None}  # prompt length, tokens kept per layer (index = layer id), positions kept at the last layer
+_STATE = {"T": None, "kept": None, "idx": None,   # prompt length, tokens kept per layer (index = layer id), positions kept at the last layer
+          "probe": None,                          # probe=True: importance of every current token before every layer
+          "step": 0, "prof": None, "prof_n": 0}   # decode steps since prefill; CUDA profiler of the last steps
 
 
 def _importance(layer, hidden, residual, positions, n_obs, obs_chunk=32):
@@ -52,7 +55,7 @@ def _importance(layer, hidden, residual, positions, n_obs, obs_chunk=32):
     return imp
 
 
-def _select(layer, hidden, residual, positions, aux):
+def _select(layer, hidden, residual, positions, aux, layer_idx):
     """aux: per-token tensors of the current token set (MOE variants): "unit" ids, "protect" mask (BM25),
     "acc" importance summed over the layers scored so far (updated in place), "lex" BM25 score (score="bm25")."""
     c = _CFG
@@ -68,7 +71,12 @@ def _select(layer, hidden, residual, positions, aux):
     prunable = (positions >= c["n_sink"]) & (idx < T - c["n_obs"])
     if "protect" in aux:
         prunable &= ~aux["protect"]
-    n_drop = int(int(prunable.sum()) * c["drop_ratio"])
+    if c["oneshot_keep"] is None:                                                # progressive: drop_ratio per layer
+        n_drop = int(int(prunable.sum()) * c["drop_ratio"])
+    elif layer_idx == c["start_layer"]:                                          # ablation: one cut to oneshot_keep
+        n_drop = int(int(prunable.sum()) * (1 - c["oneshot_keep"]))
+    else:
+        n_drop = 0
     keep = torch.ones(T, dtype=torch.bool, device=hidden.device)
     if n_drop > 0 and c["unit"]:
         keep[units.drop_units(imp, aux["unit"], prunable, n_drop)] = False
@@ -158,15 +166,10 @@ def _prefill_meta(meta, n):
     return m
 
 
-def _decode_meta(meta, n_kept, T, block_size):
-    """Metadata for one decode token of a layer that kept n_kept prompt tokens."""
-    seq_len = meta.seq_lens_tensor[0] - T + n_kept                                 # cache length incl. new token
-    logical = seq_len - 1
-    bt = meta.block_tables[0]
-    slot = bt[logical // block_size].long() * block_size + logical % block_size
-    m = dataclasses.replace(meta, slot_mapping=slot.view(1).to(meta.slot_mapping.dtype),
-                            seq_lens_tensor=seq_len.view(1).to(meta.seq_lens_tensor.dtype),
-                            max_decode_seq_len=int(seq_len))
+def _decode_meta(meta, seq_len, slot):
+    """Metadata for one decode token of a layer whose cache holds seq_len tokens (incl. the new one), written at slot.
+    seq_len / slot are 1-element GPU tensors, so the step can be captured in a CUDA graph."""
+    m = dataclasses.replace(meta, slot_mapping=slot, seq_lens_tensor=seq_len)
     m._cached_prefill_metadata = None
     m._cached_decode_metadata = None
     return m
@@ -177,26 +180,29 @@ def _patched_forward(self, input_ids, positions, kv_caches, attn_metadata, inter
     from vllm.forward_context import set_forward_context
     c = _CFG
     n_seq = attn_metadata.num_prefills + attn_metadata.num_decode_tokens
-    if n_seq != 1 or (attn_metadata.num_prefills == 0 and _STATE["kept"] is None):
-        # memory-profiling dummy batch, or anything that is not a single request: stock behaviour
+    if n_seq != 1:
+        # anything that is not a single request: stock behaviour
         return _ORIG["forward"](self, input_ids, positions, kv_caches, attn_metadata, intermediate_tensors, inputs_embeds)
     hidden = inputs_embeds if inputs_embeds is not None else self.embed_tokens(input_ids)
     residual = None
     is_prefill = attn_metadata.num_prefills > 0
     if is_prefill:
         T = hidden.shape[0]
-        _STATE["T"], _STATE["kept"] = T, []
+        _STATE["T"], _STATE["kept"], _STATE["step"] = T, [], 0
         do_prune = T > c["n_sink"] + c["n_obs"]
         orig_idx = torch.arange(T, device=hidden.device)
         meta = attn_metadata
         slim = c["method"] == "slim"
         aux = _aux_init(input_ids) if do_prune and not slim else {}
         sets = []                                                                    # positions whose KV layer i writes
+        _STATE["probe"] = [] if c["probe"] else None
         for i in range(self.start_layer, self.end_layer):
             layer = self.layers[i]
             keep = None
+            if c["probe"]:
+                _STATE["probe"].append(_importance(layer, hidden, residual, positions, c["n_obs"]).cpu())
             if do_prune and not slim and i >= c["start_layer"]:                        # ours: select BEFORE layer i
-                keep = _select(layer, hidden, residual, positions, aux)
+                keep = _select(layer, hidden, residual, positions, aux, i)
                 aux = {k: v[keep] for k, v in aux.items()}
             elif do_prune and slim and i in c["slim_layers"]:                          # SlimInfer: decided at layer i,
                 kt = c["slim_layers"][i]                                                  # applied after it
@@ -220,22 +226,48 @@ def _patched_forward(self, input_ids, positions, kv_caches, attn_metadata, inter
             n = _compact_decode_kv(kv_caches, sets, ref, attn_metadata.slot_mapping)
             _STATE["kept"] = [min(k, n) for k in _STATE["kept"]]
         hidden, _ = self.norm(hidden, residual)
+        _drop_buf(hidden.device, len(self.layers)).copy_(
+            torch.tensor([0] * self.start_layer + [T - k for k in _STATE["kept"]], dtype=torch.int32))
         if hidden.shape[0] != T:                                                     # sampler indexes the full prompt
             full = hidden.new_zeros(T, hidden.shape[1])
             full[orig_idx] = hidden
             hidden = full
         return hidden
 
-    # decode: layers that pruned use their own cache length and append slot
-    T, kept = _STATE["T"], _STATE["kept"]
+    # decode: layer i holds T - drop[i] prompt tokens, so its cache length is seq_len - drop[i] and the new token goes to
+    # logical slot seq_len - drop[i] - 1. All on the GPU from vLLM's own buffers: no sync, CUDA-graph capturable (the
+    # graph is captured once; each replay reads the current seq_lens / block_tables and drop, updated in place).
+    capturing = torch.cuda.is_current_stream_capturing()
+    if not capturing:
+        _STATE["step"] += 1
+        if c["prof_from"] and _STATE["step"] == c["prof_from"] and _STATE["prof"] is None:
+            _STATE["prof"] = torch.profiler.profile(activities=[torch.profiler.ProfilerActivity.CUDA])
+            _STATE["prof"].start()
+        if _STATE["prof"] is not None:
+            _STATE["prof_n"] += 1
     bs = c["block_size"]
+    seq = attn_metadata.seq_lens_tensor[:1] - _drop_buf(hidden.device, len(self.layers))          # [L]
+    logical = (seq - 1).long()
+    slot = (attn_metadata.block_tables[0, logical // bs].long() * bs + logical % bs).to(attn_metadata.slot_mapping.dtype)
+    kept = _STATE["kept"]
+    metas = {}
     for i in range(self.start_layer, self.end_layer):
         layer = self.layers[i]
-        meta = attn_metadata if kept is None or kept[i] == T else _decode_meta(attn_metadata, kept[i], T, bs)
+        key = kept[i] if kept is not None and not capturing else i                 # eager: share equal lengths
+        if key not in metas:
+            metas[key] = _decode_meta(attn_metadata, seq[i:i + 1], slot[i:i + 1])
+        meta = metas[key]
         with set_forward_context(meta):
             hidden, residual = layer(positions, hidden, kv_caches[i - self.start_layer], meta, residual)
     hidden, _ = self.norm(hidden, residual)
     return hidden
+
+
+def _drop_buf(device, n_layers):
+    """Persistent per-layer count of prompt tokens a layer does not hold (int32 [n_layers], 0 = full prompt)."""
+    if _STATE.get("drop") is None:
+        _STATE["drop"] = torch.zeros(n_layers, dtype=torch.int32, device=device)
+    return _STATE["drop"]
 
 
 def _mlp_chunked(self, x):
@@ -251,7 +283,8 @@ def enable_inmodel_prune(start_layer: int = 17, drop_ratio: float = 0.12, n_obs:
                          slim_layers=None, slim_ref_len: int = 0, slim_block: int = 64, slim_unit: int = 8,
                          slim_window: int = 4, unit: bool = False, unit_max: int = 128, accum: bool = False,
                          bm25_frac: float = 0.0, score: str = "attn", tokenizer: str = "Qwen/Qwen2.5-7B-Instruct-1M",
-                         mlp_chunk: int = 0, decode_ref: Optional[int] = None):
+                         mlp_chunk: int = 0, decode_ref: Optional[int] = None, probe: bool = False,
+                         prof_from: int = 0, oneshot_keep: Optional[float] = None):
     """Monkey-patch vLLM's Qwen2Model.forward. Must match the LLM's block_size (vLLM default 16).
     method="ours": progressive pruning (start_layer, drop_ratio, ...). Variants borrowed from the top-1 team's
       SpecPrefill (inmodel_prune/units.py): unit=True drops whole units (<= unit_max tokens, score = max importance)
@@ -263,13 +296,19 @@ def enable_inmodel_prune(start_layer: int = 17, drop_ratio: float = 0.12, n_obs:
       less KV (shallow layers no longer hold the whole prompt). None = off (layers keep what they computed).
     method="slim": SlimInfer prefill pruning; slim_layers = {layer: tokens kept for later layers}, default = their
       Qwen2.5-7B config {8: 12k, 17: 6k, 25: 4k} (values <= 1 = fraction of the prompt); slim_ref_len > 0 scales the kept counts by prompt_len / slim_ref_len.
-      Decode is static here (SlimInfer's decode-time block re-selection / CPU offload is not reproduced)."""
+      Decode is static here (SlimInfer's decode-time block re-selection / CPU offload is not reproduced).
+    probe=True: record the importance of the current tokens before every layer (last_probe(); use with no pruning).
+    oneshot_keep = f (ablation): instead of dropping drop_ratio before every layer >= start_layer, cut once before
+      start_layer to a fraction f of the prunable tokens and keep that set to the last layer (FastKV-style one-shot
+      selection, with LayerSieve's scoring / units).
+    prof_from = k > 0: from the k-th decode step on, profile GPU kernels (CUDA activity only); read with
+      decode_kernel_time() after generate."""
     _CFG.update(start_layer=start_layer, drop_ratio=drop_ratio, n_obs=n_obs, n_sink=n_sink,
                 pool_kernel=pool_kernel, block_size=block_size, method=method,
                 slim_layers=slim_layers or {8: 12 * 1024, 17: 6 * 1024, 25: 4 * 1024}, slim_ref_len=slim_ref_len,
                 slim_block=slim_block, slim_unit=slim_unit, slim_window=slim_window, unit=unit, unit_max=unit_max,
                 accum=accum, bm25_frac=bm25_frac, score=score, mlp_chunk=mlp_chunk,
-                decode_ref=decode_ref)
+                decode_ref=decode_ref, probe=probe, prof_from=prof_from, oneshot_keep=oneshot_keep)
     if unit or bm25_frac > 0 or score == "bm25":
         from transformers import AutoTokenizer
         _CFG["boundary"] = units.boundary_token_ids(AutoTokenizer.from_pretrained(tokenizer))
@@ -288,3 +327,21 @@ def last_kept_positions() -> Optional[List[int]]:
 def last_kept() -> Optional[List[int]]:
     """Tokens kept per layer for the most recent prefill."""
     return list(_STATE["kept"]) if _STATE["kept"] is not None else None
+
+
+def last_probe() -> Optional[List[torch.Tensor]]:
+    """probe=True: per layer, the importance of every token entering it in the most recent prefill (CPU tensors)."""
+    return _STATE["probe"]
+
+
+def decode_kernel_time() -> Optional[float]:
+    """prof_from > 0: stop the profiler and return the summed GPU kernel time per profiled decode step (seconds), i.e.
+    the step time without CPU launch overhead (what CUDA graphs would approach). None if nothing was profiled."""
+    prof, n = _STATE["prof"], _STATE["prof_n"]
+    _STATE["prof"], _STATE["prof_n"] = None, 0
+    if prof is None or n == 0:
+        return None
+    torch.cuda.synchronize()
+    prof.stop()
+    us = sum(e.self_device_time_total for e in prof.key_averages())
+    return us / 1e6 / n
