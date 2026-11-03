@@ -1,0 +1,8 @@
+{"id": "kv_retrieval_3", "task": "kv_retrieval", "pred": "\"0612a86a-c593-4d21-8c2b-c424e2f94d90\"", "len": 123954, "kept": null}
+{"id": "kv_retrieval_12", "task": "kv_retrieval", "pred": "\"99c37153-194b-41e4-88c2-5f2a67338b35\"", "len": 124172, "kept": null}
+{"id": "kv_retrieval_13", "task": "kv_retrieval", "pred": "\"ff9c0eff-c5b9-4a6f-8a3f-7b5fac09e9d6\"", "len": 124004, "kept": null}
+{"id": "kv_retrieval_15", "task": "kv_retrieval", "pred": "b0cca966-d62c-4279-a85e-2358fb2eda55", "len": 124202, "kept": null}
+{"id": "ruler131072_niah_multikey_3_3", "task": "niah_multikey_3@131072", "pred": ": 08686f3a-a1fb-4be2-874e-68e9a94a1d5a.", "len": 99699, "kept": null}
+{"id": "ruler131072_niah_multikey_3_12", "task": "niah_multikey_3@131072", "pred": ": a2f3cdcc-2485-4231-a273-587a27357520.", "len": 100064, "kept": null}
+{"id": "ruler131072_niah_multikey_3_13", "task": "niah_multikey_3@131072", "pred": ": 908406f6-bee1-49c7-bc74-4bcf13905296.", "len": 99794, "kept": null}
+{"id": "ruler131072_niah_multikey_3_15", "task": "niah_multikey_3@131072", "pred": ": 266bc1df-5c8f-4de3-bf17-7c4f6593b7f6.", "len": 99828, "kept": null}

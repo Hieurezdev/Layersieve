@@ -1,0 +1,130 @@
+{"id": "kv_8000_5", "task": "kv", "len": 7326, "pred": "The value associated with the specified Key \"c6b1b41f-3659-333f-3dea-f9a0a724dc8f\" is \"24dcea5a-b888-cb65-97b1-9d4f16d24a67\".", "ok": true, "ttft": 0.2424938678741455}
+{"id": "kv_8000_9", "task": "kv", "len": 7327, "pred": "The value associated with the specified Key \"927b9b5a-0679-88f6-c078-dac2bb2b26f3\" is \"ca7b0dc6-8c63-ea50-a003-05a5cb691e67\".", "ok": true, "ttft": 0.19653868675231934}
+{"id": "kv_8000_12", "task": "kv", "len": 7287, "pred": "The value associated with the specified Key \"bffa0883-2d80-7fd4-9cc2-14fa0a379276\" is: 2627f1dd-9860-696c-ed93-ced373dea062.", "ok": true, "ttft": 0.20769596099853516}
+{"id": "kv_8000_18", "task": "kv", "len": 7317, "pred": "The value associated with the specified Key is: 2dce3b0b-81ee-a582-2737-460b7a5829c1.", "ok": true, "ttft": 0.22377681732177734}
+{"id": "kv_8000_19", "task": "kv", "len": 7291, "pred": "The value associated with the specified Key \"c4909ed7-7d5a-1b03-d8ac-9d0604283ad0\" is \"dac826fc-f54a-fc1f-b82e-cce74ed60e1c\".", "ok": true, "ttft": 0.17684483528137207}
+{"id": "kv_8000_28", "task": "kv", "len": 7317, "pred": "The value associated with the specified Key \"3c8ef1df-084c-196e-9176-e5e5bb83f00a\" is \"6798e3a0-4970-c140-8ad7-fb02d56fe9a0\".", "ok": false, "ttft": 0.1907503604888916}
+{"id": "kv_8000_34", "task": "kv", "len": 7304, "pred": "The value associated with the specified Key is: 088d1f74-b6c3-9bf2-efdd-df863c51b3af.", "ok": false, "ttft": 0.10385704040527344}
+{"id": "kv_8000_35", "task": "kv", "len": 7350, "pred": "The value associated with the specified Key is: 1364c791-b707-1e52-2cbc-4d49eb065d64.", "ok": true, "ttft": 0.1839005947113037}
+{"id": "kv_8000_38", "task": "kv", "len": 7274, "pred": "The value associated with the specified Key \"0b2a568a-d337-f163-69dd-c04c41a6e361\" is \"c8432cbc-4923-0d56-a050-0f36abf7d164\".", "ok": true, "ttft": 0.23774123191833496}
+{"id": "vt_8000_3", "task": "vt", "len": 7605, "pred": "7", "ok": false, "ttft": 0.25690388679504395}
+{"id": "vt_8000_5", "task": "vt", "len": 7628, "pred": "12622", "ok": false, "ttft": 0.2571587562561035}
+{"id": "vt_8000_7", "task": "vt", "len": 7604, "pred": "7", "ok": false, "ttft": 0.23260831832885742}
+{"id": "vt_8000_8", "task": "vt", "len": 7627, "pred": "4", "ok": false, "ttft": 0.288010835647583}
+{"id": "vt_8000_10", "task": "vt", "len": 7606, "pred": "8", "ok": false, "ttft": 0.2718660831451416}
+{"id": "vt_8000_19", "task": "vt", "len": 7628, "pred": "8", "ok": false, "ttft": 0.23702740669250488}
+{"id": "vt_8000_22", "task": "vt", "len": 7618, "pred": "4", "ok": false, "ttft": 0.28647708892822266}
+{"id": "vt_8000_25", "task": "vt", "len": 7607, "pred": "8", "ok": false, "ttft": 0.2623720169067383}
+{"id": "vt_8000_28", "task": "vt", "len": 7630, "pred": "7", "ok": false, "ttft": 0.22974634170532227}
+{"id": "vt_8000_31", "task": "vt", "len": 7632, "pred": "10", "ok": false, "ttft": 0.22435903549194336}
+{"id": "vt_8000_32", "task": "vt", "len": 7622, "pred": "4", "ok": false, "ttft": 0.21628618240356445}
+{"id": "vt_8000_34", "task": "vt", "len": 7623, "pred": "4", "ok": false, "ttft": 0.2648348808288574}
+{"id": "vt_8000_35", "task": "vt", "len": 7630, "pred": "4", "ok": false, "ttft": 0.26111745834350586}
+{"id": "vt_8000_39", "task": "vt", "len": 7602, "pred": "6", "ok": false, "ttft": 0.23698925971984863}
+{"id": "kv_16000_0", "task": "kv", "len": 14507, "pred": "The value associated with the specified key \"2996d00f-6d6d-712a-ced6-0eb8078f9afa\" is 3becb42e-6494-6be8-b057-15eea2e42327.", "ok": false, "ttft": 0.5580241680145264}
+{"id": "kv_16000_1", "task": "kv", "len": 14485, "pred": "The value associated with the specified Key is: 3e1e4a54-90a5-77ac-f6b2-385d4c06f267.", "ok": true, "ttft": 0.39299607276916504}
+{"id": "kv_16000_7", "task": "kv", "len": 14548, "pred": "The value associated with the specified Key \"d13bb864-4e52-b2ff-5017-213d7a705992\" is \"59a60de1-33af-f888-828b-f79a272a49b1\".", "ok": true, "ttft": 0.546126127243042}
+{"id": "kv_16000_11", "task": "kv", "len": 14541, "pred": "The value associated with the specified Key is: 1060a24f-2dd0-a8b6-4a7d-fb897df7d0cb.", "ok": false, "ttft": 0.5406210422515869}
+{"id": "kv_16000_13", "task": "kv", "len": 14613, "pred": "The value associated with the specified Key is: 086180b3-7e49-1c59-9c0d-480bac62013a", "ok": false, "ttft": 0.39525914192199707}
+{"id": "kv_16000_15", "task": "kv", "len": 14552, "pred": "The value associated with the specified Key \"76784d4f-3bc7-43a8-c3a8-56ef4fb4dd2a\" is \"5fb7f0a5-ce86-d59b-fe0a-318135fbf618\".", "ok": true, "ttft": 0.648714542388916}
+{"id": "kv_16000_23", "task": "kv", "len": 14565, "pred": "The value associated with the specified Key \"2c76ba7b-5292-d437-dc69-6e9febff8a77\" is \"2ce16512-37cb-ab64-1952-b58a27384de4\".", "ok": true, "ttft": 0.290663480758667}
+{"id": "kv_16000_24", "task": "kv", "len": 14444, "pred": "The value associated with the specified Key \"077b81f8-8fef-304c-61bb-3721744c0e5f\" is \"687ac714-08c9-c24e-ea84-782a79e5c0e5\".", "ok": false, "ttft": 0.4804561138153076}
+{"id": "kv_16000_26", "task": "kv", "len": 14510, "pred": "The value associated with the specified Key \"4253560c-25eb-f6e7-d3fe-a411f5ab8782\" is \"1d19f324-209e-455b-2b50-1c19f39aaa23\".", "ok": true, "ttft": 0.5755000114440918}
+{"id": "kv_16000_27", "task": "kv", "len": 14568, "pred": "The value associated with the specified Key is: 02c33c7a-aabe-c4ca-6566-b87afa0def22.", "ok": false, "ttft": 0.618584394454956}
+{"id": "kv_16000_30", "task": "kv", "len": 14534, "pred": "The value associated with the specified Key \"9accae05-85de-5334-5f63-29b1c4a66074\" is \"f53bed4a-c94e-cd8c-245f-a9f95ebba763\".", "ok": true, "ttft": 0.5957207679748535}
+{"id": "kv_16000_36", "task": "kv", "len": 14505, "pred": "The value associated with the specified Key \"b6bff26c-e176-f217-d6f7-b7e4ba083946\" is: 91b9990d-97eb-c03b-b957-04b5c313b6e9.", "ok": true, "ttft": 0.37444257736206055}
+{"id": "kv_16000_39", "task": "kv", "len": 14517, "pred": "The value associated with the specified Key \"1b9cd62c-dc01-a855-01dc-d990073d3466\" is \"ed5302c5-bea7-0744-5613-a0ba01f5ca6b\".", "ok": true, "ttft": 0.5331025123596191}
+{"id": "vt_16000_0", "task": "vt", "len": 15303, "pred": "82944", "ok": true, "ttft": 0.39594364166259766}
+{"id": "vt_16000_1", "task": "vt", "len": 15305, "pred": "1024", "ok": false, "ttft": 0.6247818470001221}
+{"id": "vt_16000_4", "task": "vt", "len": 15314, "pred": "5", "ok": false, "ttft": 0.6605331897735596}
+{"id": "vt_16000_6", "task": "vt", "len": 15311, "pred": "43847", "ok": false, "ttft": 0.6761748790740967}
+{"id": "vt_16000_9", "task": "vt", "len": 15282, "pred": "12", "ok": false, "ttft": 0.6277399063110352}
+{"id": "vt_16000_11", "task": "vt", "len": 15310, "pred": "5", "ok": false, "ttft": 0.7224469184875488}
+{"id": "vt_16000_20", "task": "vt", "len": 15310, "pred": "10", "ok": false, "ttft": 0.6530883312225342}
+{"id": "vt_16000_21", "task": "vt", "len": 15316, "pred": "123456789", "ok": false, "ttft": 0.6114957332611084}
+{"id": "vt_16000_22", "task": "vt", "len": 15302, "pred": "9", "ok": false, "ttft": 0.7464690208435059}
+{"id": "vt_16000_24", "task": "vt", "len": 15306, "pred": "8", "ok": false, "ttft": 0.6192431449890137}
+{"id": "vt_16000_26", "task": "vt", "len": 15306, "pred": "4", "ok": false, "ttft": 0.69873046875}
+{"id": "vt_16000_29", "task": "vt", "len": 15291, "pred": "8", "ok": false, "ttft": 0.6659355163574219}
+{"id": "vt_16000_31", "task": "vt", "len": 15310, "pred": "7", "ok": false, "ttft": 0.5918662548065186}
+{"id": "kv_28000_1", "task": "kv", "len": 25316, "pred": "The value associated with the specified Key is: 014cf931-0064-b589-b584-36e3df36b5e7.", "ok": false, "ttft": 1.495255947113037}
+{"id": "kv_28000_12", "task": "kv", "len": 25292, "pred": "The value associated with the specified Key is 988eee32-cd93-6614-8120-9f3e09bb14af.", "ok": false, "ttft": 1.2415802478790283}
+{"id": "kv_28000_17", "task": "kv", "len": 25408, "pred": "The value associated with the specified Key is 62bb2352-bbc7-4cd3-8c56-5b010745258f.", "ok": false, "ttft": 1.2226524353027344}
+{"id": "kv_28000_18", "task": "kv", "len": 25351, "pred": "The value associated with the specified Key is 08282a7b-a411-ad45-8183-42d3d45f33fc.", "ok": false, "ttft": 1.1127936840057373}
+{"id": "kv_28000_19", "task": "kv", "len": 25409, "pred": "The value associated with the specified Key is 4b93f7be-6661-4b29-c4ec-69677f22184a.", "ok": false, "ttft": 1.1170892715454102}
+{"id": "kv_28000_21", "task": "kv", "len": 25454, "pred": "The value associated with the specified Key is: 806182dc-6486-2b08-9970-2b3ee15ff87e", "ok": false, "ttft": 1.2936384677886963}
+{"id": "kv_28000_22", "task": "kv", "len": 25355, "pred": "The value associated with the specified Key is 08bcf0a0-2acf-41f7-7ecc-ece93344fec6.", "ok": false, "ttft": 1.246490716934204}
+{"id": "kv_28000_30", "task": "kv", "len": 25452, "pred": "The value associated with the specified Key is 425a0211-a0b6-bdac-3153-9d4155fafa2f.", "ok": false, "ttft": 1.2705190181732178}
+{"id": "vt_28000_0", "task": "vt", "len": 26835, "pred": "8", "ok": false, "ttft": 0.8509178161621094}
+{"id": "vt_28000_3", "task": "vt", "len": 26824, "pred": "1024", "ok": false, "ttft": 1.464287519454956}
+{"id": "vt_28000_4", "task": "vt", "len": 26828, "pred": "4", "ok": false, "ttft": 1.5283091068267822}
+{"id": "vt_28000_5", "task": "vt", "len": 26829, "pred": "10", "ok": false, "ttft": 1.520179271697998}
+{"id": "vt_28000_8", "task": "vt", "len": 26831, "pred": "8", "ok": false, "ttft": 1.5461297035217285}
+{"id": "vt_28000_10", "task": "vt", "len": 26829, "pred": "4", "ok": false, "ttft": 1.4050571918487549}
+{"id": "vt_28000_15", "task": "vt", "len": 26807, "pred": "10", "ok": false, "ttft": 1.513038158416748}
+{"id": "vt_28000_18", "task": "vt", "len": 26826, "pred": "4", "ok": false, "ttft": 1.3381211757659912}
+{"id": "vt_28000_23", "task": "vt", "len": 26802, "pred": "5", "ok": false, "ttft": 1.5752315521240234}
+{"id": "vt_28000_31", "task": "vt", "len": 26830, "pred": "4", "ok": false, "ttft": 1.2395203113555908}
+{"id": "vt_28000_32", "task": "vt", "len": 26830, "pred": "7", "ok": false, "ttft": 1.2478551864624023}
+{"id": "vt_28000_37", "task": "vt", "len": 26799, "pred": "6", "ok": false, "ttft": 1.4636809825897217}
+{"id": "vt_28000_38", "task": "vt", "len": 26805, "pred": "8", "ok": false, "ttft": 1.29195237159729}
+{"id": "hotpotqa_11a7ad9d646184c16480376226d58f1b2754b095563c8344", "task": "hotpotqa", "len": 16118, "pred": "Thirukkalachery is a village in the South Indian town of Kumbakonam.", "ok": false, "ttft": 0.6304197311401367}
+{"id": "hotpotqa_72feb2a8e5b92548a357bfc11e94050464f93f1ce286418c", "task": "hotpotqa", "len": 16891, "pred": "October 13, 1980", "ok": true, "ttft": 0.5938870906829834}
+{"id": "hotpotqa_3dc3db870ea907282d3160c597c4d618ae6ba2a6bdd712bb", "task": "hotpotqa", "len": 11642, "pred": "The final two episodes of season eighteen of South Park included guest appearances from several musicians and bands. These included:\n\n1. Devo\n2. DMX\n", "ok": false, "ttft": 0.36324596405029297}
+{"id": "hotpotqa_1ceb1c91662d241b3421853112a91b5868d1b81fe3b88ce4", "task": "hotpotqa", "len": 16621, "pred": "Ribosomes", "ok": true, "ttft": 0.7283182144165039}
+{"id": "hotpotqa_4b83e873a551cd83a2e409d2b4467f74dd332326fcbca843", "task": "hotpotqa", "len": 17674, "pred": "Los Angeles Memorial Coliseum", "ok": false, "ttft": 0.6827566623687744}
+{"id": "hotpotqa_2903a54db35e788f31a967bdfa021d64ac18ed7e1aed919a", "task": "hotpotqa", "len": 16771, "pred": "Brook Bar", "ok": false, "ttft": 0.6734073162078857}
+{"id": "hotpotqa_a7c311f9f6423063e02c8236bdd83cc8059fcb9fe78b4fff", "task": "hotpotqa", "len": 15253, "pred": "No", "ok": false, "ttft": 0.6736793518066406}
+{"id": "hotpotqa_ff048b34a9405c880ccf710acdf1a53244e6039cb76c793a", "task": "hotpotqa", "len": 15898, "pred": "2012", "ok": false, "ttft": 0.6490118503570557}
+{"id": "hotpotqa_75439ed8609c12817aaee0fa4f749aebb3e4a36dfa72390e", "task": "hotpotqa", "len": 13707, "pred": "Deftones", "ok": true, "ttft": 0.5462439060211182}
+{"id": "hotpotqa_0879d3f078165bdc1aabca26c8526e66d3959e8ab2c6d903", "task": "hotpotqa", "len": 14148, "pred": "1919", "ok": false, "ttft": 0.5658693313598633}
+{"id": "hotpotqa_c47c8d3b1917f017cafaecbb4cddd6b92171854247957c08", "task": "hotpotqa", "len": 12043, "pred": "Morgan Llywelyn", "ok": true, "ttft": 0.4058537483215332}
+{"id": "hotpotqa_f536646dd72a8a4f5ebddec61a67b8319dc9187d47bb7fc6", "task": "hotpotqa", "len": 6175, "pred": "12", "ok": false, "ttft": 0.1930713653564453}
+{"id": "hotpotqa_6e541b3b8fc7e59da0da6548a17932b403b2e865d4036982", "task": "hotpotqa", "len": 15491, "pred": "The University of Oklahoma belongs to the Big 12 Conference.", "ok": true, "ttft": 0.5280461311340332}
+{"id": "hotpotqa_5e7675388334946fc508c4c8ac4ab0c491910fcc0e048bfd", "task": "hotpotqa", "len": 5499, "pred": "Cable", "ok": false, "ttft": 0.12182903289794922}
+{"id": "hotpotqa_a16ac581bde4459861c8681858b07f82363f66142beed4c2", "task": "hotpotqa", "len": 15000, "pred": "Hawaii", "ok": true, "ttft": 0.5498807430267334}
+{"id": "hotpotqa_4aee23759e842807b156492356b920a11236c7ea3da20732", "task": "hotpotqa", "len": 16534, "pred": "Yes, both Werther and The Odyssey are operas.", "ok": false, "ttft": 0.5634081363677979}
+{"id": "hotpotqa_a93aa642fb8802a99b36cd62febe1c4e995096a9320b00c5", "task": "hotpotqa", "len": 15923, "pred": "American", "ok": true, "ttft": 0.6020307540893555}
+{"id": "hotpotqa_56dbceaf2e826fbb177035f03d7a263d62365856f21f39da", "task": "hotpotqa", "len": 16826, "pred": "Through the Looking-Glass", "ok": false, "ttft": 0.7636556625366211}
+{"id": "hotpotqa_c16a3dd0b5b97180359715cab5c41d528cf2a99e2744f037", "task": "hotpotqa", "len": 12224, "pred": "Yes, both Yut and Tsuro are board games.", "ok": true, "ttft": 0.4323844909667969}
+{"id": "hotpotqa_ad26b1fdaa97e8ef1c290a41a9151cc6b453756cb2715176", "task": "hotpotqa", "len": 16686, "pred": "The organization Sandra Pizzarello and Doctorate have in common is the International Society for the Study of the Origin of Life (ISSLO).", "ok": false, "ttft": 0.5060317516326904}
+{"id": "hotpotqa_826474c90684b1813df9324f779959a5e060d1cfc893a85f", "task": "hotpotqa", "len": 9215, "pred": "The fourth Elvis studio album in 1957 where \"Santa Bring My Baby Back\" was released was \"A Date with Elvis\".", "ok": false, "ttft": 0.15314698219299316}
+{"id": "hotpotqa_b3647c02310a89ccb2822c163da3bead1ad3cd21948d4769", "task": "hotpotqa", "len": 16840, "pred": "British", "ok": false, "ttft": 0.7054975032806396}
+{"id": "hotpotqa_dc14a859291c1d678432626f6f7974f8ecca536f4b7bdd6c", "task": "hotpotqa", "len": 17109, "pred": "Jerry Garcia", "ok": false, "ttft": 0.7049577236175537}
+{"id": "hotpotqa_ea58013717bdbe9f0bad1991ed03d1afe3208bf514d9a2cd", "task": "hotpotqa", "len": 16868, "pred": "Franco Dragone", "ok": true, "ttft": 0.6933901309967041}
+{"id": "hotpotqa_1650b91e6fb722111b6461fc9524295246c3bd3b1a342267", "task": "hotpotqa", "len": 15816, "pred": "John Locke", "ok": false, "ttft": 0.6260395050048828}
+{"id": "hotpotqa_a1cce86489841f2514678029dbe95b7289b9d47f52f44939", "task": "hotpotqa", "len": 11576, "pred": "Bill Miner", "ok": true, "ttft": 0.43141722679138184}
+{"id": "hotpotqa_c9f8b2166f7c44bf2e0843b2c77fb9fa5738af275555ca73", "task": "hotpotqa", "len": 3564, "pred": "The ingredients likely come from the South Carolina Lowcountry.", "ok": false, "ttft": 0.06183648109436035}
+{"id": "hotpotqa_d3b2acfdec13f925424cd7d96b689557edfd08e6dd6177b7", "task": "hotpotqa", "len": 15972, "pred": "Jake Kasdan won more awards.", "ok": false, "ttft": 0.649073600769043}
+{"id": "hotpotqa_c5f1f53de09eb82eae93ae68a9581141a8cc8f3df6851926", "task": "hotpotqa", "len": 7525, "pred": "Lake Wallace", "ok": true, "ttft": 0.27693915367126465}
+{"id": "hotpotqa_c9ee71b5dc7f5a4538d7727c95f80c174d3c9819dfbeac5a", "task": "hotpotqa", "len": 14797, "pred": "1990", "ok": false, "ttft": 0.5619988441467285}
+{"id": "2wikimqa_4db5bcd1d49fce674507d9128850eb71b808b7dc4246e882", "task": "2wikimqa", "len": 6204, "pred": "Columbia College", "ok": false, "ttft": 0.2101731300354004}
+{"id": "2wikimqa_b3845fcad97309850a76e3720cd829a45d2bb12ee29a9cfb", "task": "2wikimqa", "len": 5648, "pred": "Kanneshwara Rama was born in Kannada.", "ok": false, "ttft": 0.10289192199707031}
+{"id": "2wikimqa_e026b7c57d2d759c12652fae6421931fe4f8cf8745ff9bdb", "task": "2wikimqa", "len": 11129, "pred": "University of Illinois", "ok": false, "ttft": 0.3570230007171631}
+{"id": "2wikimqa_ead67129fee9b0024c9c3f53041469d74cf8a0281e39febb", "task": "2wikimqa", "len": 5070, "pred": "Yes", "ok": true, "ttft": 0.17559218406677246}
+{"id": "2wikimqa_bc40752faddd32264f8402321411881736ab5a4733eee758", "task": "2wikimqa", "len": 7171, "pred": "The Longshot", "ok": false, "ttft": 0.27049803733825684}
+{"id": "2wikimqa_96500ef697df70106798988a9065594622cdeff67156cd20", "task": "2wikimqa", "len": 8039, "pred": "1702", "ok": false, "ttft": 0.21149873733520508}
+{"id": "2wikimqa_977f59ef09f7cc4ad6c71fc18d8b60e818e07a43cd7bee92", "task": "2wikimqa", "len": 6277, "pred": "Dr. Socrates", "ok": true, "ttft": 0.2249770164489746}
+{"id": "2wikimqa_c94e0220a7c5dadee3094df576df766b6d1a15b6c6e21011", "task": "2wikimqa", "len": 8070, "pred": "Ladies Love Danger", "ok": false, "ttft": 0.29535388946533203}
+{"id": "2wikimqa_0c43156b7d6bc17425a89dc6c6d48fc8c2c72ac9eba55a87", "task": "2wikimqa", "len": 1037, "pred": "Yes", "ok": true, "ttft": 0.040018320083618164}
+{"id": "2wikimqa_58301315eaee3256c8f5ddefb03de59d55a75d3a37aab88a", "task": "2wikimqa", "len": 6780, "pred": "Closely Watched Trains", "ok": false, "ttft": 0.23874545097351074}
+{"id": "2wikimqa_0c4dd15b43d1061d372c11946aa71630926e2570f333f538", "task": "2wikimqa", "len": 12281, "pred": "Charles Wheatstone lived longer than Jean-Claude Lauzon. Jean-Claude Lauzon was born in 1935, while Charles Wheatstone", "ok": true, "ttft": 0.41652822494506836}
+{"id": "2wikimqa_1ff4dc6c1f7c02445945ced1b35a08544d7ba76089675883", "task": "2wikimqa", "len": 5444, "pred": "The director of film Tiramisu (2002 film) earned the award for Best Director.", "ok": false, "ttft": 0.16765880584716797}
+{"id": "2wikimqa_3723ec96e3b1af88c73edaa0a5e87f20194d9d212a67b615", "task": "2wikimqa", "len": 3879, "pred": "De As", "ok": true, "ttft": 0.12075972557067871}
+{"id": "2wikimqa_77a79ad1902a4732e8030d79380395b7e614d65de3cdd038", "task": "2wikimqa", "len": 2181, "pred": "Many Tanks Mr. Atkins", "ok": false, "ttft": 0.06295204162597656}
+{"id": "2wikimqa_f7abcc33c22de53769935182a278a199e9f263a12e56673e", "task": "2wikimqa", "len": 4933, "pred": "Sundance Film Festival", "ok": false, "ttft": 0.1010434627532959}
+{"id": "2wikimqa_24a43c1b071d8bb99f51fec368dbc438cf7aea1f549ea195", "task": "2wikimqa", "len": 6847, "pred": "The Comedians Of Comedy", "ok": true, "ttft": 0.23225879669189453}
+{"id": "2wikimqa_d7f6203bfe33e28a517ed4214f515fb80671c48edd4720a6", "task": "2wikimqa", "len": 14977, "pred": "Smokey And The Bandit", "ok": false, "ttft": 0.5754337310791016}
+{"id": "2wikimqa_f5cf6d94b9e4e7adfc30d262396bc29e201d9e07ead1d088", "task": "2wikimqa", "len": 5590, "pred": "Women's Suffrage Journal", "ok": true, "ttft": 0.17209410667419434}
+{"id": "2wikimqa_c997d53083dff6918a3f066cc76c824e43eb4ea21de33c51", "task": "2wikimqa", "len": 5580, "pred": "Wolf Warrior", "ok": true, "ttft": 0.13640546798706055}
+{"id": "2wikimqa_13dde588b81d1de4a9984418bf3d6791de7d1b1edf21d61b", "task": "2wikimqa", "len": 5393, "pred": "Germany", "ok": false, "ttft": 0.1440746784210205}
+{"id": "2wikimqa_bbaa4eb6b32bad24fc2b8639d03be8c16d1140ec8454b16a", "task": "2wikimqa", "len": 7666, "pred": "Pier-Luc Funk", "ok": false, "ttft": 0.21535086631774902}
+{"id": "2wikimqa_25b5c6893c13f6e52ddd541c03f5bd6bb7b17cfeb15d9f16", "task": "2wikimqa", "len": 14987, "pred": "The spouse of the director of film Rodney Steps In is Richard Cooper.", "ok": false, "ttft": 0.5286047458648682}
+{"id": "2wikimqa_0c35123885c26fc474a7cd8e7c03fe75bfff4fc15845d3b9", "task": "2wikimqa", "len": 6716, "pred": "Yes", "ok": true, "ttft": 0.14685773849487305}
+{"id": "2wikimqa_2a0554b724822b6c611539e39b44381f752acdecce4868ad", "task": "2wikimqa", "len": 4841, "pred": "Antoine Casavant", "ok": true, "ttft": 0.1269528865814209}
+{"id": "2wikimqa_b9a9b860c0f0430853d1db2756095da274d522beed2acbeb", "task": "2wikimqa", "len": 10841, "pred": "Paul W. S. Anderson", "ok": false, "ttft": 0.385791540145874}
+{"id": "2wikimqa_49035ecce6e78a355307dd6a1ddb11a87cab76090d655d2f", "task": "2wikimqa", "len": 14978, "pred": "The Longshots", "ok": false, "ttft": 0.6562256813049316}
+{"id": "2wikimqa_7218faa7d718853f8df4329a7242806cf70e63ece56f8cdb", "task": "2wikimqa", "len": 6275, "pred": "Pozna\u0144", "ok": true, "ttft": 0.2008504867553711}
+{"id": "2wikimqa_2ce836524b90befee94e944e77ce3420878e75b5a1e14c26", "task": "2wikimqa", "len": 6315, "pred": "The Third Kiss", "ok": false, "ttft": 0.20025372505187988}
+{"id": "2wikimqa_2df722c08f52cbf987c84019f7f2e5455cd29992738441cc", "task": "2wikimqa", "len": 1292, "pred": "Yes", "ok": true, "ttft": 0.015750646591186523}
+{"id": "2wikimqa_44864cf7bbca78294d1b24c5acfa035f30849d802356aad4", "task": "2wikimqa", "len": 5204, "pred": "Argentina", "ok": false, "ttft": 0.17144179344177246}

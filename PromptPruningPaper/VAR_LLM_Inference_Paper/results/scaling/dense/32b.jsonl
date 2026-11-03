@@ -1,0 +1,640 @@
+{"id": "kv_8000_0", "task": "kv", "len": 7331, "pred": "The value associated with the key `\"b4862b21-fb97-d435-8856-1712e8e5216a\"` is:\n\n```\n\"259f4329-e6f4-590b-9a16-4106cf6a659e\"\n```", "ok": true, "ttft": null}
+{"id": "kv_8000_1", "task": "kv", "len": 7308, "pred": "The value associated with the key `\"acb5959f-4eb9-8768-84a5-b1c31095e497\"` is `\"a0e624f1-5f89-d54d-3bcd-6aec53ca8c05\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_2", "task": "kv", "len": 7322, "pred": "The value associated with the key `\"be28e8c5-2b39-5c4e-e575-ae93ce749e8a\"` is:\n\n`\"8fb87c76-af04-4a8d-d69d-b137c9a57cd1\"`", "ok": true, "ttft": null}
+{"id": "kv_8000_3", "task": "kv", "len": 7335, "pred": "The value associated with the key `\"a7fb881e-3a88-a4ab-7891-6712de5fe0ee\"` is `\"ea75e34d-a1d5-3402-5fba-6dc2b594b706\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_4", "task": "kv", "len": 7277, "pred": "The value associated with the key `\"685e406b-8171-31eb-9766-c1439c9afcff\"` is `\"e919b5aa-f0c9-9bea-a0a1-f43f9638a3c7\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_5", "task": "kv", "len": 7326, "pred": "\"24dcea5a-b888-cb65-97b1-9d4f16d24a67\"", "ok": true, "ttft": null}
+{"id": "kv_8000_6", "task": "kv", "len": 7283, "pred": "The value associated with the key `\"bd966783-41ff-6f63-24a3-b63500513063\"` is `\"a70915ff-35a1-0d06-b15a-8171ae76375b\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_7", "task": "kv", "len": 7276, "pred": "The value associated with the key `\"63ba4dc3-ca90-7b30-114e-b0dab17b08ae\"` is `\"77dd2307-4593-b102-f9ae-8048d1b4a4fe\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_8", "task": "kv", "len": 7289, "pred": "The value associated with the key `\"3dbe0be0-3b8b-b80d-572d-e2ffeaaa5a3e\"` is:\n\n```\n\"3021c8ad-3302-a5ca-d4ae-04b3fab2a780\"\n```", "ok": true, "ttft": null}
+{"id": "kv_8000_9", "task": "kv", "len": 7327, "pred": "The value associated with the key `\"927b9b5a-0679-88f6-c078-dac2bb2b26f3\"` is `\"ca7b0dc6-8c63-ea50-a003-05a5cb691e67\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_10", "task": "kv", "len": 7324, "pred": "The value associated with the key `\"f4dc5b19-4952-3e70-16bb-04c18da28b08\"` is `\"c65937de-c2f9-9bf1-8034-f222b4a465c3\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_11", "task": "kv", "len": 7261, "pred": "The value associated with the key \"9fa54b2b-4baf-452c-e107-e332a64de767\" is:\n\ne2ab5667-5761-3c94-d824-2c016fb6061f", "ok": true, "ttft": null}
+{"id": "kv_8000_12", "task": "kv", "len": 7287, "pred": "\"2627f1dd-9860-696c-ed93-ced373dea062\"", "ok": true, "ttft": null}
+{"id": "kv_8000_13", "task": "kv", "len": 7328, "pred": "The value associated with the key `\"b11826f6-66c3-400c-9cae-80b846695f55\"` is `\"3ac79acf-feb1-f257-381e-976c24fd235e\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_14", "task": "kv", "len": 7315, "pred": "The value associated with the key \"8f675968-0a01-10c1-62d3-3a20d1e831d6\" is:\n\n3f508fbf-80e5-a698-00d2-ff48c92f4d5b", "ok": true, "ttft": null}
+{"id": "kv_8000_15", "task": "kv", "len": 7272, "pred": "The value associated with the key `\"621570db-4dcc-5dcb-b032-378fa6d79654\"` is `\"b1d0261e-f260-abe5-066e-3924320919da\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_16", "task": "kv", "len": 7265, "pred": "The value associated with the key `\"fd2a8ffe-8a09-025f-44ea-95577e3aea20\"` is `\"60fb32f8-5b5c-84a5-07c6-bdbe3785ec6f\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_17", "task": "kv", "len": 7229, "pred": "The value associated with the key \"5380531c-09fa-0833-e2fe-66d1cb64acd7\" is:\n\nef5e39f3-b00f-ecf4-d53a-1c3a83ff0b3a", "ok": true, "ttft": null}
+{"id": "kv_8000_18", "task": "kv", "len": 7317, "pred": "The value associated with the key `\"d31538c9-53f0-b2f5-968d-1581af67a6c3\"` is `\"2dce3b0b-81ee-a582-2737-460b7a5829c1\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_19", "task": "kv", "len": 7291, "pred": "The value associated with the key `\"c4909ed7-7d5a-1b03-d8ac-9d0604283ad0\"` is:\n\n```\n\"dac826fc-f54a-fc1f-b82e-cce74ed60e1c\"\n```", "ok": true, "ttft": null}
+{"id": "kv_8000_20", "task": "kv", "len": 7328, "pred": "The value associated with the key `\"496fd519-6c1f-2da6-6dcd-732af4d20476\"` is `\"fc2960d6-6396-1970-cc35-644f98e8f1d2\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_21", "task": "kv", "len": 7341, "pred": "The value associated with the key \"930c68aa-bbd3-3955-7dfb-3572bb2f5948\" is:\n\ne4889d7c-a6e7-7931-c1b0-043dc0af956a", "ok": true, "ttft": null}
+{"id": "kv_8000_22", "task": "kv", "len": 7316, "pred": "\"26dfb3f3-9713-b6a6-c00a-cfcf268ebcc5\"", "ok": true, "ttft": null}
+{"id": "kv_8000_23", "task": "kv", "len": 7315, "pred": "\"0ad9620c-26a0-bb36-775e-9378f67473f9\"", "ok": true, "ttft": null}
+{"id": "kv_8000_24", "task": "kv", "len": 7290, "pred": "The value associated with the key `\"84b55c83-deb8-3dd2-a1de-c0c155e4ddc4\"` is `\"5f740d3c-f847-fe4c-f409-ec665555ee5d\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_25", "task": "kv", "len": 7328, "pred": "The value associated with the key `\"3ff0b97a-a1f9-8f23-2e4e-8052329d0a1d\"` is `\"4cd6b614-683a-9c59-9778-9958f5abdb11\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_26", "task": "kv", "len": 7339, "pred": "The value associated with the key `\"edd32dcf-8fc0-8350-ac49-f8bdd82cfb2c\"` is `\"a0d841c3-f10d-20b1-cbd8-a284ca79f979\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_27", "task": "kv", "len": 7285, "pred": "The value associated with the key `\"17d7d292-7cf0-885f-1284-fc455496e9ed\"` is `\"8e12d681-67c2-3431-fec6-2869e4fefb2c\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_28", "task": "kv", "len": 7317, "pred": "The value associated with the key `\"3c8ef1df-084c-196e-9176-e5e5bb83f00a\"` is `\"adcac48b-3e2c-db0f-542f-74855ed4787f\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_29", "task": "kv", "len": 7360, "pred": "\"8531f831-e8bc-e885-7dc4-1fb4eb995bd7\"", "ok": true, "ttft": null}
+{"id": "kv_8000_30", "task": "kv", "len": 7362, "pred": "The value associated with the key `\"5ca65d4d-7582-cba6-fa73-e48496c72dbe\"` is `\"11e7af27-16c5-a643-fa7a-0ed006b7275c\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_31", "task": "kv", "len": 7295, "pred": "The value associated with the key `\"b09a85e5-c159-1e72-c66a-250428f04999\"` is:\n\n```\n\"c3571b70-97c1-8f1f-8385-07d02a3ac3cc\"\n```", "ok": true, "ttft": null}
+{"id": "kv_8000_32", "task": "kv", "len": 7311, "pred": "The value associated with the key `\"acbebe26-a7db-71db-a8ba-e4b527bb171c\"` is `\"791931e9-5d61-d584-d29d-4e8c68cad7a1\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_33", "task": "kv", "len": 7346, "pred": "\"0a76ef0d-2e3a-2360-76bd-8324f1286452\"", "ok": true, "ttft": null}
+{"id": "kv_8000_34", "task": "kv", "len": 7304, "pred": "The value associated with the key `\"4607c009-0634-3792-3a49-0417b18b96fc\"` is `\"b6fed82a-c90b-4a64-e657-6eba0f19347b\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_35", "task": "kv", "len": 7350, "pred": "The value associated with the key `\"234a5c47-a059-756e-20f1-9367192b6a1f\"` is `\"1364c791-b707-1e52-2cbc-4d49eb065d64\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_36", "task": "kv", "len": 7275, "pred": "\"cc12c55c-4db8-064d-85da-fb283938d6c6\"", "ok": true, "ttft": null}
+{"id": "kv_8000_37", "task": "kv", "len": 7353, "pred": "The value associated with the key `\"14a546ae-062d-6826-337a-190fa3c52506\"` is `\"b6c0d50a-0ef4-206b-d5e8-b3d265a4c117\"`.", "ok": true, "ttft": null}
+{"id": "kv_8000_38", "task": "kv", "len": 7274, "pred": "\"c8432cbc-4923-0d56-a050-0f36abf7d164\"", "ok": true, "ttft": null}
+{"id": "kv_8000_39", "task": "kv", "len": 7287, "pred": "The value associated with the key `\"c24005ce-9e2e-1ed8-9e96-d425f2c70a31\"` is `\"0a00792f-1475-161e-0cd7-cea507b008f8\"`.", "ok": true, "ttft": null}
+{"id": "vt_8000_0", "task": "vt", "len": 7606, "pred": "42706", "ok": true, "ttft": null}
+{"id": "vt_8000_1", "task": "vt", "len": 7624, "pred": "36574", "ok": true, "ttft": null}
+{"id": "vt_8000_2", "task": "vt", "len": 7610, "pred": "19778", "ok": true, "ttft": null}
+{"id": "vt_8000_3", "task": "vt", "len": 7605, "pred": "79678", "ok": true, "ttft": null}
+{"id": "vt_8000_4", "task": "vt", "len": 7622, "pred": "92179", "ok": true, "ttft": null}
+{"id": "vt_8000_5", "task": "vt", "len": 7628, "pred": "12622", "ok": false, "ttft": null}
+{"id": "vt_8000_6", "task": "vt", "len": 7623, "pred": "20821", "ok": true, "ttft": null}
+{"id": "vt_8000_7", "task": "vt", "len": 7604, "pred": "51523", "ok": true, "ttft": null}
+{"id": "vt_8000_8", "task": "vt", "len": 7627, "pred": "65616", "ok": true, "ttft": null}
+{"id": "vt_8000_9", "task": "vt", "len": 7624, "pred": "69394", "ok": true, "ttft": null}
+{"id": "vt_8000_10", "task": "vt", "len": 7606, "pred": "31310", "ok": true, "ttft": null}
+{"id": "vt_8000_11", "task": "vt", "len": 7626, "pred": "69657", "ok": true, "ttft": null}
+{"id": "vt_8000_12", "task": "vt", "len": 7624, "pred": "25141", "ok": true, "ttft": null}
+{"id": "vt_8000_13", "task": "vt", "len": 7635, "pred": "73132", "ok": true, "ttft": null}
+{"id": "vt_8000_14", "task": "vt", "len": 7622, "pred": "17001", "ok": true, "ttft": null}
+{"id": "vt_8000_15", "task": "vt", "len": 7630, "pred": "85474", "ok": true, "ttft": null}
+{"id": "vt_8000_16", "task": "vt", "len": 7619, "pred": "96624", "ok": true, "ttft": null}
+{"id": "vt_8000_17", "task": "vt", "len": 7617, "pred": "53362", "ok": true, "ttft": null}
+{"id": "vt_8000_18", "task": "vt", "len": 7629, "pred": "99505", "ok": true, "ttft": null}
+{"id": "vt_8000_19", "task": "vt", "len": 7628, "pred": "87109", "ok": true, "ttft": null}
+{"id": "vt_8000_20", "task": "vt", "len": 7621, "pred": "79266", "ok": true, "ttft": null}
+{"id": "vt_8000_21", "task": "vt", "len": 7626, "pred": "59144", "ok": true, "ttft": null}
+{"id": "vt_8000_22", "task": "vt", "len": 7618, "pred": "25486", "ok": true, "ttft": null}
+{"id": "vt_8000_23", "task": "vt", "len": 7626, "pred": "54449", "ok": true, "ttft": null}
+{"id": "vt_8000_24", "task": "vt", "len": 7634, "pred": "93124", "ok": true, "ttft": null}
+{"id": "vt_8000_25", "task": "vt", "len": 7607, "pred": "44444", "ok": true, "ttft": null}
+{"id": "vt_8000_26", "task": "vt", "len": 7622, "pred": "78775", "ok": true, "ttft": null}
+{"id": "vt_8000_27", "task": "vt", "len": 7605, "pred": "55689", "ok": true, "ttft": null}
+{"id": "vt_8000_28", "task": "vt", "len": 7630, "pred": "51507", "ok": true, "ttft": null}
+{"id": "vt_8000_29", "task": "vt", "len": 7628, "pred": "23837", "ok": true, "ttft": null}
+{"id": "vt_8000_30", "task": "vt", "len": 7607, "pred": "85118", "ok": true, "ttft": null}
+{"id": "vt_8000_31", "task": "vt", "len": 7632, "pred": "20916", "ok": true, "ttft": null}
+{"id": "vt_8000_32", "task": "vt", "len": 7622, "pred": "71864", "ok": true, "ttft": null}
+{"id": "vt_8000_33", "task": "vt", "len": 7628, "pred": "85229", "ok": true, "ttft": null}
+{"id": "vt_8000_34", "task": "vt", "len": 7623, "pred": "57873", "ok": true, "ttft": null}
+{"id": "vt_8000_35", "task": "vt", "len": 7630, "pred": "26687", "ok": true, "ttft": null}
+{"id": "vt_8000_36", "task": "vt", "len": 7608, "pred": "32503", "ok": true, "ttft": null}
+{"id": "vt_8000_37", "task": "vt", "len": 7621, "pred": "44046", "ok": true, "ttft": null}
+{"id": "vt_8000_38", "task": "vt", "len": 7622, "pred": "23287", "ok": true, "ttft": null}
+{"id": "vt_8000_39", "task": "vt", "len": 7602, "pred": "62058", "ok": true, "ttft": null}
+{"id": "kv_16000_0", "task": "kv", "len": 14507, "pred": "The value associated with the key \"2996d00f-6d6d-712a-ced6-0eb8078f9afa\" is:\n\n\"3becb42e-6494-6be8-b057-e08b24b40f78\"", "ok": true, "ttft": null}
+{"id": "kv_16000_1", "task": "kv", "len": 14485, "pred": "The value associated with the key \"63dcd702-bbf7-4350-2352-c37dd8f12cd2\" is:\n\n3e1e4a54-90a5-77ac-f6b2-385d4c06f267", "ok": true, "ttft": null}
+{"id": "kv_16000_2", "task": "kv", "len": 14554, "pred": "The value associated with the key \"7503a04c-e523-036d-cf92-4183f8b14bf2\" is:\n\ne886a4fe-fc14-eed2-d8a9-37c8e1baa362", "ok": true, "ttft": null}
+{"id": "kv_16000_3", "task": "kv", "len": 14587, "pred": "The value associated with the key \"4c68d8b9-7309-3831-fb28-0df956882493\" is \"42029f15-044d-02af-4954-d927a02376e8\".", "ok": true, "ttft": null}
+{"id": "kv_16000_4", "task": "kv", "len": 14561, "pred": "The value associated with the key \"3bc18e3b-ae74-e8a2-a6fe-6d98460792c7\" is:\n\n6884af60-9916-5e72-96d7-d656894095bf", "ok": true, "ttft": null}
+{"id": "kv_16000_5", "task": "kv", "len": 14508, "pred": "The value associated with the key \"e234692d-50f9-9fe6-b3b7-12a958a8cf13\" is:\n\n\"22627b0b-075d-0a44-9684-1c7bc784a1af\"", "ok": true, "ttft": null}
+{"id": "kv_16000_6", "task": "kv", "len": 14554, "pred": "The value associated with the key \"9ebbbdd1-27e9-22cd-59f4-a80e7e7fa834\" is:\n\n\"ea4f70d0-d8ce-5096-dbf2-94417b11128a\"", "ok": true, "ttft": null}
+{"id": "kv_16000_7", "task": "kv", "len": 14548, "pred": "The value associated with the key \"d13bb864-4e52-b2ff-5017-213d7a705992\" is:\n\n\"59a60de1-33af-f888-828b-f79a272a49b1\"", "ok": true, "ttft": null}
+{"id": "kv_16000_8", "task": "kv", "len": 14550, "pred": "The value associated with the key \"45e9702c-8870-40d1-e1c6-4f9031c0273e\" is:\n\n473929c4-7005-88a4-4ae3-4dba05924e63", "ok": true, "ttft": null}
+{"id": "kv_16000_9", "task": "kv", "len": 14522, "pred": "The value associated with the key \"178a89cf-3c1e-e626-911d-4391c28d882f\" is:\n\n58e44099-35df-e4c3-be43-7a0fb5855577", "ok": true, "ttft": null}
+{"id": "kv_16000_10", "task": "kv", "len": 14533, "pred": "The value associated with the key \"fa434ac2-e500-7e10-383d-53b6401cf08e\" is \"23d330ff-ca53-60e1-680d-0bc7f94dbc39\".", "ok": true, "ttft": null}
+{"id": "kv_16000_11", "task": "kv", "len": 14541, "pred": "The value associated with the key \"ce95c000-18c9-79af-3c10-85d7f26b8e7f\" is:\n\n\"48577e18-6179-ca27-ecc5-e03e09d029be\"", "ok": true, "ttft": null}
+{"id": "kv_16000_12", "task": "kv", "len": 14530, "pred": "The value associated with the key \"1a9d4527-f125-7bf2-17f7-f87a9802b532\" is:\n\n1696ef03-1a20-91c9-fbce-0959261f9b6e", "ok": true, "ttft": null}
+{"id": "kv_16000_13", "task": "kv", "len": 14613, "pred": "The value associated with the key \"f047a6a7-d063-9dd9-d751-f403b24880be\" is:\n\n435d5d32-c741-961d-c929-9504fc56d6b1", "ok": true, "ttft": null}
+{"id": "kv_16000_14", "task": "kv", "len": 14558, "pred": "The value associated with the key \"2949416f-e909-c499-d67a-655ce523c1e2\" is:\n\n23ab212b-ac54-8b2c-9849-a2e97edcb730", "ok": true, "ttft": null}
+{"id": "kv_16000_15", "task": "kv", "len": 14552, "pred": "The value associated with the key \"76784d4f-3bc7-43a8-c3a8-56ef4fb4dd2a\" is:\n\n5fb7f0a5-ce86-d59b-fe0a-318135fbf618", "ok": true, "ttft": null}
+{"id": "kv_16000_16", "task": "kv", "len": 14585, "pred": "The value associated with the key \"5bf170ba-f473-2fc0-c4f5-919592c4f67d\" is:\n\n\"239acfe6-e139-ed26-86ba-a9efa9b339cd\"", "ok": true, "ttft": null}
+{"id": "kv_16000_17", "task": "kv", "len": 14613, "pred": "The value associated with the key \"be2e402a-24a5-ae04-359e-66339d92e1e3\" is:\n\ne3e9c899-c0b6-7390-be4d-613750b97d92", "ok": true, "ttft": null}
+{"id": "kv_16000_18", "task": "kv", "len": 14532, "pred": "The value associated with the key \"b317398f-2e0b-80c6-88f5-6e5bd30188df\" is:\n\n849af6ab-181f-490f-a729-9e2ce16f4abe", "ok": true, "ttft": null}
+{"id": "kv_16000_19", "task": "kv", "len": 14629, "pred": "The value associated with the key \"22bc1663-44a1-7a6b-3497-545926d8507c\" is:\n\ndfe86023-7d2b-2a69-24d6-ef55dd0e8389", "ok": true, "ttft": null}
+{"id": "kv_16000_20", "task": "kv", "len": 14626, "pred": "The value associated with the key \"dfe860b2-cd38-3722-2ee9-c47dc0c07501\" is:\n\n41104124-b141-15a0-53c0-4e8e66172feb", "ok": true, "ttft": null}
+{"id": "kv_16000_21", "task": "kv", "len": 14611, "pred": "The value associated with the key \"0e70aa91-6a1a-eba8-2e0d-23076a7ccdff\" is:\n\n163eecc9-995a-0459-c9ec-e6ed3a8dda9a", "ok": true, "ttft": null}
+{"id": "kv_16000_22", "task": "kv", "len": 14518, "pred": "The value associated with the key \"bb5041df-0f60-7d70-8c2e-8006b668e9c9\" is:\n\n5b99e09e-9dee-7c48-f540-c0bbca1c38a0", "ok": true, "ttft": null}
+{"id": "kv_16000_23", "task": "kv", "len": 14565, "pred": "The value associated with the key \"2c76ba7b-5292-d437-dc69-6e9febff8a77\" is:\n\n2ce16512-37cb-ab64-1952-b58a27384de4", "ok": true, "ttft": null}
+{"id": "kv_16000_24", "task": "kv", "len": 14444, "pred": "The value associated with the key \"077b81f8-8fef-304c-61bb-3721744c0e5f\" is:\n\n6bdfaaca-eb80-4333-9b12-3ad20e33d7ff", "ok": true, "ttft": null}
+{"id": "kv_16000_25", "task": "kv", "len": 14544, "pred": "The value associated with the key \"6418816e-cfb2-e2fc-2c40-005ac4b91d9a\" is:\n\nf9bf4e4f-729c-2f49-93ae-190c931fe3db", "ok": true, "ttft": null}
+{"id": "kv_16000_26", "task": "kv", "len": 14510, "pred": "The value associated with the key \"4253560c-25eb-f6e7-d3fe-a411f5ab8782\" is:\n\n1d19f324-209e-455b-2b50-1c19f39aaa23", "ok": true, "ttft": null}
+{"id": "kv_16000_27", "task": "kv", "len": 14568, "pred": "The value associated with the key \"02c33c7a-aabe-c4ca-6566-b87afa0def22\" is \"8a7a899d-4f29-38fd-9b7d-5f9947297eb3\".", "ok": true, "ttft": null}
+{"id": "kv_16000_28", "task": "kv", "len": 14568, "pred": "The value associated with the key \"6b47a8c3-274a-449e-046b-9d889524fc06\" is:\n\n3b5a8288-51c7-7b71-ca81-d2b615488f05", "ok": true, "ttft": null}
+{"id": "kv_16000_29", "task": "kv", "len": 14488, "pred": "The value associated with the key \"98359d84-876c-bd30-8e96-831a30a88825\" is:\n\n0e7bfbf1-0c7b-ffc1-83b7-0a2e266bd43b", "ok": true, "ttft": null}
+{"id": "kv_16000_30", "task": "kv", "len": 14534, "pred": "The value associated with the key \"9accae05-85de-5334-5f63-29b1c4a66074\" is:\n\n\"f53bed4a-c94e-cd8c-245f-a9f95ebba763\"", "ok": true, "ttft": null}
+{"id": "kv_16000_31", "task": "kv", "len": 14582, "pred": "The value associated with the key \"ff94ae7e-91ab-9cef-7a5d-847ca9a96d7b\" is:\n\n008c00c6-0f6c-b7bb-e278-e021d5cf4dc1", "ok": true, "ttft": null}
+{"id": "kv_16000_32", "task": "kv", "len": 14524, "pred": "The value associated with the key \"83a6e420-637e-8f0f-39ff-7e137f9ed542\" is:\n\n```\n5ff98cfc-b4c6-b7ba-e968-86d72c59b86a\n```", "ok": true, "ttft": null}
+{"id": "kv_16000_33", "task": "kv", "len": 14539, "pred": "The value associated with the key \"58a1664d-6de9-7764-3c58-064cb9cf5b7c\" is:\n\ne60a4fdb-9d94-9310-2dba-fc18ce2a6eb5", "ok": true, "ttft": null}
+{"id": "kv_16000_34", "task": "kv", "len": 14520, "pred": "The value associated with the key \"8737f163-9825-073b-7e4e-b9018f895fd5\" is:\n\n9c912e34-d438-2c93-3f8f-0d4f277b8e94", "ok": true, "ttft": null}
+{"id": "kv_16000_35", "task": "kv", "len": 14503, "pred": "The value associated with the key \"b174c06c-df34-910f-7047-882540c4696d\" is:\n\nbf61105f-f2fe-eae3-47e1-6fae78b2a62e", "ok": true, "ttft": null}
+{"id": "kv_16000_36", "task": "kv", "len": 14505, "pred": "The value associated with the key \"b6bff26c-e176-f217-d6f7-b7e4ba083946\" is:\n\n91b9990d-97eb-c03b-b957-04b5c313b6e9", "ok": true, "ttft": null}
+{"id": "kv_16000_37", "task": "kv", "len": 14567, "pred": "The value associated with the key \"6fbe527b-6477-19d6-6bfa-76a43706acc5\" is:\n\na7fc4059-f189-0b87-2858-473f6afd13bb", "ok": true, "ttft": null}
+{"id": "kv_16000_38", "task": "kv", "len": 14461, "pred": "The value associated with the key \"f76cca60-636b-fe84-4e1f-9dca6d647cd6\" is \"0d408b5d-aafc-cbd2-d21e-7f0263f40f45\".", "ok": true, "ttft": null}
+{"id": "kv_16000_39", "task": "kv", "len": 14517, "pred": "The value associated with the key \"1b9cd62c-dc01-a855-01dc-d990073d3466\" is:\n\ned5302c5-bea7-0744-5613-a0ba01f5ca6b", "ok": true, "ttft": null}
+{"id": "vt_16000_0", "task": "vt", "len": 15303, "pred": "82944", "ok": true, "ttft": null}
+{"id": "vt_16000_1", "task": "vt", "len": 15305, "pred": "94931", "ok": true, "ttft": null}
+{"id": "vt_16000_2", "task": "vt", "len": 15303, "pred": "97211", "ok": true, "ttft": null}
+{"id": "vt_16000_3", "task": "vt", "len": 15313, "pred": "38716", "ok": true, "ttft": null}
+{"id": "vt_16000_4", "task": "vt", "len": 15314, "pred": "59088", "ok": true, "ttft": null}
+{"id": "vt_16000_5", "task": "vt", "len": 15310, "pred": "55462", "ok": true, "ttft": null}
+{"id": "vt_16000_6", "task": "vt", "len": 15311, "pred": "51669", "ok": true, "ttft": null}
+{"id": "vt_16000_7", "task": "vt", "len": 15307, "pred": "46590", "ok": false, "ttft": null}
+{"id": "vt_16000_8", "task": "vt", "len": 15303, "pred": "45136", "ok": true, "ttft": null}
+{"id": "vt_16000_9", "task": "vt", "len": 15282, "pred": "32548", "ok": true, "ttft": null}
+{"id": "vt_16000_10", "task": "vt", "len": 15309, "pred": "66530", "ok": true, "ttft": null}
+{"id": "vt_16000_11", "task": "vt", "len": 15310, "pred": "85496", "ok": true, "ttft": null}
+{"id": "vt_16000_12", "task": "vt", "len": 15282, "pred": "92006", "ok": true, "ttft": null}
+{"id": "vt_16000_13", "task": "vt", "len": 15309, "pred": "42994", "ok": true, "ttft": null}
+{"id": "vt_16000_14", "task": "vt", "len": 15309, "pred": "69036", "ok": true, "ttft": null}
+{"id": "vt_16000_15", "task": "vt", "len": 15305, "pred": "70604", "ok": true, "ttft": null}
+{"id": "vt_16000_16", "task": "vt", "len": 15288, "pred": "51173", "ok": true, "ttft": null}
+{"id": "vt_16000_17", "task": "vt", "len": 15306, "pred": "66707", "ok": true, "ttft": null}
+{"id": "vt_16000_18", "task": "vt", "len": 15315, "pred": "76015", "ok": true, "ttft": null}
+{"id": "vt_16000_19", "task": "vt", "len": 15306, "pred": "84707", "ok": true, "ttft": null}
+{"id": "vt_16000_20", "task": "vt", "len": 15310, "pred": "97538", "ok": true, "ttft": null}
+{"id": "vt_16000_21", "task": "vt", "len": 15316, "pred": "36826", "ok": true, "ttft": null}
+{"id": "vt_16000_22", "task": "vt", "len": 15302, "pred": "89407", "ok": true, "ttft": null}
+{"id": "vt_16000_23", "task": "vt", "len": 15308, "pred": "58788", "ok": true, "ttft": null}
+{"id": "vt_16000_24", "task": "vt", "len": 15306, "pred": "32186", "ok": true, "ttft": null}
+{"id": "vt_16000_25", "task": "vt", "len": 15307, "pred": "49884", "ok": true, "ttft": null}
+{"id": "vt_16000_26", "task": "vt", "len": 15306, "pred": "76557", "ok": true, "ttft": null}
+{"id": "vt_16000_27", "task": "vt", "len": 15306, "pred": "91172", "ok": true, "ttft": null}
+{"id": "vt_16000_28", "task": "vt", "len": 15303, "pred": "85998", "ok": true, "ttft": null}
+{"id": "vt_16000_29", "task": "vt", "len": 15291, "pred": "58658", "ok": true, "ttft": null}
+{"id": "vt_16000_30", "task": "vt", "len": 15304, "pred": "67046", "ok": true, "ttft": null}
+{"id": "vt_16000_31", "task": "vt", "len": 15310, "pred": "81466", "ok": true, "ttft": null}
+{"id": "vt_16000_32", "task": "vt", "len": 15304, "pred": "32335", "ok": true, "ttft": null}
+{"id": "vt_16000_33", "task": "vt", "len": 15283, "pred": "71154", "ok": true, "ttft": null}
+{"id": "vt_16000_34", "task": "vt", "len": 15283, "pred": "76353", "ok": true, "ttft": null}
+{"id": "vt_16000_35", "task": "vt", "len": 15313, "pred": "53970", "ok": true, "ttft": null}
+{"id": "vt_16000_36", "task": "vt", "len": 15303, "pred": "15023", "ok": true, "ttft": null}
+{"id": "vt_16000_37", "task": "vt", "len": 15304, "pred": "24797", "ok": true, "ttft": null}
+{"id": "vt_16000_38", "task": "vt", "len": 15309, "pred": "74789", "ok": true, "ttft": null}
+{"id": "vt_16000_39", "task": "vt", "len": 15309, "pred": "31983", "ok": true, "ttft": null}
+{"id": "kv_28000_0", "task": "kv", "len": 25422, "pred": "The value associated with the key \"a7619f71-0fdc-ecef-8521-bd7614982460\" is:\n\n\"ee0d8be0-c86e-8530-74be-745698863fe3\"", "ok": true, "ttft": null}
+{"id": "kv_28000_1", "task": "kv", "len": 25316, "pred": "The value associated with the key \"014cf931-0064-b589-b584-36e3df36b5e7\" is:\n\n5579916e-2282-5927-fa1b-61ddba8b21b9", "ok": false, "ttft": null}
+{"id": "kv_28000_2", "task": "kv", "len": 25443, "pred": "The value associated with the key \"5c5c5a95-4d73-fccd-981f-a8cee56244b4\" is:\n\nbc78b6c6-8e27-543f-6b36-0e6b4d61373d", "ok": true, "ttft": null}
+{"id": "kv_28000_3", "task": "kv", "len": 25423, "pred": "The value associated with the key \"43b4c07b-d7b0-a318-b079-69bde407aad6\" is:\n\n480cf8b9-b513-b0b9-39bc-7747535ddc81", "ok": true, "ttft": null}
+{"id": "kv_28000_4", "task": "kv", "len": 25385, "pred": "The value associated with the key \"6ee448ab-dc10-00f7-1545-7dfc345ba82f\" is:\n\nff98618f-ae2e-f704-94d6-3ef85fe88f2a", "ok": true, "ttft": null}
+{"id": "kv_28000_5", "task": "kv", "len": 25402, "pred": "The value associated with the key \"29597dfe-0b0e-34d5-ed0f-59444569a7be\" is:\n\nacf51267-14f8-57ba-c82a-cc53be5a8185", "ok": true, "ttft": null}
+{"id": "kv_28000_6", "task": "kv", "len": 25351, "pred": "The value associated with the key \"7f1b74e7-66ea-d5a3-d79b-dc46dcf27ebd\" is:\n\n28c8ac9c-08bc-4c45-26dc-c4dd9c9b7173", "ok": true, "ttft": null}
+{"id": "kv_28000_7", "task": "kv", "len": 25432, "pred": "The value associated with the key \"97343fec-a8e5-d460-7226-ecbf2bea0c56\" is:\n\nbdc88140-bf9e-1523-84ca-737931417e5f", "ok": true, "ttft": null}
+{"id": "kv_28000_8", "task": "kv", "len": 25311, "pred": "The value associated with the key \"d5714c2a-7408-b4c9-539a-44041c66b4ad\" is:\n\nb9c71442-a2e0-4086-fb1e-9f6dbc13e2a2", "ok": true, "ttft": null}
+{"id": "kv_28000_9", "task": "kv", "len": 25419, "pred": "The value associated with the key \"98da548a-8b66-e785-dd4c-045d4c071793\" is:\n\n668c5a8e-bb33-c945-39de-049245f0a575", "ok": true, "ttft": null}
+{"id": "kv_28000_10", "task": "kv", "len": 25354, "pred": "The value associated with the key \"1af2f04b-465c-c32d-6efc-a3f95c366bdb\" is:\n\n32560d2d-d08b-5f4e-5e7c-691a286767f0", "ok": true, "ttft": null}
+{"id": "kv_28000_11", "task": "kv", "len": 25341, "pred": "The value associated with the key \"412afdf3-d7e8-e2e2-77fa-797a607439d2\" is:\n\n0e7ff166-677e-57bd-ca44-05cb3a3be52e", "ok": true, "ttft": null}
+{"id": "kv_28000_12", "task": "kv", "len": 25292, "pred": "The value associated with the key \"988eee32-cd93-6614-8120-9f3e09bb14af\" is \"f911bfcd-624c-52cb-5070-a682bfe17dd3\".", "ok": true, "ttft": null}
+{"id": "kv_28000_13", "task": "kv", "len": 25445, "pred": "The value associated with the key \"eaaccc9e-2a9e-1135-04d6-ae81b6014b2f\" is:\n\n\"c421e041-1bc5-87a7-8701-c87c7259241f\"", "ok": true, "ttft": null}
+{"id": "kv_28000_14", "task": "kv", "len": 25364, "pred": "The value associated with the key \"6d86564e-1ccc-e463-c867-81c24d42eb49\" is:\n\n6f70a017-5077-202e-d3dd-1af634899508", "ok": true, "ttft": null}
+{"id": "kv_28000_15", "task": "kv", "len": 25308, "pred": "The value associated with the key \"898a220f-0b45-ae48-aa52-a29a1ce77d5b\" is:\n\n3b35b655-d828-60be-17c0-ef3e0211b1d8", "ok": true, "ttft": null}
+{"id": "kv_28000_16", "task": "kv", "len": 25332, "pred": "The value associated with the key \"fb703295-2ad5-d5bc-a398-aadc9af4245d\" is:\n\n\"bc741d59-b38c-d5ab-6d5c-7038fc626d95\"", "ok": true, "ttft": null}
+{"id": "kv_28000_17", "task": "kv", "len": 25408, "pred": "The value associated with the key \"62bb2352-bbc7-4cd3-8c56-5b010745258f\" is:\n\n637a971f-ca63-4fd8-4cbb-2623fef0234b", "ok": true, "ttft": null}
+{"id": "kv_28000_18", "task": "kv", "len": 25351, "pred": "The value associated with the key \"b4e38464-dc0d-74bd-11bb-f203e35140fc\" is \"3f49290b-6762-4487-650c-06c4c1670d28\".", "ok": true, "ttft": null}
+{"id": "kv_28000_19", "task": "kv", "len": 25409, "pred": "The value associated with the key \"4b93f7be-6661-4b29-c4ec-69677f22184a\" is:\n\n9f60fe31-3163-1dea-0c30-08733155fd54", "ok": true, "ttft": null}
+{"id": "kv_28000_20", "task": "kv", "len": 25358, "pred": "The value associated with the key \"dba40345-b983-200a-2957-1dbbe07f5030\" is \"811cd90f-ae74-ee2d-3062-c3dfa4b97432\".", "ok": true, "ttft": null}
+{"id": "kv_28000_21", "task": "kv", "len": 25454, "pred": "The value associated with the key \"d1d60db2-ebb3-a26a-c0e8-6fb91a87bf94\" is:\n\ncfedf07b-e308-4fb4-7a3f-ec80d183a22f", "ok": true, "ttft": null}
+{"id": "kv_28000_22", "task": "kv", "len": 25355, "pred": "The value associated with the key \"fa8baa5f-88af-1c8e-2333-5bf31e6eec05\" is \"d4e6375f-3ada-58c5-8d7a-15ce8d0c5386\".", "ok": true, "ttft": null}
+{"id": "kv_28000_23", "task": "kv", "len": 25396, "pred": "The value associated with the key \"f66f9e50-01b2-fe5e-6406-ce6c5cb5c223\" is \"2d78f901-a173-ae49-54ad-d56da90ad840\".", "ok": true, "ttft": null}
+{"id": "kv_28000_24", "task": "kv", "len": 25269, "pred": "The value associated with the key \"57b319c7-daf9-05fb-a2bf-8d4efc63bf3c\" is \"34041e7c-29b1-bb33-0cf7-1d3e275385d4\".", "ok": true, "ttft": null}
+{"id": "kv_28000_25", "task": "kv", "len": 25396, "pred": "The value associated with the key \"5688b7d3-9efd-3b2c-f4c4-62893b2f351d\" is:\n\n7a4f4d4b-b28c-b3b9-5bca-2179b3d8a3b6", "ok": true, "ttft": null}
+{"id": "kv_28000_26", "task": "kv", "len": 25472, "pred": "The value associated with the key \"cfc4bb9f-50f8-0e0c-4840-7d35f3094ca6\" is:\n\nc5639f36-d522-9973-2d73-efbaf73e4c3c", "ok": true, "ttft": null}
+{"id": "kv_28000_27", "task": "kv", "len": 25300, "pred": "The value associated with the key \"1a85b8b5-7fcc-0d50-2262-219c804ea243\" is \"b2cc65b4-4faf-cb95-0f6f-084f49094ec8\".", "ok": true, "ttft": null}
+{"id": "kv_28000_28", "task": "kv", "len": 25357, "pred": "The value associated with the key \"d12efbfc-f08a-8b8a-a4e0-9ef3214c6aa1\" is \"d2083da0-4a47-d599-cd12-239374a053ae\".", "ok": true, "ttft": null}
+{"id": "kv_28000_29", "task": "kv", "len": 25491, "pred": "The value associated with the key \"80506601-3058-3aac-77f4-962527cead73\" is \"c929471b-5550-bd07-a52f-2146c21acc33\".", "ok": true, "ttft": null}
+{"id": "kv_28000_30", "task": "kv", "len": 25452, "pred": "The value associated with the key \"425a0211-a0b6-bdac-3153-9d4155fafa2f\" is:\n\n\"7e863815-ee21-e2c0-085a-789be9a8f6ad\"", "ok": true, "ttft": null}
+{"id": "kv_28000_31", "task": "kv", "len": 25345, "pred": "The value associated with the key \"8bde56e5-2db5-b9e0-ed39-97a778d8a411\" is \"75655189-b31f-55f8-1823-8dd597bddbc0\".", "ok": true, "ttft": null}
+{"id": "kv_28000_32", "task": "kv", "len": 25457, "pred": "The value associated with the key \"3b9fd207-c198-5de9-d794-c96cacb10dff\" is:\n\n4676b7f7-7182-702f-1f88-76df431559a2", "ok": true, "ttft": null}
+{"id": "kv_28000_33", "task": "kv", "len": 25431, "pred": "The value associated with the key \"437b95eb-9b84-4795-5633-ea4f223a92bc\" is:\n\n1e1f86cb-a9ce-f52a-23f6-f6cb4a4410d4", "ok": true, "ttft": null}
+{"id": "kv_28000_34", "task": "kv", "len": 25372, "pred": "The value associated with the key \"72970f2b-310b-2364-2e61-3d35a0ef6408\" is:\n\n0f4a7010-03a5-ddf1-e442-e0ab65145015", "ok": true, "ttft": null}
+{"id": "kv_28000_35", "task": "kv", "len": 25387, "pred": "The value associated with the key \"7c4edb61-adfc-941c-93c3-0a14dc7ee712\" is:\n\na0bb675a-2f9f-0ce5-cde3-fc0629db36a4", "ok": true, "ttft": null}
+{"id": "kv_28000_36", "task": "kv", "len": 25451, "pred": "The value associated with the key \"772db105-37e0-998b-93c0-8485dadd8b59\" is:\n\n\"a5211451-2e63-468c-c036-6ec6cde8eb19\"", "ok": true, "ttft": null}
+{"id": "kv_28000_37", "task": "kv", "len": 25370, "pred": "The value associated with the key \"9b265c98-1ce8-4789-c0be-347ee0a0115f\" is \"5097bd8b-593b-0ea8-8fcd-b1b96aaa612d\".", "ok": true, "ttft": null}
+{"id": "kv_28000_38", "task": "kv", "len": 25350, "pred": "The value associated with the key \"096e8556-1053-506e-f33e-6056c2d76550\" is:\n\n15d772b4-d443-1edc-b918-0213dd92423c", "ok": true, "ttft": null}
+{"id": "kv_28000_39", "task": "kv", "len": 25212, "pred": "The value associated with the key \"6e9de1a4-01ae-8a9d-cfad-ac7e540df4a6\" is:\n\n`ee907215-886c-0bfc-ecf8-7056c9cfa171`", "ok": true, "ttft": null}
+{"id": "vt_28000_0", "task": "vt", "len": 26835, "pred": "64396", "ok": true, "ttft": null}
+{"id": "vt_28000_1", "task": "vt", "len": 26827, "pred": "31161", "ok": true, "ttft": null}
+{"id": "vt_28000_2", "task": "vt", "len": 26822, "pred": "65093", "ok": true, "ttft": null}
+{"id": "vt_28000_3", "task": "vt", "len": 26824, "pred": "23441", "ok": true, "ttft": null}
+{"id": "vt_28000_4", "task": "vt", "len": 26828, "pred": "30360", "ok": true, "ttft": null}
+{"id": "vt_28000_5", "task": "vt", "len": 26829, "pred": "88202", "ok": true, "ttft": null}
+{"id": "vt_28000_6", "task": "vt", "len": 26830, "pred": "40385", "ok": true, "ttft": null}
+{"id": "vt_28000_7", "task": "vt", "len": 26822, "pred": "71653", "ok": true, "ttft": null}
+{"id": "vt_28000_8", "task": "vt", "len": 26831, "pred": "22833", "ok": true, "ttft": null}
+{"id": "vt_28000_9", "task": "vt", "len": 26831, "pred": "94889", "ok": false, "ttft": null}
+{"id": "vt_28000_10", "task": "vt", "len": 26829, "pred": "84457", "ok": true, "ttft": null}
+{"id": "vt_28000_11", "task": "vt", "len": 26826, "pred": "31365", "ok": true, "ttft": null}
+{"id": "vt_28000_12", "task": "vt", "len": 26826, "pred": "31481", "ok": true, "ttft": null}
+{"id": "vt_28000_13", "task": "vt", "len": 26794, "pred": "39049", "ok": true, "ttft": null}
+{"id": "vt_28000_14", "task": "vt", "len": 26824, "pred": "75481", "ok": true, "ttft": null}
+{"id": "vt_28000_15", "task": "vt", "len": 26807, "pred": "43162", "ok": true, "ttft": null}
+{"id": "vt_28000_16", "task": "vt", "len": 26820, "pred": "22347", "ok": true, "ttft": null}
+{"id": "vt_28000_17", "task": "vt", "len": 26828, "pred": "30243", "ok": true, "ttft": null}
+{"id": "vt_28000_18", "task": "vt", "len": 26826, "pred": "87398", "ok": true, "ttft": null}
+{"id": "vt_28000_19", "task": "vt", "len": 26825, "pred": "99668", "ok": true, "ttft": null}
+{"id": "vt_28000_20", "task": "vt", "len": 26826, "pred": "10253", "ok": true, "ttft": null}
+{"id": "vt_28000_21", "task": "vt", "len": 26830, "pred": "62254", "ok": true, "ttft": null}
+{"id": "vt_28000_22", "task": "vt", "len": 26830, "pred": "57761", "ok": true, "ttft": null}
+{"id": "vt_28000_23", "task": "vt", "len": 26802, "pred": "61115", "ok": true, "ttft": null}
+{"id": "vt_28000_24", "task": "vt", "len": 26825, "pred": "70632", "ok": true, "ttft": null}
+{"id": "vt_28000_25", "task": "vt", "len": 26835, "pred": "80631", "ok": true, "ttft": null}
+{"id": "vt_28000_26", "task": "vt", "len": 26831, "pred": "57880", "ok": true, "ttft": null}
+{"id": "vt_28000_27", "task": "vt", "len": 26805, "pred": "73153", "ok": true, "ttft": null}
+{"id": "vt_28000_28", "task": "vt", "len": 26828, "pred": "48852", "ok": true, "ttft": null}
+{"id": "vt_28000_29", "task": "vt", "len": 26833, "pred": "86279", "ok": true, "ttft": null}
+{"id": "vt_28000_30", "task": "vt", "len": 26822, "pred": "44664", "ok": true, "ttft": null}
+{"id": "vt_28000_31", "task": "vt", "len": 26830, "pred": "34338", "ok": true, "ttft": null}
+{"id": "vt_28000_32", "task": "vt", "len": 26830, "pred": "17823", "ok": true, "ttft": null}
+{"id": "vt_28000_33", "task": "vt", "len": 26803, "pred": "55143", "ok": true, "ttft": null}
+{"id": "vt_28000_34", "task": "vt", "len": 26804, "pred": "68074", "ok": true, "ttft": null}
+{"id": "vt_28000_35", "task": "vt", "len": 26827, "pred": "77439", "ok": true, "ttft": null}
+{"id": "vt_28000_36", "task": "vt", "len": 26830, "pred": "31424", "ok": true, "ttft": null}
+{"id": "vt_28000_37", "task": "vt", "len": 26799, "pred": "66109", "ok": false, "ttft": null}
+{"id": "vt_28000_38", "task": "vt", "len": 26805, "pred": "85688", "ok": true, "ttft": null}
+{"id": "vt_28000_39", "task": "vt", "len": 26829, "pred": "22873", "ok": true, "ttft": null}
+{"id": "hotpotqa_fc6267db9ba02bbb251960231bc87251c581110e4e2b5f3f", "task": "hotpotqa", "len": 11777, "pred": "Gates v. Collier", "ok": false, "ttft": null}
+{"id": "hotpotqa_d542fcd45bbf5112eee9127f04ae060a887c8ef2050aa160", "task": "hotpotqa", "len": 17312, "pred": "Charles L. Clifford", "ok": true, "ttft": null}
+{"id": "hotpotqa_cb9214532284b8202912b1b75592832daef0b109593185a0", "task": "hotpotqa", "len": 17378, "pred": "Lowell", "ok": false, "ttft": null}
+{"id": "hotpotqa_105e7f4d337799315ddf870acc4ff2a62a1e6cdf489086cd", "task": "hotpotqa", "len": 16754, "pred": "Sun", "ok": true, "ttft": null}
+{"id": "hotpotqa_5ff08452b84748458e71d82a6d387599969311fd61cd8fd1", "task": "hotpotqa", "len": 15160, "pred": "film", "ok": false, "ttft": null}
+{"id": "hotpotqa_97b31d6d7a9137c220726ad51a6dca3e957e2c94ce5e65b8", "task": "hotpotqa", "len": 15740, "pred": "Parliament", "ok": true, "ttft": null}
+{"id": "hotpotqa_11a7ad9d646184c16480376226d58f1b2754b095563c8344", "task": "hotpotqa", "len": 16118, "pred": "Thirukkalacherry is a village in Mayiladuthurai District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu", "ok": true, "ttft": null}
+{"id": "hotpotqa_3dd1ade26fd583844dd2af051d61eb20856ccc8e23abae59", "task": "hotpotqa", "len": 2307, "pred": "Pleiospilos", "ok": true, "ttft": null}
+{"id": "hotpotqa_f039fe9cc81a0a312f9899beca2fe26b710bf8c3aa23a4d9", "task": "hotpotqa", "len": 13259, "pred": "2013", "ok": true, "ttft": null}
+{"id": "hotpotqa_a30caa5dafcc37835bfe4093f129017adf4c814e9016e10d", "task": "hotpotqa", "len": 9265, "pred": "The Rebirth", "ok": true, "ttft": null}
+{"id": "hotpotqa_72feb2a8e5b92548a357bfc11e94050464f93f1ce286418c", "task": "hotpotqa", "len": 16891, "pred": "October 13, 1980", "ok": true, "ttft": null}
+{"id": "hotpotqa_77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf", "task": "hotpotqa", "len": 16697, "pred": "Ted Turner", "ok": false, "ttft": null}
+{"id": "hotpotqa_21bc398556b5612bf0437043cd2800e943bab5929c4bccc5", "task": "hotpotqa", "len": 16029, "pred": "Mary Astor", "ok": true, "ttft": null}
+{"id": "hotpotqa_e0998dbc2db68c7b18adff7fcc67081acc865c974b721312", "task": "hotpotqa", "len": 10898, "pred": "number five", "ok": true, "ttft": null}
+{"id": "hotpotqa_139d2fcf8763003414ebd0187eb30b94930de13c4ab754a0", "task": "hotpotqa", "len": 16723, "pred": "Horton Plains National Park, Sri Lanka, and parts of northern Afghanistan, Pakistan, Tibet, Nepal, Bhutan, and in northern India such as in J", "ok": false, "ttft": null}
+{"id": "hotpotqa_c261ca6aeaf366815232e91db1ef4dc8408cec3750c38ee9", "task": "hotpotqa", "len": 13005, "pred": "2000 Summer Olympics", "ok": false, "ttft": null}
+{"id": "hotpotqa_ab016faac478c4acc6e9ed3ed87f9e29dbed47fd946be244", "task": "hotpotqa", "len": 6664, "pred": "Claudio L\u00f3pez", "ok": false, "ttft": null}
+{"id": "hotpotqa_cae319fad2385d30d79efac0fb61e58518fbdc0703be3b0f", "task": "hotpotqa", "len": 16976, "pred": "Ronald Reagan", "ok": false, "ttft": null}
+{"id": "hotpotqa_e4df9576e5cd102024e81baf94a43325335d0ba2d8892041", "task": "hotpotqa", "len": 14584, "pred": "Talk That Talk", "ok": true, "ttft": null}
+{"id": "hotpotqa_5e3362de0244d2b96c83958c4d3229151999292c369b0197", "task": "hotpotqa", "len": 16085, "pred": "George Harrison", "ok": false, "ttft": null}
+{"id": "hotpotqa_fda38e0c47dcd2b4f1de4adefeb00ab431221c0ef9adeb31", "task": "hotpotqa", "len": 11480, "pred": "Cartoon Cartoon Fridays", "ok": true, "ttft": null}
+{"id": "hotpotqa_ef245cc27251f559f3cd900c11c7bf9f303eec3c4b346802", "task": "hotpotqa", "len": 16152, "pred": "Sydney", "ok": false, "ttft": null}
+{"id": "hotpotqa_3a75aba6bc2496016339474aef28ffdc9dbebdc00ccc166b", "task": "hotpotqa", "len": 5397, "pred": "Long Island", "ok": true, "ttft": null}
+{"id": "hotpotqa_3dc3db870ea907282d3160c597c4d618ae6ba2a6bdd712bb", "task": "hotpotqa", "len": 11642, "pred": "PewDiePie", "ok": true, "ttft": null}
+{"id": "hotpotqa_26a5366c80c3a569c474a3990f3383beb125d34149e8ed3e", "task": "hotpotqa", "len": 14681, "pred": "It's Always Sunny in Philadelphia", "ok": true, "ttft": null}
+{"id": "hotpotqa_6eafb48c7a974b5097cb4752eb3853dbac8f622173d24e44", "task": "hotpotqa", "len": 9962, "pred": "439th", "ok": false, "ttft": null}
+{"id": "hotpotqa_1ceb1c91662d241b3421853112a91b5868d1b81fe3b88ce4", "task": "hotpotqa", "len": 16621, "pred": "Ribosomes", "ok": true, "ttft": null}
+{"id": "hotpotqa_7e525340152c2f4b26d7fba85c680dde7b75af77356a7c22", "task": "hotpotqa", "len": 9916, "pred": "Dracula", "ok": true, "ttft": null}
+{"id": "hotpotqa_b6352c61b4a748448ce38882861cd5ae5f7f2869a81e92a1", "task": "hotpotqa", "len": 3393, "pred": "Band-e Amir National Park", "ok": true, "ttft": null}
+{"id": "hotpotqa_4b83e873a551cd83a2e409d2b4467f74dd332326fcbca843", "task": "hotpotqa", "len": 17674, "pred": "University of Southern California", "ok": true, "ttft": null}
+{"id": "hotpotqa_cb677158d6f710ab0cb440b2024cc61c942a1ea4a963087d", "task": "hotpotqa", "len": 17092, "pred": "12,817", "ok": false, "ttft": null}
+{"id": "hotpotqa_4b1df711ec0557b9df23de534c1ce99b7f37528f643b8c29", "task": "hotpotqa", "len": 15355, "pred": "A123 Systems", "ok": false, "ttft": null}
+{"id": "hotpotqa_02c6e6b95d2a200df20bea7495469c79b1d89ed560890ee3", "task": "hotpotqa", "len": 15096, "pred": "15,678", "ok": false, "ttft": null}
+{"id": "hotpotqa_3056e292ff1583fe84207873be57c6ec28c28b425087ca84", "task": "hotpotqa", "len": 16613, "pred": "Taoiseach", "ok": false, "ttft": null}
+{"id": "hotpotqa_9729ff4cf6a13382c88896cf5a5b176d082cc1137c66b38b", "task": "hotpotqa", "len": 14959, "pred": "Troy", "ok": false, "ttft": null}
+{"id": "hotpotqa_220230ff5154e6f0ccad63965d06ce69a9226bd72cc32fa4", "task": "hotpotqa", "len": 17093, "pred": "Mika H\u00e4kkinen", "ok": true, "ttft": null}
+{"id": "hotpotqa_01aff89f9ce55470c12450b595c268a225a638582dac204f", "task": "hotpotqa", "len": 16209, "pred": "Constantine", "ok": true, "ttft": null}
+{"id": "hotpotqa_b785963089bd7f81ee294751c688af85bfe2863dba623373", "task": "hotpotqa", "len": 13996, "pred": "George Balanchine", "ok": true, "ttft": null}
+{"id": "hotpotqa_72a769d6d0fd1c5c90974e60ab97e88e6853b9115a7fb85e", "task": "hotpotqa", "len": 16972, "pred": "Xcel Energy", "ok": false, "ttft": null}
+{"id": "hotpotqa_207efa55e96afdf705e48bc57b58fc8232bb972a47073d50", "task": "hotpotqa", "len": 16509, "pred": "Summer Magic", "ok": true, "ttft": null}
+{"id": "hotpotqa_ec3b5bcfa070b047c769413b99a2f32e4f5d2f803cf81a43", "task": "hotpotqa", "len": 16625, "pred": "Nobel Prize in Physics", "ok": true, "ttft": null}
+{"id": "hotpotqa_ed6c85899d2a29f6dc8e02ba62bc8f1b1043a8c135fdd132", "task": "hotpotqa", "len": 16688, "pred": "seasonal television specials, usually done in stop motion animation", "ok": false, "ttft": null}
+{"id": "hotpotqa_4c34b33d7a545c4eba3848d54fc4568fdf186e849897aa6e", "task": "hotpotqa", "len": 12821, "pred": "Eileen Atkins", "ok": false, "ttft": null}
+{"id": "hotpotqa_74ae5bfc8bdac7b560ec92b71604e86654f87b8f7fcbb30a", "task": "hotpotqa", "len": 16566, "pred": "Iran", "ok": true, "ttft": null}
+{"id": "hotpotqa_75f3798af3596cffefe8b932a00b1976f3f25fa0f42089fc", "task": "hotpotqa", "len": 17075, "pred": "Hakim Abdullah Jamal", "ok": true, "ttft": null}
+{"id": "hotpotqa_eac05e5d0936f802e28b0c5081a2c2a1a94fe4f2c20cb2df", "task": "hotpotqa", "len": 14552, "pred": "Keith Morris", "ok": true, "ttft": null}
+{"id": "hotpotqa_1a71b5a73ffb21cb52d41e09b1f861748b60f1e59273a080", "task": "hotpotqa", "len": 11245, "pred": "YIVO", "ok": true, "ttft": null}
+{"id": "hotpotqa_963e90eba94bba5bf5cf56755032d7bd4a3e4e225d3b8d14", "task": "hotpotqa", "len": 10340, "pred": "1813", "ok": false, "ttft": null}
+{"id": "hotpotqa_99635fd2d7a227cb3360253cf0f5759ed87bbac33593d830", "task": "hotpotqa", "len": 10476, "pred": "Himalchuli", "ok": false, "ttft": null}
+{"id": "hotpotqa_76096cce081ab5b9ef72be19076ee0a79d9e9239474e8b73", "task": "hotpotqa", "len": 15466, "pred": "1791", "ok": false, "ttft": null}
+{"id": "hotpotqa_670498f9d7fd2582c5791cad2fe212f580d316fa49a8a984", "task": "hotpotqa", "len": 5269, "pred": "Pope John X", "ok": true, "ttft": null}
+{"id": "hotpotqa_2903a54db35e788f31a967bdfa021d64ac18ed7e1aed919a", "task": "hotpotqa", "len": 16771, "pred": "Manchester United F.C.", "ok": true, "ttft": null}
+{"id": "hotpotqa_a7c311f9f6423063e02c8236bdd83cc8059fcb9fe78b4fff", "task": "hotpotqa", "len": 15253, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "hotpotqa_afa4eccc7b711ace3270c9cbcd784c971a4f0f8d22629ebf", "task": "hotpotqa", "len": 8962, "pred": "2,098", "ok": false, "ttft": null}
+{"id": "hotpotqa_fddb2049ab13cf002eb07f658ae13d9f99d83538ed881e9b", "task": "hotpotqa", "len": 9394, "pred": "IndyCar Series", "ok": false, "ttft": null}
+{"id": "hotpotqa_87fd3f0590498461d595ff1823632c79b66cf313cf55fbb3", "task": "hotpotqa", "len": 13841, "pred": "Yes", "ok": false, "ttft": null}
+{"id": "hotpotqa_47b3fb2eb0b90839a7887fa2138662a58c0170c96479190a", "task": "hotpotqa", "len": 15190, "pred": "Mississippi State", "ok": false, "ttft": null}
+{"id": "hotpotqa_4b0f3138abafd9fe2f3a16c3b2ffd55199bc3771070b5cd9", "task": "hotpotqa", "len": 17202, "pred": "Floyd Casey Stadium", "ok": true, "ttft": null}
+{"id": "hotpotqa_ff048b34a9405c880ccf710acdf1a53244e6039cb76c793a", "task": "hotpotqa", "len": 15898, "pred": "2010", "ok": true, "ttft": null}
+{"id": "hotpotqa_d9f5437fa85841cb12798def39a30721d3d2d140b4982854", "task": "hotpotqa", "len": 12108, "pred": "Gaja in Sanskrit means elephant, and 'Brishta' refers to the back or hip portion of a sitting elephant, which inspired the architectural style of", "ok": true, "ttft": null}
+{"id": "hotpotqa_93d2774c99edbde88789a9f989642ff160871ca09e66e46a", "task": "hotpotqa", "len": 16980, "pred": "British", "ok": false, "ttft": null}
+{"id": "hotpotqa_de85aaa5c535ba20bdcad5fbabfe13a03687374265a57b44", "task": "hotpotqa", "len": 5482, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "hotpotqa_232c2ba7b8bb5f22b77e5c55961d0cd0fe673d26870e157b", "task": "hotpotqa", "len": 15888, "pred": "November 23, 2002", "ok": true, "ttft": null}
+{"id": "hotpotqa_780b1664552881f2c14a0d943e746855f83709a5399bb4aa", "task": "hotpotqa", "len": 14252, "pred": "The question seems to be based on a misunderstanding as the passages provided do not contain information about an American actress starring in a film or project titled \"Tainted.\"", "ok": false, "ttft": null}
+{"id": "hotpotqa_0a44085d7963681015a69416470b86da02135ac722d6301b", "task": "hotpotqa", "len": 17128, "pred": "British", "ok": true, "ttft": null}
+{"id": "hotpotqa_f1c0b9a9ec47ccda8ba4b1be0ca7083b961ba0f06b2a4df7", "task": "hotpotqa", "len": 15977, "pred": "Vernon L. Smith", "ok": false, "ttft": null}
+{"id": "hotpotqa_75439ed8609c12817aaee0fa4f749aebb3e4a36dfa72390e", "task": "hotpotqa", "len": 13707, "pred": "Deftones", "ok": true, "ttft": null}
+{"id": "hotpotqa_8a5d7c131d291d2c7cf2c20ea36a629f969402e0c50a8a8a", "task": "hotpotqa", "len": 12830, "pred": "796", "ok": false, "ttft": null}
+{"id": "hotpotqa_cf16ba255ad4b7b0fdae56093ac7d5fb58487dc24f2659e2", "task": "hotpotqa", "len": 13552, "pred": "India", "ok": true, "ttft": null}
+{"id": "hotpotqa_9a19f9594aa73716dd38bcbd5ff1c04e57a6649800570f80", "task": "hotpotqa", "len": 17139, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "hotpotqa_0879d3f078165bdc1aabca26c8526e66d3959e8ab2c6d903", "task": "hotpotqa", "len": 14148, "pred": "1939", "ok": false, "ttft": null}
+{"id": "hotpotqa_98bf7e9946e86278d6d2b938d751861981c5fe14c356ea68", "task": "hotpotqa", "len": 15931, "pred": "Philip K. Dick", "ok": true, "ttft": null}
+{"id": "hotpotqa_6320310adc4a826b1bb240c63ac1735b7b29e93a59782364", "task": "hotpotqa", "len": 9137, "pred": "821", "ok": true, "ttft": null}
+{"id": "hotpotqa_11b4c60bf00735e20ae817b940d86aa8922e2fcdaa3a0b47", "task": "hotpotqa", "len": 12723, "pred": "Capital Cities", "ok": true, "ttft": null}
+{"id": "hotpotqa_c47c8d3b1917f017cafaecbb4cddd6b92171854247957c08", "task": "hotpotqa", "len": 12043, "pred": "Morgan Llywelyn", "ok": true, "ttft": null}
+{"id": "hotpotqa_f536646dd72a8a4f5ebddec61a67b8319dc9187d47bb7fc6", "task": "hotpotqa", "len": 6175, "pred": "12 points", "ok": false, "ttft": null}
+{"id": "hotpotqa_6e541b3b8fc7e59da0da6548a17932b403b2e865d4036982", "task": "hotpotqa", "len": 15491, "pred": "Big 12 Conference", "ok": true, "ttft": null}
+{"id": "hotpotqa_6eca7d7affce3375ec084f6356c6fc8ddf75eda0f6a4382f", "task": "hotpotqa", "len": 15971, "pred": "Brittany, Cornwall, Ireland, Isle of Man, Scotland, and Wales", "ok": true, "ttft": null}
+{"id": "hotpotqa_5e7675388334946fc508c4c8ac4ab0c491910fcc0e048bfd", "task": "hotpotqa", "len": 5499, "pred": "coaxial cable", "ok": true, "ttft": null}
+{"id": "hotpotqa_8bcda9c521bb7cb5dcd9a8d4987bd5bcf4ec455a84c62f81", "task": "hotpotqa", "len": 9169, "pred": "Wicked Twister", "ok": true, "ttft": null}
+{"id": "hotpotqa_1d81e1f410acc77f1d9a844f811045c2cecb0fdc9e717d41", "task": "hotpotqa", "len": 10130, "pred": "Lev Yilmaz", "ok": false, "ttft": null}
+{"id": "hotpotqa_77a3188a3b97619e1661cc289bb1a951308223219592696b", "task": "hotpotqa", "len": 16597, "pred": "Man Haron Monis", "ok": true, "ttft": null}
+{"id": "hotpotqa_a16ac581bde4459861c8681858b07f82363f66142beed4c2", "task": "hotpotqa", "len": 15000, "pred": "Hawaii", "ok": true, "ttft": null}
+{"id": "hotpotqa_81d43196cac0effe1645b207f826a30550efc3126c35371e", "task": "hotpotqa", "len": 9487, "pred": "100 metres", "ok": true, "ttft": null}
+{"id": "hotpotqa_3e4cce5082e968aec7f0c008b1acbd111f505d0579d1c9ee", "task": "hotpotqa", "len": 17587, "pred": "due to the onset and progression of Alzheimer's disease", "ok": true, "ttft": null}
+{"id": "hotpotqa_9dc6d234e2406aef691ea02ddc2064f343fc30cbc534c937", "task": "hotpotqa", "len": 5869, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "hotpotqa_7bb5645d62fc946b46910757e007f59e87f52bbf8535da58", "task": "hotpotqa", "len": 16333, "pred": "Leucippus and Democritus", "ok": true, "ttft": null}
+{"id": "hotpotqa_21849142d27a4c8410bf8e8042f016054a0a0493e0e8b6e6", "task": "hotpotqa", "len": 16798, "pred": "Hollywood", "ok": false, "ttft": null}
+{"id": "hotpotqa_73d978e7e37a9c7475daa9151f9ead2bd3042e72988cafdd", "task": "hotpotqa", "len": 16318, "pred": "office building", "ok": true, "ttft": null}
+{"id": "hotpotqa_f5ca9a0360773900f848072d3d7c63034922bdd0e6925e64", "task": "hotpotqa", "len": 10878, "pred": "1909", "ok": false, "ttft": null}
+{"id": "hotpotqa_e7875d33cdf7138818681e7bb2a13310bba28ea94550d64f", "task": "hotpotqa", "len": 12191, "pred": "Pac-12 Conference", "ok": true, "ttft": null}
+{"id": "hotpotqa_561c378ca284bab34f735f05e21dae8653ca251f6480d6e4", "task": "hotpotqa", "len": 16918, "pred": "7.00pm", "ok": false, "ttft": null}
+{"id": "hotpotqa_4aee23759e842807b156492356b920a11236c7ea3da20732", "task": "hotpotqa", "len": 16534, "pred": "No", "ok": true, "ttft": null}
+{"id": "hotpotqa_3df75e9b85781f83af8d3011cedb0c5fc6725f3489e48e54", "task": "hotpotqa", "len": 17135, "pred": "writer", "ok": false, "ttft": null}
+{"id": "hotpotqa_6d8f9be94b67277442c42aa9b437edaf901efec0d0959bda", "task": "hotpotqa", "len": 11686, "pred": "No", "ok": true, "ttft": null}
+{"id": "hotpotqa_b7af427ee230063a2aabb35691c7a81670c0b7e85ac3b7b2", "task": "hotpotqa", "len": 16916, "pred": "43,000", "ok": false, "ttft": null}
+{"id": "hotpotqa_666b2401378aceb59c9a4d6cc75b006f7c6af8a00c7d6f19", "task": "hotpotqa", "len": 17406, "pred": "Indianapolis, Indiana", "ok": true, "ttft": null}
+{"id": "hotpotqa_a2bb6c8de2a57c51b35e9d5c005cf46e1c0457f4086ef77d", "task": "hotpotqa", "len": 13371, "pred": "1891", "ok": false, "ttft": null}
+{"id": "hotpotqa_9fe92e20febe504670266d638939a94fc57c3cf8fe9cf948", "task": "hotpotqa", "len": 10223, "pred": "Bill McCutcheon", "ok": true, "ttft": null}
+{"id": "hotpotqa_203709148e7052e14bf493f95037458b606b42f2fff54c79", "task": "hotpotqa", "len": 16984, "pred": "Field Marshal John Standish Surtees Prendergast Vereker, 6th Viscount Gort", "ok": false, "ttft": null}
+{"id": "hotpotqa_2bfda75e23447ca7e3213d01331c31816f30190a2ff6df71", "task": "hotpotqa", "len": 16444, "pred": "Polk County", "ok": true, "ttft": null}
+{"id": "hotpotqa_f1ea70c4e2c13d2fda1feda75a72a345c0e91f083220e95a", "task": "hotpotqa", "len": 15248, "pred": "James II", "ok": false, "ttft": null}
+{"id": "hotpotqa_60ec93a22fbcb65eeadd9f1d2b3c8e4ed44d3a2c4285b168", "task": "hotpotqa", "len": 12444, "pred": "Pinball Wizard", "ok": false, "ttft": null}
+{"id": "hotpotqa_bcd98af30c2eb7ce1233459715d27f428b111d12fea529b4", "task": "hotpotqa", "len": 9421, "pred": "2006", "ok": true, "ttft": null}
+{"id": "hotpotqa_4636487a1855382398fe1e54284cb7dd3d7b8d178ac4a476", "task": "hotpotqa", "len": 16306, "pred": "Yoruba", "ok": false, "ttft": null}
+{"id": "hotpotqa_a93aa642fb8802a99b36cd62febe1c4e995096a9320b00c5", "task": "hotpotqa", "len": 15923, "pred": "American", "ok": true, "ttft": null}
+{"id": "hotpotqa_9336554e511e88766228ffa1acd1c6f82c9a41046514c253", "task": "hotpotqa", "len": 16830, "pred": "Michael Swango", "ok": true, "ttft": null}
+{"id": "hotpotqa_fbd2e6218ec7c8fc1a90b05bf6858a15d376704a278fa79f", "task": "hotpotqa", "len": 16528, "pred": "Juan Rulfo", "ok": true, "ttft": null}
+{"id": "hotpotqa_0aaabfd136117761896b5931d7b468ff8c61909e00140470", "task": "hotpotqa", "len": 17510, "pred": "Merck & Co.", "ok": false, "ttft": null}
+{"id": "hotpotqa_d18fde9d0b8da2a2febb67a679847ee4ee3259e85a9565f4", "task": "hotpotqa", "len": 12076, "pred": "1961", "ok": true, "ttft": null}
+{"id": "hotpotqa_5affd6b287c8ce97502760e33a71598e8eee24b78c3dd95c", "task": "hotpotqa", "len": 16805, "pred": "U.S. Secretary of the Interior", "ok": false, "ttft": null}
+{"id": "hotpotqa_56dbceaf2e826fbb177035f03d7a263d62365856f21f39da", "task": "hotpotqa", "len": 16826, "pred": "Alice's Adventures in Wonderland", "ok": true, "ttft": null}
+{"id": "hotpotqa_ee07a420f322205e992788e25c0b256cadcd99abd359ff0f", "task": "hotpotqa", "len": 16117, "pred": "Vienna", "ok": true, "ttft": null}
+{"id": "hotpotqa_795ed5382ff9378f90123aedc2b638c049411295c5678466", "task": "hotpotqa", "len": 14595, "pred": "Yes.", "ok": true, "ttft": null}
+{"id": "hotpotqa_4d6aafffd109cb61fd543f44bda770fda0cf1e1c3798548b", "task": "hotpotqa", "len": 4756, "pred": "Albert Park", "ok": true, "ttft": null}
+{"id": "hotpotqa_7528b0be35e8e6007f07c98b9f2d45ee1c854298134aba5c", "task": "hotpotqa", "len": 12318, "pred": "filmmaker", "ok": false, "ttft": null}
+{"id": "hotpotqa_38bd41e515abf2a44d29c593748db043ba2276d93938fdad", "task": "hotpotqa", "len": 14553, "pred": "Jeffersontown", "ok": false, "ttft": null}
+{"id": "hotpotqa_e54d1e07a1fc2ce2afdf7e75f79561d8fe0abd22f4d8bd53", "task": "hotpotqa", "len": 16688, "pred": "John Musker, Ron Clements, Dave Michener, and Burny Mattinson", "ok": false, "ttft": null}
+{"id": "hotpotqa_034b6ac41cd902b7fbde6b304eb2930d8eea616924ba461f", "task": "hotpotqa", "len": 12833, "pred": "WAMC", "ok": true, "ttft": null}
+{"id": "hotpotqa_b4dfcf1c4f152ba5684531d0eaa43f33ec5b185b92a36884", "task": "hotpotqa", "len": 17659, "pred": "Bassendean", "ok": true, "ttft": null}
+{"id": "hotpotqa_1fd7df3ba224e985f87e976c7a4a67ddc1012a249a542bea", "task": "hotpotqa", "len": 3627, "pred": "duck", "ok": true, "ttft": null}
+{"id": "hotpotqa_3faa54c1f192293c709684aa60c6e2e8cfe34ff55c8b6248", "task": "hotpotqa", "len": 7304, "pred": "Mimosa", "ok": true, "ttft": null}
+{"id": "hotpotqa_9303f959145f198df63d2d7ec604a9d6efcb3e8daca89e91", "task": "hotpotqa", "len": 14364, "pred": "Disappearances, paranormal phenomena, and sightings of unusual creatures.", "ok": false, "ttft": null}
+{"id": "hotpotqa_a18c0ece7c2ae88d2f9f3ffc5eaa13297a1b5d0125a172ad", "task": "hotpotqa", "len": 15494, "pred": "Coca-Cola FEMSA", "ok": false, "ttft": null}
+{"id": "hotpotqa_22a4122731366b93dd7495f9cb64b9312537fbe85797efbc", "task": "hotpotqa", "len": 15858, "pred": "Ellie Kemper", "ok": true, "ttft": null}
+{"id": "hotpotqa_c16a3dd0b5b97180359715cab5c41d528cf2a99e2744f037", "task": "hotpotqa", "len": 12224, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "hotpotqa_d7d92c85b8becc33e60fc03507933f8eaf53b5e1067286de", "task": "hotpotqa", "len": 5210, "pred": "Umina Beach", "ok": false, "ttft": null}
+{"id": "hotpotqa_480b33cc38878ea4fe81b796d09ba2d10cca554611e323ec", "task": "hotpotqa", "len": 8343, "pred": "Quezon City", "ok": false, "ttft": null}
+{"id": "hotpotqa_ad26b1fdaa97e8ef1c290a41a9151cc6b453756cb2715176", "task": "hotpotqa", "len": 16686, "pred": "NASA Astrobiology Institute", "ok": false, "ttft": null}
+{"id": "hotpotqa_78e73e15102e688a5b5f43155b11658907db8caa30fdb16e", "task": "hotpotqa", "len": 1917, "pred": "Suining", "ok": false, "ttft": null}
+{"id": "hotpotqa_e5e18488f0e900206332a857f70da66dc59829937c913ff0", "task": "hotpotqa", "len": 14150, "pred": "Lotion play is not associated with Activision based on the provided passages. The question seems to be based on a misunderstanding or incorrect premise as there is no direct", "ok": false, "ttft": null}
+{"id": "hotpotqa_887be3f3f2080532b3c0f1dc4d26be4f8a06030bf2e68a1a", "task": "hotpotqa", "len": 12210, "pred": "No", "ok": true, "ttft": null}
+{"id": "hotpotqa_2bf8384417cec2f1a2d43a2602326d90a97622d87898b1cc", "task": "hotpotqa", "len": 14222, "pred": "French mathematician and physicist", "ok": true, "ttft": null}
+{"id": "hotpotqa_826474c90684b1813df9324f779959a5e060d1cfc893a85f", "task": "hotpotqa", "len": 9215, "pred": "Elvis' Christmas Album", "ok": true, "ttft": null}
+{"id": "hotpotqa_54d1487358089d52613d8e6970c3efdd5c56d112159d2810", "task": "hotpotqa", "len": 16993, "pred": "Operation Iceberg", "ok": true, "ttft": null}
+{"id": "hotpotqa_5748ce1eca37fc55596e58fcff71e45363396002d28e0af9", "task": "hotpotqa", "len": 12434, "pred": "Puli Alam", "ok": true, "ttft": null}
+{"id": "hotpotqa_302ee593ca790dfb2dcbfd4341817fc64f8d106f65f61867", "task": "hotpotqa", "len": 6782, "pred": "BBC Formula One coverage", "ok": true, "ttft": null}
+{"id": "hotpotqa_efc793ac73a0341a7cc35ea6872a89be3d4fed5f64c1e043", "task": "hotpotqa", "len": 16706, "pred": "Plato", "ok": true, "ttft": null}
+{"id": "hotpotqa_b3647c02310a89ccb2822c163da3bead1ad3cd21948d4769", "task": "hotpotqa", "len": 16840, "pred": "United Kingdom", "ok": false, "ttft": null}
+{"id": "hotpotqa_dc14a859291c1d678432626f6f7974f8ecca536f4b7bdd6c", "task": "hotpotqa", "len": 17109, "pred": "Joe Gooch", "ok": true, "ttft": null}
+{"id": "hotpotqa_75d66ce7bb5fbcea2d942895c0b10144ba9a94282e2e9f15", "task": "hotpotqa", "len": 14521, "pred": "They both won the International Nazim Hikmet Poetry Award.", "ok": false, "ttft": null}
+{"id": "hotpotqa_ea58013717bdbe9f0bad1991ed03d1afe3208bf514d9a2cd", "task": "hotpotqa", "len": 16868, "pred": "O", "ok": true, "ttft": null}
+{"id": "hotpotqa_228572a285ddcbb4947f362c07531238d1eec58e0fe0cfc6", "task": "hotpotqa", "len": 17204, "pred": "West Lafayette, Indiana", "ok": true, "ttft": null}
+{"id": "hotpotqa_1650b91e6fb722111b6461fc9524295246c3bd3b1a342267", "task": "hotpotqa", "len": 15816, "pred": "John Locke", "ok": false, "ttft": null}
+{"id": "hotpotqa_e9b828ee7169d1978f3bcb6de5bbb0f54f9ee3bfc0ffdb8b", "task": "hotpotqa", "len": 16913, "pred": "35", "ok": false, "ttft": null}
+{"id": "hotpotqa_88b095fb93df1d962625daa1796a46ce4721c316b0ab819b", "task": "hotpotqa", "len": 16600, "pred": "Currer Bell", "ok": true, "ttft": null}
+{"id": "hotpotqa_690c31a6d6263dacd649fefc5b5cfa94210205fdcdb43905", "task": "hotpotqa", "len": 16148, "pred": "No", "ok": true, "ttft": null}
+{"id": "hotpotqa_e9348ea3d217789522ba17d5dd2c69c01bacc9d677c614a4", "task": "hotpotqa", "len": 13855, "pred": "2014", "ok": false, "ttft": null}
+{"id": "hotpotqa_781060824875cb0343a110f5e6f83d46e638cbb89e2ad7c6", "task": "hotpotqa", "len": 12022, "pred": "Veneto", "ok": false, "ttft": null}
+{"id": "hotpotqa_8e9e0bac1908657b2f48452fe70dd4f7ab765b9633b75627", "task": "hotpotqa", "len": 16902, "pred": "1904", "ok": false, "ttft": null}
+{"id": "hotpotqa_e8ba4badc3c5d30cc0942ede8df86a72257c492c07025dab", "task": "hotpotqa", "len": 15281, "pred": "French forces", "ok": true, "ttft": null}
+{"id": "hotpotqa_3f17f12cfde4c677f3af81362ce1df42f949bee1ceae40f4", "task": "hotpotqa", "len": 16874, "pred": "University of Vienna", "ok": true, "ttft": null}
+{"id": "hotpotqa_83df22880fee9f761464404ca2ff6ab21954e6b0827b4142", "task": "hotpotqa", "len": 17168, "pred": "Brian Stokes Mitchell", "ok": true, "ttft": null}
+{"id": "hotpotqa_3518c800877d0b8cc48ca575de745502b472a139564ffa46", "task": "hotpotqa", "len": 12731, "pred": "Hulu", "ok": false, "ttft": null}
+{"id": "hotpotqa_3acb0cc0a04a3f71078ee120e1b7ca4f089548b7cc8a8056", "task": "hotpotqa", "len": 6349, "pred": "No", "ok": false, "ttft": null}
+{"id": "hotpotqa_90caafc7fe51eee4143874971f67bb3e0107d26179c437f7", "task": "hotpotqa", "len": 6289, "pred": "Louisville, Kentucky", "ok": true, "ttft": null}
+{"id": "hotpotqa_8fddd32ef1d88a5f8fde49152fc015eb80b3d60d1108d073", "task": "hotpotqa", "len": 16525, "pred": "Sonic Mania", "ok": true, "ttft": null}
+{"id": "hotpotqa_bb5fb55b76b2e47a59f48907aca9db96fafabd5b874e83cf", "task": "hotpotqa", "len": 17244, "pred": "Mark Donohue", "ok": false, "ttft": null}
+{"id": "hotpotqa_e0a5da9581af9a4a573423cbdcf207c5436dc35ff8a9d380", "task": "hotpotqa", "len": 11452, "pred": "acting", "ok": false, "ttft": null}
+{"id": "hotpotqa_d136a5063f8e7f5594182b51b05d626ca0671aea2ba22226", "task": "hotpotqa", "len": 9270, "pred": "Veyil (2006)", "ok": false, "ttft": null}
+{"id": "hotpotqa_07f505d321fd7a7c04e158059cb69ac3ac7ecdebfb03037d", "task": "hotpotqa", "len": 11712, "pred": "Kentucky Derby", "ok": false, "ttft": null}
+{"id": "hotpotqa_019dbd177ddcff6752aaabc8c0e459f3ae4003f718bd672b", "task": "hotpotqa", "len": 11479, "pred": "Neighbours", "ok": true, "ttft": null}
+{"id": "hotpotqa_a1cce86489841f2514678029dbe95b7289b9d47f52f44939", "task": "hotpotqa", "len": 11576, "pred": "Bill Miner", "ok": true, "ttft": null}
+{"id": "hotpotqa_4b753aee2d76b79f12f1b8708dd61bde51405af6fe602520", "task": "hotpotqa", "len": 16910, "pred": "Chippewa County", "ok": true, "ttft": null}
+{"id": "hotpotqa_0118217cf85bd94f6a5f65952212eb05e7176fd3b18c694a", "task": "hotpotqa", "len": 16420, "pred": "4,000", "ok": false, "ttft": null}
+{"id": "hotpotqa_c9f8b2166f7c44bf2e0843b2c77fb9fa5738af275555ca73", "task": "hotpotqa", "len": 3564, "pred": "Atlantic Ocean", "ok": true, "ttft": null}
+{"id": "hotpotqa_a3859ad1c8ffbce9bb2952f83cb463cc7051072c38eb8d70", "task": "hotpotqa", "len": 16638, "pred": "filmmaker", "ok": false, "ttft": null}
+{"id": "hotpotqa_4567b6935bf5c64a1974b1089d67d176d9acac6b29836cb7", "task": "hotpotqa", "len": 4586, "pred": "Start", "ok": false, "ttft": null}
+{"id": "hotpotqa_f327fe18cfe320df9685d7195f33d41745a432e769476dd0", "task": "hotpotqa", "len": 17408, "pred": "green and yellow", "ok": true, "ttft": null}
+{"id": "hotpotqa_4cdf613f05eaa834f5867ee486ec94d47587f09b5a7bb6db", "task": "hotpotqa", "len": 15079, "pred": "Claire Fraser is a married former World War II nurse, later surgeon, who in 1946 finds herself transported back to the Scotland of 1", "ok": false, "ttft": null}
+{"id": "hotpotqa_1df269c3eca341348a837f39c628f59aa40d663c07875d24", "task": "hotpotqa", "len": 16044, "pred": "Islamic Republic of Iran Broadcasting (IRIB)", "ok": false, "ttft": null}
+{"id": "hotpotqa_d6fe5bc54941b566b3c88598bbc459ee4d7098d6c6f22c4d", "task": "hotpotqa", "len": 16675, "pred": "Baghdad, the City of Peace", "ok": true, "ttft": null}
+{"id": "hotpotqa_d3249d0550c7105bdd4ed60c9ca9d955db08d362574c2086", "task": "hotpotqa", "len": 14598, "pred": "Martin Scorsese", "ok": true, "ttft": null}
+{"id": "hotpotqa_7d3bc2e36b406094cb586b4eeb07f13a7f1ac9dfbdce7d1f", "task": "hotpotqa", "len": 16950, "pred": "Michael Tippett", "ok": false, "ttft": null}
+{"id": "hotpotqa_bf8ee342564ae21a17b169023f83a20220a63198827a0232", "task": "hotpotqa", "len": 14667, "pred": "Babylon", "ok": true, "ttft": null}
+{"id": "hotpotqa_c274ce731f680eb107c70386e2e341615378165ecc22799e", "task": "hotpotqa", "len": 6812, "pred": "Ten Walls", "ok": true, "ttft": null}
+{"id": "hotpotqa_861e7d3ba836f6a816d0265dc1c9f5566ef4d22b8de223ca", "task": "hotpotqa", "len": 16883, "pred": "John Paesano did not write a film for DreamWorks Dragons. He composed the music for the video game \"Dragons: Dawn of New Riders\" which", "ok": false, "ttft": null}
+{"id": "hotpotqa_6c64a81fa526cb96d0a191d9cbd85a7e917b5d4f03b316d7", "task": "hotpotqa", "len": 13811, "pred": "1978", "ok": true, "ttft": null}
+{"id": "hotpotqa_b84411acb9b2e39a68f92ed9e164eb053d3dd9ba4160f0af", "task": "hotpotqa", "len": 8145, "pred": "J\u0101nis Strazdi\u0146\u0161", "ok": true, "ttft": null}
+{"id": "hotpotqa_de202b6e76dc82831c7f14a6d4346d84b0c0e5e3783356cf", "task": "hotpotqa", "len": 16918, "pred": "writers", "ok": true, "ttft": null}
+{"id": "hotpotqa_e0873e8c51c3e473d614f6ff9705557ec2f37972ec4be718", "task": "hotpotqa", "len": 16511, "pred": "Qin dynasty", "ok": true, "ttft": null}
+{"id": "hotpotqa_c1cfe7334235bf4a9ef11293d8be2d4055a70ac89334be2c", "task": "hotpotqa", "len": 7357, "pred": "primus motor, violinist", "ok": false, "ttft": null}
+{"id": "hotpotqa_de89026c970fbb6dff04176107b9cf20407d155bc1ae2eec", "task": "hotpotqa", "len": 12520, "pred": "University of Mississippi", "ok": false, "ttft": null}
+{"id": "hotpotqa_c6c1401ec6e635eac28b985621cf59bde9e416cac2b30080", "task": "hotpotqa", "len": 12459, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "hotpotqa_3ece2c87c1ddea4a504fd1c67fe75d34ca8f818bd9ea15d0", "task": "hotpotqa", "len": 12760, "pred": "Switchfoot", "ok": true, "ttft": null}
+{"id": "hotpotqa_ce14f5dd15a5819d08a11f04e015e35a6f3640119973f806", "task": "hotpotqa", "len": 16436, "pred": "No", "ok": true, "ttft": null}
+{"id": "hotpotqa_d3b2acfdec13f925424cd7d96b689557edfd08e6dd6177b7", "task": "hotpotqa", "len": 15972, "pred": "Brothers Quay", "ok": true, "ttft": null}
+{"id": "hotpotqa_c5d6aa8cb0ad17a88eb66d578e86f783e3ac1f3684df9425", "task": "hotpotqa", "len": 8063, "pred": "72 feet (22 m)", "ok": false, "ttft": null}
+{"id": "hotpotqa_31386c51d334a83befff8c1264657e197fad8b2885906939", "task": "hotpotqa", "len": 9875, "pred": "Sawin Millett is not primarily discussed in the Bangor Daily News passage. He is mentioned in a separate passage as a Maine politician who served in various", "ok": false, "ttft": null}
+{"id": "hotpotqa_27190bb50ab7e97f74e2feec7dc3ef037f1a1c74d335ecb1", "task": "hotpotqa", "len": 15953, "pred": "Let's Dance for Comic Relief", "ok": false, "ttft": null}
+{"id": "hotpotqa_b524574cca42824f963480aae00867719108113389d087d3", "task": "hotpotqa", "len": 15266, "pred": "River Thames", "ok": true, "ttft": null}
+{"id": "hotpotqa_d3b197d5b4da1198fc9c232524faced0f528b89f919b8061", "task": "hotpotqa", "len": 5762, "pred": "Allure", "ok": true, "ttft": null}
+{"id": "hotpotqa_0d6a7aae6f7e00180107c47a73dedda18caf3949666c4d55", "task": "hotpotqa", "len": 11255, "pred": "Jaleel White", "ok": false, "ttft": null}
+{"id": "hotpotqa_c5f1f53de09eb82eae93ae68a9581141a8cc8f3df6851926", "task": "hotpotqa", "len": 7525, "pred": "Lake Wallace", "ok": true, "ttft": null}
+{"id": "hotpotqa_5fc84dadeb648a27c3aaa64698a5bec5d2ef23eb32e22e44", "task": "hotpotqa", "len": 17138, "pred": "over 100 million", "ok": false, "ttft": null}
+{"id": "hotpotqa_40b5d54934bcf22bb9267e605c49d46509f3bd41b1a34c31", "task": "hotpotqa", "len": 10881, "pred": "Two Episodes of Mash", "ok": false, "ttft": null}
+{"id": "hotpotqa_c9ee71b5dc7f5a4538d7727c95f80c174d3c9819dfbeac5a", "task": "hotpotqa", "len": 14797, "pred": "1998", "ok": true, "ttft": null}
+{"id": "hotpotqa_4670f2a542ac06d27e47a74a042cf57f743fba34722a7dc5", "task": "hotpotqa", "len": 4676, "pred": "William", "ok": true, "ttft": null}
+{"id": "hotpotqa_f2da37b927d3f8ce752b69d7149a6eb31aa738d123f8fdb6", "task": "hotpotqa", "len": 17040, "pred": "Jerry Bingham", "ok": false, "ttft": null}
+{"id": "hotpotqa_5da42038bb9d29bb30e4094504ad06dc2d43afa373568686", "task": "hotpotqa", "len": 6611, "pred": "No", "ok": true, "ttft": null}
+{"id": "2wikimqa_41ac2a4beb0af8f58d01863a62b90692f7c7d74b5e3a58d9", "task": "2wikimqa", "len": 7398, "pred": "Ozalj, present day Croatia", "ok": true, "ttft": null}
+{"id": "2wikimqa_3924e4ac5039ce3fadda49604bfcb0f5238af81774616e53", "task": "2wikimqa", "len": 7143, "pred": "St. Elizabeth", "ok": false, "ttft": null}
+{"id": "2wikimqa_2c952e3e1ca394df975103b3135b3c38e0ee16e25d860258", "task": "2wikimqa", "len": 6838, "pred": "Op\u00e9ra National de Lyon", "ok": false, "ttft": null}
+{"id": "2wikimqa_aec83da1f2faf6ec8badfd53d632f525c9ef2090d99d1c6c", "task": "2wikimqa", "len": 11628, "pred": "No", "ok": true, "ttft": null}
+{"id": "2wikimqa_4b28d517ce1c1e3cfec9282ca7b212c1cb87c254781d7c86", "task": "2wikimqa", "len": 7775, "pred": "c. 1500", "ok": false, "ttft": null}
+{"id": "2wikimqa_81cd47ec621f2228d8bb4ec351ffd6b23d23107e5b287ffb", "task": "2wikimqa", "len": 7867, "pred": "Edward Watson, 2nd Baron Rockingham", "ok": true, "ttft": null}
+{"id": "2wikimqa_048e82b64b5651b74d452db7151c2110a718128dfd12a774", "task": "2wikimqa", "len": 7782, "pred": "16 September 1360", "ok": true, "ttft": null}
+{"id": "2wikimqa_c8fd8db4d295aef41a9434299a8eeffb9af5e2bbcde4f13a", "task": "2wikimqa", "len": 11338, "pred": "Alboin", "ok": false, "ttft": null}
+{"id": "2wikimqa_4db5bcd1d49fce674507d9128850eb71b808b7dc4246e882", "task": "2wikimqa", "len": 6204, "pred": "St Patrick's College, Dublin", "ok": true, "ttft": null}
+{"id": "2wikimqa_be97290f663a83ba27007dd262ca2a6072c9156f775a24ad", "task": "2wikimqa", "len": 7904, "pred": "Bob Jones University", "ok": true, "ttft": null}
+{"id": "2wikimqa_538d0eac8ec082e93d6f273237fafd1f23fb405e35bad84e", "task": "2wikimqa", "len": 15611, "pred": "The Secret Invasion", "ok": false, "ttft": null}
+{"id": "2wikimqa_37022dee1597491021c2aa7522276a600eb0dd316f12cbb6", "task": "2wikimqa", "len": 5759, "pred": "Adelaide of Burgundy", "ok": false, "ttft": null}
+{"id": "2wikimqa_90f7f51f0c27f041e730cf8893f79f3f40fcb0aab1820a4d", "task": "2wikimqa", "len": 2437, "pred": "Nocher II, Count of Soissons", "ok": false, "ttft": null}
+{"id": "2wikimqa_ee29eb2556135405fa19a48b0abdff0aceddef7594169c33", "task": "2wikimqa", "len": 5500, "pred": "1837", "ok": false, "ttft": null}
+{"id": "2wikimqa_2a398d925d3607c94ffb2d0cf9fe2fe6da6e9970ce95578a", "task": "2wikimqa", "len": 6945, "pred": "Australia", "ok": false, "ttft": null}
+{"id": "2wikimqa_8d3cf7916a2f8a2762de13a9520b6350e46464fbf7f63dd5", "task": "2wikimqa", "len": 15223, "pred": "Dr. Helen Hunt", "ok": false, "ttft": null}
+{"id": "2wikimqa_5844352bd3fe5898756970abec3099ec694be6ad15c498db", "task": "2wikimqa", "len": 2649, "pred": "The Death Of Black King", "ok": true, "ttft": null}
+{"id": "2wikimqa_4413705182b57f12dc553e0919b50fd3c3b111cb4d82d12f", "task": "2wikimqa", "len": 8625, "pred": "No", "ok": true, "ttft": null}
+{"id": "2wikimqa_cc32d31bbeb3e0d8787e963cf0843ae6b22f33817eb5a587", "task": "2wikimqa", "len": 1211, "pred": "No", "ok": true, "ttft": null}
+{"id": "2wikimqa_b3845fcad97309850a76e3720cd829a45d2bb12ee29a9cfb", "task": "2wikimqa", "len": 5648, "pred": "Mysore", "ok": true, "ttft": null}
+{"id": "2wikimqa_236eb4a8c2ba63d96ed3b6aec9ff7b00fa5e4df1173dd01c", "task": "2wikimqa", "len": 4213, "pred": "Hamar", "ok": false, "ttft": null}
+{"id": "2wikimqa_e026b7c57d2d759c12652fae6421931fe4f8cf8745ff9bdb", "task": "2wikimqa", "len": 11129, "pred": "Lee Strasberg Theatre and Film Institute", "ok": true, "ttft": null}
+{"id": "2wikimqa_8dedfb4f00b873379cb4457d81113516b8db6c4017a1c912", "task": "2wikimqa", "len": 13137, "pred": "Hell Up In Harlem", "ok": true, "ttft": null}
+{"id": "2wikimqa_7c0b13a81d9d58791b71c2d8e46d2d063de3b9e89c75335f", "task": "2wikimqa", "len": 9066, "pred": "Cipriano Castro", "ok": true, "ttft": null}
+{"id": "2wikimqa_655c0c4e465b47d7fd829d3a487705991f4c059cee3c9aed", "task": "2wikimqa", "len": 9652, "pred": "Monster On The Campus", "ok": true, "ttft": null}
+{"id": "2wikimqa_8720ebfc91b6860392a2b7b0ba954b0cd16ffd8c360a1f2b", "task": "2wikimqa", "len": 1759, "pred": "Altu\u011f \u00c7elikbilek", "ok": true, "ttft": null}
+{"id": "2wikimqa_919cc6b1e482c475dc93740aae3549bc6012d644fb29562c", "task": "2wikimqa", "len": 4833, "pred": "Jugband Blues", "ok": true, "ttft": null}
+{"id": "2wikimqa_0d02726cbaab0fbd2e84b7537550154e8aa96f81abb2864b", "task": "2wikimqa", "len": 6170, "pred": "No", "ok": false, "ttft": null}
+{"id": "2wikimqa_33e3bc2dc011e79c047553153b1ab176c6a08f923af245ec", "task": "2wikimqa", "len": 7065, "pred": "Rathold R\u00e1t\u00f3t", "ok": false, "ttft": null}
+{"id": "2wikimqa_6275ba9fee197d2fab82671a4497b4764a461c2c7c33ac0b", "task": "2wikimqa", "len": 7597, "pred": "Kathmandu Valley", "ok": false, "ttft": null}
+{"id": "2wikimqa_40de6f6c353c080845a8ea644039e9ba83cd481d3745395b", "task": "2wikimqa", "len": 7471, "pred": "Archibald Acheson, 3rd Earl of Gosford", "ok": false, "ttft": null}
+{"id": "2wikimqa_35ffcf04ff64965decfcd3d34ff37b35da2a92f0b64346cd", "task": "2wikimqa", "len": 8769, "pred": "John Paul Getty Jr.", "ok": false, "ttft": null}
+{"id": "2wikimqa_47ed89f40cae521df8767b1b7077fe9c547c10fd8bf1c6b2", "task": "2wikimqa", "len": 17069, "pred": "Goring-on-Thames", "ok": false, "ttft": null}
+{"id": "2wikimqa_ead67129fee9b0024c9c3f53041469d74cf8a0281e39febb", "task": "2wikimqa", "len": 5070, "pred": "No", "ok": false, "ttft": null}
+{"id": "2wikimqa_0ef1c3ac6b07212a6d5a91bfab2c12f2823412f10f667616", "task": "2wikimqa", "len": 6533, "pred": "Wooden Crosses", "ok": true, "ttft": null}
+{"id": "2wikimqa_8daefc2a4f66b3614a6934857c8c8f9cfdeb3ca23d16e172", "task": "2wikimqa", "len": 4699, "pred": "Above Rubies", "ok": true, "ttft": null}
+{"id": "2wikimqa_bc40752faddd32264f8402321411881736ab5a4733eee758", "task": "2wikimqa", "len": 7171, "pred": "Blue Blood and Red", "ok": true, "ttft": null}
+{"id": "2wikimqa_6e7d2d0700c8ec6fc15dc188c42d8104b89935219254fdaf", "task": "2wikimqa", "len": 4683, "pred": "Perth, Western Australia", "ok": false, "ttft": null}
+{"id": "2wikimqa_9a0ab728b48d43221f196b43d2816a4dff4142fd0054a4eb", "task": "2wikimqa", "len": 10019, "pred": "Lyudmyla Olyanovska", "ok": true, "ttft": null}
+{"id": "2wikimqa_6e7c0185fda0b6211274db748205994ee1468cfb30e2023d", "task": "2wikimqa", "len": 7252, "pred": "Y\u0131ld\u0131z Palace", "ok": false, "ttft": null}
+{"id": "2wikimqa_55acb15a501d22031778ff4ccb655e787668b617d911daa9", "task": "2wikimqa", "len": 7308, "pred": "Aachen", "ok": false, "ttft": null}
+{"id": "2wikimqa_57543e0892f90733bf97dc270cdb36eb9bf8e2230940bcb9", "task": "2wikimqa", "len": 4049, "pred": "Henry Goes Arizona", "ok": true, "ttft": null}
+{"id": "2wikimqa_2d1951b62f317038d28f6ac6a2b21e9d2e7f921ea528948b", "task": "2wikimqa", "len": 12373, "pred": "Wales", "ok": false, "ttft": null}
+{"id": "2wikimqa_b126cad8f81aed3c5cc29c20c25b1adc7d1f33e1c4e264c3", "task": "2wikimqa", "len": 8540, "pred": "All-American Co-Ed", "ok": true, "ttft": null}
+{"id": "2wikimqa_188123e1b35a7de33fc44a40b55ab9ff0b59d29dc30f9148", "task": "2wikimqa", "len": 6364, "pred": "Buenos Aires", "ok": true, "ttft": null}
+{"id": "2wikimqa_5ff6349ea0b2ecb882f535ff3cec2f9c012d3468fb7b912e", "task": "2wikimqa", "len": 10111, "pred": "Magdalena Sibylla of Holstein-Gottorp", "ok": false, "ttft": null}
+{"id": "2wikimqa_314e76591d11d30d2bd59b2f12b671e873b786656f19956d", "task": "2wikimqa", "len": 6479, "pred": "Heidelberg", "ok": false, "ttft": null}
+{"id": "2wikimqa_7140432f1c424674d04ea819fa63f85aa4f154d72ab66285", "task": "2wikimqa", "len": 5809, "pred": "Faustina the Elder", "ok": false, "ttft": null}
+{"id": "2wikimqa_3292d2bcbbf8fc4816d168bcb7f81c13341198da1e88b903", "task": "2wikimqa", "len": 1861, "pred": "Bajo Otro Sol", "ok": true, "ttft": null}
+{"id": "2wikimqa_5421c1e591296d64636a7e99fbfe98dddfed0f83d2053380", "task": "2wikimqa", "len": 4954, "pred": "Marie Lafor\u00eat", "ok": true, "ttft": null}
+{"id": "2wikimqa_f67db35cb225c73bb753006bd14fab03942bbe0157a74979", "task": "2wikimqa", "len": 15214, "pred": "Sandra Nelson", "ok": true, "ttft": null}
+{"id": "2wikimqa_96500ef697df70106798988a9065594622cdeff67156cd20", "task": "2wikimqa", "len": 8039, "pred": "May 19, 1669", "ok": true, "ttft": null}
+{"id": "2wikimqa_5a867841d94c9f88f3bc0c333e93484486b09341db474bd6", "task": "2wikimqa", "len": 5718, "pred": "Palencia", "ok": true, "ttft": null}
+{"id": "2wikimqa_059802de84ebd63ee99284c9cb2b7db2d45ca66c55e68ee1", "task": "2wikimqa", "len": 5670, "pred": "Miley Naa Miley Hum", "ok": true, "ttft": null}
+{"id": "2wikimqa_fcc4a49fbe72f1b8ffef144e2e9d85bfc8897ba2864fd521", "task": "2wikimqa", "len": 6167, "pred": "Tom Mix In Arabia", "ok": true, "ttft": null}
+{"id": "2wikimqa_633204c891118a6f3d1ae62d7b444c2ee02ad0cbae4876cc", "task": "2wikimqa", "len": 4415, "pred": "Seven in the Sun", "ok": true, "ttft": null}
+{"id": "2wikimqa_977f59ef09f7cc4ad6c71fc18d8b60e818e07a43cd7bee92", "task": "2wikimqa", "len": 6277, "pred": "Dr. Socrates", "ok": true, "ttft": null}
+{"id": "2wikimqa_5c3829f10f9daf565e9b5b52ca19f5c044550e916479da74", "task": "2wikimqa", "len": 10543, "pred": "Changeland", "ok": true, "ttft": null}
+{"id": "2wikimqa_0a64d8873482d91efc595a508218c6ce881c13c95028039e", "task": "2wikimqa", "len": 3556, "pred": "Ruel Redinger", "ok": true, "ttft": null}
+{"id": "2wikimqa_44b7f326c7b3c430968c237ee4017425d03eef586d5d6cb7", "task": "2wikimqa", "len": 4588, "pred": "Vasily Karatygin", "ok": false, "ttft": null}
+{"id": "2wikimqa_85d2e8c38cc3b6f464eae6d84ef2df5f41807c9f8bf3aac8", "task": "2wikimqa", "len": 11421, "pred": "Jessi Colter", "ok": true, "ttft": null}
+{"id": "2wikimqa_1038dcf795ffefdb5d947e54a7e2d3b04d73895e482fd324", "task": "2wikimqa", "len": 3769, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "2wikimqa_62616c28af945825f87a95c47c1783dc284b06ec2d447402", "task": "2wikimqa", "len": 3405, "pred": "William Pooley", "ok": true, "ttft": null}
+{"id": "2wikimqa_a3c88e70534d79b432d32c0b53d0d181c957b353f658dc95", "task": "2wikimqa", "len": 7986, "pred": "Swedish", "ok": false, "ttft": null}
+{"id": "2wikimqa_63df7238a0005c6bffc122ca97570a95eb1d3711abaee205", "task": "2wikimqa", "len": 2406, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "2wikimqa_c94e0220a7c5dadee3094df576df766b6d1a15b6c6e21011", "task": "2wikimqa", "len": 8070, "pred": "Melody of the World", "ok": true, "ttft": null}
+{"id": "2wikimqa_cab5465c3f7663e5d72c15a32bc04c8a917dac3c03828814", "task": "2wikimqa", "len": 4914, "pred": "Madrid", "ok": true, "ttft": null}
+{"id": "2wikimqa_be0651d84c04af5de43e28cf89e78d7e87490e637167632e", "task": "2wikimqa", "len": 4939, "pred": "Gisela Elsner", "ok": true, "ttft": null}
+{"id": "2wikimqa_ef73e58876b94a997d928ee13b7ac7cdb8b8aa0bac856a92", "task": "2wikimqa", "len": 6143, "pred": "The Great Man's Lady", "ok": false, "ttft": null}
+{"id": "2wikimqa_7940c60a5ff2d81b62d118253577d1d891057ca45695e91a", "task": "2wikimqa", "len": 5169, "pred": "Oklahoma City, Oklahoma", "ok": true, "ttft": null}
+{"id": "2wikimqa_a88430cef36a0222c3c30780328ff266b16325a7ec723a97", "task": "2wikimqa", "len": 6508, "pred": "Dubai, United Arab Emirates", "ok": true, "ttft": null}
+{"id": "2wikimqa_0bcff697444354703dd1e8987a709b8ed2f44bf9d6b2d320", "task": "2wikimqa", "len": 7992, "pred": "La Trinit\u00e9, a commune within the Nice metropolitan area", "ok": true, "ttft": null}
+{"id": "2wikimqa_24e27e943be014d4549674d581cdc20fdae92fa3d9cd256c", "task": "2wikimqa", "len": 7044, "pred": "Paul Frederick, Grand Duke of Mecklenburg", "ok": false, "ttft": null}
+{"id": "2wikimqa_0c43156b7d6bc17425a89dc6c6d48fc8c2c72ac9eba55a87", "task": "2wikimqa", "len": 1037, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "2wikimqa_64d6357ab735a8542112f87893a6e7c89b1b307bdb0e24c7", "task": "2wikimqa", "len": 5779, "pred": "Pembroke Castle", "ok": false, "ttft": null}
+{"id": "2wikimqa_9ef1c9e836fb3844fe16369a346088af89b8da29e24aab1f", "task": "2wikimqa", "len": 4812, "pred": "Sir Paul Gore, 1st Baronet", "ok": true, "ttft": null}
+{"id": "2wikimqa_f11ac580e22d7d0e3da7cf1c725c8def8aef4aa891baa07a", "task": "2wikimqa", "len": 12661, "pred": "Egypt", "ok": false, "ttft": null}
+{"id": "2wikimqa_884614fa7d0fe723587d2f2677d3f2143cd13ab74391bea6", "task": "2wikimqa", "len": 6033, "pred": "Dayton, Ohio", "ok": true, "ttft": null}
+{"id": "2wikimqa_ec4ba162decfc8dd03ccbca7832f3cecf985a5542e70dec1", "task": "2wikimqa", "len": 16368, "pred": "Ona Munson", "ok": true, "ttft": null}
+{"id": "2wikimqa_9c5350cca5afdd1a7254dbc26b3642401551473f4b071ce6", "task": "2wikimqa", "len": 5559, "pred": "The Drover's Sweetheart", "ok": true, "ttft": null}
+{"id": "2wikimqa_9ce10c5072e04cbd0d81d7e721fba8cf8062cc665fd32314", "task": "2wikimqa", "len": 5912, "pred": "Baraguru", "ok": false, "ttft": null}
+{"id": "2wikimqa_58301315eaee3256c8f5ddefb03de59d55a75d3a37aab88a", "task": "2wikimqa", "len": 6780, "pred": "Det Sande Ansigt", "ok": true, "ttft": null}
+{"id": "2wikimqa_62453a76a4867b6d09ac435581e1a327ec5b55cf231c79f9", "task": "2wikimqa", "len": 7028, "pred": "Il Gaucho", "ok": false, "ttft": null}
+{"id": "2wikimqa_e5eb5e5215ff4d3f7a036fa1a20699d85cdfb68a7908f086", "task": "2wikimqa", "len": 8468, "pred": "The passages do not provide information about the place of death of Maria's husband, Boris I of Bulgaria.", "ok": false, "ttft": null}
+{"id": "2wikimqa_1d38c4b905f131417ce218eb86f68305a10160f9757cbeca", "task": "2wikimqa", "len": 5193, "pred": "Revolt Of The Praetorians", "ok": true, "ttft": null}
+{"id": "2wikimqa_c1b46a5458b15fdbfcd264b7e26e42d2cbaafb0e6dc5f48d", "task": "2wikimqa", "len": 15455, "pred": "No", "ok": false, "ttft": null}
+{"id": "2wikimqa_98ead8987446388d37301c03d7d9f24e2f511a9e0c10bcdf", "task": "2wikimqa", "len": 8710, "pred": "Eric XIV of Sweden was most likely murdered, with an examination of his remains in 1958 confirming that he probably died of arsenic poisoning.", "ok": true, "ttft": null}
+{"id": "2wikimqa_d267c5682ee42c1a570524a4b129fa908997a0ecfe07f8f6", "task": "2wikimqa", "len": 8737, "pred": "American", "ok": true, "ttft": null}
+{"id": "2wikimqa_fac1e789f954097c329b2709c591f0b35841438b14d08784", "task": "2wikimqa", "len": 13559, "pred": "Hawai\u02bbi", "ok": false, "ttft": null}
+{"id": "2wikimqa_c9e8d02824dfbdf95fe9f90c45dc13bc12f45b6969b1467b", "task": "2wikimqa", "len": 3926, "pred": "X-Paroni", "ok": true, "ttft": null}
+{"id": "2wikimqa_f77d9c5f3892f245b951dfd32e935473f63a4c6b565e31a9", "task": "2wikimqa", "len": 8671, "pred": "Vasantha Raagam", "ok": true, "ttft": null}
+{"id": "2wikimqa_eb1478ef3d4926564e153e99fd139c87e59cfaee49caac88", "task": "2wikimqa", "len": 9520, "pred": "Lee Kun-hee", "ok": false, "ttft": null}
+{"id": "2wikimqa_259e029da053a54f862f2455f3b92fb5f1b810647f1c1825", "task": "2wikimqa", "len": 7318, "pred": "Charles I, Duke of Bourbon", "ok": false, "ttft": null}
+{"id": "2wikimqa_70923ff731dcad518ecdcdc8b53e165e8515a96ecf8f23c7", "task": "2wikimqa", "len": 15978, "pred": "27 June 1839", "ok": true, "ttft": null}
+{"id": "2wikimqa_a14e739445167b1be10d3a125f958a244c4b378261598a57", "task": "2wikimqa", "len": 6250, "pred": "Marshall, Indiana", "ok": false, "ttft": null}
+{"id": "2wikimqa_32092cc7b80094b9c8914c1f70000295aefc4a985747b0ed", "task": "2wikimqa", "len": 8193, "pred": "Fran\u00e7oise Hardy", "ok": true, "ttft": null}
+{"id": "2wikimqa_0c4dd15b43d1061d372c11946aa71630926e2570f333f538", "task": "2wikimqa", "len": 12281, "pred": "Charles Wheatstone", "ok": true, "ttft": null}
+{"id": "2wikimqa_ececb22cb4bba60194702771c0d4de89658a4798d7efa1a1", "task": "2wikimqa", "len": 3123, "pred": "Washington, D.C.", "ok": true, "ttft": null}
+{"id": "2wikimqa_da746ca10a31021be62e267f4e1407178b3f4a2d340672d3", "task": "2wikimqa", "len": 15006, "pred": "London Melody", "ok": true, "ttft": null}
+{"id": "2wikimqa_b8ffb375e75ee2976b8825d05d48c34638c7ffeb6d67baff", "task": "2wikimqa", "len": 5189, "pred": "Fernando Fla\u00ednez", "ok": false, "ttft": null}
+{"id": "2wikimqa_259c17d6e4a5e4c74669836fec3c6de0730bf65e67e6d988", "task": "2wikimqa", "len": 6659, "pred": "Amanda Sorvino", "ok": false, "ttft": null}
+{"id": "2wikimqa_8af3f07b73fabc0cc4ef4e6928818d1ff08ead9f41a5085a", "task": "2wikimqa", "len": 3203, "pred": "No", "ok": false, "ttft": null}
+{"id": "2wikimqa_3816f7d8e90a5497a1c0e415bf25218037c690e8e4d0d016", "task": "2wikimqa", "len": 6254, "pred": "Denmark", "ok": false, "ttft": null}
+{"id": "2wikimqa_025911ff0afd34976b0a800c198c4117f95edfcd7b64bb24", "task": "2wikimqa", "len": 6957, "pred": "natural causes", "ok": false, "ttft": null}
+{"id": "2wikimqa_cdf0b77af7d55cc9a3424613604e8dbabe7a01e4869ad502", "task": "2wikimqa", "len": 14744, "pred": "Amesbury Priory", "ok": false, "ttft": null}
+{"id": "2wikimqa_1ff4dc6c1f7c02445945ced1b35a08544d7ba76089675883", "task": "2wikimqa", "len": 5444, "pred": "Hong Kong Film Award for Best Director for his work on Beast Stalker.", "ok": true, "ttft": null}
+{"id": "2wikimqa_c7347f362602f3a0be4b051c0b68219e0648afa64772bd30", "task": "2wikimqa", "len": 2802, "pred": "3 September 1992", "ok": true, "ttft": null}
+{"id": "2wikimqa_0cf27c68148c99571860af561ce5f64c4524fde278defc63", "task": "2wikimqa", "len": 4947, "pred": "Nathaniel McLenaghan", "ok": true, "ttft": null}
+{"id": "2wikimqa_93ff7c9369b6ff2f37896b54f6e4d8ff91c125f78ae8bf9a", "task": "2wikimqa", "len": 5834, "pred": "Tisch School of the Arts", "ok": true, "ttft": null}
+{"id": "2wikimqa_550f734c7ef908fcfe6b1b7e761826340f00abaa5eb305a0", "task": "2wikimqa", "len": 4207, "pred": "Cuchillos De Fuego", "ok": true, "ttft": null}
+{"id": "2wikimqa_860a0ad0039969cc7f01d512df2b0ea283d8f7d0c08886e5", "task": "2wikimqa", "len": 6550, "pred": "Moment Of Danger", "ok": true, "ttft": null}
+{"id": "2wikimqa_3723ec96e3b1af88c73edaa0a5e87f20194d9d212a67b615", "task": "2wikimqa", "len": 3879, "pred": "De AS", "ok": true, "ttft": null}
+{"id": "2wikimqa_60735709da9cbdd65bab0a11d1a0991ec842fe74d1ab583b", "task": "2wikimqa", "len": 6393, "pred": "The Piper's Price", "ok": true, "ttft": null}
+{"id": "2wikimqa_76a7a3db55c966560ad3e8d34037602d4d12714980898b78", "task": "2wikimqa", "len": 9740, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "2wikimqa_efea9c05de081efb7ef76741d3f24da2e993d54d99677b72", "task": "2wikimqa", "len": 7055, "pred": "13 March 1753", "ok": true, "ttft": null}
+{"id": "2wikimqa_435fae9b23d8b22e85a57cfd8ceb8541dea5b0c551acc3a9", "task": "2wikimqa", "len": 11001, "pred": "No Trees In The Street", "ok": true, "ttft": null}
+{"id": "2wikimqa_3ee59c959e64a29c8a30263816ad47b76ffab36e5b8859ee", "task": "2wikimqa", "len": 5109, "pred": "Methala, near Perumbavoor in Kerala", "ok": true, "ttft": null}
+{"id": "2wikimqa_43cf26663f3b4cec7a8ea68d56909201a2d1b1ad82512190", "task": "2wikimqa", "len": 7883, "pred": "Alkohol", "ok": true, "ttft": null}
+{"id": "2wikimqa_77a79ad1902a4732e8030d79380395b7e614d65de3cdd038", "task": "2wikimqa", "len": 2181, "pred": "Many Tanks Mr. Atkins", "ok": false, "ttft": null}
+{"id": "2wikimqa_f0523a41000b43996413780968b611c3f4d28b87f4acc859", "task": "2wikimqa", "len": 1867, "pred": "No", "ok": true, "ttft": null}
+{"id": "2wikimqa_6a60fa19187345478a447b63d8f52a1cb5341e964cda29db", "task": "2wikimqa", "len": 4341, "pred": "New York City", "ok": true, "ttft": null}
+{"id": "2wikimqa_78227cb74e7b2401070e50abff8069510f5e5ccec0a2479f", "task": "2wikimqa", "len": 5968, "pred": "Contragolpe", "ok": true, "ttft": null}
+{"id": "2wikimqa_f7abcc33c22de53769935182a278a199e9f263a12e56673e", "task": "2wikimqa", "len": 4933, "pred": "Not specified", "ok": false, "ttft": null}
+{"id": "2wikimqa_24a43c1b071d8bb99f51fec368dbc438cf7aea1f549ea195", "task": "2wikimqa", "len": 6847, "pred": "The Comedians of Comedy", "ok": true, "ttft": null}
+{"id": "2wikimqa_89530e21fb2f36eb499cea025efa9c80b10049f72945bfb6", "task": "2wikimqa", "len": 8298, "pred": "Tombstone Rashomon", "ok": true, "ttft": null}
+{"id": "2wikimqa_e8c2e5c8d393b186e21c75788f7e93efeaef12a9c44880d9", "task": "2wikimqa", "len": 7910, "pred": "Dhuen Ki Lakeer", "ok": true, "ttft": null}
+{"id": "2wikimqa_d7f6203bfe33e28a517ed4214f515fb80671c48edd4720a6", "task": "2wikimqa", "len": 14977, "pred": "Perd\u00f3n, Viejita", "ok": true, "ttft": null}
+{"id": "2wikimqa_517da14d56782303ccf8ec057b86bf43169b6f2edcd6d0f1", "task": "2wikimqa", "len": 4313, "pred": "University of Wisconsin-Madison", "ok": true, "ttft": null}
+{"id": "2wikimqa_300ccba91f776e583d418d6d9ecc5e1bdca7bd80580cd36e", "task": "2wikimqa", "len": 7011, "pred": "Dudley Russell", "ok": true, "ttft": null}
+{"id": "2wikimqa_81c8cd41355e5f0489dad4010b5fd414b817f7a9134affc2", "task": "2wikimqa", "len": 5836, "pred": "Vytautas Strai\u017eys", "ok": false, "ttft": null}
+{"id": "2wikimqa_0c8d9e57340d06b13e75f1dd42ddb5f08c1203fb62632353", "task": "2wikimqa", "len": 14694, "pred": "England", "ok": false, "ttft": null}
+{"id": "2wikimqa_544828db02efd1313bfc0a1bdeb8c3df5985c299254b0222", "task": "2wikimqa", "len": 5623, "pred": "Eindhoven", "ok": true, "ttft": null}
+{"id": "2wikimqa_f5cf6d94b9e4e7adfc30d262396bc29e201d9e07ead1d088", "task": "2wikimqa", "len": 5590, "pred": "Women's Suffrage Journal", "ok": true, "ttft": null}
+{"id": "2wikimqa_018c9c2d781ea2c9d57a31bd2e0ff30b55e77017a319484a", "task": "2wikimqa", "len": 4920, "pred": "Fairmont, West Virginia", "ok": true, "ttft": null}
+{"id": "2wikimqa_93ef40c0bfa088c2a2dd3302976a950cba3e8d97767f65ce", "task": "2wikimqa", "len": 3778, "pred": "Mayor Muthanna", "ok": false, "ttft": null}
+{"id": "2wikimqa_e15605da0c5b6f02c85aff9f1f683d3f85d211c083792ecb", "task": "2wikimqa", "len": 6822, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "2wikimqa_bf2899717e8d7d3d83d865ca5ff59e26d7f647e6025e2d52", "task": "2wikimqa", "len": 7299, "pred": "Unknown", "ok": false, "ttft": null}
+{"id": "2wikimqa_57db7adad0b62b8a396fd45937030d876ecd02153b8a931e", "task": "2wikimqa", "len": 12997, "pred": "Ur", "ok": false, "ttft": null}
+{"id": "2wikimqa_ce6a3aae400b3f5f028504fec37d7be8b447bd0cb1a0cff5", "task": "2wikimqa", "len": 6835, "pred": "Tarzan The Magnificent", "ok": true, "ttft": null}
+{"id": "2wikimqa_c997d53083dff6918a3f066cc76c824e43eb4ea21de33c51", "task": "2wikimqa", "len": 5580, "pred": "Wolf Warrior", "ok": true, "ttft": null}
+{"id": "2wikimqa_184929a3ff00c41a966da9d53444da794af70ce90d624205", "task": "2wikimqa", "len": 6381, "pred": "Tr\u1ecbnh C\u01b0\u01a1ng", "ok": false, "ttft": null}
+{"id": "2wikimqa_56db201f810a3d01b7d14e8e9e6dd94820ecaf2f4a86b2b9", "task": "2wikimqa", "len": 7533, "pred": "Austro-Hungarian Empire", "ok": false, "ttft": null}
+{"id": "2wikimqa_fefa6cc344f63fdceda9662af921fdcdf645abb8fe87ea73", "task": "2wikimqa", "len": 11553, "pred": "South Central Los Angeles", "ok": false, "ttft": null}
+{"id": "2wikimqa_9b0dc01a1388db020e5c5c428a002d099f8a35544e9b6261", "task": "2wikimqa", "len": 4791, "pred": "Winter Sleepers", "ok": true, "ttft": null}
+{"id": "2wikimqa_34896de8d6a2c70e09b6dc3d113475a58899961d2aa356b3", "task": "2wikimqa", "len": 7257, "pred": "Adolf III of Berg", "ok": false, "ttft": null}
+{"id": "2wikimqa_0f629fbc7a6c3689ee9771af3aa81400674e673f11d47f2d", "task": "2wikimqa", "len": 9772, "pred": "No", "ok": true, "ttft": null}
+{"id": "2wikimqa_13dde588b81d1de4a9984418bf3d6791de7d1b1edf21d61b", "task": "2wikimqa", "len": 5393, "pred": "M\u00fclheim an der Ruhr", "ok": true, "ttft": null}
+{"id": "2wikimqa_cf56ec8180c3c7622a439e68704fc1ff73770f2e8ee2926e", "task": "2wikimqa", "len": 4234, "pred": "Una Prostituta Al Servizio Del Pubblico E In Regola Con Le Leggi Dello Stato", "ok": true, "ttft": null}
+{"id": "2wikimqa_78d3bf98f7b05622b428940d273b8c493f24a4468d1998dd", "task": "2wikimqa", "len": 16462, "pred": "No", "ok": false, "ttft": null}
+{"id": "2wikimqa_9b0b29e391c61c570b20fae813486bc757c1fb7d25d83049", "task": "2wikimqa", "len": 6796, "pred": "Bhanurangsi Savangwongse", "ok": false, "ttft": null}
+{"id": "2wikimqa_bdb42f1c30e16bbcdf6f0ab7c1f76765ddaa5817ee5e674b", "task": "2wikimqa", "len": 5414, "pred": "Frances Manners", "ok": false, "ttft": null}
+{"id": "2wikimqa_a7b5c5d84d974a849b0d042c435bbb3fe90ff50fd5d73f79", "task": "2wikimqa", "len": 13805, "pred": "Cin\u00e9math\u00e8que Fran\u00e7aise", "ok": false, "ttft": null}
+{"id": "2wikimqa_d0b11838d26195f89d1568431f88a02b4f4d8c9cdf99e04a", "task": "2wikimqa", "len": 6691, "pred": "Newport, Monmouthshire, Wales", "ok": false, "ttft": null}
+{"id": "2wikimqa_ca72ce55dc8f774617c794681dd7062eadfd14e679418cfa", "task": "2wikimqa", "len": 13574, "pred": "Gordonsville, Orange County, Virginia", "ok": false, "ttft": null}
+{"id": "2wikimqa_10dc2bd4f7fb1b834c7f563ae3d7af5d269d84b3dfc0b056", "task": "2wikimqa", "len": 12558, "pred": "Mangalia", "ok": true, "ttft": null}
+{"id": "2wikimqa_bbaa4eb6b32bad24fc2b8639d03be8c16d1140ec8454b16a", "task": "2wikimqa", "len": 7666, "pred": "F\u00e9lix Leclerc", "ok": true, "ttft": null}
+{"id": "2wikimqa_bc596d2ebcd25e79ca9cd689e50746e42e9a6fc579afc683", "task": "2wikimqa", "len": 8325, "pred": "Henri de Savoie, 4th Duc de Nemours", "ok": false, "ttft": null}
+{"id": "2wikimqa_f73db1873c311b2a38f27a52c5e05b021da0c2fe9590dac3", "task": "2wikimqa", "len": 17045, "pred": "G\u00e9za", "ok": true, "ttft": null}
+{"id": "2wikimqa_53f6acc70a61443a93c25c91ca7dc7f8780046d02e28c94a", "task": "2wikimqa", "len": 6006, "pred": "Queen Yi Jiang", "ok": true, "ttft": null}
+{"id": "2wikimqa_88e4806d6c6553000e3c1ff8be5c90f5309342954ce4acae", "task": "2wikimqa", "len": 10012, "pred": "3 November 1867", "ok": false, "ttft": null}
+{"id": "2wikimqa_25b5c6893c13f6e52ddd541c03f5bd6bb7b17cfeb15d9f16", "task": "2wikimqa", "len": 14987, "pred": "Ivy Duke and Dorothy Batley", "ok": true, "ttft": null}
+{"id": "2wikimqa_3cff7074281c58717aa65021d875cc1e6a6321f71cd77742", "task": "2wikimqa", "len": 4735, "pred": "1813", "ok": false, "ttft": null}
+{"id": "2wikimqa_13c4f5388b670f6c20b168e782f7478616fa3ba2edca3081", "task": "2wikimqa", "len": 10287, "pred": "The Yellow Teddy Bears", "ok": false, "ttft": null}
+{"id": "2wikimqa_0c35123885c26fc474a7cd8e7c03fe75bfff4fc15845d3b9", "task": "2wikimqa", "len": 6716, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "2wikimqa_2a0554b724822b6c611539e39b44381f752acdecce4868ad", "task": "2wikimqa", "len": 4841, "pred": "Antoine Casavant", "ok": true, "ttft": null}
+{"id": "2wikimqa_acb93469117282f2d0131e19f6210e007d681bc7a78e7b64", "task": "2wikimqa", "len": 6482, "pred": "Allahabad University", "ok": false, "ttft": null}
+{"id": "2wikimqa_a7d0cfa55dce1e96490d1e6c0188398864724e96a44e4b79", "task": "2wikimqa", "len": 5022, "pred": "Sir Hew Dalrymple, 3rd Baronet", "ok": false, "ttft": null}
+{"id": "2wikimqa_7a35ba110f4c26f7eb9d4dcc2e8c1baac383c777f0904976", "task": "2wikimqa", "len": 4675, "pred": "Murderer In The Fog", "ok": true, "ttft": null}
+{"id": "2wikimqa_b9a9b860c0f0430853d1db2756095da274d522beed2acbeb", "task": "2wikimqa", "len": 10841, "pred": "Milla Jovovich", "ok": true, "ttft": null}
+{"id": "2wikimqa_a49e29926d7019e6cbaf6b0610453eda22fa1ce9043f5829", "task": "2wikimqa", "len": 5725, "pred": "N/A", "ok": false, "ttft": null}
+{"id": "2wikimqa_29ec971fbdf0df2d0c41c497de945024db6159c0c30be307", "task": "2wikimqa", "len": 5547, "pred": "Prometheus Award", "ok": true, "ttft": null}
+{"id": "2wikimqa_de14d0bf7b2c73f7a21875677eed84a1ef270d2f29dc5b99", "task": "2wikimqa", "len": 8109, "pred": "German", "ok": false, "ttft": null}
+{"id": "2wikimqa_49035ecce6e78a355307dd6a1ddb11a87cab76090d655d2f", "task": "2wikimqa", "len": 14978, "pred": "Station For Two", "ok": true, "ttft": null}
+{"id": "2wikimqa_d04cc75917c9ef6b7a78b82491229023013ef3cea72bfba4", "task": "2wikimqa", "len": 6454, "pred": "Kronstadt", "ok": false, "ttft": null}
+{"id": "2wikimqa_8848d4bd1425f8bef31b6c279ec378bcbca14f10b702c4ea", "task": "2wikimqa", "len": 13161, "pred": "1234", "ok": true, "ttft": null}
+{"id": "2wikimqa_72132e87102859b583fb69a8a2a6a8b026be4fec5a1437e0", "task": "2wikimqa", "len": 9870, "pred": "1666", "ok": false, "ttft": null}
+{"id": "2wikimqa_0c15fb826ac59bbde9df698db9c277def2bc72fa5b7b497d", "task": "2wikimqa", "len": 13368, "pred": "Special Delivery (1927 Film)", "ok": false, "ttft": null}
+{"id": "2wikimqa_cf5321576ab8cc1b8453991abac66aa5d46155d8ffa7ee17", "task": "2wikimqa", "len": 11455, "pred": "Whale died by suicide by drowning himself in his Pacific Palisades swimming pool on 29 May 1957 at the age of 6", "ok": true, "ttft": null}
+{"id": "2wikimqa_6110cb2d4156df8d180fdd01e5f340c4731f7d1f4583fc5a", "task": "2wikimqa", "len": 6226, "pred": "Abu Dhabi", "ok": true, "ttft": null}
+{"id": "2wikimqa_b1034d8bbeeba5f9001f48311c182d2a20782462f0c2ed65", "task": "2wikimqa", "len": 5672, "pred": "Prenzlau", "ok": true, "ttft": null}
+{"id": "2wikimqa_7218faa7d718853f8df4329a7242806cf70e63ece56f8cdb", "task": "2wikimqa", "len": 6275, "pred": "Pozna\u0144", "ok": true, "ttft": null}
+{"id": "2wikimqa_78436f55ae9c254da5a54558ddd196c94850ba7a2b6fa637", "task": "2wikimqa", "len": 7676, "pred": "Forl\u00ec", "ok": false, "ttft": null}
+{"id": "2wikimqa_ddd046530f4979511397f82fe5391d0a646c0aa18225a98e", "task": "2wikimqa", "len": 5096, "pred": "Canada", "ok": false, "ttft": null}
+{"id": "2wikimqa_2ce836524b90befee94e944e77ce3420878e75b5a1e14c26", "task": "2wikimqa", "len": 6315, "pred": "The Third Kiss", "ok": false, "ttft": null}
+{"id": "2wikimqa_bcd3d700ef14d9a1f6b766c5d185b43ac8f3b7feffd4732f", "task": "2wikimqa", "len": 8308, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "2wikimqa_24591a37ff748fb849a62e6a4f4095f7089d7ced43595d01", "task": "2wikimqa", "len": 5384, "pred": "Robert Wulnikowski", "ok": false, "ttft": null}
+{"id": "2wikimqa_2e86241a9d27925aa52e039067fa83e27e305301188daef7", "task": "2wikimqa", "len": 3240, "pred": "Folgore Division", "ok": false, "ttft": null}
+{"id": "2wikimqa_c1d354f1d1855b21eb3c3cd204d5030080ef9e3c7e4b0195", "task": "2wikimqa", "len": 6328, "pred": "From Corleone To Brooklyn", "ok": true, "ttft": null}
+{"id": "2wikimqa_2c605656720054b6c9e6e0f15f99c1b4675db67e6e098cee", "task": "2wikimqa", "len": 1490, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "2wikimqa_1edc61803f35344a5a4b6d273e6eb0f643fefcec0fa0a22a", "task": "2wikimqa", "len": 16728, "pred": "Vienna", "ok": true, "ttft": null}
+{"id": "2wikimqa_d65eba4a41497416d108c17f366636efb4cbda4c215c8818", "task": "2wikimqa", "len": 9736, "pred": "Johnny Ekstr\u00f6m", "ok": true, "ttft": null}
+{"id": "2wikimqa_2df722c08f52cbf987c84019f7f2e5455cd29992738441cc", "task": "2wikimqa", "len": 1292, "pred": "No", "ok": false, "ttft": null}
+{"id": "2wikimqa_814dddaa4a997380fc80cc1c72d48cb20545411924a0603f", "task": "2wikimqa", "len": 17003, "pred": "English", "ok": false, "ttft": null}
+{"id": "2wikimqa_1d554e7ae21ed7b5d142b57bcdab110cf6cea6f5256a58ee", "task": "2wikimqa", "len": 6803, "pred": "Parkinson's disease", "ok": true, "ttft": null}
+{"id": "2wikimqa_d0ebddd00bfc9c5747021ae27c0ea5cdf21355bc86b83753", "task": "2wikimqa", "len": 6700, "pred": "Roger Mortimer, 1st Earl of March", "ok": true, "ttft": null}
+{"id": "2wikimqa_8f6c8de1c1518b5bdcbc4ff1cdfe035b9207971a6362574f", "task": "2wikimqa", "len": 6946, "pred": "Ali Dinar", "ok": false, "ttft": null}
+{"id": "2wikimqa_59e42b2cab6da2436fae05e25c49f6f4b4893b07bb48e3c1", "task": "2wikimqa", "len": 13209, "pred": "Francis II, Holy Roman Emperor and Emperor of Austria", "ok": false, "ttft": null}
+{"id": "2wikimqa_35cbcb102aa5b4f9188011190e0f30456df5673fcddacf49", "task": "2wikimqa", "len": 5366, "pred": "Prince Of Arcadia", "ok": true, "ttft": null}
+{"id": "2wikimqa_44864cf7bbca78294d1b24c5acfa035f30849d802356aad4", "task": "2wikimqa", "len": 5204, "pred": "Milan", "ok": true, "ttft": null}
+{"id": "2wikimqa_67705e148a6e0540819f466bb4fdc73ed2e5cbcd64d80930", "task": "2wikimqa", "len": 6015, "pred": "K\u00f6ln", "ok": true, "ttft": null}

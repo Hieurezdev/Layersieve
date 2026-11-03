@@ -1,0 +1,21 @@
+{"id": "vt_8000_1", "task": "vt", "len": 7624, "pred": "12", "ok": false, "ttft": 1.3346343040466309, "kept_frac": 0.27229800629590767, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_8000_2", "task": "vt", "len": 7610, "pred": "1", "ok": false, "ttft": 1.0014054775238037, "kept_frac": 0.2716162943495401, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_8000_11", "task": "vt", "len": 7626, "pred": "12", "ok": false, "ttft": 1.0781970024108887, "kept_frac": 0.27222659323367426, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_8000_18", "task": "vt", "len": 7629, "pred": "1", "ok": false, "ttft": 1.20206618309021, "kept_frac": 0.27225062262419714, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_8000_20", "task": "vt", "len": 7621, "pred": "0", "ok": false, "ttft": 1.3891990184783936, "kept_frac": 0.2725364125442855, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_8000_21", "task": "vt", "len": 7626, "pred": "0", "ok": false, "ttft": 1.4874844551086426, "kept_frac": 0.27248885392079725, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_8000_23", "task": "vt", "len": 7626, "pred": "12", "ok": false, "ttft": 1.5362534523010254, "kept_frac": 0.27209546289011277, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_8000_30", "task": "vt", "len": 7607, "pred": "0", "ok": false, "ttft": 1.494140386581421, "kept_frac": 0.2726436177205206, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_16000_8", "task": "vt", "len": 15303, "pred": "12", "ok": false, "ttft": 2.7182140350341797, "kept_frac": 0.25857674965693, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_16000_12", "task": "vt", "len": 15282, "pred": "1", "ok": false, "ttft": 2.761209011077881, "kept_frac": 0.25873576756968986, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_16000_13", "task": "vt", "len": 15309, "pred": "1", "ok": false, "ttft": 2.8515849113464355, "kept_frac": 0.25873669083545625, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_16000_14", "task": "vt", "len": 15309, "pred": "0", "ok": false, "ttft": 2.7798171043395996, "kept_frac": 0.25873669083545625, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_16000_16", "task": "vt", "len": 15288, "pred": "63585", "ok": false, "ttft": 2.8208606243133545, "kept_frac": 0.2586342229199372, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_16000_19", "task": "vt", "len": 15306, "pred": "0", "ok": false, "ttft": 2.705781936645508, "kept_frac": 0.2587874036325624, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_16000_23", "task": "vt", "len": 15308, "pred": "1", "ok": false, "ttft": 2.8878817558288574, "kept_frac": 0.2587535928926052, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_28000_1", "task": "vt", "len": 26827, "pred": "12", "ok": false, "ttft": 5.493510484695435, "kept_frac": 0.2528050098781079, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_28000_6", "task": "vt", "len": 26830, "pred": "10", "ok": false, "ttft": 4.930052042007446, "kept_frac": 0.2528885575847931, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_28000_9", "task": "vt", "len": 26831, "pred": "12", "ok": false, "ttft": 5.4326982498168945, "kept_frac": 0.25287913234691217, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_28000_19", "task": "vt", "len": 26825, "pred": "The numerical value of VAR MPHZC is 12345.", "ok": false, "ttft": 5.435313701629639, "kept_frac": 0.2527865796831314, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_28000_21", "task": "vt", "len": 26830, "pred": "1", "ok": false, "ttft": 5.448671102523804, "kept_frac": 0.25277674245247855, "ev_kept": [false, false, false, false, true]}
+{"id": "vt_28000_35", "task": "vt", "len": 26827, "pred": "12", "ok": false, "ttft": 5.526366710662842, "kept_frac": 0.25276773399932906, "ev_kept": [false, false, false, false, true]}

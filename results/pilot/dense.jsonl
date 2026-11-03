@@ -1,0 +1,144 @@
+{"id": "kv_32000_0", "task": "kv", "len": 28954, "pred": "The value associated with the specified key \"3d7439ee-6514-1471-ea95-1570399bcb79\" is \"5e47c2a0-eef6-7139-1ccd-d34080e97f74\".", "ok": false, "sec": 5.902}
+{"id": "kv_32000_1", "task": "kv", "len": 28833, "pred": "The value associated with the specified key \"9be57401-7b33-241e-fa22-25d77c6d8ae1\" is \"e5540022-4502-d7f8-54a1-396ce9abfb0d\".", "ok": true, "sec": 4.987}
+{"id": "kv_32000_2", "task": "kv", "len": 28964, "pred": "The value associated with the specified key \"195f908d-bd96-95c9-4a08-2de74f6d4f01\" is \"db9098ea-116c-d881-00c0-8143c5a428c6\".", "ok": true, "sec": 4.569}
+{"id": "kv_32000_3", "task": "kv", "len": 28877, "pred": "The value associated with the specified key \"20b293a9-b83d-667c-7e57-bf3c0461d287\" is \"35ca4006-0856-98d7-a91b-2a6f1f4db3e6\".", "ok": true, "sec": 4.766}
+{"id": "kv_32000_4", "task": "kv", "len": 28775, "pred": "The value associated with the key \"12180934-6156-20f3-0fa7-a4386f3f49f4\" is \"350a6087-cfbe-c2e6-d4e7-147e76b4ecc7\".", "ok": true, "sec": 4.779}
+{"id": "kv_32000_5", "task": "kv", "len": 29004, "pred": "The value associated with the specified key \"845dda87-512a-a9b7-914c-aa43b6b09b75\" is \"25117440-e5db-5572-4aeb-6ac6d5637e42\".", "ok": true, "sec": 4.936}
+{"id": "kv_32000_6", "task": "kv", "len": 28892, "pred": "The value associated with the specified key \"b0fcf3a0-2a14-3784-694f-ca099080a505\" is \"3a30868e-46a1-b09b-1047-bcba678cc0c3\".", "ok": true, "sec": 5.207}
+{"id": "kv_32000_7", "task": "kv", "len": 28995, "pred": "The value associated with the key \"2344a2e7-8d2a-a77e-4c41-1ccbd7e5486c\" is \"14111a0c-f4d1-8235-fd64-9af6d693e133\".", "ok": true, "sec": 4.291}
+{"id": "kv_32000_8", "task": "kv", "len": 28964, "pred": "The value associated with the specified key \"73d15439-2dc3-6d21-6ca6-da5468dbb95a\" is \"ac8822f8-2831-4bdf-f3b7-c415367a413f\".", "ok": true, "sec": 4.221}
+{"id": "kv_32000_9", "task": "kv", "len": 28814, "pred": "The value associated with the specified key \"3a2c12f7-ac93-c4d9-e464-427047bceec1\" is \"121d17a1-197f-da95-d2d4-cbf09752bae7\".", "ok": true, "sec": 4.345}
+{"id": "kv_32000_10", "task": "kv", "len": 28887, "pred": "The value associated with the key \"372475d3-303c-428d-0b77-1dc300f276c9\" is \"44721157-1a0c-d7f0-fe96-ff2ef6148102\".", "ok": true, "sec": 4.468}
+{"id": "kv_32000_11", "task": "kv", "len": 28892, "pred": "The value associated with the key \"a4eb4c75-0e22-32e0-29b9-c369f96de1b8\" is \"b3a52fef-8abb-ebc1-f229-7a80c685f2e2\".", "ok": true, "sec": 4.264}
+{"id": "vt_32000_0", "task": "vt", "len": 30673, "pred": "56178", "ok": false, "sec": 2.994}
+{"id": "vt_32000_1", "task": "vt", "len": 30640, "pred": "34718", "ok": true, "sec": 3.083}
+{"id": "vt_32000_2", "task": "vt", "len": 30669, "pred": "64270", "ok": false, "sec": 3.126}
+{"id": "vt_32000_3", "task": "vt", "len": 30671, "pred": "16019", "ok": false, "sec": 3.396}
+{"id": "vt_32000_4", "task": "vt", "len": 30668, "pred": "62188", "ok": true, "sec": 3.228}
+{"id": "vt_32000_5", "task": "vt", "len": 30668, "pred": "16021", "ok": false, "sec": 2.75}
+{"id": "vt_32000_6", "task": "vt", "len": 30643, "pred": "18699", "ok": false, "sec": 2.788}
+{"id": "vt_32000_7", "task": "vt", "len": 30667, "pred": "65192", "ok": false, "sec": 2.799}
+{"id": "vt_32000_8", "task": "vt", "len": 30665, "pred": "76382", "ok": false, "sec": 2.846}
+{"id": "vt_32000_9", "task": "vt", "len": 30665, "pred": "59227", "ok": false, "sec": 3.009}
+{"id": "vt_32000_10", "task": "vt", "len": 30664, "pred": "63020", "ok": true, "sec": 3.109}
+{"id": "vt_32000_11", "task": "vt", "len": 30672, "pred": "15410", "ok": false, "sec": 3.239}
+{"id": "vt_32000_12", "task": "vt", "len": 30659, "pred": "42806", "ok": false, "sec": 3.334}
+{"id": "vt_32000_13", "task": "vt", "len": 30669, "pred": "24354", "ok": false, "sec": 3.711}
+{"id": "vt_32000_14", "task": "vt", "len": 30637, "pred": "10365", "ok": false, "sec": 4.403}
+{"id": "vt_32000_15", "task": "vt", "len": 30670, "pred": "63184", "ok": false, "sec": 3.443}
+{"id": "vt_32000_16", "task": "vt", "len": 30651, "pred": "85151", "ok": false, "sec": 3.556}
+{"id": "vt_32000_17", "task": "vt", "len": 30656, "pred": "49966", "ok": false, "sec": 3.683}
+{"id": "vt_32000_18", "task": "vt", "len": 30661, "pred": "31236", "ok": false, "sec": 3.861}
+{"id": "vt_32000_19", "task": "vt", "len": 30664, "pred": "60754", "ok": false, "sec": 4.006}
+{"id": "vt_32000_20", "task": "vt", "len": 30664, "pred": "25853", "ok": false, "sec": 4.175}
+{"id": "vt_32000_21", "task": "vt", "len": 30667, "pred": "98770", "ok": false, "sec": 3.569}
+{"id": "vt_32000_22", "task": "vt", "len": 30670, "pred": "75528", "ok": false, "sec": 3.066}
+{"id": "vt_32000_23", "task": "vt", "len": 30668, "pred": "40254", "ok": false, "sec": 2.821}
+{"id": "vt_32000_24", "task": "vt", "len": 30661, "pred": "75387", "ok": true, "sec": 2.934}
+{"id": "vt_32000_25", "task": "vt", "len": 30661, "pred": "25621", "ok": true, "sec": 2.989}
+{"id": "vt_32000_26", "task": "vt", "len": 30640, "pred": "85574", "ok": true, "sec": 3.114}
+{"id": "vt_32000_27", "task": "vt", "len": 30665, "pred": "67345", "ok": false, "sec": 3.211}
+{"id": "vt_32000_28", "task": "vt", "len": 30664, "pred": "72405", "ok": false, "sec": 3.37}
+{"id": "vt_32000_29", "task": "vt", "len": 30668, "pred": "81479", "ok": false, "sec": 3.457}
+{"id": "vt_32000_30", "task": "vt", "len": 30670, "pred": "52799", "ok": true, "sec": 3.685}
+{"id": "vt_32000_31", "task": "vt", "len": 30646, "pred": "14905", "ok": false, "sec": 2.949}
+{"id": "vt_32000_32", "task": "vt", "len": 30666, "pred": "78685", "ok": false, "sec": 2.849}
+{"id": "vt_32000_33", "task": "vt", "len": 30662, "pred": "83205", "ok": true, "sec": 2.924}
+{"id": "vt_32000_34", "task": "vt", "len": 30671, "pred": "72798", "ok": false, "sec": 3.047}
+{"id": "vt_32000_35", "task": "vt", "len": 30665, "pred": "28948", "ok": true, "sec": 3.138}
+{"id": "mk_32000_0", "task": "mk", "len": 27431, "pred": "The special magic number for searching-version mentioned in the provided text is **9325206**.", "ok": true, "sec": 3.214}
+{"id": "mk_32000_1", "task": "mk", "len": 27436, "pred": "The special magic number for clothing-rejection is **9533585**.", "ok": true, "sec": 3.556}
+{"id": "mk_32000_2", "task": "mk", "len": 27505, "pred": "The special magic number for communist-bipartisan mentioned in the provided text is **5839828**.", "ok": true, "sec": 3.559}
+{"id": "mk_32000_3", "task": "mk", "len": 27466, "pred": "The special magic number for **dramatic-owing** mentioned in the provided text is **1945912**.", "ok": true, "sec": 3.055}
+{"id": "mk_32000_4", "task": "mk", "len": 27408, "pred": "The special magic number for acres-assistive mentioned in the provided text is **7505095**.", "ok": true, "sec": 2.168}
+{"id": "mk_32000_5", "task": "mk", "len": 27442, "pred": "The special magic number for reflecting-winners mentioned in the provided text is **7827578**.", "ok": true, "sec": 2.055}
+{"id": "mk_32000_6", "task": "mk", "len": 27458, "pred": "The special magic number for **tailoring-billing** mentioned in the provided text is: **8195659**.", "ok": true, "sec": 2.163}
+{"id": "mk_32000_7", "task": "mk", "len": 27438, "pred": "The special magic number for safety-surface mentioned in the provided text is **6578396**.", "ok": true, "sec": 2.2}
+{"id": "mk_32000_8", "task": "mk", "len": 27474, "pred": "The special magic number for passport-remained mentioned in the provided text is **6054483**.", "ok": true, "sec": 2.253}
+{"id": "mk_32000_9", "task": "mk", "len": 27437, "pred": "The special magic number for consultant-enormous is **2861109**.", "ok": true, "sec": 2.277}
+{"id": "mk_32000_10", "task": "mk", "len": 27467, "pred": "The special magic number for obligated-recession is **3690672**.", "ok": true, "sec": 2.34}
+{"id": "mk_32000_11", "task": "mk", "len": 27422, "pred": "The special magic number for **historic-prosecute** mentioned in the provided text is **7664796**.", "ok": true, "sec": 2.598}
+{"id": "qa2_32000_0", "task": "qa2", "len": 30907, "pred": "Kadohe", "ok": true, "sec": 2.732}
+{"id": "qa2_32000_1", "task": "qa2", "len": 30886, "pred": "Furifa", "ok": true, "sec": 3.14}
+{"id": "qa2_32000_2", "task": "qa2", "len": 30850, "pred": "Province of Fogove", "ok": false, "sec": 3.543}
+{"id": "qa2_32000_3", "task": "qa2", "len": 30930, "pred": "Nebaca", "ok": true, "sec": 3.836}
+{"id": "qa2_32000_4", "task": "qa2", "len": 30882, "pred": "The province of Hezeki.", "ok": true, "sec": 4.57}
+{"id": "qa2_32000_5", "task": "qa2", "len": 30832, "pred": "Deluhe", "ok": true, "sec": 4.277}
+{"id": "qa2_32000_6", "task": "qa2", "len": 31108, "pred": "Cazupu", "ok": true, "sec": 4.005}
+{"id": "qa2_32000_7", "task": "qa2", "len": 30897, "pred": "Kabofe", "ok": true, "sec": 3.435}
+{"id": "qa2_32000_8", "task": "qa2", "len": 30817, "pred": "Rekigu", "ok": true, "sec": 3.518}
+{"id": "qa2_32000_9", "task": "qa2", "len": 30897, "pred": "Soriro", "ok": true, "sec": 3.147}
+{"id": "qa2_32000_10", "task": "qa2", "len": 31048, "pred": "Pogupo", "ok": true, "sec": 3.074}
+{"id": "qa2_32000_11", "task": "qa2", "len": 30953, "pred": "Kehedu", "ok": true, "sec": 3.143}
+{"id": "kv_64000_0", "task": "kv", "len": 57877, "pred": "The value associated with the specified key \"86e2e612-bbf2-685f-b427-14619468165b\" is \"c121259e-0090-a8df-e3c4-f60afb96058e\".", "ok": true, "sec": 10.538}
+{"id": "kv_64000_1", "task": "kv", "len": 57823, "pred": "The value associated with the specified key \"119cee17-2319-8730-f05a-04721532304b\" is \"1c55d5d4-e473-c1c4-cac4-91e1ec427720\".", "ok": true, "sec": 8.912}
+{"id": "kv_64000_2", "task": "kv", "len": 57845, "pred": "The value associated with the specified key \"2f786bf4-04f3-cc35-a7ad-c0874cbb297f\" is \"de6916d1-45ea-fa72-4d8d-3ea70f43d510\".", "ok": true, "sec": 9.853}
+{"id": "kv_64000_3", "task": "kv", "len": 57780, "pred": "The value associated with the specified key \"283bdd87-bac4-8f11-40d2-6e8fd3051f42\" is \"b7fdc248-329f-6f17-fb9c-4970366d9638\".", "ok": true, "sec": 11.767}
+{"id": "kv_64000_4", "task": "kv", "len": 57767, "pred": "The value associated with the specified key \"90c9c297-afb0-95e8-83fb-4990cf1fe4fa\" is \"05be0d3d-a4c1-aa80-724c-a7b32f4ca7ac\".", "ok": true, "sec": 10.13}
+{"id": "kv_64000_5", "task": "kv", "len": 57799, "pred": "The value associated with the specified key \"6a25564b-dbbb-91cc-6af8-66a816c4349f\" is \"959746b9-b76c-0aaf-d5d1-e47d903dbea1\".", "ok": true, "sec": 9.093}
+{"id": "kv_64000_6", "task": "kv", "len": 57827, "pred": "The value associated with the specified key \"17202686-1e5a-cdde-b2d4-7d64321e283b\" is \"450cb70a-ff25-b161-6a64-a7913e8a1182\".", "ok": true, "sec": 7.868}
+{"id": "kv_64000_7", "task": "kv", "len": 57841, "pred": "The value associated with the specified key \"b28ce4e6-d5ec-93e7-fd7f-2a570d3eab20\" is \"aefa5ea4-725a-dba5-2cd3-4ed6c6ec816d\".", "ok": true, "sec": 8.004}
+{"id": "kv_64000_8", "task": "kv", "len": 57706, "pred": "The value associated with the specified key \"c4b308b1-343e-72a0-7d70-01008f3b52b2\" is \"2b3893cd-5edf-7562-fef0-841104620cd6\".", "ok": true, "sec": 8.34}
+{"id": "kv_64000_9", "task": "kv", "len": 57843, "pred": "The value associated with the specified key \"f097f887-8f52-23c1-45e4-a41a8d324534\" is \"c32b8bf6-5b5a-d912-6307-8ef53a968cd8\".", "ok": true, "sec": 8.367}
+{"id": "kv_64000_10", "task": "kv", "len": 57807, "pred": "The value associated with the specified key \"e668d23f-0b13-2591-8ded-31ecd3219be0\" is \"103d8a4d-590f-f6b4-43a5-5fdf416ae1ce\".", "ok": true, "sec": 8.095}
+{"id": "kv_64000_11", "task": "kv", "len": 57945, "pred": "The value associated with the specified key \"915d7d3d-356f-01e0-a1ba-94867b8d73e5\" is \"066dc575-d4c8-9c7a-2e37-650127d925f9\".", "ok": true, "sec": 7.003}
+{"id": "vt_64000_0", "task": "vt", "len": 61378, "pred": "35279", "ok": false, "sec": 7.562}
+{"id": "vt_64000_1", "task": "vt", "len": 61387, "pred": "17253", "ok": true, "sec": 8.271}
+{"id": "vt_64000_2", "task": "vt", "len": 61381, "pred": "54376", "ok": false, "sec": 9.339}
+{"id": "vt_64000_3", "task": "vt", "len": 61380, "pred": "26496", "ok": true, "sec": 8.039}
+{"id": "vt_64000_4", "task": "vt", "len": 61389, "pred": "86158", "ok": false, "sec": 7.706}
+{"id": "vt_64000_5", "task": "vt", "len": 61376, "pred": "95834", "ok": false, "sec": 7.412}
+{"id": "vt_64000_6", "task": "vt", "len": 61391, "pred": "98178", "ok": false, "sec": 7.399}
+{"id": "vt_64000_7", "task": "vt", "len": 61361, "pred": "47727", "ok": true, "sec": 8.531}
+{"id": "vt_64000_8", "task": "vt", "len": 61370, "pred": "25509", "ok": true, "sec": 9.399}
+{"id": "vt_64000_9", "task": "vt", "len": 61362, "pred": "43577", "ok": false, "sec": 9.331}
+{"id": "vt_64000_10", "task": "vt", "len": 61360, "pred": "76277", "ok": false, "sec": 7.59}
+{"id": "vt_64000_11", "task": "vt", "len": 61389, "pred": "88116", "ok": false, "sec": 7.726}
+{"id": "vt_64000_12", "task": "vt", "len": 61384, "pred": "48781", "ok": false, "sec": 7.324}
+{"id": "vt_64000_13", "task": "vt", "len": 61380, "pred": "20692", "ok": true, "sec": 5.658}
+{"id": "vt_64000_14", "task": "vt", "len": 61382, "pred": "32422", "ok": false, "sec": 5.591}
+{"id": "vt_64000_15", "task": "vt", "len": 61387, "pred": "24650", "ok": false, "sec": 5.697}
+{"id": "vt_64000_16", "task": "vt", "len": 61390, "pred": "69712", "ok": false, "sec": 5.429}
+{"id": "vt_64000_17", "task": "vt", "len": 61368, "pred": "VAR HZIZS = VAR HCSJY.", "ok": false, "sec": 5.816}
+{"id": "vt_64000_18", "task": "vt", "len": 61363, "pred": "62393", "ok": false, "sec": 5.753}
+{"id": "vt_64000_19", "task": "vt", "len": 61381, "pred": "47797", "ok": false, "sec": 5.884}
+{"id": "vt_64000_20", "task": "vt", "len": 61358, "pred": "33639", "ok": true, "sec": 5.986}
+{"id": "vt_64000_21", "task": "vt", "len": 61385, "pred": "99158", "ok": false, "sec": 6.14}
+{"id": "vt_64000_22", "task": "vt", "len": 61381, "pred": "22272", "ok": true, "sec": 6.769}
+{"id": "vt_64000_23", "task": "vt", "len": 61385, "pred": "21731", "ok": false, "sec": 6.408}
+{"id": "vt_64000_24", "task": "vt", "len": 61380, "pred": "40239", "ok": false, "sec": 6.623}
+{"id": "vt_64000_25", "task": "vt", "len": 61382, "pred": "18115", "ok": true, "sec": 7.279}
+{"id": "vt_64000_26", "task": "vt", "len": 61385, "pred": "99503", "ok": true, "sec": 9.311}
+{"id": "vt_64000_27", "task": "vt", "len": 61359, "pred": "20399", "ok": false, "sec": 7.519}
+{"id": "vt_64000_28", "task": "vt", "len": 61384, "pred": "34475", "ok": true, "sec": 7.285}
+{"id": "vt_64000_29", "task": "vt", "len": 61366, "pred": "99597", "ok": false, "sec": 7.773}
+{"id": "vt_64000_30", "task": "vt", "len": 61383, "pred": "28775", "ok": false, "sec": 7.805}
+{"id": "vt_64000_31", "task": "vt", "len": 61384, "pred": "66306", "ok": false, "sec": 7.754}
+{"id": "vt_64000_32", "task": "vt", "len": 61382, "pred": "30886", "ok": false, "sec": 7.965}
+{"id": "vt_64000_33", "task": "vt", "len": 61391, "pred": "27920", "ok": false, "sec": 7.658}
+{"id": "vt_64000_34", "task": "vt", "len": 61391, "pred": "94143", "ok": false, "sec": 7.487}
+{"id": "vt_64000_35", "task": "vt", "len": 61385, "pred": "86567", "ok": false, "sec": 7.346}
+{"id": "mk_64000_0", "task": "mk", "len": 54996, "pred": "The special magic number for worked-takes is **5365176**.", "ok": true, "sec": 6.413}
+{"id": "mk_64000_1", "task": "mk", "len": 54905, "pred": "The special magic number for measurably-tanker is **1912664**.", "ok": true, "sec": 6.403}
+{"id": "mk_64000_2", "task": "mk", "len": 55011, "pred": "The special magic number for peoples-prudential mentioned in the provided text is **4386586**.", "ok": true, "sec": 6.509}
+{"id": "mk_64000_3", "task": "mk", "len": 54981, "pred": "The special magic number for attainment-parameter is 3722327.", "ok": true, "sec": 6.381}
+{"id": "mk_64000_4", "task": "mk", "len": 54932, "pred": "The special magic number for **alike-conversely** mentioned in the provided text is: **2575540**.", "ok": true, "sec": 6.663}
+{"id": "mk_64000_5", "task": "mk", "len": 54980, "pred": "The special magic number for criticism-militarys mentioned in the provided text is **8710872**.", "ok": true, "sec": 6.553}
+{"id": "mk_64000_6", "task": "mk", "len": 54943, "pred": "The special magic number for relation-dependents is 4225947.", "ok": true, "sec": 6.4}
+{"id": "mk_64000_7", "task": "mk", "len": 54904, "pred": "The special magic number for located-remarries mentioned in the provided text is **6303269**.", "ok": true, "sec": 6.567}
+{"id": "mk_64000_8", "task": "mk", "len": 54960, "pred": "The special magic number for recruited-barring is **1178673**.", "ok": true, "sec": 6.425}
+{"id": "mk_64000_9", "task": "mk", "len": 54961, "pred": "The special magic number for proposals-awards mentioned in the provided text is **4548279**.", "ok": true, "sec": 6.675}
+{"id": "mk_64000_10", "task": "mk", "len": 54921, "pred": "The special magic number for along-reimburse is **2009599**.", "ok": true, "sec": 6.496}
+{"id": "mk_64000_11", "task": "mk", "len": 54921, "pred": "The special magic number for shooting-ventured is **5231979**.", "ok": true, "sec": 7.911}
+{"id": "qa2_64000_0", "task": "qa2", "len": 61738, "pred": "Province of Luvito", "ok": false, "sec": 9.465}
+{"id": "qa2_64000_1", "task": "qa2", "len": 61968, "pred": "Vaneti", "ok": true, "sec": 9.372}
+{"id": "qa2_64000_2", "task": "qa2", "len": 61822, "pred": "Fifedu", "ok": true, "sec": 7.291}
+{"id": "qa2_64000_3", "task": "qa2", "len": 61910, "pred": "Zolocu", "ok": true, "sec": 7.442}
+{"id": "qa2_64000_4", "task": "qa2", "len": 61745, "pred": "Fefepe", "ok": true, "sec": 7.443}
+{"id": "qa2_64000_5", "task": "qa2", "len": 62060, "pred": "Famagi", "ok": true, "sec": 7.76}
+{"id": "qa2_64000_6", "task": "qa2", "len": 61934, "pred": "Razusi", "ok": false, "sec": 7.788}
+{"id": "qa2_64000_7", "task": "qa2", "len": 61835, "pred": "Zanace", "ok": true, "sec": 7.8}
+{"id": "qa2_64000_8", "task": "qa2", "len": 61814, "pred": "Lukize", "ok": true, "sec": 7.397}
+{"id": "qa2_64000_9", "task": "qa2", "len": 62035, "pred": "Racude", "ok": true, "sec": 6.829}
+{"id": "qa2_64000_10", "task": "qa2", "len": 62012, "pred": "Taziti", "ok": true, "sec": 6.753}
+{"id": "qa2_64000_11", "task": "qa2", "len": 61941, "pred": "Vipeho", "ok": true, "sec": 6.739}

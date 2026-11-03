@@ -1,0 +1,400 @@
+{"id": "math_find_3", "task": "math_find", "pred": "91", "len": 90060, "kept": 33933}
+{"id": "math_find_12", "task": "math_find", "pred": "81", "len": 90060, "kept": 33933}
+{"id": "math_find_13", "task": "math_find", "pred": "88", "len": 90060, "kept": 33933}
+{"id": "math_find_15", "task": "math_find", "pred": "83", "len": 90060, "kept": 33933}
+{"id": "math_find_16", "task": "math_find", "pred": "95", "len": 90060, "kept": 33933}
+{"id": "math_find_22", "task": "math_find", "pred": "79", "len": 90060, "kept": 33933}
+{"id": "math_find_23", "task": "math_find", "pred": "97", "len": 90060, "kept": 33933}
+{"id": "math_find_28", "task": "math_find", "pred": "94", "len": 90060, "kept": 33933}
+{"id": "math_find_33", "task": "math_find", "pred": "92", "len": 90060, "kept": 33933}
+{"id": "math_find_35", "task": "math_find", "pred": "81", "len": 90060, "kept": 33933}
+{"id": "math_find_36", "task": "math_find", "pred": "96", "len": 90060, "kept": 33933}
+{"id": "math_find_40", "task": "math_find", "pred": "95", "len": 90060, "kept": 33933}
+{"id": "math_find_44", "task": "math_find", "pred": "89", "len": 90060, "kept": 33933}
+{"id": "math_find_47", "task": "math_find", "pred": "97", "len": 90060, "kept": 33933}
+{"id": "math_find_49", "task": "math_find", "pred": "98", "len": 90060, "kept": 33933}
+{"id": "math_find_51", "task": "math_find", "pred": "83", "len": 90062, "kept": 33932}
+{"id": "math_find_52", "task": "math_find", "pred": "94", "len": 90062, "kept": 33932}
+{"id": "math_find_57", "task": "math_find", "pred": "87", "len": 90062, "kept": 33932}
+{"id": "math_find_63", "task": "math_find", "pred": "97", "len": 90062, "kept": 33932}
+{"id": "math_find_71", "task": "math_find", "pred": "96", "len": 90062, "kept": 33932}
+{"id": "math_find_73", "task": "math_find", "pred": "89", "len": 90062, "kept": 33932}
+{"id": "math_find_79", "task": "math_find", "pred": "90", "len": 90062, "kept": 33932}
+{"id": "math_find_81", "task": "math_find", "pred": "97", "len": 90062, "kept": 33932}
+{"id": "math_find_83", "task": "math_find", "pred": "79", "len": 90062, "kept": 33932}
+{"id": "math_find_87", "task": "math_find", "pred": "91", "len": 90062, "kept": 33932}
+{"id": "math_find_98", "task": "math_find", "pred": "80", "len": 90062, "kept": 33932}
+{"id": "math_find_101", "task": "math_find", "pred": "85", "len": 90062, "kept": 33932}
+{"id": "math_find_107", "task": "math_find", "pred": "79", "len": 90062, "kept": 33932}
+{"id": "math_find_108", "task": "math_find", "pred": "80", "len": 90062, "kept": 33932}
+{"id": "math_find_110", "task": "math_find", "pred": "91", "len": 90062, "kept": 33932}
+{"id": "math_find_111", "task": "math_find", "pred": "83", "len": 90062, "kept": 33932}
+{"id": "math_find_112", "task": "math_find", "pred": "81", "len": 90062, "kept": 33932}
+{"id": "math_find_114", "task": "math_find", "pred": "99", "len": 90062, "kept": 33932}
+{"id": "math_find_116", "task": "math_find", "pred": "83", "len": 90062, "kept": 33932}
+{"id": "math_find_117", "task": "math_find", "pred": "92", "len": 90062, "kept": 33932}
+{"id": "math_find_119", "task": "math_find", "pred": "89", "len": 90062, "kept": 33932}
+{"id": "math_find_125", "task": "math_find", "pred": "91", "len": 90062, "kept": 33932}
+{"id": "math_find_135", "task": "math_find", "pred": "89", "len": 90062, "kept": 33932}
+{"id": "math_find_136", "task": "math_find", "pred": "99", "len": 90062, "kept": 33932}
+{"id": "math_find_137", "task": "math_find", "pred": "91", "len": 90062, "kept": 33932}
+{"id": "math_find_138", "task": "math_find", "pred": "85", "len": 90062, "kept": 33932}
+{"id": "math_find_140", "task": "math_find", "pred": "80", "len": 90062, "kept": 33932}
+{"id": "math_find_142", "task": "math_find", "pred": "80", "len": 90062, "kept": 33932}
+{"id": "math_find_143", "task": "math_find", "pred": "82", "len": 90062, "kept": 33932}
+{"id": "math_find_148", "task": "math_find", "pred": "95", "len": 90062, "kept": 33932}
+{"id": "math_find_150", "task": "math_find", "pred": "13", "len": 90060, "kept": 33933}
+{"id": "math_find_161", "task": "math_find", "pred": "5", "len": 90060, "kept": 33933}
+{"id": "math_find_166", "task": "math_find", "pred": "0", "len": 90060, "kept": 33933}
+{"id": "math_find_172", "task": "math_find", "pred": "2", "len": 90060, "kept": 33933}
+{"id": "math_find_174", "task": "math_find", "pred": "19", "len": 90060, "kept": 33933}
+{"id": "math_find_176", "task": "math_find", "pred": "6", "len": 90060, "kept": 33933}
+{"id": "math_find_181", "task": "math_find", "pred": "5", "len": 90060, "kept": 33933}
+{"id": "math_find_183", "task": "math_find", "pred": "10", "len": 90060, "kept": 33933}
+{"id": "math_find_185", "task": "math_find", "pred": "11", "len": 90060, "kept": 33933}
+{"id": "math_find_186", "task": "math_find", "pred": "17", "len": 90060, "kept": 33933}
+{"id": "math_find_189", "task": "math_find", "pred": "9", "len": 90060, "kept": 33933}
+{"id": "math_find_190", "task": "math_find", "pred": "5", "len": 90060, "kept": 33933}
+{"id": "math_find_193", "task": "math_find", "pred": "5", "len": 90060, "kept": 33933}
+{"id": "math_find_194", "task": "math_find", "pred": "19", "len": 90060, "kept": 33933}
+{"id": "math_find_202", "task": "math_find", "pred": "22", "len": 90062, "kept": 33932}
+{"id": "math_find_205", "task": "math_find", "pred": "19", "len": 90062, "kept": 33932}
+{"id": "math_find_214", "task": "math_find", "pred": "4", "len": 90062, "kept": 33932}
+{"id": "math_find_216", "task": "math_find", "pred": "16", "len": 90062, "kept": 33932}
+{"id": "math_find_229", "task": "math_find", "pred": "8", "len": 90062, "kept": 33932}
+{"id": "math_find_232", "task": "math_find", "pred": "16", "len": 90062, "kept": 33932}
+{"id": "math_find_234", "task": "math_find", "pred": "7", "len": 90062, "kept": 33932}
+{"id": "math_find_235", "task": "math_find", "pred": "16", "len": 90062, "kept": 33932}
+{"id": "math_find_236", "task": "math_find", "pred": "6", "len": 90062, "kept": 33932}
+{"id": "math_find_255", "task": "math_find", "pred": "24", "len": 90062, "kept": 33932}
+{"id": "math_find_258", "task": "math_find", "pred": "6", "len": 90062, "kept": 33932}
+{"id": "math_find_262", "task": "math_find", "pred": "18", "len": 90062, "kept": 33932}
+{"id": "math_find_264", "task": "math_find", "pred": "0", "len": 90062, "kept": 33932}
+{"id": "math_find_266", "task": "math_find", "pred": "16", "len": 90062, "kept": 33932}
+{"id": "math_find_273", "task": "math_find", "pred": "9", "len": 90062, "kept": 33932}
+{"id": "math_find_274", "task": "math_find", "pred": "12", "len": 90062, "kept": 33932}
+{"id": "math_find_279", "task": "math_find", "pred": "12", "len": 90062, "kept": 33932}
+{"id": "math_find_282", "task": "math_find", "pred": "6", "len": 90062, "kept": 33932}
+{"id": "math_find_284", "task": "math_find", "pred": "16", "len": 90062, "kept": 33932}
+{"id": "math_find_287", "task": "math_find", "pred": "13", "len": 90062, "kept": 33932}
+{"id": "math_find_288", "task": "math_find", "pred": "5", "len": 90062, "kept": 33932}
+{"id": "math_find_295", "task": "math_find", "pred": "10", "len": 90062, "kept": 33932}
+{"id": "math_find_297", "task": "math_find", "pred": "3", "len": 90062, "kept": 33932}
+{"id": "math_find_301", "task": "math_find", "pred": "50", "len": 90058, "kept": 33931}
+{"id": "math_find_302", "task": "math_find", "pred": "45", "len": 90058, "kept": 33931}
+{"id": "math_find_303", "task": "math_find", "pred": "53", "len": 90058, "kept": 33931}
+{"id": "math_find_307", "task": "math_find", "pred": "37", "len": 90058, "kept": 33931}
+{"id": "math_find_308", "task": "math_find", "pred": "54", "len": 90058, "kept": 33931}
+{"id": "math_find_311", "task": "math_find", "pred": "44", "len": 90058, "kept": 33931}
+{"id": "math_find_317", "task": "math_find", "pred": "46", "len": 90058, "kept": 33931}
+{"id": "math_find_322", "task": "math_find", "pred": "38", "len": 90058, "kept": 33931}
+{"id": "math_find_323", "task": "math_find", "pred": "78", "len": 90058, "kept": 33931}
+{"id": "math_find_325", "task": "math_find", "pred": "74", "len": 90058, "kept": 33931}
+{"id": "math_find_327", "task": "math_find", "pred": "44", "len": 90058, "kept": 33931}
+{"id": "math_find_333", "task": "math_find", "pred": "40", "len": 90058, "kept": 33931}
+{"id": "math_find_335", "task": "math_find", "pred": "54", "len": 90058, "kept": 33931}
+{"id": "math_find_337", "task": "math_find", "pred": "64", "len": 90058, "kept": 33931}
+{"id": "math_find_338", "task": "math_find", "pred": "54", "len": 90058, "kept": 33931}
+{"id": "math_find_341", "task": "math_find", "pred": "64", "len": 90058, "kept": 33931}
+{"id": "math_find_342", "task": "math_find", "pred": "64", "len": 90058, "kept": 33931}
+{"id": "math_find_345", "task": "math_find", "pred": "57", "len": 90058, "kept": 33931}
+{"id": "code_debug_3", "task": "code_debug", "pred": "The correct option is: A. _init\n\nThis option is used to initialize the application, which is the first step in the application lifecycle. The other options are related to specific functionalities within the application, but they are not the initial step. Therefore, A. _init is the most appropriate choice.", "len": 131008, "kept": 49286}
+{"id": "code_debug_12", "task": "code_debug", "pred": "The correct option is: C. parseOptions\n\nThis option is responsible for parsing the command-line options and setting the default values for the DAG generation parameters. The other options are related to the DAG generation process itself, while parseOptions is the entry point for the command-line interface.", "len": 131008, "kept": 49285}
+{"id": "code_debug_13", "task": "code_debug", "pred": "The correct option is: D. outputDOT.\n\nThis option corresponds to the function `outputDOT` in the `daggen/dag.pyx` file, which is responsible for generating the output in the DOT format for the generated DAG. The other options are related to different functionalities within the code, but `outputDOT", "len": 131008, "kept": 49281}
+{"id": "code_debug_15", "task": "code_debug", "pred": "D. get_fpc_firmware", "len": 131008, "kept": 49288}
+{"id": "code_debug_16", "task": "code_debug", "pred": "The correct option is: D. Bmc.get_system_boot_options.\n\nThis function retrieves the current boot options for the system, including the boot device and whether it is set to default or overridden. It returns a dictionary containing the relevant information.", "len": 131008, "kept": 49286}
+{"id": "code_debug_22", "task": "code_debug", "pred": "D. TreeSet_iand", "len": 131008, "kept": 49285}
+{"id": "code_debug_23", "task": "code_debug", "pred": "The correct option is: D. SetResult.testEmptyDifference.\n\nThis test checks the behavior of the `difference` operation when one of the input sets is empty. It ensures that the output is as expected when one of the sets does not contain any elements.", "len": 131008, "kept": 49282}
+{"id": "code_debug_28", "task": "code_debug", "pred": "The correct option is: A. BottomMatcher.add_fixer.\n\nThis option allows you to add a fixer to the bottom matcher, which is a mechanism used in the refactoring tool to apply transformations to the parse tree. The bottom matcher is designed to handle complex patterns and ensure that transformations are applied in the correct order", "len": 131008, "kept": 49259}
+{"id": "code_debug_33", "task": "code_debug", "pred": "The correct option is: D. ToWGS84Transformation.__new__\n\nThis option is relevant because it is a method that creates a new instance of the ToWGS84Transformation class, which is a specific type of CoordinateOperation that performs a transformation to the WGS84 datum. This is a common operation in ge", "len": 131008, "kept": 49288}
+{"id": "code_debug_35", "task": "code_debug", "pred": "The correct option is: C. _new_size_and_offset.\n\nThis function is responsible for updating the width and height of the SVG representation based on the size of the drawn items, ensuring that the layout is adjusted correctly as new items are added.", "len": 131008, "kept": 49282}
+{"id": "code_debug_36", "task": "code_debug", "pred": "The correct option is: D. DrawerItem.append_to_svg.\n\nThis function is responsible for appending the SVG representation of a DrawerItem to the content, width, height, and offset of the SVG. It ensures that the SVG is properly formatted and laid out according to the specified dimensions and layout direction.", "len": 131008, "kept": 49285}
+{"id": "code_debug_40", "task": "code_debug", "pred": "The correct option is: D. FakeStdin.add_input_character\n\nThis function is responsible for adding a character to the input buffer in the FakeStdin class, which is used to simulate user input in the bpython REPL. It handles the addition of characters to the input buffer, which is essential for processing user input", "len": 131008, "kept": 49288}
+{"id": "code_debug_44", "task": "code_debug", "pred": "The correct option is: C. BaseCompletionType.substitute\n\nThis method is responsible for substituting a match into the current line, which is a crucial part of the autocomplete functionality in bpython. It takes the current cursor position and line, along with the match to be substituted, and returns the new line with the", "len": 131008, "kept": 49283}
+{"id": "code_debug_47", "task": "code_debug", "pred": "The correct option is: C. Coverage.__init__\n\nThis method initializes the `Coverage` object, which is the main entry point for using coverage.py. It sets up the configuration, initializes the data file, and starts the collector for measuring code coverage.", "len": 130839, "kept": 49224}
+{"id": "code_debug_49", "task": "code_debug", "pred": "The correct option is: **B. generate_json_ai**.\n\nThis function generates a JSON config file with the necessary elements of the ML pipeline populated, which is essential for building a machine learning model using Lightwood.", "len": 131008, "kept": 49287}
+{"id": "code_debug_51", "task": "code_debug", "pred": "The correct option is: C. lookup_encoder.\n\nThis function is responsible for assigning a default encoder for a given column based on its data type and whether it is a target. It ensures that the correct encoder is used for each column in the dataset, which is crucial for the proper functioning of the ML pipeline.", "len": 131008, "kept": 49288}
+{"id": "code_debug_52", "task": "code_debug", "pred": "The correct option is: D. GluonTSMixer.fit\n\nThis option is relevant because it is a method that is part of the GluonTSMixer class, which is a specific type of mixer used for time series forecasting. The method `fit` is responsible for training the model on the provided", "len": 131008, "kept": 49285}
+{"id": "code_debug_57", "task": "code_debug", "pred": "The correct option is: D. get_future_names.\n\nThis function is used to generate names from a given module and package, and it is essential for the autoimport functionality in rope. It is responsible for fetching names from compiled modules and generating them for use in the autoimport feature.", "len": 131008, "kept": 49288}
+{"id": "code_debug_63", "task": "code_debug", "pred": "The correct option is: **B. Input._do_read**.\n\nThis method is responsible for reading data from the socket in a cooperative manner, allowing the calling greenthread to yield control to other coroutines while waiting for data to arrive. This is essential for ensuring that Eventlet applications can handle I/O operations in", "len": 131008, "kept": 49281}
+{"id": "code_debug_71", "task": "code_debug", "pred": "The correct option is: A. generate_.\n\nThis function generates an observable sequence by iterating a state from an initial state, and it is used to create a sequence of values based on a condition and an accumulator function.", "len": 131008, "kept": 49287}
+{"id": "code_debug_79", "task": "code_debug", "pred": "The correct option is: D. SingleRootField._validate_selection_set\n\nThis function is responsible for validating that a Subscription Operation does only contain one root field after complete fragment spreading. It checks the number of selections in the selection set and raises an error if more than one field is found.", "len": 131008, "kept": 49281}
+{"id": "code_debug_81", "task": "code_debug", "pred": "The correct option is: D. Writer.run\n\nThis option is relevant to the context of the provided code snippet, which involves threading and synchronization mechanisms. The `Writer.run` method is responsible for executing the writer thread, which is essential for managing access to shared resources in a multi-threaded environment. The other options,", "len": 131008, "kept": 49270}
+{"id": "code_debug_83", "task": "code_debug", "pred": "The correct option is: C. _truncate_and_convert_digest\n\nThis function is used to truncate and convert the digest to an integer, which is necessary for verifying signatures in ECDSA. It ensures that the digest is within the appropriate range for the curve being used, which is crucial for maintaining the integrity of the signature verification", "len": 131008, "kept": 49268}
+{"id": "code_debug_87", "task": "code_debug", "pred": "The correct option is: C. SpectrogramBase.set_edge_arr.\n\nThis method is used to set the edge array for the spectrogram, which is a common operation in audio processing. The other options are not directly related to the provided code snippet, which focuses on the spectrogram and deconvolution functionalities.", "len": 130453, "kept": 49075}
+{"id": "code_debug_98", "task": "code_debug", "pred": "The correct option is: C. CodeWriter.write\n\nThis option is relevant because the `CodeWriter.write` method is responsible for generating the code for the classes that are being processed by the code generator. It takes the class instance and its attributes, and constructs the necessary code to represent the class in the target programming language", "len": 131008, "kept": 49277}
+{"id": "code_debug_101", "task": "code_debug", "pred": "The correct option is: D. Database.create_role\n\nThis method is responsible for creating a new role in the Database secrets engine, which is a specific implementation of the Secrets Engine API in Vault. The other options are related to utility functions or other aspects of the Vault API, but they are not directly related to the creation", "len": 131008, "kept": 49285}
+{"id": "code_debug_107", "task": "code_debug", "pred": "The correct option is: **C. BaseConnection._unshim_connection_workflow_callback**.\n\nThis method is responsible for handling the completion of the connection workflow, which is essential for the asynchronous connection establishment process in Pika. It ensures that the connection workflow is properly completed and that the appropriate callback is invoked when the workflow", "len": 131008, "kept": 49280}
+{"id": "code_debug_108", "task": "code_debug", "pred": "The correct option is: **D. AMQPConnector._on_overall_timeout**.\n\nThis method is responsible for handling the timeout of the overall TCP/[SSL]/AMQP connection attempt, which is a critical part of the connection workflow in Pika. When the timeout is reached, it raises an exception indicating that the", "len": 131008, "kept": 49286}
+{"id": "code_debug_110", "task": "code_debug", "pred": "The correct option is: C. Channel.basic_cancel.\n\nThis method is responsible for canceling a consumer, which is a crucial operation in managing RabbitMQ connections and channels. It ensures that the consumer is removed from the channel and that any pending messages are handled appropriately.", "len": 131008, "kept": 49286}
+{"id": "code_debug_111", "task": "code_debug", "pred": "The correct option is: C. split_module.\n\nThis function is responsible for splitting a module into multiple partitions based on the provided balance, which is essential for the functionality of the Pipe class in the Fairscale library. The other options, while important for the library, do not directly relate to the splitting of modules into", "len": 131008, "kept": 49287}
+{"id": "code_debug_112", "task": "code_debug", "pred": "The correct option is: **B. ResolvedObjectCache.get_or_cache**.\n\nThis method is used to retrieve a cached object from the `ResolvedObjectCache`, which is a mechanism for tracking resolved STAC objects in a catalog. It checks if the object is already cached and returns it if it is, or creates", "len": 131008, "kept": 49277}
+{"id": "code_debug_114", "task": "code_debug", "pred": "The correct option is: C. Link.get_href\n\nThis method is responsible for returning the HREF for a link, which is crucial for resolving the location of STAC objects in a catalog. It takes into account the parent catalog's self HREF to ensure that all links are correctly resolved and transformed to the appropriate format", "len": 131008, "kept": 49288}
+{"id": "code_debug_116", "task": "code_debug", "pred": "The correct option is: C. ModelKind.infer_model_kind\n\nThis function is used to infer the capabilities of a deployed DataRobot model based on the provided project and deployment details. It checks the properties of the model and returns a ModelKind object that describes the model's capabilities, such as whether it is an anomaly", "len": 131008, "kept": 49285}
+{"id": "code_debug_117", "task": "code_debug", "pred": "The correct option is: D. BlueprintConverter.build_preprocessor_pipeline.\n\nThis function is responsible for building a preprocessor pipeline from the stages defined in the blueprint, which is a crucial step in the data preprocessing process. It takes the stages and constructs a pipeline that can be used for data transformation, which is essential for preparing", "len": 131008, "kept": 49286}
+{"id": "code_debug_119", "task": "code_debug", "pred": "The correct option is: **C. Host.run_shell_command**.\n\nThis function is responsible for executing commands on the specified host, which is a crucial part of the pyinfra API. It handles the execution of commands, including handling errors and printing output, which is essential for the functionality of pyinfra.", "len": 131008, "kept": 49284}
+{"id": "code_debug_125", "task": "code_debug", "pred": "The correct option is: **A. parse_url**.\n\nThis function is used to parse a URL into its components, which is essential for handling various transport options and configurations in the Kombu library. The other options are related to specific functionalities within the library, but they do not directly relate to the parsing of URLs", "len": 131008, "kept": 49288}
+{"id": "code_debug_135", "task": "code_debug", "pred": "The correct option is: **B. try_except_continue**.\n\nThis option is a function that is part of the `bandit/plugins/try_except_continue.py` module, which checks for the use of `continue` in the `except` block of a `try` statement. The function is designed to detect potential", "len": 76723, "kept": 28914}
+{"id": "code_debug_136", "task": "code_debug", "pred": "The correct option is: **A. SafeMapper.__missing__**.\n\nThis function is used to handle format key errors in the custom formatter, ensuring that the template can still be processed even if a key is missing.", "len": 76726, "kept": 28930}
+{"id": "code_debug_137", "task": "code_debug", "pred": "The correct option is: D. Manager.load_blacklists\n\nThis option is relevant because the `load_blacklists` method in the `Manager` class is responsible for loading the blacklist data, which is essential for the security checks performed by Bandit. The other options, while important, are not directly related to the loading", "len": 76724, "kept": 28931}
+{"id": "code_debug_138", "task": "code_debug", "pred": "The correct option is: C. ii7\n\nThis function is used to generate the supertonic seventh chord in a key, which is a specific type of chord that can be used in music theory.", "len": 79295, "kept": 29896}
+{"id": "code_debug_140", "task": "code_debug", "pred": "The correct option is: C. find_melody\n\nThis function analyzes audio data and identifies the most dominant notes present in the audio, returning a list of tuples containing the note and the number of chunks where that note was dominant.", "len": 79301, "kept": 29892}
+{"id": "code_debug_142", "task": "code_debug", "pred": "The correct option is: D. substitute_diminished_for_diminished\n\nThis function is used to generate a list of possible substitutions for a diminished chord. It is part of the chords module in the mingus library, which is used for music theory and composition in Python. The function is designed to provide alternative chord progressions", "len": 79296, "kept": 29894}
+{"id": "code_debug_148", "task": "code_debug", "pred": "The correct option is: D. get_time_resolution.\n\nThis function is responsible for determining the resolution of a time string, which is a crucial part of the parsing process in the aniso8601 library. It checks the format of the time string and returns the appropriate time resolution, such as seconds, minutes, or hours", "len": 74719, "kept": 28180}
+{"id": "code_debug_150", "task": "code_debug", "pred": "The correct option is: D. _update_class.\n\nThis function is responsible for updating the class structure when a new module is reloaded, ensuring that the old module instances are replaced with the new ones. This is crucial for maintaining consistency and avoiding confusion when working with multiple versions of the same module.", "len": 79507, "kept": 29973}
+{"id": "code_debug_161", "task": "code_debug", "pred": "The correct option is: C. GatewayClient.shutdown_gateway\n\nThis method is responsible for shutting down the `GatewayClient`, which is a critical part of the Py4J framework, ensuring that all connections are properly closed and that the gateway is cleaned up.", "len": 75505, "kept": 28474}
+{"id": "code_debug_166", "task": "code_debug", "pred": "The correct option is: C. _SSLPipe.ssl_object.\n\nThis option refers to the SSL object associated with the SSL pipe, which is used to handle SSL-related operations such as establishing a secure connection and managing data transmission. The other options do not directly relate to the SSL protocol or its implementation in the context of", "len": 80875, "kept": 30488}
+{"id": "code_debug_172", "task": "code_debug", "pred": "The correct option is: C. Widget.model_id\n\nThis option is relevant because it refers to the unique identifier of a widget model, which is essential for managing and tracking widgets in the Jupyter notebook environment. The model_id is used to identify and communicate with specific widgets, making it a crucial aspect of the widget management", "len": 82317, "kept": 31028}
+{"id": "code_debug_174", "task": "code_debug", "pred": "The correct option is: D. datetime_from_json.\n\nThis function is responsible for deserializing a JavaScript datetime object back into a Python datetime object, which is a crucial part of the widget's functionality. The other options are related to specific tests or functionalities, but they do not represent the core functionality of the widget as", "len": 82320, "kept": 31027}
+{"id": "code_debug_176", "task": "code_debug", "pred": "The correct option is: D. TextTableWriter.__repr__.\n\nThis is because the `TextTableWriter` class is a base class for various text format table writers, and its `__repr__` method is used to provide a string representation of the object, which is useful for debugging and logging. The other", "len": 81047, "kept": 30543}
+{"id": "code_debug_181", "task": "code_debug", "pred": "D. _open_session", "len": 87004, "kept": 32777}
+{"id": "code_debug_183", "task": "code_debug", "pred": "C. output_loop", "len": 86991, "kept": 32774}
+{"id": "code_debug_185", "task": "code_debug", "pred": "The correct option is: D. Variable.group", "len": 85032, "kept": 32042}
+{"id": "code_debug_186", "task": "code_debug", "pred": "The correct option is: C. get_chunk_cache\n\nThis function returns the current netCDF chunk cache information in a tuple (nelems, preemption), which is useful for managing memory usage and performance when working with large datasets.", "len": 85024, "kept": 32037}
+{"id": "code_debug_189", "task": "code_debug", "pred": "The correct option is: **C. _save_file**.\n\nThis function is responsible for handling the pickling of file objects, ensuring that the file handle and its contents are properly serialized. It is essential for handling file-related objects in the context of pickling, which is a critical aspect of the dill library.", "len": 86484, "kept": 32584}
+{"id": "code_debug_193", "task": "code_debug", "pred": "The correct option is: **D. ExternalTool.input**.\n\nThis method is responsible for applying filters to the input data, which is a crucial part of the asset processing pipeline in webassets. The other options are related to specific functionalities within the library, but they do not directly relate to the filtering process.", "len": 86169, "kept": 32470}
+{"id": "code_debug_194", "task": "code_debug", "pred": "The correct option is: C. has_placeholder.\n\nExplanation:\n- A. Patterns.__str__ is a method that returns a string representation of the pattern object, which is not relevant to the context of the question.\n- B. JavaScriptPacker.escape is a method that escapes special characters in a string, which is not", "len": 86185, "kept": 32472}
+{"id": "code_debug_205", "task": "code_debug", "pred": "The correct option is: D. VersionScheme.suggest.\n\nThis function is used to suggest a normalized version for a given version string that is not rational. It attempts to normalize the version string to a format that is compatible with the NormalizedVersion class, which is used for versioning in the distlib library.", "len": 84712, "kept": 31927}
+{"id": "code_debug_214", "task": "code_debug", "pred": "The correct option is: **C. Protocol.receive_data**.\n\nThis method is part of the `Protocol` class, which is a base class for both `ClientProtocol` and `ServerProtocol`. It is responsible for receiving data from the network and processing it into events, which are then passed to the application. This", "len": 85975, "kept": 32390}
+{"id": "code_debug_216", "task": "code_debug", "pred": "The correct option is: A. frozenbitarray.__hash__\n\nThis method is responsible for generating a hash value for a frozenbitarray object, which is an immutable subclass of bitarray. The hash value is generated based on the bitarray's length and its bit-endianness, ensuring that two frozenbitarray objects", "len": 80477, "kept": 30335}
+{"id": "code_debug_229", "task": "code_debug", "pred": "The correct option is: C. MultiLineEdit.t_input_isprint\n\nThis method is responsible for handling user input in the MultiLineEdit widget, which is a text input field that can handle multi-line input. The method checks if the input character is printable and not a newline, tab, or return character, which is essential", "len": 82796, "kept": 31202}
+{"id": "code_debug_232", "task": "code_debug", "pred": "The correct option is: C. Recompiler._emit_bytecode_FunctionPtrType\n\nThis function is responsible for emitting the bytecode for function pointer types in the CFFI recompiler. It handles the specific logic for generating the necessary opcode sequences for function pointer types, which are crucial for the correct functioning of the CFF", "len": 88410, "kept": 33306}
+{"id": "code_debug_235", "task": "code_debug", "pred": "The correct option is: C. Aec.encode\n\nThis option corresponds to the `Aec.encode` function, which is part of the imagecodecs library. The other options are either not implemented or not relevant to the context of the question.", "len": 86406, "kept": 32557}
+{"id": "code_debug_236", "task": "code_debug", "pred": "The correct option is: C. Aec.encode\n\nThis is because the `Aec.encode` function is a valid method in the `imagecodecs` module, while the other options are not. The `none_decode` function is a stub that returns the input unchanged, `zopfli_decode` is", "len": 86400, "kept": 32553}
+{"id": "code_debug_258", "task": "code_debug", "pred": "The correct option is: D. Loop._stop\n\nThis method is responsible for stopping the event loop, which is a critical operation in the context of asynchronous programming. It ensures that all pending tasks and callbacks are executed before the loop is stopped, which is essential for maintaining the integrity of the application's state.", "len": 90351, "kept": 34034}
+{"id": "code_debug_273", "task": "code_debug", "pred": "The correct option is: D. DocHandler.do_GET.\n\nThis option is relevant because it is a method in the `DocHandler` class, which is responsible for handling HTTP GET requests in pdoc's web server. The `do_GET` method is responsible for processing incoming requests and returning the appropriate response, which includes", "len": 96574, "kept": 36376}
+{"id": "code_debug_274", "task": "code_debug", "pred": "The correct option is: **A. Markdown._find_non_whitespace**.\n\nThis function is used to find the index of the first non-whitespace character in a string after a specified start index. It is used in the Markdown processing to help with parsing links and other elements.", "len": 96570, "kept": 36374}
+{"id": "code_debug_279", "task": "code_debug", "pred": "The correct option is: D. SeparateChainingHashTable.__setitem__.\n\nThis function is part of the SeparateChainingHashTable class, which is a hash table implementation using separate chaining. The `__setitem__` method is used to add a new key-value pair to the hash table, which is a fundamental", "len": 104914, "kept": 39497}
+{"id": "code_debug_282", "task": "code_debug", "pred": "The correct option is: **B. JSONEncoder.default**.\n\nThis method is responsible for serializing the given object into a JSON-compatible format. In this case, it is used to serialize the `Docstring` object, which is a key component of the Griffe data structure. The `default` method is called", "len": 96889, "kept": 36493}
+{"id": "code_debug_285", "task": "code_debug", "pred": "The correct option is: D. DocstringSectionRaises.__init__\n\nThis method is part of the producer API, meaning it can be used safely while building Griffe trees. It initializes the `DocstringSectionRaises` class, which represents a section in a docstring that lists the exceptions that a function or method can", "len": 96890, "kept": 36494}
+{"id": "code_debug_287", "task": "code_debug", "pred": "D. DeserializationMethodVisitor.object", "len": 93810, "kept": 35331}
+{"id": "code_debug_295", "task": "code_debug", "pred": "The correct option is: C. HasDescriptors.setup_instance\n\nThis method is responsible for setting up the instance of a HasDescriptors class, which includes initializing the descriptors and setting up the instance's state. It is an important part of the initialization process for classes that use descriptors, ensuring that the necessary setup is performed correctly.", "len": 97373, "kept": 36672}
+{"id": "code_debug_301", "task": "code_debug", "pred": "The correct option is: D. PrivateKey.sign\n\nThis function is used to sign a message using the private key of the HDWallet instance. The other options are not related to the HDWallet class or its methods.", "len": 96470, "kept": 36333}
+{"id": "code_debug_302", "task": "code_debug", "pred": "The correct option is: **B. _unhexlify**.\n\nThis function is used to convert a hexadecimal string to a bytes object, which is necessary for various cryptographic operations in the HDWallet class. The other options are not directly related to the functionality of the HDWallet class or are not used in the provided code", "len": 96463, "kept": 36331}
+{"id": "code_debug_308", "task": "code_debug", "pred": "The correct option is: D. JupyterQtConsoleApp.new_frontend_master\n\nThis option is the one that introduces a deliberate error in the code, causing it to crash. The error is in the way the `new_frontend_master` method is defined, which is not properly implemented, leading to a crash when the method", "len": 94576, "kept": 35624}
+{"id": "code_debug_309", "task": "code_debug", "pred": "The correct option is: D. Cookbook08JWETests.Cookbook08JWETests\n\nThis option is related to the test case for JSON Web Encryption (JWE) in the Cookbook08JWETests class, which is part of the JWCrypto library. The test case checks the encryption", "len": 100896, "kept": 37959}
+{"id": "code_debug_311", "task": "code_debug", "pred": "The correct option is: D. TestJWK.test_create_priKeys\n\nThis test case checks the creation of private keys in a JWK object, which is a crucial part of the JWK functionality. The other options are related to different aspects of the library, but they do not focus on the creation of private keys", "len": 100881, "kept": 37990}
+{"id": "code_debug_316", "task": "code_debug", "pred": "The correct option is: D. Period.__new__\n\nThis option is the one that has a deliberate error that makes it crash. The `Period.__new__` method is defined in the `pendulum/period.py` file, and it is responsible for creating a new `Period` instance. However, the implementation", "len": 102444, "kept": 38571}
+{"id": "code_debug_318", "task": "code_debug", "pred": "The correct option is: B. format_diff\n\nThis option provides a method to format the difference between two DateTime instances in a human-readable format, which is a useful feature for displaying time intervals in a user-friendly way.", "len": 102454, "kept": 38577}
+{"id": "code_debug_321", "task": "code_debug", "pred": "The correct option is: D. _get_end2end_headers", "len": 108448, "kept": 40822}
+{"id": "code_debug_322", "task": "code_debug", "pred": "The correct option is: **D. _convert_byte_str**.\n\nThis function is used to convert byte strings to strings, which is necessary for handling various types of data in the `httplib2` library. The other options are not directly related to the deliberate error in the code.", "len": 108429, "kept": 40751}
+{"id": "code_debug_327", "task": "code_debug", "pred": "The correct option is: D. Screen.open\n\nThis method is responsible for creating a new Screen object for any platform, which is essential for using asciimatics in your application. The other options are related to specific functionalities within the asciimatics library, but they are not the main entry point for creating a", "len": 107071, "kept": 40296}
+{"id": "code_debug_332", "task": "code_debug", "pred": "The correct option is: C. updatePSL\n\nThis option is responsible for updating the Public Suffix List (PSL) with the latest data from the IANA website. The PSL is a critical component for resolving domain names and ensuring that the correct top-level domain (TLD) is used. Regular updates", "len": 110166, "kept": 41469}
+{"id": "code_debug_337", "task": "code_debug", "pred": "D. multiControllerNet", "len": 120006, "kept": 45155}
+{"id": "code_debug_346", "task": "code_debug", "pred": "The correct option is: **C. on_conflict_clause**.\n\nThis option corresponds to the `OnConflictClause` class in the `pglast.ast` module, which is used to represent the `ON CONFLICT` clause in SQL statements.", "len": 110265, "kept": 41508}
+{"id": "code_debug_348", "task": "code_debug", "pred": "The correct option is: **C. overlay**.\n\nThis function is used to create a new column in a table by overlaying an existing column with a new value. The `overlay` function is used to specify the column to be modified, the new value to be inserted, and the range of rows to be affected", "len": 110267, "kept": 41500}
+{"id": "code_debug_354", "task": "code_debug", "pred": "The correct option is: B. Language.fromcode\n\nThis method is used to create a :class:`Language` instance by its code using a specified converter. It is a key part of the language conversion process in the babelfish library, allowing users to easily convert between different language representations.", "len": 110348, "kept": 41531}
+{"id": "code_debug_359", "task": "code_debug", "pred": "The correct option is: B. _main\n\nThis function is the main entry point of the esptool.py script, responsible for parsing command-line arguments, loading configuration files, and executing the specified operation on the connected ESP device. It handles various operations such as flashing, reading, and verifying images, as well as", "len": 119120, "kept": 44752}
+{"id": "code_debug_362", "task": "code_debug", "pred": "The correct option is: C. _ensure_success\n\nThis function is used to handle the response from a GATT operation, ensuring that the operation was successful and returning the appropriate value. It checks the status of the operation and raises an exception if it fails, which is important for error handling in the Bluetooth communication.", "len": 117635, "kept": 44273}
+{"id": "code_debug_365", "task": "code_debug", "pred": "The correct option is: C. List.members\n\nThis option corresponds to the method `get_list_members` in the `List` class, which retrieves the members of a specified list. The other options are methods that do not exist in the provided code snippet.", "len": 120156, "kept": 45217}
+{"id": "code_debug_366", "task": "code_debug", "pred": "The correct option is: D. params\n\nThis option is relevant because the question is asking about a specific function or method that has a deliberate error that makes it crash. The `params` function is a decorator that allows for parameterized testing, and it is commonly used in conjunction with the `nose2` testing", "len": 123332, "kept": 46402}
+{"id": "code_debug_373", "task": "code_debug", "pred": "The correct option is: D. load_library_permanently.\n\nThis function is used to load an external library permanently, which is a common operation in the context of dynamic linking in C/C++. The other options are not directly related to loading libraries or managing resources in the same way. \n\nA. `_is_shutting", "len": 119043, "kept": 44801}
+{"id": "code_debug_375", "task": "code_debug", "pred": "The correct option is: D. parse_bitcode.\n\nThis option is relevant to the context of the provided code snippet, which discusses the parsing of LLVM bitcode. The other options, while they may be related to LLVM functionality, do not directly pertain to the parsing of bitcode. Therefore, the most appropriate choice", "len": 119031, "kept": 44795}
+{"id": "code_debug_377", "task": "code_debug", "pred": "D. test_bunch", "len": 126230, "kept": 47493}
+{"id": "code_debug_378", "task": "code_debug", "pred": "D. Bunch.query_name", "len": 126220, "kept": 47482}
+{"id": "code_debug_379", "task": "code_debug", "pred": "The correct option is: C. test_mapbox.\n\nThis option tests the functionality of the `TileProvider` class, specifically the `requires_token` method, which checks if a provider requires an access token to fetch tiles. The test_mapbox option tests the `MapBox` provider, which is a common provider that", "len": 126235, "kept": 47499}
+{"id": "code_debug_381", "task": "code_debug", "pred": "D. test_requires_token", "len": 126229, "kept": 47496}
+{"id": "code_debug_384", "task": "code_debug", "pred": "The correct option is: C. weighted_median.\n\nThis function computes the weighted median of a list of values, which is a key component in the Potts model fitting process used in the ASV benchmarking tool. The weighted median is used to compute the mean of the data points, taking into account their weights, which", "len": 123002, "kept": 46282}
+{"id": "code_debug_385", "task": "code_debug", "pred": "The correct option is: C. Setup.run_from_conf_args\n\nThis function is responsible for running the setup process for the benchmark suite, which involves creating the necessary directories and installing the required packages. It is a crucial part of the benchmarking process in ASV.", "len": 123045, "kept": 46299}
+{"id": "code_debug_388", "task": "code_debug", "pred": "The correct option is: **B. parser_combinator**.\n\nThis function is responsible for combining the results of parsing different sections of a docstring into a single coherent structure. It takes the output of the `top_parse` function, which splits the docstring into sections, and applies the appropriate parsers to each section.", "len": 131008, "kept": 49284}
+{"id": "code_debug_390", "task": "code_debug", "pred": "The correct option is: C. combinator.\n\nThis is because the `combinator` function is used to combine the results of parsing each section of the docstring into a single node, which is then returned as the final output of the parsing process. The other options are related to specific parts of the parsing process", "len": 131008, "kept": 49286}
+{"id": "longdialogue_qa_eng_1", "task": "longdialogue_qa_eng", "pred": "Nicky Santoro", "len": 104296, "kept": 39264}
+{"id": "longdialogue_qa_eng_4", "task": "longdialogue_qa_eng", "pred": "\"Gandhi\"", "len": 115510, "kept": 43465}
+{"id": "longdialogue_qa_eng_6", "task": "longdialogue_qa_eng", "pred": "\"Benjamin Button.\"", "len": 108793, "kept": 40948}
+{"id": "longdialogue_qa_eng_7", "task": "longdialogue_qa_eng", "pred": "\"Arthur\"", "len": 103896, "kept": 39115}
+{"id": "longdialogue_qa_eng_8", "task": "longdialogue_qa_eng", "pred": "Elliot", "len": 106677, "kept": 40160}
+{"id": "longdialogue_qa_eng_9", "task": "longdialogue_qa_eng", "pred": "\"Eve.\"", "len": 113084, "kept": 42565}
+{"id": "longdialogue_qa_eng_11", "task": "longdialogue_qa_eng", "pred": "\"Jof\"", "len": 107934, "kept": 40632}
+{"id": "longdialogue_qa_eng_17", "task": "longdialogue_qa_eng", "pred": "\"Mixter.\"", "len": 101019, "kept": 38038}
+{"id": "longdialogue_qa_eng_20", "task": "longdialogue_qa_eng", "pred": "The name that has been replaced with \"$$MASK$$\" is likely \"Harriet.\" In the context of the story, Harriet is a key character who is the subject of the investigation and the", "len": 102780, "kept": 38682}
+{"id": "longdialogue_qa_eng_21", "task": "longdialogue_qa_eng", "pred": "\"Jonah.\"", "len": 119102, "kept": 44823}
+{"id": "longdialogue_qa_eng_22", "task": "longdialogue_qa_eng", "pred": "\"Milton\"", "len": 104271, "kept": 39246}
+{"id": "longdialogue_qa_eng_23", "task": "longdialogue_qa_eng", "pred": "Jonah King", "len": 104272, "kept": 39260}
+{"id": "longdialogue_qa_eng_24", "task": "longdialogue_qa_eng", "pred": "\"Hildy\"", "len": 96465, "kept": 36334}
+{"id": "longdialogue_qa_eng_25", "task": "longdialogue_qa_eng", "pred": "\"Hildy\"", "len": 96464, "kept": 36317}
+{"id": "longdialogue_qa_eng_26", "task": "longdialogue_qa_eng", "pred": "\"Max\"", "len": 96464, "kept": 36334}
+{"id": "longdialogue_qa_eng_28", "task": "longdialogue_qa_eng", "pred": "Lee Blanchard", "len": 108757, "kept": 40939}
+{"id": "longdialogue_qa_eng_29", "task": "longdialogue_qa_eng", "pred": "Ray", "len": 92730, "kept": 34934}
+{"id": "longdialogue_qa_eng_31", "task": "longdialogue_qa_eng", "pred": "\"Sissy.\"", "len": 109965, "kept": 41372}
+{"id": "longdialogue_qa_eng_34", "task": "longdialogue_qa_eng", "pred": "\"Hunsecker.\"", "len": 110578, "kept": 41623}
+{"id": "longdialogue_qa_eng_35", "task": "longdialogue_qa_eng", "pred": "Steven Schwimmer", "len": 102129, "kept": 38455}
+{"id": "longdialogue_qa_eng_39", "task": "longdialogue_qa_eng", "pred": "\"Tom\"", "len": 104975, "kept": 39524}
+{"id": "longdialogue_qa_eng_40", "task": "longdialogue_qa_eng", "pred": "The name that has been replaced with $$MASK$$ is likely \"Thomas J.\" This character is a close friend of Vada's, and their relationship is central to the story. The mention of Thomas", "len": 99416, "kept": 37429}
+{"id": "longdialogue_qa_eng_41", "task": "longdialogue_qa_eng", "pred": "\"Pamela\"", "len": 99415, "kept": 37430}
+{"id": "longdialogue_qa_eng_48", "task": "longdialogue_qa_eng", "pred": "\"Prewitt.\"", "len": 103718, "kept": 39050}
+{"id": "longdialogue_qa_eng_49", "task": "longdialogue_qa_eng", "pred": "Jordan Belfort", "len": 105128, "kept": 39583}
+{"id": "longdialogue_qa_eng_50", "task": "longdialogue_qa_eng", "pred": "\"Ordell Robbie.\"", "len": 104893, "kept": 39495}
+{"id": "longdialogue_qa_eng_53", "task": "longdialogue_qa_eng", "pred": "Danny Ocean", "len": 102403, "kept": 38562}
+{"id": "longdialogue_qa_eng_55", "task": "longdialogue_qa_eng", "pred": "\"Joe Black\"", "len": 99472, "kept": 37449}
+{"id": "longdialogue_qa_eng_56", "task": "longdialogue_qa_eng", "pred": "Joe", "len": 99473, "kept": 37459}
+{"id": "longdialogue_qa_eng_57", "task": "longdialogue_qa_eng", "pred": "Joe", "len": 99473, "kept": 37448}
+{"id": "longdialogue_qa_eng_58", "task": "longdialogue_qa_eng", "pred": "Ishmael", "len": 104343, "kept": 39288}
+{"id": "longdialogue_qa_eng_59", "task": "longdialogue_qa_eng", "pred": "The name that has been replaced with $$MASK$$ is likely \"Paul.\" In the context of the dialogue, Paul is mentioned as the one who fired Stephen, and the conversation revolves around the implications of", "len": 105359, "kept": 39664}
+{"id": "longdialogue_qa_eng_62", "task": "longdialogue_qa_eng", "pred": "Lucien Carr", "len": 107565, "kept": 40495}
+{"id": "longdialogue_qa_eng_67", "task": "longdialogue_qa_eng", "pred": "\"Carol.\"", "len": 96276, "kept": 36261}
+{"id": "longdialogue_qa_eng_68", "task": "longdialogue_qa_eng", "pred": "\"Rosebud.\"", "len": 103095, "kept": 38820}
+{"id": "longdialogue_qa_eng_70", "task": "longdialogue_qa_eng", "pred": "\"Rosebud.\"", "len": 103091, "kept": 38813}
+{"id": "longdialogue_qa_eng_71", "task": "longdialogue_qa_eng", "pred": "\"Peter Brand.\"", "len": 103789, "kept": 39077}
+{"id": "longdialogue_qa_eng_74", "task": "longdialogue_qa_eng", "pred": "\"Dana Haines\"", "len": 108463, "kept": 40830}
+{"id": "longdialogue_qa_eng_75", "task": "longdialogue_qa_eng", "pred": "\"Thorwald.\"", "len": 108463, "kept": 40825}
+{"id": "longdialogue_qa_eng_77", "task": "longdialogue_qa_eng", "pred": "\"Arius.\"", "len": 101917, "kept": 38367}
+{"id": "longdialogue_qa_eng_81", "task": "longdialogue_qa_eng", "pred": "\"Eduardo Saverin.\"", "len": 100266, "kept": 37759}
+{"id": "longdialogue_qa_eng_82", "task": "longdialogue_qa_eng", "pred": "\"Eduardo Saverin.\"", "len": 100264, "kept": 37751}
+{"id": "longdialogue_qa_eng_86", "task": "longdialogue_qa_eng", "pred": "\"Redbeard.\"", "len": 108679, "kept": 40911}
+{"id": "longdialogue_qa_eng_87", "task": "longdialogue_qa_eng", "pred": "\"Redbeard.\"", "len": 108678, "kept": 40911}
+{"id": "longdialogue_qa_eng_88", "task": "longdialogue_qa_eng", "pred": "\"JEZZIE\"", "len": 102141, "kept": 38457}
+{"id": "longdialogue_qa_eng_89", "task": "longdialogue_qa_eng", "pred": "The name that has been replaced with \"$$MASK$$\" is likely \"Dirk Diggler.\" This character is a central figure in the film \"Boogie Nights,\" which is a story about", "len": 108599, "kept": 40882}
+{"id": "longdialogue_qa_eng_90", "task": "longdialogue_qa_eng", "pred": "\"Chambers.\"", "len": 105157, "kept": 39588}
+{"id": "longdialogue_qa_eng_91", "task": "longdialogue_qa_eng", "pred": "\"Su\"", "len": 105156, "kept": 39591}
+{"id": "longdialogue_qa_eng_92", "task": "longdialogue_qa_eng", "pred": "\"Chambers.\"", "len": 105157, "kept": 39593}
+{"id": "longdialogue_qa_eng_93", "task": "longdialogue_qa_eng", "pred": "\"Kenny\"", "len": 107682, "kept": 40540}
+{"id": "longdialogue_qa_eng_94", "task": "longdialogue_qa_eng", "pred": "\"Bobby\"", "len": 107679, "kept": 40538}
+{"id": "longdialogue_qa_eng_96", "task": "longdialogue_qa_eng", "pred": "\"Chang\"", "len": 103174, "kept": 38842}
+{"id": "longdialogue_qa_eng_97", "task": "longdialogue_qa_eng", "pred": "\"Chang.\"", "len": 103172, "kept": 38847}
+{"id": "longdialogue_qa_eng_98", "task": "longdialogue_qa_eng", "pred": "\"Beloved\"", "len": 103171, "kept": 38846}
+{"id": "longdialogue_qa_eng_99", "task": "longdialogue_qa_eng", "pred": "\"Beloved\"", "len": 103174, "kept": 38847}
+{"id": "longdialogue_qa_eng_107", "task": "longdialogue_qa_eng", "pred": "\"Mailer\"", "len": 96545, "kept": 36361}
+{"id": "longdialogue_qa_eng_108", "task": "longdialogue_qa_eng", "pred": "\"Sherman McCoy.\"", "len": 96532, "kept": 36359}
+{"id": "longdialogue_qa_eng_114", "task": "longdialogue_qa_eng", "pred": "\"Mitch\"", "len": 106656, "kept": 40143}
+{"id": "longdialogue_qa_eng_116", "task": "longdialogue_qa_eng", "pred": "\"Margo Channing.\"", "len": 104589, "kept": 39378}
+{"id": "longdialogue_qa_eng_117", "task": "longdialogue_qa_eng", "pred": "\"Karen\"", "len": 104588, "kept": 39381}
+{"id": "longdialogue_qa_eng_119", "task": "longdialogue_qa_eng", "pred": "\"Rose.\"", "len": 101520, "kept": 38226}
+{"id": "longdialogue_qa_eng_120", "task": "longdialogue_qa_eng", "pred": "\"Indiana\"", "len": 114441, "kept": 43073}
+{"id": "longdialogue_qa_eng_124", "task": "longdialogue_qa_eng", "pred": "\"Grace\"", "len": 113386, "kept": 42671}
+{"id": "longdialogue_qa_eng_127", "task": "longdialogue_qa_eng", "pred": "Tyler Durden", "len": 104796, "kept": 39458}
+{"id": "longdialogue_qa_eng_129", "task": "longdialogue_qa_eng", "pred": "\"Franz Liebkind.\"", "len": 105085, "kept": 39565}
+{"id": "longdialogue_qa_eng_131", "task": "longdialogue_qa_eng", "pred": "\"Franz Liebkind.\"", "len": 105085, "kept": 39557}
+{"id": "longdialogue_qa_eng_132", "task": "longdialogue_qa_eng", "pred": "Riddick", "len": 107309, "kept": 40396}
+{"id": "longdialogue_qa_eng_134", "task": "longdialogue_qa_eng", "pred": "\"Riddick.\"", "len": 107328, "kept": 40408}
+{"id": "longdialogue_qa_eng_137", "task": "longdialogue_qa_eng", "pred": "Cheryl", "len": 98427, "kept": 37064}
+{"id": "longdialogue_qa_eng_138", "task": "longdialogue_qa_eng", "pred": "\"Anna\"", "len": 99619, "kept": 37518}
+{"id": "longdialogue_qa_eng_139", "task": "longdialogue_qa_eng", "pred": "\"Dorothy.\"", "len": 106054, "kept": 39925}
+{"id": "longdialogue_qa_eng_141", "task": "longdialogue_qa_eng", "pred": "The name that has been replaced with $$MASK$$ is likely \"John Merrick.\"", "len": 104346, "kept": 39288}
+{"id": "longdialogue_qa_eng_143", "task": "longdialogue_qa_eng", "pred": "\"Bytes\"", "len": 104345, "kept": 39287}
+{"id": "longdialogue_qa_eng_147", "task": "longdialogue_qa_eng", "pred": "\"Clarice Starling.\"", "len": 118100, "kept": 44441}
+{"id": "longdialogue_qa_eng_149", "task": "longdialogue_qa_eng", "pred": "\"Summer.\"", "len": 107833, "kept": 40581}
+{"id": "longdialogue_qa_eng_150", "task": "longdialogue_qa_eng", "pred": "\"Summer.\"", "len": 107837, "kept": 40599}
+{"id": "longdialogue_qa_eng_151", "task": "longdialogue_qa_eng", "pred": "\"CECIL B. DEMENTED.\"", "len": 110743, "kept": 41677}
+{"id": "longdialogue_qa_eng_152", "task": "longdialogue_qa_eng", "pred": "\"Mace.\"", "len": 109243, "kept": 41119}
+{"id": "longdialogue_qa_eng_154", "task": "longdialogue_qa_eng", "pred": "\"Frank Lucas.\"", "len": 105653, "kept": 39780}
+{"id": "longdialogue_qa_eng_157", "task": "longdialogue_qa_eng", "pred": "\"Raoul.\"", "len": 104972, "kept": 39522}
+{"id": "longdialogue_qa_eng_163", "task": "longdialogue_qa_eng", "pred": "\"Coriolanus.\"", "len": 103402, "kept": 38936}
+{"id": "longdialogue_qa_eng_164", "task": "longdialogue_qa_eng", "pred": "The name that has been replaced with $$MASK$$ is likely \"James Cole.\"", "len": 110341, "kept": 41529}
+{"id": "longdialogue_qa_eng_166", "task": "longdialogue_qa_eng", "pred": "\"Striker\"", "len": 111810, "kept": 42087}
+{"id": "longdialogue_qa_eng_168", "task": "longdialogue_qa_eng", "pred": "\"Trina Marquez.\"", "len": 104360, "kept": 39287}
+{"id": "longdialogue_qa_eng_169", "task": "longdialogue_qa_eng", "pred": "\"O'Malley.\"", "len": 114593, "kept": 43127}
+{"id": "longdialogue_qa_eng_173", "task": "longdialogue_qa_eng", "pred": "\"Ben Willis.\"", "len": 113806, "kept": 42817}
+{"id": "longdialogue_qa_eng_174", "task": "longdialogue_qa_eng", "pred": "\"Ratso\"", "len": 113810, "kept": 42837}
+{"id": "longdialogue_qa_eng_178", "task": "longdialogue_qa_eng", "pred": "\"Ethan Edwards.\"", "len": 104024, "kept": 39160}
+{"id": "longdialogue_qa_eng_180", "task": "longdialogue_qa_eng", "pred": "\"Mark Whitacre.\"", "len": 113431, "kept": 42679}
+{"id": "longdialogue_qa_eng_181", "task": "longdialogue_qa_eng", "pred": "The name that has been replaced with $$MASK$$ is likely \"David Webb.\" This name is associated with Jason Bourne, the protagonist of the Bourne series, and is mentioned in the context of", "len": 113436, "kept": 42693}
+{"id": "longdialogue_qa_eng_182", "task": "longdialogue_qa_eng", "pred": "\"Kittridge\"", "len": 117914, "kept": 44377}
+{"id": "longdialogue_qa_eng_183", "task": "longdialogue_qa_eng", "pred": "\"Bart\"", "len": 107808, "kept": 40583}
+{"id": "longdialogue_qa_eng_185", "task": "longdialogue_qa_eng", "pred": "\"Vincent.\"", "len": 112299, "kept": 42272}
+{"id": "longdialogue_qa_eng_188", "task": "longdialogue_qa_eng", "pred": "\"Steve Trevor.\"", "len": 107034, "kept": 40288}
+{"id": "longdialogue_qa_eng_189", "task": "longdialogue_qa_eng", "pred": "\"Steve Trevor.\"", "len": 107035, "kept": 40299}
+{"id": "longdialogue_qa_eng_190", "task": "longdialogue_qa_eng", "pred": "\"Milton\"", "len": 104627, "kept": 39392}
+{"id": "longdialogue_qa_eng_191", "task": "longdialogue_qa_eng", "pred": "\"Lilly.\"", "len": 102841, "kept": 38722}
+{"id": "longdialogue_qa_eng_197", "task": "longdialogue_qa_eng", "pred": "Cotton Weary", "len": 110446, "kept": 41570}
+{"id": "longdialogue_qa_eng_198", "task": "longdialogue_qa_eng", "pred": "Cotton Weary", "len": 110454, "kept": 41580}
+{"id": "longdialogue_qa_eng_199", "task": "longdialogue_qa_eng", "pred": "\"Sophina\"", "len": 103428, "kept": 38942}
+{"id": "kv_retrieval_3", "task": "kv_retrieval", "pred": "\"0612a86a-c593-4d21-8c2b-c424e2f94d90\"", "len": 123954, "kept": 46632}
+{"id": "kv_retrieval_12", "task": "kv_retrieval", "pred": "\"99c37153-194b-41e4-88c2-5f2a67338b35\"", "len": 124172, "kept": 46683}
+{"id": "kv_retrieval_13", "task": "kv_retrieval", "pred": "\"ff9c0eff-c5b9-4a6f-8a3f-7b5fac09e9d6\"", "len": 124004, "kept": 46629}
+{"id": "kv_retrieval_15", "task": "kv_retrieval", "pred": "\"b0cca966-d62c-4279-a85e-2358fb2eda55\"", "len": 124202, "kept": 46696}
+{"id": "kv_retrieval_16", "task": "kv_retrieval", "pred": "4acbdc30-9dfd-4ee2-83eb-4e6b150f3caa", "len": 124087, "kept": 46654}
+{"id": "kv_retrieval_22", "task": "kv_retrieval", "pred": "\"d6a0c13b-8045-4cf9-8acd-a30ba1f1d655\"", "len": 124162, "kept": 46700}
+{"id": "kv_retrieval_23", "task": "kv_retrieval", "pred": "\"fedfd04e-0820-4c6b-9a59-384137e7a172\"", "len": 124018, "kept": 46630}
+{"id": "kv_retrieval_35", "task": "kv_retrieval", "pred": "\"d453be0b-ac52-4c5a-b0ab-7cece28f3dcd\"", "len": 123982, "kept": 46639}
+{"id": "kv_retrieval_36", "task": "kv_retrieval", "pred": "\"db7b3305-4523-43ab-ac84-63f8a77d255c\"", "len": 123763, "kept": 46569}
+{"id": "kv_retrieval_40", "task": "kv_retrieval", "pred": "\"98cc87c3-61b9-49c3-8603-416c0ce2dc34\"", "len": 124120, "kept": 46656}
+{"id": "kv_retrieval_44", "task": "kv_retrieval", "pred": "\"6c19ed42-462a-4205-aaa9-5d37c4ef4e87\"", "len": 123949, "kept": 46607}
+{"id": "kv_retrieval_47", "task": "kv_retrieval", "pred": "\"2b175b17-7b59-447a-8169-982156b7cb61\"", "len": 124144, "kept": 46677}
+{"id": "kv_retrieval_49", "task": "kv_retrieval", "pred": "\"e8571cff-9de6-40fe-9fb0-fe0aa8056276\"", "len": 123862, "kept": 46560}
+{"id": "kv_retrieval_51", "task": "kv_retrieval", "pred": "\"d2e5f8f0-77f9-42ed-a407-26a19419ce01\"", "len": 123924, "kept": 46596}
+{"id": "kv_retrieval_52", "task": "kv_retrieval", "pred": "\"8bedd39e-fc4a-4ba7-936d-4f8abfdb03dd\"", "len": 123961, "kept": 46643}
+{"id": "kv_retrieval_57", "task": "kv_retrieval", "pred": "\"fda13a87-2fab-44ca-8b04-b390d27ea57c\"", "len": 124196, "kept": 46721}
+{"id": "kv_retrieval_63", "task": "kv_retrieval", "pred": "\"0840a610-7fbb-4629-a11a-1029dff23cf9\"", "len": 124071, "kept": 46662}
+{"id": "kv_retrieval_71", "task": "kv_retrieval", "pred": "\"defe40de-34a2-4c4d-bd08-371997010212\"", "len": 124144, "kept": 46684}
+{"id": "kv_retrieval_79", "task": "kv_retrieval", "pred": "\"5da8993a-f21f-46e7-8e2c-1bab843326b5\"", "len": 123940, "kept": 46599}
+{"id": "kv_retrieval_81", "task": "kv_retrieval", "pred": "75fc1e9b-cc1e-49ef-b081-5c944a4b3b51", "len": 123967, "kept": 46611}
+{"id": "kv_retrieval_83", "task": "kv_retrieval", "pred": "\"fea45b45-a1a9-4e83-a2e9-380918181e43\"", "len": 124036, "kept": 46674}
+{"id": "kv_retrieval_98", "task": "kv_retrieval", "pred": "\"cc158dda-65fa-424b-9f56-f9d57344d2b2\"", "len": 123886, "kept": 46601}
+{"id": "kv_retrieval_101", "task": "kv_retrieval", "pred": "\"59f77b1e-c0b2-4def-bd68-84d9942ed132\"", "len": 123845, "kept": 46591}
+{"id": "kv_retrieval_107", "task": "kv_retrieval", "pred": "\"3230870f-a703-4e71-85d8-e7538ad868c8\"", "len": 123840, "kept": 46554}
+{"id": "kv_retrieval_110", "task": "kv_retrieval", "pred": "\"d67c8770-9733-4dc7-a6f8-d0a4d29b1cce\"", "len": 124081, "kept": 46679}
+{"id": "kv_retrieval_111", "task": "kv_retrieval", "pred": "\"4fe704a9-9d0d-4289-a2f2-dd848abe0f9d\"", "len": 124066, "kept": 46662}
+{"id": "kv_retrieval_112", "task": "kv_retrieval", "pred": "\"d25cd0cd-74a0-4348-8015-fb46288dab33\"", "len": 124011, "kept": 46662}
+{"id": "kv_retrieval_114", "task": "kv_retrieval", "pred": "\"f0f7ea40-4082-40be-95d1-b267f0b5e365\"", "len": 124186, "kept": 46700}
+{"id": "kv_retrieval_116", "task": "kv_retrieval", "pred": "\"cc986453-f930-43e4-8039-0bfa64a57d63\"", "len": 124146, "kept": 46674}
+{"id": "kv_retrieval_119", "task": "kv_retrieval", "pred": "\"8a6b64eb-60d4-4f11-b3cc-8c29ee47c20c\"", "len": 124068, "kept": 46671}
+{"id": "kv_retrieval_125", "task": "kv_retrieval", "pred": "\"6da1ff9c-5bd8-4473-93dd-c4ae029cfbc8\"", "len": 124225, "kept": 46730}
+{"id": "kv_retrieval_135", "task": "kv_retrieval", "pred": "\"46bd0afe-cf07-484c-8121-26b600ac3b45\"", "len": 124234, "kept": 46734}
+{"id": "kv_retrieval_136", "task": "kv_retrieval", "pred": "\"f94d9ffb-7bb1-4ce1-b453-5cb5c24a7426\"", "len": 124035, "kept": 46649}
+{"id": "kv_retrieval_140", "task": "kv_retrieval", "pred": "\"f92199a1-f048-49b8-aba7-523a27d3b8c5\"", "len": 124169, "kept": 46708}
+{"id": "kv_retrieval_142", "task": "kv_retrieval", "pred": "\"7a287c2b-3cd7-46e0-a519-c5c54916beeb\"", "len": 123992, "kept": 46622}
+{"id": "kv_retrieval_148", "task": "kv_retrieval", "pred": "\"5b74301a-f533-4326-bd22-54499fc98135\"", "len": 124131, "kept": 46664}
+{"id": "kv_retrieval_150", "task": "kv_retrieval", "pred": "\"7924554f-b32b-497e-b2bd-136c758282ab\"", "len": 124221, "kept": 46736}
+{"id": "kv_retrieval_172", "task": "kv_retrieval", "pred": "\"8c26ef94-d817-4edd-98b2-957da667eec8\"", "len": 123888, "kept": 46615}
+{"id": "kv_retrieval_174", "task": "kv_retrieval", "pred": "\"5b8f3806-235c-4c5d-9539-e4aa87b05bd6\"", "len": 124044, "kept": 46652}
+{"id": "kv_retrieval_176", "task": "kv_retrieval", "pred": "\"65eb1e98-4d43-431c-8ef4-f807a0dc0263\"", "len": 124112, "kept": 46691}
+{"id": "kv_retrieval_181", "task": "kv_retrieval", "pred": "\"df55af67-6691-4a82-a6d3-34cd3380f090\"", "len": 124278, "kept": 46764}
+{"id": "kv_retrieval_183", "task": "kv_retrieval", "pred": "\"799b3551-4e94-431f-a95e-1e8827329307\"", "len": 124152, "kept": 46714}
+{"id": "kv_retrieval_185", "task": "kv_retrieval", "pred": "\"519f617e-44ac-49a7-8710-93928a7770e1\"", "len": 123855, "kept": 46602}
+{"id": "kv_retrieval_186", "task": "kv_retrieval", "pred": "\"6f782d21-c19b-4d0f-8fb4-55038329aa80\"", "len": 124285, "kept": 46757}
+{"id": "kv_retrieval_189", "task": "kv_retrieval", "pred": "\"210a2fc1-dff7-4315-b3b2-7f614bfcbcca\"", "len": 123912, "kept": 46592}
+{"id": "kv_retrieval_193", "task": "kv_retrieval", "pred": "\"f94be99f-04c8-4ae8-8ef2-df0f62fb13e4\"", "len": 124300, "kept": 46728}
+{"id": "kv_retrieval_194", "task": "kv_retrieval", "pred": "\"f7499604-8bc6-4947-8657-82bc28bdab4b\"", "len": 123895, "kept": 46582}
+{"id": "kv_retrieval_214", "task": "kv_retrieval", "pred": "\"9db9370c-1f46-4149-ac7c-6f9ed7681c66\"", "len": 124009, "kept": 46654}
+{"id": "kv_retrieval_216", "task": "kv_retrieval", "pred": "\"f72d1320-7a57-4c89-8381-cf080c08501d\"", "len": 123893, "kept": 46581}
+{"id": "kv_retrieval_229", "task": "kv_retrieval", "pred": "\"b6ffb850-9d72-4f61-b036-134e7bcd63fd\"", "len": 124254, "kept": 46752}
+{"id": "kv_retrieval_232", "task": "kv_retrieval", "pred": "\"b104b893-cba2-4ca2-b1da-4320aae0f953\"", "len": 123924, "kept": 46603}
+{"id": "kv_retrieval_235", "task": "kv_retrieval", "pred": "\"91376a3e-2212-420c-a290-c309672bbe62\"", "len": 124037, "kept": 46668}
+{"id": "kv_retrieval_258", "task": "kv_retrieval", "pred": "\"a696416a-0832-4b47-88a2-309b64ee5616\"", "len": 124062, "kept": 46679}
+{"id": "kv_retrieval_274", "task": "kv_retrieval", "pred": "\"2f8998f6-9f6a-48f5-af72-695d41d32c55\"", "len": 123926, "kept": 46600}
+{"id": "kv_retrieval_279", "task": "kv_retrieval", "pred": "\"1f8c224d-38da-4f1f-af7d-33ebadb3f149\"", "len": 124214, "kept": 46722}
+{"id": "kv_retrieval_282", "task": "kv_retrieval", "pred": "\"d58af257-3bed-4fe1-b02d-ca67a0eac105\"", "len": 124063, "kept": 46646}
+{"id": "kv_retrieval_287", "task": "kv_retrieval", "pred": "\"8b4a185a-6983-447e-b37b-363541c51a22\"", "len": 124212, "kept": 46718}
+{"id": "kv_retrieval_295", "task": "kv_retrieval", "pred": "\"b34c09e5-0d40-4a02-bdf2-fee7d099cc0d\"", "len": 124081, "kept": 46672}
+{"id": "kv_retrieval_301", "task": "kv_retrieval", "pred": "\"279ff7c0-be9f-4b7f-9fbc-dc7acc536fee\"", "len": 124325, "kept": 46748}
+{"id": "kv_retrieval_302", "task": "kv_retrieval", "pred": "\"27970737-3173-49c0-8809-102e140f8601\"", "len": 124067, "kept": 46646}
+{"id": "kv_retrieval_308", "task": "kv_retrieval", "pred": "\"7f1b6570-be71-49d6-b10d-d1f2896040e4\"", "len": 124088, "kept": 46688}
+{"id": "kv_retrieval_309", "task": "kv_retrieval", "pred": "\"92432e6d-501f-446b-b811-2a41448c2464\"", "len": 123910, "kept": 46589}
+{"id": "kv_retrieval_316", "task": "kv_retrieval", "pred": "\"10ff2a25-bb6f-410f-99fb-d5030f4e524f\"", "len": 124284, "kept": 46762}
+{"id": "kv_retrieval_321", "task": "kv_retrieval", "pred": "\"1f70ce83-b004-4f04-af3b-d250d58d2522\"", "len": 124073, "kept": 46678}
+{"id": "kv_retrieval_325", "task": "kv_retrieval", "pred": "\"91b75740-a436-4bea-9ab9-0739c2ad0c57\"", "len": 124048, "kept": 46674}
+{"id": "kv_retrieval_327", "task": "kv_retrieval", "pred": "\"ba1bd268-32ff-4c4e-871c-608b921f42d3\"", "len": 124011, "kept": 46628}
+{"id": "kv_retrieval_331", "task": "kv_retrieval", "pred": "\"8ad9a7a8-acc1-42e9-b88e-87a5630c973b\"", "len": 123896, "kept": 46599}
+{"id": "kv_retrieval_332", "task": "kv_retrieval", "pred": "\"f72029be-2167-4987-a5fb-48f6a12411b9\"", "len": 124244, "kept": 46725}
+{"id": "kv_retrieval_338", "task": "kv_retrieval", "pred": "\"f20cd916-b0a5-4762-91c2-ca48841c63a8\"", "len": 123948, "kept": 46629}
+{"id": "kv_retrieval_343", "task": "kv_retrieval", "pred": "\"17b0198d-6909-4c2b-9b6f-ff4aea82391b\"", "len": 123970, "kept": 46639}
+{"id": "kv_retrieval_346", "task": "kv_retrieval", "pred": "\"e51a2799-4a1b-4a0b-a728-f04c0819ed89\"", "len": 123950, "kept": 46616}
+{"id": "kv_retrieval_349", "task": "kv_retrieval", "pred": "\"892058d6-ad84-4e94-9891-77379195578c\"", "len": 124241, "kept": 46711}
+{"id": "kv_retrieval_357", "task": "kv_retrieval", "pred": "\"a5401ac8-cfed-4be7-bc3f-90ee5f0fe741\"", "len": 124017, "kept": 46666}
+{"id": "kv_retrieval_359", "task": "kv_retrieval", "pred": "\"f26863ea-17cc-4dc0-b0fa-6d711053a4e3\"", "len": 124400, "kept": 46780}
+{"id": "kv_retrieval_360", "task": "kv_retrieval", "pred": "\"e37edc22-0f2d-4503-a3f6-347695f3f7e0\"", "len": 123883, "kept": 46607}
+{"id": "kv_retrieval_366", "task": "kv_retrieval", "pred": "\"a3f50a9c-4b37-4ccb-b78b-3bd5f8f9b788\"", "len": 124032, "kept": 46641}
+{"id": "kv_retrieval_373", "task": "kv_retrieval", "pred": "\"3afac8d4-b7ce-4857-a102-ea7ee9bed52a\"", "len": 123993, "kept": 46639}
+{"id": "kv_retrieval_377", "task": "kv_retrieval", "pred": "\"f43dd734-be7d-4378-ac3c-975994ab2f9e\"", "len": 124070, "kept": 46669}
+{"id": "kv_retrieval_379", "task": "kv_retrieval", "pred": "\"b6c40467-64c3-4692-b92f-5dcf255bd9d8\"", "len": 123965, "kept": 46640}
+{"id": "kv_retrieval_388", "task": "kv_retrieval", "pred": "\"2e35b27e-b74e-4716-8052-27e60b63e870\"", "len": 124345, "kept": 46773}
+{"id": "kv_retrieval_390", "task": "kv_retrieval", "pred": "\"a77ea693-dd90-4220-a3ea-e4476cb9f2db\"", "len": 123963, "kept": 46624}
+{"id": "kv_retrieval_395", "task": "kv_retrieval", "pred": "\"f2f05454-b238-4027-9a60-67358d97f7b2\"", "len": 124262, "kept": 46735}
+{"id": "kv_retrieval_412", "task": "kv_retrieval", "pred": "\"c1090c1f-0152-45e1-ac0b-6a5188318df2\"", "len": 123905, "kept": 46592}
+{"id": "kv_retrieval_413", "task": "kv_retrieval", "pred": "\"b8b51476-889a-48fa-ab2c-e846eb44c15f\"", "len": 124399, "kept": 46760}
+{"id": "kv_retrieval_414", "task": "kv_retrieval", "pred": "\"8e532b15-8fa3-42da-8e0c-7624ccff62ad\"", "len": 124038, "kept": 46659}
+{"id": "kv_retrieval_424", "task": "kv_retrieval", "pred": "\"a0ececa4-d3bf-4920-ba4d-e7cb1b363983\"", "len": 124068, "kept": 46642}
+{"id": "kv_retrieval_433", "task": "kv_retrieval", "pred": "\"3a59d335-f8ae-4a34-8c30-5467ab364a44\"", "len": 124107, "kept": 46701}
+{"id": "kv_retrieval_444", "task": "kv_retrieval", "pred": "\"ed55ddbd-6a72-4787-be22-1f6e23b2e8a3\"", "len": 124165, "kept": 46691}
+{"id": "kv_retrieval_445", "task": "kv_retrieval", "pred": "\"8dc58129-cda1-41e8-b865-6b2f1c1aca98\"", "len": 124162, "kept": 46678}
+{"id": "kv_retrieval_447", "task": "kv_retrieval", "pred": "\"b5c6ff5d-97b4-4f4e-8ccf-846333d14be7\"", "len": 124139, "kept": 46689}
+{"id": "kv_retrieval_454", "task": "kv_retrieval", "pred": "\"7c577ca4-6f41-4bff-9301-2226e5ba42c0\"", "len": 124083, "kept": 46671}
+{"id": "kv_retrieval_456", "task": "kv_retrieval", "pred": "\"d6978c47-7cb0-46ce-8a14-6f5521ffae31\"", "len": 123940, "kept": 46604}
+{"id": "kv_retrieval_464", "task": "kv_retrieval", "pred": "\"5ef5852a-bead-4630-91f6-7b191ecc5510\"", "len": 124036, "kept": 46633}
+{"id": "kv_retrieval_470", "task": "kv_retrieval", "pred": "\"6312eefe-aa6a-45e8-9198-c5180c3b4b1e\"", "len": 124147, "kept": 46707}
+{"id": "kv_retrieval_478", "task": "kv_retrieval", "pred": "\"f6cfaee2-88c9-40b3-ae95-3adc08f235f7\"", "len": 124153, "kept": 46706}
+{"id": "kv_retrieval_480", "task": "kv_retrieval", "pred": "\"96c67e11-abea-4c88-9941-1a283ee013f1\"", "len": 124179, "kept": 46715}
+{"id": "kv_retrieval_483", "task": "kv_retrieval", "pred": "\"0b087676-401f-459d-8a25-eafc773a725c\"", "len": 124115, "kept": 46692}
+{"id": "kv_retrieval_486", "task": "kv_retrieval", "pred": "\"49569bab-2008-4dd7-96c9-2639a3c6ab69\"", "len": 124155, "kept": 46709}
+{"id": "kv_retrieval_490", "task": "kv_retrieval", "pred": "\"5750c0b2-91b9-4390-b493-14864560422f\"", "len": 124424, "kept": 46809}
+{"id": "kv_retrieval_496", "task": "kv_retrieval", "pred": "\"7150cfee-7760-43bf-a3c8-bf43cd04e4f3\"", "len": 124149, "kept": 46714}

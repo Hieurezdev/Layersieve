@@ -1,0 +1,120 @@
+{"id": "kv_8000_1", "task": "kv", "len": 7308, "pred": "The value associated with the specified Key is: 1e454241-45c1-90a8-a52b-a0ce627b585f.", "ok": false, "ttft": null}
+{"id": "kv_8000_3", "task": "kv", "len": 7335, "pred": "The value associated with the specified Key \"a7fb881e-3a88-a4ab-7891-6712de5fe0ee\" is: 2020-01-01 00:00:00.", "ok": false, "ttft": null}
+{"id": "kv_8000_20", "task": "kv", "len": 7328, "pred": "The value associated with the specified Key \"496fd519-6c1f-2da6-6dcd-732af4d20476\" is \"c785b144-5315-8ee1-c988-e4139d2370bb\".", "ok": false, "ttft": null}
+{"id": "kv_8000_25", "task": "kv", "len": 7328, "pred": "The value associated with the specified Key \"3ff0b97a-a1f9-8f23-2e4e-8052329d0a1d\" is \"4cd6b614-683a-9c59-9778-9958f5abdb11\".", "ok": true, "ttft": null}
+{"id": "kv_8000_26", "task": "kv", "len": 7339, "pred": "The value associated with the specified Key is: a0d841c3-f10d-20b1-cbd8-a284ca79f979.", "ok": true, "ttft": null}
+{"id": "kv_8000_27", "task": "kv", "len": 7285, "pred": "The value associated with the specified Key \"17d7d292-7cf0-885f-1284-fc455496e9ed\" is \"8e12d681-67c2-3431-fec6-2869e4fefb2c\".", "ok": true, "ttft": null}
+{"id": "kv_8000_29", "task": "kv", "len": 7360, "pred": "The value associated with the specified key \"55bcb664-1675-357f-c8f0-13ee579a24da\" is \"14ee1c56-886d-57a1-d81b-56698610f8f6\".", "ok": false, "ttft": null}
+{"id": "kv_8000_38", "task": "kv", "len": 7274, "pred": "The value associated with the specified Key \"0b2a568a-d337-f163-69dd-c04c41a6e361\" is \"c8432cbc-4923-0d56-a050-0f36abf7d164\".", "ok": true, "ttft": null}
+{"id": "vt_8000_1", "task": "vt", "len": 7624, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_8000_3", "task": "vt", "len": 7605, "pred": "7", "ok": false, "ttft": null}
+{"id": "vt_8000_8", "task": "vt", "len": 7627, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_8000_18", "task": "vt", "len": 7629, "pred": "9", "ok": false, "ttft": null}
+{"id": "vt_8000_20", "task": "vt", "len": 7621, "pred": "7", "ok": false, "ttft": null}
+{"id": "vt_8000_21", "task": "vt", "len": 7626, "pred": "8", "ok": false, "ttft": null}
+{"id": "vt_8000_23", "task": "vt", "len": 7626, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_8000_31", "task": "vt", "len": 7632, "pred": "10", "ok": false, "ttft": null}
+{"id": "vt_8000_34", "task": "vt", "len": 7623, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_8000_36", "task": "vt", "len": 7608, "pred": "1", "ok": false, "ttft": null}
+{"id": "kv_16000_2", "task": "kv", "len": 14554, "pred": "The value associated with the specified Key \"7503a04c-e523-036d-cf92-4183f8b14bf2\" is: 1d2926b7-b611-8963-9f05-6d8547ea0756.", "ok": false, "ttft": null}
+{"id": "kv_16000_6", "task": "kv", "len": 14554, "pred": "The value associated with the specified Key is: 79c32574-c3eb-9ff7-11f8-584c79a46acb.", "ok": false, "ttft": null}
+{"id": "kv_16000_8", "task": "kv", "len": 14550, "pred": "The value associated with the specified Key is: 45e9702c-8870-40d1-e1c6-4f9031c0273e.", "ok": false, "ttft": null}
+{"id": "kv_16000_9", "task": "kv", "len": 14522, "pred": "The value associated with the specified Key is 58e44099-35df-e4c3-be43-7a0fb5855577.", "ok": true, "ttft": null}
+{"id": "kv_16000_13", "task": "kv", "len": 14613, "pred": "The value associated with the specified Key \"f047a6a7-d063-9dd9-d751-f403b24880be\" is: 481ae932-75b1-98ce-40da-dbfca426e971.", "ok": false, "ttft": null}
+{"id": "kv_16000_17", "task": "kv", "len": 14613, "pred": "The value associated with the specified Key is: 896e6c5b-d78a-dbaa-3438-fd6384677581.", "ok": false, "ttft": null}
+{"id": "kv_16000_24", "task": "kv", "len": 14444, "pred": "The value associated with the specified key \"077b81f8-8fef-304c-61bb-3721744c0e5f\" is \"687ac714-08c9-c24e-ea84-782a79e5c0e5\".", "ok": false, "ttft": null}
+{"id": "kv_16000_25", "task": "kv", "len": 14544, "pred": "The value associated with the specified Key is: 089ae776-c0f3-c169-9f82-9831c01a78aa.", "ok": false, "ttft": null}
+{"id": "kv_16000_33", "task": "kv", "len": 14539, "pred": "The value associated with the specified Key \"58a1664d-6de9-7764-3c58-064cb9cf5b7c\" is \"e60a4fdb-9d94-9310-2dba-fc18ce2a6eb5\".", "ok": true, "ttft": null}
+{"id": "kv_16000_38", "task": "kv", "len": 14461, "pred": "The value associated with the specified key \"f76cca60-636b-fe84-4e1f-9dca6d647cd6\" is: 0d408b5d-aafc-cbd2-d21e-7f0263f40f45.", "ok": true, "ttft": null}
+{"id": "kv_16000_39", "task": "kv", "len": 14517, "pred": "The value associated with the specified key \"1b9cd62c-dc01-a855-01dc-d990073d3466\" is: 148cd0c9-920c-ecc1-c9b8-e4e10caff748.", "ok": false, "ttft": null}
+{"id": "vt_16000_4", "task": "vt", "len": 15314, "pred": "5", "ok": false, "ttft": null}
+{"id": "vt_16000_6", "task": "vt", "len": 15311, "pred": "43847", "ok": false, "ttft": null}
+{"id": "vt_16000_8", "task": "vt", "len": 15303, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_16000_13", "task": "vt", "len": 15309, "pred": "42994", "ok": true, "ttft": null}
+{"id": "vt_16000_14", "task": "vt", "len": 15309, "pred": "8", "ok": false, "ttft": null}
+{"id": "vt_16000_16", "task": "vt", "len": 15288, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_16000_19", "task": "vt", "len": 15306, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_16000_21", "task": "vt", "len": 15316, "pred": "1000000000000000000", "ok": false, "ttft": null}
+{"id": "vt_16000_22", "task": "vt", "len": 15302, "pred": "9", "ok": false, "ttft": null}
+{"id": "vt_16000_23", "task": "vt", "len": 15308, "pred": "12", "ok": false, "ttft": null}
+{"id": "vt_16000_24", "task": "vt", "len": 15306, "pred": "8", "ok": false, "ttft": null}
+{"id": "vt_16000_25", "task": "vt", "len": 15307, "pred": "12", "ok": false, "ttft": null}
+{"id": "kv_28000_6", "task": "kv", "len": 25351, "pred": "The value associated with the specified Key is: 2e139780-ccdf-9fbe-b0e2-cb427d07e0f6", "ok": false, "ttft": null}
+{"id": "kv_28000_9", "task": "kv", "len": 25419, "pred": "The value associated with the specified Key is 82284d8d-4968-4404-d0b7-a28b72c0a32b.", "ok": false, "ttft": null}
+{"id": "kv_28000_13", "task": "kv", "len": 25445, "pred": "The value associated with the specified Key is: 189568a7-851d-da1f-b6b8-4e90ebb7a847", "ok": false, "ttft": null}
+{"id": "kv_28000_17", "task": "kv", "len": 25408, "pred": "The value associated with the specified Key is 62bb2352-bbc7-4cd3-8c56-5b010745258f.", "ok": false, "ttft": null}
+{"id": "kv_28000_19", "task": "kv", "len": 25409, "pred": "The value associated with the specified Key is 4b93f7be-6661-4b29-c4ec-69677f22184a.", "ok": false, "ttft": null}
+{"id": "kv_28000_20", "task": "kv", "len": 25358, "pred": "The value associated with the specified Key is: 159beff0-8bf0-1350-020f-48ec73b4b6c4", "ok": false, "ttft": null}
+{"id": "kv_28000_28", "task": "kv", "len": 25357, "pred": "The value associated with the specified Key is 14713f00-7a8c-bbcb-677e-ec04e2bb7868.", "ok": false, "ttft": null}
+{"id": "kv_28000_29", "task": "kv", "len": 25491, "pred": "The value associated with the specified Key is: 80506601-3058-3aac-77f4-962527cead73.", "ok": false, "ttft": null}
+{"id": "kv_28000_30", "task": "kv", "len": 25452, "pred": "The value associated with the specified Key is: 354901e4-4008-ecb1-9b03-42e80fcbf349.", "ok": false, "ttft": null}
+{"id": "kv_28000_32", "task": "kv", "len": 25457, "pred": "The value associated with the specified Key is: 3b9fd207-c198-5de9-d794-c96cacb10dff.", "ok": false, "ttft": null}
+{"id": "kv_28000_35", "task": "kv", "len": 25387, "pred": "The value associated with the specified Key is: 836fc745-1de9-1f3a-34bb-84ef9cace4d2", "ok": false, "ttft": null}
+{"id": "vt_28000_1", "task": "vt", "len": 26827, "pred": "1", "ok": false, "ttft": null}
+{"id": "vt_28000_6", "task": "vt", "len": 26830, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_28000_9", "task": "vt", "len": 26831, "pred": "8", "ok": false, "ttft": null}
+{"id": "vt_28000_10", "task": "vt", "len": 26829, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_28000_19", "task": "vt", "len": 26825, "pred": "8", "ok": false, "ttft": null}
+{"id": "vt_28000_21", "task": "vt", "len": 26830, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_28000_31", "task": "vt", "len": 26830, "pred": "4", "ok": false, "ttft": null}
+{"id": "vt_28000_38", "task": "vt", "len": 26805, "pred": "8", "ok": false, "ttft": null}
+{"id": "hotpotqa_105e7f4d337799315ddf870acc4ff2a62a1e6cdf489086cd", "task": "hotpotqa", "len": 16754, "pred": "The primary destination of the space missions that Gary L. Bennett was a part of is the Sun.", "ok": true, "ttft": null}
+{"id": "hotpotqa_e0998dbc2db68c7b18adff7fcc67081acc865c974b721312", "task": "hotpotqa", "len": 10898, "pred": "number 5 on the US Billboard Hot 100", "ok": false, "ttft": null}
+{"id": "hotpotqa_7e525340152c2f4b26d7fba85c680dde7b75af77356a7c22", "task": "hotpotqa", "len": 9916, "pred": "Dracula has more species than Pistacia.", "ok": true, "ttft": null}
+{"id": "hotpotqa_1a71b5a73ffb21cb52d41e09b1f861748b60f1e59273a080", "task": "hotpotqa", "len": 11245, "pred": "YIVO", "ok": true, "ttft": null}
+{"id": "hotpotqa_2903a54db35e788f31a967bdfa021d64ac18ed7e1aed919a", "task": "hotpotqa", "len": 16771, "pred": "Brook Bar", "ok": false, "ttft": null}
+{"id": "hotpotqa_a7c311f9f6423063e02c8236bdd83cc8059fcb9fe78b4fff", "task": "hotpotqa", "len": 15253, "pred": "No", "ok": false, "ttft": null}
+{"id": "hotpotqa_75439ed8609c12817aaee0fa4f749aebb3e4a36dfa72390e", "task": "hotpotqa", "len": 13707, "pred": "Deftones", "ok": true, "ttft": null}
+{"id": "hotpotqa_9a19f9594aa73716dd38bcbd5ff1c04e57a6649800570f80", "task": "hotpotqa", "len": 17139, "pred": "Yes, both Mick Jagger and Brett Scallions are musicians.", "ok": true, "ttft": null}
+{"id": "hotpotqa_c47c8d3b1917f017cafaecbb4cddd6b92171854247957c08", "task": "hotpotqa", "len": 12043, "pred": "Morgan Llywelyn", "ok": true, "ttft": null}
+{"id": "hotpotqa_6eca7d7affce3375ec084f6356c6fc8ddf75eda0f6a4382f", "task": "hotpotqa", "len": 15971, "pred": "Brittany, Cornwall, Ireland (Republic of Ireland and Northern Ireland compete as a single entity), Isle of Man, Scotland, Wales", "ok": false, "ttft": null}
+{"id": "hotpotqa_9dc6d234e2406aef691ea02ddc2064f343fc30cbc534c937", "task": "hotpotqa", "len": 5869, "pred": "Yes, both Pothos and Tibouchina are flowering genera of plants.", "ok": true, "ttft": null}
+{"id": "hotpotqa_21849142d27a4c8410bf8e8042f016054a0a0493e0e8b6e6", "task": "hotpotqa", "len": 16798, "pred": "Miami", "ok": false, "ttft": null}
+{"id": "hotpotqa_666b2401378aceb59c9a4d6cc75b006f7c6af8a00c7d6f19", "task": "hotpotqa", "len": 17406, "pred": "Chicago", "ok": false, "ttft": null}
+{"id": "hotpotqa_a2bb6c8de2a57c51b35e9d5c005cf46e1c0457f4086ef77d", "task": "hotpotqa", "len": 13371, "pred": "1928", "ok": false, "ttft": null}
+{"id": "hotpotqa_9fe92e20febe504670266d638939a94fc57c3cf8fe9cf948", "task": "hotpotqa", "len": 10223, "pred": "Al Lewis", "ok": false, "ttft": null}
+{"id": "hotpotqa_fbd2e6218ec7c8fc1a90b05bf6858a15d376704a278fa79f", "task": "hotpotqa", "len": 16528, "pred": "Juan Rulfo", "ok": true, "ttft": null}
+{"id": "hotpotqa_56dbceaf2e826fbb177035f03d7a263d62365856f21f39da", "task": "hotpotqa", "len": 16826, "pred": "Through the Looking-Glass", "ok": false, "ttft": null}
+{"id": "hotpotqa_c16a3dd0b5b97180359715cab5c41d528cf2a99e2744f037", "task": "hotpotqa", "len": 12224, "pred": "Yes, both Yut and Tsuro are board games.", "ok": true, "ttft": null}
+{"id": "hotpotqa_887be3f3f2080532b3c0f1dc4d26be4f8a06030bf2e68a1a", "task": "hotpotqa", "len": 12210, "pred": "Yes, both Frank Lloyd and Olivier Assayas are American film directors.", "ok": false, "ttft": null}
+{"id": "hotpotqa_2bf8384417cec2f1a2d43a2602326d90a97622d87898b1cc", "task": "hotpotqa", "len": 14222, "pred": "The person responsible for the concept of a dimensionless number in physics and engineering was Joseph Fourier.", "ok": false, "ttft": null}
+{"id": "hotpotqa_54d1487358089d52613d8e6970c3efdd5c56d112159d2810", "task": "hotpotqa", "len": 16993, "pred": "Battle of Okinawa", "ok": false, "ttft": null}
+{"id": "hotpotqa_ea58013717bdbe9f0bad1991ed03d1afe3208bf514d9a2cd", "task": "hotpotqa", "len": 16868, "pred": "Franco Dragone", "ok": true, "ttft": null}
+{"id": "hotpotqa_690c31a6d6263dacd649fefc5b5cfa94210205fdcdb43905", "task": "hotpotqa", "len": 16148, "pred": "No, both French Spaniel and Beagle are not universally recognized breeds.", "ok": true, "ttft": null}
+{"id": "hotpotqa_83df22880fee9f761464404ca2ff6ab21954e6b0827b4142", "task": "hotpotqa", "len": 17168, "pred": "Glen Berger", "ok": false, "ttft": null}
+{"id": "hotpotqa_a1cce86489841f2514678029dbe95b7289b9d47f52f44939", "task": "hotpotqa", "len": 11576, "pred": "Bill Miner", "ok": true, "ttft": null}
+{"id": "hotpotqa_d6fe5bc54941b566b3c88598bbc459ee4d7098d6c6f22c4d", "task": "hotpotqa", "len": 16675, "pred": "Baghdad was known as the City of Peace during the Abbasid Caliphate.", "ok": true, "ttft": null}
+{"id": "hotpotqa_6c64a81fa526cb96d0a191d9cbd85a7e917b5d4f03b316d7", "task": "hotpotqa", "len": 13811, "pred": "1978", "ok": true, "ttft": null}
+{"id": "hotpotqa_b84411acb9b2e39a68f92ed9e164eb053d3dd9ba4160f0af", "task": "hotpotqa", "len": 8145, "pred": "Tim Storms", "ok": false, "ttft": null}
+{"id": "hotpotqa_de202b6e76dc82831c7f14a6d4346d84b0c0e5e3783356cf", "task": "hotpotqa", "len": 16918, "pred": "writers", "ok": true, "ttft": null}
+{"id": "hotpotqa_4670f2a542ac06d27e47a74a042cf57f743fba34722a7dc5", "task": "hotpotqa", "len": 4676, "pred": "R\u00f8nnaug Alten", "ok": false, "ttft": null}
+{"id": "2wikimqa_4db5bcd1d49fce674507d9128850eb71b808b7dc4246e882", "task": "2wikimqa", "len": 6204, "pred": "Columbia College", "ok": false, "ttft": null}
+{"id": "2wikimqa_7c0b13a81d9d58791b71c2d8e46d2d063de3b9e89c75335f", "task": "2wikimqa", "len": 9066, "pred": "Cipriano Castro", "ok": true, "ttft": null}
+{"id": "2wikimqa_919cc6b1e482c475dc93740aae3549bc6012d644fb29562c", "task": "2wikimqa", "len": 4833, "pred": "Joel The Lump Of Coal", "ok": false, "ttft": null}
+{"id": "2wikimqa_57543e0892f90733bf97dc270cdb36eb9bf8e2230940bcb9", "task": "2wikimqa", "len": 4049, "pred": "Henry Goes Arizona", "ok": true, "ttft": null}
+{"id": "2wikimqa_977f59ef09f7cc4ad6c71fc18d8b60e818e07a43cd7bee92", "task": "2wikimqa", "len": 6277, "pred": "Dr. Socrates", "ok": true, "ttft": null}
+{"id": "2wikimqa_5c3829f10f9daf565e9b5b52ca19f5c044550e916479da74", "task": "2wikimqa", "len": 10543, "pred": "Changeland", "ok": true, "ttft": null}
+{"id": "2wikimqa_85d2e8c38cc3b6f464eae6d84ef2df5f41807c9f8bf3aac8", "task": "2wikimqa", "len": 11421, "pred": "Waylon Jennings", "ok": false, "ttft": null}
+{"id": "2wikimqa_62616c28af945825f87a95c47c1783dc284b06ec2d447402", "task": "2wikimqa", "len": 3405, "pred": "Erich Haenisch died first, followed by William Pooley.", "ok": true, "ttft": null}
+{"id": "2wikimqa_c94e0220a7c5dadee3094df576df766b6d1a15b6c6e21011", "task": "2wikimqa", "len": 8070, "pred": "Ladies Love Danger", "ok": false, "ttft": null}
+{"id": "2wikimqa_cab5465c3f7663e5d72c15a32bc04c8a917dac3c03828814", "task": "2wikimqa", "len": 4914, "pred": "Madrid", "ok": true, "ttft": null}
+{"id": "2wikimqa_7940c60a5ff2d81b62d118253577d1d891057ca45695e91a", "task": "2wikimqa", "len": 5169, "pred": "The place of birth of the director of film Sweepstakes (Film) is in Australia.", "ok": false, "ttft": null}
+{"id": "2wikimqa_0c43156b7d6bc17425a89dc6c6d48fc8c2c72ac9eba55a87", "task": "2wikimqa", "len": 1037, "pred": "Yes", "ok": true, "ttft": null}
+{"id": "2wikimqa_9c5350cca5afdd1a7254dbc26b3642401551473f4b071ce6", "task": "2wikimqa", "len": 5559, "pred": "The Drover's Sweetheart", "ok": true, "ttft": null}
+{"id": "2wikimqa_1ff4dc6c1f7c02445945ced1b35a08544d7ba76089675883", "task": "2wikimqa", "len": 5444, "pred": "The director of film Tiramisu (2002 film) earned the award for Best Director.", "ok": false, "ttft": null}
+{"id": "2wikimqa_76a7a3db55c966560ad3e8d34037602d4d12714980898b78", "task": "2wikimqa", "len": 9740, "pred": "No", "ok": false, "ttft": null}
+{"id": "2wikimqa_435fae9b23d8b22e85a57cfd8ceb8541dea5b0c551acc3a9", "task": "2wikimqa", "len": 11001, "pred": "No Trees In The Street", "ok": true, "ttft": null}
+{"id": "2wikimqa_43cf26663f3b4cec7a8ea68d56909201a2d1b1ad82512190", "task": "2wikimqa", "len": 7883, "pred": "Night Of Dark Shadows", "ok": false, "ttft": null}
+{"id": "2wikimqa_77a79ad1902a4732e8030d79380395b7e614d65de3cdd038", "task": "2wikimqa", "len": 2181, "pred": "Many Tanks Mr. Atkins", "ok": false, "ttft": null}
+{"id": "2wikimqa_f0523a41000b43996413780968b611c3f4d28b87f4acc859", "task": "2wikimqa", "len": 1867, "pred": "Yes", "ok": false, "ttft": null}
+{"id": "2wikimqa_517da14d56782303ccf8ec057b86bf43169b6f2edcd6d0f1", "task": "2wikimqa", "len": 4313, "pred": "University of Wisconsin-Madison", "ok": true, "ttft": null}
+{"id": "2wikimqa_300ccba91f776e583d418d6d9ecc5e1bdca7bd80580cd36e", "task": "2wikimqa", "len": 7011, "pred": "Dudley Russell", "ok": true, "ttft": null}
+{"id": "2wikimqa_544828db02efd1313bfc0a1bdeb8c3df5985c299254b0222", "task": "2wikimqa", "len": 5623, "pred": "Switzerland", "ok": false, "ttft": null}
+{"id": "2wikimqa_0f629fbc7a6c3689ee9771af3aa81400674e673f11d47f2d", "task": "2wikimqa", "len": 9772, "pred": "No", "ok": true, "ttft": null}
+{"id": "2wikimqa_13dde588b81d1de4a9984418bf3d6791de7d1b1edf21d61b", "task": "2wikimqa", "len": 5393, "pred": "Germany", "ok": false, "ttft": null}
+{"id": "2wikimqa_49035ecce6e78a355307dd6a1ddb11a87cab76090d655d2f", "task": "2wikimqa", "len": 14978, "pred": "The Longshots", "ok": false, "ttft": null}
+{"id": "2wikimqa_cf5321576ab8cc1b8453991abac66aa5d46155d8ffa7ee17", "task": "2wikimqa", "len": 11455, "pred": "Because the director of film Port Of Seven Seas, James Whale, died by suicide by drowning himself in his Pacific Palisades swimming pool on 29 May", "ok": true, "ttft": null}
+{"id": "2wikimqa_6110cb2d4156df8d180fdd01e5f340c4731f7d1f4583fc5a", "task": "2wikimqa", "len": 6226, "pred": "Ajman", "ok": false, "ttft": null}
+{"id": "2wikimqa_7218faa7d718853f8df4329a7242806cf70e63ece56f8cdb", "task": "2wikimqa", "len": 6275, "pred": "Pozna\u0144", "ok": true, "ttft": null}
+{"id": "2wikimqa_24591a37ff748fb849a62e6a4f4095f7089d7ced43595d01", "task": "2wikimqa", "len": 5384, "pred": "Bogdan \u021a\u0103ru\u0219", "ok": true, "ttft": null}
+{"id": "2wikimqa_d65eba4a41497416d108c17f366636efb4cbda4c215c8818", "task": "2wikimqa", "len": 9736, "pred": "Johnny Ekstr\u00f6m was born later than Hugh Evelyn Wortham.", "ok": true, "ttft": null}

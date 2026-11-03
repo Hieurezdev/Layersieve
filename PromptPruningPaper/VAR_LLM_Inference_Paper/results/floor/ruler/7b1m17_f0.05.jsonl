@@ -1,0 +1,400 @@
+{"id": "ruler32768_cwe_3", "task": "cwe@32768", "pred": "1. expertise 2. morale 3. resolute 4. consumption 5. resolute 6. expertise 7. expertise 8. expertise 9. expertise 10. expertise", "len": 32442, "kept": 1861}
+{"id": "ruler32768_cwe_12", "task": "cwe@32768", "pred": "1. historian 2. persimmon 3. fiction 4. easel 5. fiction 6. historian 7. historian 8. fiction 9. historian 10. fiction", "len": 32560, "kept": 1871}
+{"id": "ruler32768_cwe_13", "task": "cwe@32768", "pred": "1. say 2. thanks 3. thanks 4. thanks 5. thanks 6. wide-eyed 7. thanks 8. thanks 9. thanks 10. wide-eyed", "len": 32544, "kept": 1867}
+{"id": "ruler32768_cwe_15", "task": "cwe@32768", "pred": "1. picture 2. dealer 3. picture 4. landscape 5. picture 6. landscape 7. picture 8. landscape 9. picture 10. landscape", "len": 32497, "kept": 1860}
+{"id": "ruler32768_cwe_16", "task": "cwe@32768", "pred": "1. coupon 2. omnivore 3. coupon 4. coupon 5. coupon 6. coupon 7. coupon 8. coupon 9. coupon 10. coupon", "len": 32617, "kept": 1869}
+{"id": "ruler32768_cwe_22", "task": "cwe@32768", "pred": "1. news 2. troop 3. news 4. troop 5. news 6. troop 7. news 8. troop 9. news 10. troop", "len": 32455, "kept": 1861}
+{"id": "ruler32768_cwe_23", "task": "cwe@32768", "pred": "1. okra 2. crack 3. agree 4. okra 5. agree 6. crack 7. agree 8. crack 9. agree 10. crack", "len": 32596, "kept": 1869}
+{"id": "ruler32768_cwe_35", "task": "cwe@32768", "pred": "1. manhunt 2. manhunt 3. manhunt 4. manhunt 5. manhunt 6. manhunt 7. manhunt 8. manhunt 9. manhunt 10. manhunt", "len": 32514, "kept": 1867}
+{"id": "ruler32768_cwe_36", "task": "cwe@32768", "pred": "1. get 2. accept 3. processor 4. accept 5. get 6. accept 7. get 8. accept 9. get 10. accept", "len": 32212, "kept": 1850}
+{"id": "ruler32768_cwe_40", "task": "cwe@32768", "pred": "1. interchange 2. generosity 3. dependency 4. dependency 5. dependency 6. dependency 7. dependency 8. dependency 9. dependency 10. dependency", "len": 32276, "kept": 1854}
+{"id": "ruler32768_cwe_44", "task": "cwe@32768", "pred": "1. starter 2. starter 3. starter 4. starter 5. starter 6. starter 7. starter 8. starter 9. starter 10. starter", "len": 32562, "kept": 1868}
+{"id": "ruler32768_cwe_47", "task": "cwe@32768", "pred": "1. hydrogen 2. interview 3. pilgrim 4. protest 5. tolerance 6. ownership 7. interview 8. interview 9. hydrogen 10. hydrogen", "len": 32576, "kept": 1870}
+{"id": "ruler32768_cwe_49", "task": "cwe@32768", "pred": "1. sleeping 2. highfalutin 3. acoustic 4. acoustic 5. acoustic 7. sleeping 8. acoustic 9. acoustic 10. acoustic", "len": 32601, "kept": 1872}
+{"id": "ruler32768_cwe_51", "task": "cwe@32768", "pred": "1. drudgery 2. drudgery 3. drudgery 4. drudgery 5. drudgery 6. drudgery 7. drudgery 8. drudgery 9. drudgery 10. drudgery", "len": 32354, "kept": 1856}
+{"id": "ruler32768_cwe_52", "task": "cwe@32768", "pred": "1. haircut 2. sadness 3. leprosy 4. leprosy 5. leprosy 6. haircut 7. haircut 8. sadness 9. sadness 10. sadness", "len": 32568, "kept": 1871}
+{"id": "ruler32768_cwe_57", "task": "cwe@32768", "pred": "1. **honoree** 2. **honoree** 3. **honoree** 4. **honoree** 5. **honoree** 6. **chronometer** 7. **honoree** 8. **honoree** 9. **honoree** 10. **honoree**", "len": 32356, "kept": 1855}
+{"id": "ruler32768_cwe_63", "task": "cwe@32768", "pred": "1. objection 2. pilgrimage 3. nation 4. accelerant 5. spelling 6. nation 7. objection 8. objection 9. objection 10. objection", "len": 32521, "kept": 1864}
+{"id": "ruler32768_cwe_71", "task": "cwe@32768", "pred": "1. week 2. flipped-out 3. week 4. week 5. week 6. week 7. week 8. week 9. week 10. week", "len": 32524, "kept": 1861}
+{"id": "ruler32768_cwe_79", "task": "cwe@32768", "pred": "1. lava 2. pricing 3. talent 4. lava 5. talent 6. lava 7. talent 8. lava 9. talent 10. lava", "len": 32561, "kept": 1871}
+{"id": "ruler32768_cwe_81", "task": "cwe@32768", "pred": "1. rectangle 2. mallard 3. professor 4. rectangle 5. rectangle 6. rectangle 7. rectangle 8. rectangle 9. rectangle 10. rectangle", "len": 32644, "kept": 1869}
+{"id": "ruler32768_cwe_83", "task": "cwe@32768", "pred": "1. pardon 2. civilian 3. honoree 4. honoree 5. civilian 6. pardon 7. civilian 8. honoree 9. civilian 10. pardon", "len": 32487, "kept": 1862}
+{"id": "ruler32768_cwe_98", "task": "cwe@32768", "pred": "1. heartache 2. dreamer 3. maintain 4. cloakroom 5. heart 6. heartache 7. dreamer 8. maintain 9. dreamer 10. maintain", "len": 32614, "kept": 1873}
+{"id": "ruler32768_cwe_101", "task": "cwe@32768", "pred": "1. albatross 2. story 3. cartload 4. nebulous 5. woodchuck 6. test 7. stop 8. test 9. test 10. test", "len": 32645, "kept": 1875}
+{"id": "ruler32768_cwe_107", "task": "cwe@32768", "pred": "1. render 2. heartache 3. heartache 4. heartache 5. render 6. render 7. render 8. heartache 9. render 10. render", "len": 32584, "kept": 1870}
+{"id": "ruler32768_cwe_110", "task": "cwe@32768", "pred": "1. bandanna 2. carbohydrate 3. sailor 4. hunt 5. bootie 6. swath 7. swath 8. swath 9. bandanna 10. bandanna", "len": 32240, "kept": 1851}
+{"id": "ruler32768_cwe_111", "task": "cwe@32768", "pred": "1. explanation 2. hierarchy 3. rally 4. complement 5. electricity 6. hierarchy 7. electricity 8. trillion 9. complement 10. trillion", "len": 32103, "kept": 1845}
+{"id": "ruler32768_cwe_112", "task": "cwe@32768", "pred": "1. hiking 2. phenomenon 3. phenomenon 4. hiking 5. hiking 6. hiking 7. hiking 8. hiking 9. hiking 10. hiking", "len": 32604, "kept": 1867}
+{"id": "ruler32768_cwe_114", "task": "cwe@32768", "pred": "1. tough-guy 2. nightlife 3. gritty 4. tough-guy 5. gritty 6. tough-guy 7. gritty 8. tough-guy 9. gritty 10. tough-guy", "len": 32597, "kept": 1873}
+{"id": "ruler32768_cwe_116", "task": "cwe@32768", "pred": "1. confess 2. step-brother 3. turkey 4. silence 5. nourishment 6. step-brother 7. confess 8. confess 9. step-brother 10. confess", "len": 32644, "kept": 1874}
+{"id": "ruler32768_cwe_119", "task": "cwe@32768", "pred": "1. blade 2. blade 3. blade 4. blade 5. blade 6. blade 7. blade 8. blade 9. blade 10. blade", "len": 32645, "kept": 1872}
+{"id": "ruler32768_cwe_125", "task": "cwe@32768", "pred": "1. stopsign 2. countess 3. outfit 4. countess 5. countess 6. countess 7. countess 8. countess 9. countess 10. countess", "len": 32514, "kept": 1864}
+{"id": "ruler32768_cwe_135", "task": "cwe@32768", "pred": "1. enthusiasm 2. raisin 3. gusty 4. crinoline 5. enthusiasm 6. enthusiasm 7. enthusiasm 8. enthusiasm 9. enthusiasm 10. enthusiasm", "len": 32350, "kept": 1856}
+{"id": "ruler32768_cwe_136", "task": "cwe@32768", "pred": "1. titanium 2. tsunami 3. distinction 4. e-book 5. memorize 6. distinction 7. memorize 8. memorize 9. memorize 10. memorize", "len": 32514, "kept": 1867}
+{"id": "ruler32768_cwe_140", "task": "cwe@32768", "pred": "1. pencil 2. lentil 3. certificate 4. optimisation 5. domineering 6. everyone 7. everyone 8. optimisation 9. optimisation 10. certificate", "len": 32459, "kept": 1866}
+{"id": "ruler32768_cwe_142", "task": "cwe@32768", "pred": "1. crisis 2. shipping 3. crisis 4. crisis 5. crisis 6. crisis 7. crisis 8. crisis 9. crisis 10. crisis", "len": 32386, "kept": 1861}
+{"id": "ruler32768_cwe_148", "task": "cwe@32768", "pred": "1. spool 2. preface 3. spool 4. spool 5. spool 6. spool 7. spool 8. spool 9. spool 10. spool", "len": 32501, "kept": 1865}
+{"id": "ruler32768_cwe_150", "task": "cwe@32768", "pred": "1. hypothermia 2. lettuce 3. periodic 4. souvenir 5. hypothermia 6. hypothermia 7. periodic 8. periodic 9. periodic 10. periodic", "len": 32352, "kept": 1860}
+{"id": "ruler32768_cwe_172", "task": "cwe@32768", "pred": "1. briefs 2. household 3. moment 4. planning 5. briefs 6. briefs 7. moment 8. moment 9. moment 10. moment", "len": 32489, "kept": 1861}
+{"id": "ruler32768_cwe_174", "task": "cwe@32768", "pred": "1. gain 2. arrange 3. lackadaisical 4. implementation 5. surprise 6. surprise 7. arrange 8. gain 9. arrange 10. gain", "len": 32575, "kept": 1865}
+{"id": "ruler32768_cwe_176", "task": "cwe@32768", "pred": "1. assure 2. observatory 3. workforce 4. nauseating 5. assure 6. assure 7. assure 8. assure 9. assure 10. assure", "len": 32642, "kept": 1874}
+{"id": "ruler32768_cwe_181", "task": "cwe@32768", "pred": "1. hearing 2. conspirator 3. industrialization 4. desktop 5. terrorist 6. challenge 7. industrialization 8. industrialization 9. industrialization 10. industrialization", "len": 32552, "kept": 1865}
+{"id": "ruler32768_cwe_183", "task": "cwe@32768", "pred": "1. skullcap 2. doctrine 3. achieve 4. infection 5. chasuble 6. infection 7. infection 8. doctrine 9. skullcap 10. doctrine", "len": 32543, "kept": 1863}
+{"id": "ruler32768_cwe_185", "task": "cwe@32768", "pred": "1. hardboard 2. neck 3. necktie 4. necktie 5. neck 6. politician 7. politician 8. politician 9. politician 10. politician", "len": 32575, "kept": 1866}
+{"id": "ruler32768_cwe_186", "task": "cwe@32768", "pred": "1. penalty 2. cowboy 3. spyglass 4. spool 5. intentionality 6. cowboy 7. intentionality 8. cowboy 9. intentionality 10. cowboy", "len": 32466, "kept": 1863}
+{"id": "ruler32768_cwe_189", "task": "cwe@32768", "pred": "1. supervisor 2. communication 3. documentation 4. moccasins 5. supervisor 6. supervisor 7. supervisor 8. supervisor 9. supervisor 10. supervisor", "len": 32597, "kept": 1872}
+{"id": "ruler32768_cwe_193", "task": "cwe@32768", "pred": "1. father-in-law 2. godly 3. decline 4. tide 5. underclothes 6. god 7. today 8. arcade 9. politics 10. psychology", "len": 32625, "kept": 1869}
+{"id": "ruler32768_cwe_194", "task": "cwe@32768", "pred": "1. cracker 2. cinema 3. wildlife 4. stir-fry 5. cracker 6. wildlife 7. cracker 8. cinema 9. cracker 10. cracker", "len": 32523, "kept": 1865}
+{"id": "ruler32768_cwe_214", "task": "cwe@32768", "pred": "1. due 2. due 3. due 4. due 5. due 6. due 7. due 8. due 9. due 10. due", "len": 32128, "kept": 1844}
+{"id": "ruler32768_cwe_216", "task": "cwe@32768", "pred": "1. nifty 2. mastoid 3. special 4. nifty 5. nifty 6. nifty 7. nifty 8. nifty 9. nifty 10. nifty", "len": 32310, "kept": 1853}
+{"id": "ruler32768_cwe_229", "task": "cwe@32768", "pred": "1. consumption 2. date 3. minister 4. consumption 5. date 6. consumption 7. date 8. consumption 9. date 10. consumption", "len": 32566, "kept": 1869}
+{"id": "ruler32768_cwe_232", "task": "cwe@32768", "pred": "1. professor 2. commuter 3. hand-holding 4. professor 5. professor 6. professor 7. professor 8. professor 9. professor 10. professor", "len": 32639, "kept": 1874}
+{"id": "ruler32768_cwe_235", "task": "cwe@32768", "pred": "1. attempt 2. auditorium 3. interlay 4. wire 5. fetch 6. auditorium 7. wire 8. auditorium 9. wire 10. auditorium", "len": 32584, "kept": 1869}
+{"id": "ruler32768_cwe_258", "task": "cwe@32768", "pred": "1. fraud 2. fitness 3. fitness 4. fitness 5. fitness 6. fitness 7. fitness 8. fitness 9. fitness 10. fitness", "len": 32540, "kept": 1868}
+{"id": "ruler32768_cwe_274", "task": "cwe@32768", "pred": "1. nectar 2. size 3. nectar 4. nectar 5. nectar 6. nectar 7. nectar 8. nectar 9. nectar 10. nectar", "len": 32605, "kept": 1871}
+{"id": "ruler32768_cwe_279", "task": "cwe@32768", "pred": "1. lunge 2. pantologist 3. interval 4. purity 5. sunbeam 6. pantologist 7. lunge 8. lunge 9. pantologist 10. lunge", "len": 32297, "kept": 1852}
+{"id": "ruler32768_cwe_282", "task": "cwe@32768", "pred": "1. jittery 2. hound 3. normalisation 4. help 5. evidence 6. commitment 7. evidence 8. evidence 9. evidence 10. evidence", "len": 32612, "kept": 1868}
+{"id": "ruler32768_cwe_287", "task": "cwe@32768", "pred": "1. tonight 2. lookout 3. reconsideration 4. earmuffs 5. rhinoceros 6. tonight 7. tonight 8. tonight 9. tonight 10. tonight", "len": 32634, "kept": 1870}
+{"id": "ruler32768_cwe_295", "task": "cwe@32768", "pred": "1. trouble 2. awareness 3. transmission 4. awareness 5. trouble 6. trouble 7. transmission 8. awareness 9. transmission 10. trouble", "len": 32597, "kept": 1866}
+{"id": "ruler32768_cwe_301", "task": "cwe@32768", "pred": "1. lamb 2. transom 3. characteristic 4. transom 5. lamb 6. lamb 7. characteristic 8. lamb 9. characteristic 10. lamb", "len": 32461, "kept": 1860}
+{"id": "ruler32768_cwe_302", "task": "cwe@32768", "pred": "1. phrase 2. sibling 3. diagnosis 4. dividend 5. phrase 6. phrase 7. phrase 8. phrase 9. phrase 10. phrase", "len": 32582, "kept": 1870}
+{"id": "ruler32768_cwe_308", "task": "cwe@32768", "pred": "1. afterlife 2. sophomore 3. motorcar 4. swim 5. naive 6. naive 7. naive 8. afterlife 9. afterlife 10. naive", "len": 32337, "kept": 1854}
+{"id": "ruler32768_cwe_309", "task": "cwe@32768", "pred": "1. hesitant 2. frightened 3. mere 4. mere 5. hesitant 6. hesitant 7. hesitant 8. hesitant 9. hesitant 10. hesitant", "len": 32400, "kept": 1862}
+{"id": "ruler32768_cwe_316", "task": "cwe@32768", "pred": "1. behavior 2. smell 3. numerous 4. departure 5. numerous 6. smell 7. behavior 8. numerous 9. smell 10. behavior", "len": 32498, "kept": 1868}
+{"id": "ruler32768_cwe_321", "task": "cwe@32768", "pred": "1. cirrhosis 2. hydrocarb 3. probation 4. ice-cream 5. cirrhosis 6. cirrhosis 7. cirrhosis 8. cirrhosis 9. cirrhosis 10. cirrhosis", "len": 32527, "kept": 1868}
+{"id": "ruler32768_cwe_325", "task": "cwe@32768", "pred": "1. disillusioned 2. sidestream 3. grandmother 4. sunday 5. grandmother 6. grandmother 7. sunday 8. grandmother 9. grandmother 10. grandmother", "len": 32644, "kept": 1875}
+{"id": "ruler32768_cwe_327", "task": "cwe@32768", "pred": "1. ethernet 2. tackle 3. miscreant 4. CD 5. Ethernet 6. Ethernet 7. Ethernet 8. Ethernet 9. Ethernet 10. Ethernet", "len": 32497, "kept": 1868}
+{"id": "ruler32768_cwe_331", "task": "cwe@32768", "pred": "1. age 2. wallaby 3. age 4. age 5. age 6. age 7. age 8. age 9. age 10. age", "len": 32612, "kept": 1871}
+{"id": "ruler32768_cwe_332", "task": "cwe@32768", "pred": "1. expense 2. discretion 3. expense 4. expense 5. expense 6. expense 7. expense 8. expense 9. expense 10. expense", "len": 32219, "kept": 1849}
+{"id": "ruler32768_cwe_338", "task": "cwe@32768", "pred": "1. motionless 2. atmosphere 3. efficacy 4. total 5. total 6. efficacy 7. efficacy 8. efficacy 9. efficacy 10. efficacy", "len": 32480, "kept": 1866}
+{"id": "ruler32768_cwe_343", "task": "cwe@32768", "pred": "1. category 2. category 3. category 4. category 5. category 6. category 7. category 8. category 9. category 10. category\n\nIt appears that \"category\" is the most frequently occurring word in the list, appearing 10 times. However, this seems unusual and likely indicates a data entry error or a pattern where \"category\" is being used repeatedly. If you intended to provide a more varied list, please review and provide the correct data.", "len": 32605, "kept": 1870}
+{"id": "ruler32768_cwe_346", "task": "cwe@32768", "pred": "1. zampone 2. sassy 3. piety 4. piety 5. piety 6. piety 7. piety 8. piety 9. piety 10. piety", "len": 32566, "kept": 1871}
+{"id": "ruler32768_cwe_349", "task": "cwe@32768", "pred": "1. agonizing 2. giant 3. summit 4. tenor 5. tenor 6. agonizing 7. agonizing 8. giant 9. giant 10. summit", "len": 32542, "kept": 1867}
+{"id": "ruler32768_cwe_357", "task": "cwe@32768", "pred": "1. fabulous 2. season 3. tweezers 4. fabulous 5. season 6. fabulous 7. fabulous 8. season 9. fabulous 10. fabulous", "len": 32546, "kept": 1865}
+{"id": "ruler32768_cwe_359", "task": "cwe@32768", "pred": "1. feature 2. covariate 3. waffle 4. interviewer 5. racist 6. racist 7. feature 8. feature 9. feature 10. feature", "len": 32610, "kept": 1873}
+{"id": "ruler32768_cwe_360", "task": "cwe@32768", "pred": "1. penitent 2. cemetery 3. puddle 4. penitent 5. penitent 6. penitent 7. penitent 8. penitent 9. penitent 10. penitent", "len": 32601, "kept": 1867}
+{"id": "ruler32768_cwe_366", "task": "cwe@32768", "pred": "1. isogloss 2. rancher 3. sleepy 4. conscience 5. ignorance 6. underground 7. renaissance 8. psychedelic 9. isogloss 10. isogloss", "len": 32597, "kept": 1872}
+{"id": "ruler32768_cwe_373", "task": "cwe@32768", "pred": "1. hello 2. blinker 3. hotdog 4. uniform 5. hello 6. hello 7. hello 8. hello 9. hello 10. hello", "len": 32568, "kept": 1867}
+{"id": "ruler32768_cwe_377", "task": "cwe@32768", "pred": "1. deduce 2. stupidity 3. wrench 4. temper 5. ingrate 6. publisher 7. connotation 8. conifer 9. curriculum 10. chauvinist", "len": 32469, "kept": 1860}
+{"id": "ruler32768_cwe_379", "task": "cwe@32768", "pred": "1. afterlife 2. disillusioned 3. diagram 4. stupidity 5. afterlife 6. afterlife 7. afterlife 8. afterlife 9. afterlife 10. afterlife", "len": 32466, "kept": 1861}
+{"id": "ruler32768_cwe_388", "task": "cwe@32768", "pred": "1. tam-o'-shanter 2. anybody 3. anybody 4. anybody 5. anybody 6. anybody 7. anybody 8. anybody 9. anybody 10. anybody", "len": 32399, "kept": 1855}
+{"id": "ruler32768_cwe_390", "task": "cwe@32768", "pred": "1. livestock 2. offset 3. presume 4. sandbar 5. offset 6. offset 7. offset 8. offset 9. offset 10. offset", "len": 32545, "kept": 1865}
+{"id": "ruler32768_cwe_395", "task": "cwe@32768", "pred": "1. forecast 2. larder 3. duck 4. manner 5. forecast 6. larder 7. duck 8. manner 9. forecast 10. larder", "len": 32595, "kept": 1869}
+{"id": "ruler32768_cwe_412", "task": "cwe@32768", "pred": "1. router 2. need 3. budget 4. observant 5. router 6. budget 7. observant 8. router 9. need 10. observant", "len": 32465, "kept": 1866}
+{"id": "ruler32768_cwe_413", "task": "cwe@32768", "pred": "1. airship 2. hiring 3. analysis 4. resistance 5. stereo 6. resistance 7. analysis 8. airship 9. analysis 10. airship", "len": 32201, "kept": 1853}
+{"id": "ruler32768_cwe_414", "task": "cwe@32768", "pred": "1. girlfriend 2. corsage 3. sleuth 4. continue 5. continue 6. girlfriend 7. girlfriend 8. sleuth 9. continue 10. sleuth", "len": 32559, "kept": 1865}
+{"id": "ruler32768_cwe_424", "task": "cwe@32768", "pred": "1. documentary 2. culvert 3. downfall 4. contact 5. valley 6. documentary 7. documentary 8. culvert 9. culvert 10. culvert", "len": 32358, "kept": 1853}
+{"id": "ruler32768_cwe_433", "task": "cwe@32768", "pred": "1. officer 2. participation 3. clever 4. wifi 5. officer 6. officer 7. officer 8. officer 9. officer 10. officer", "len": 32560, "kept": 1871}
+{"id": "ruler32768_cwe_444", "task": "cwe@32768", "pred": "1. cinema 2. fanatical 3. rope 4. rope 5. rope 6. rope 7. rope 8. rope 9. rope 10. rope", "len": 32642, "kept": 1869}
+{"id": "ruler32768_cwe_445", "task": "cwe@32768", "pred": "1. burn 2. thunderbolt 3. freckle 4. burn 5. burn 6. thunderbolt 7. burn 8. burn 9. burn 10. burn", "len": 32559, "kept": 1864}
+{"id": "ruler32768_cwe_447", "task": "cwe@32768", "pred": "1. composite 2. trapezoid 3. basement 4. corridor 5. labourer 6. trapezoid 7. composite 8. composite 9. trapezoid 10. trapezoid", "len": 32577, "kept": 1872}
+{"id": "ruler32768_cwe_454", "task": "cwe@32768", "pred": "1. identification 2. excuse 3. kneejerk 4. knee 5. tenth 6. evening 7. identification 8. evening 9. identification 10. identification", "len": 32563, "kept": 1869}
+{"id": "ruler32768_cwe_456", "task": "cwe@32768", "pred": "1. creep 2. alteration 3. iceberg 4. spouse 5. collectivization 6. collectivisation 7. collectivization 8. collectivisation 9. collectivization 10. collectivisation", "len": 32626, "kept": 1873}
+{"id": "ruler32768_cwe_464", "task": "cwe@32768", "pred": "1. adaptable 2. cowardly 3. molecule 4. typewriter 5. molecule 6. molecule 7. molecule 8. molecule 9. molecule 10. molecule", "len": 32503, "kept": 1863}
+{"id": "ruler32768_cwe_470", "task": "cwe@32768", "pred": "1. ban 2. identity 3. hesitant 4. observe 5. ban 6. ban 7. observe 8. ban 9. ban 10. ban", "len": 32616, "kept": 1870}
+{"id": "ruler32768_cwe_478", "task": "cwe@32768", "pred": "1. gig 2. neighborhood 3. season 4. gig 5. neighborhood 6. season 7. gig 8. neighborhood 9. season 10. gig", "len": 32570, "kept": 1865}
+{"id": "ruler32768_cwe_480", "task": "cwe@32768", "pred": "1. birdcage 2. assess 3. birdcage 4. birdcage 5. birdcage 6. birdcage 7. birdcage 8. birdcage 9. birdcage 10. birdcage", "len": 32635, "kept": 1868}
+{"id": "ruler32768_cwe_483", "task": "cwe@32768", "pred": "1. facility 2. nervous 3. diagnosis 4. nervous 5. facility 6. diagnosis 7. facility 8. diagnosis 9. facility 10. diagnosis", "len": 32518, "kept": 1862}
+{"id": "ruler32768_cwe_486", "task": "cwe@32768", "pred": "1. bulb 2. guiltless 3. guiltless 4. guiltless 5. guiltless 6. bulb 7. guiltless 8. guiltless 9. guiltless 10. guiltless", "len": 32412, "kept": 1863}
+{"id": "ruler32768_cwe_490", "task": "cwe@32768", "pred": "1. community 2. streetcar 3. workplace 4. disagreement 5. community 6. community 7. community 8. community 9. community 10. community", "len": 32516, "kept": 1864}
+{"id": "ruler32768_cwe_496", "task": "cwe@32768", "pred": "1. boundary 2. sphynx 3. prove 4. seat 5. sphynx 6. sphynx 7. boundary 8. boundary 9. boundary 10. sphynx", "len": 32591, "kept": 1869}
+{"id": "ruler32768_fwe_3", "task": "fwe@32768", "pred": "uafuav, jszgky, and utvvut.", "len": 32175, "kept": 1850}
+{"id": "ruler32768_fwe_12", "task": "fwe@32768", "pred": "1. tsnpey  \n2. uoypuv  \n3. jwzcvg", "len": 32204, "kept": 1851}
+{"id": "ruler32768_fwe_13", "task": "fwe@32768", "pred": "sxwyyc, jyuzsf, and uetdyf.", "len": 32342, "kept": 1859}
+{"id": "ruler32768_fwe_15", "task": "fwe@32768", "pred": "1. tprdjj  \n2. jljuiq  \n3. eicssk", "len": 31703, "kept": 1817}
+{"id": "ruler32768_fwe_16", "task": "fwe@32768", "pred": "1. tqufsw  \n2. kazvsx  \n3. undobz", "len": 31210, "kept": 1798}
+{"id": "ruler32768_fwe_22", "task": "fwe@32768", "pred": "twlhdz, jomnuq, undurz", "len": 31263, "kept": 1806}
+{"id": "ruler32768_fwe_23", "task": "fwe@32768", "pred": "sxuwqf, jvzljr, and sxuwqf (it repeats as the most frequent).", "len": 30925, "kept": 1785}
+{"id": "ruler32768_fwe_35", "task": "fwe@32768", "pred": "trjygl, jxyiin, uuztpq", "len": 32328, "kept": 1850}
+{"id": "ruler32768_fwe_36", "task": "fwe@32768", "pred": "tipivp, junlju, and tipivp (appears multiple times, but the question asks for three distinct words).", "len": 29844, "kept": 1731}
+{"id": "ruler32768_fwe_40", "task": "fwe@32768", "pred": "1. toyimz  \n2. jvmxrd  \n3. uvlzoc", "len": 31751, "kept": 1829}
+{"id": "ruler32768_fwe_44", "task": "fwe@32768", "pred": "1. tutzdr  \n2. jwbpfs  \n3. jqennu", "len": 31308, "kept": 1798}
+{"id": "ruler32768_fwe_47", "task": "fwe@32768", "pred": "1. toqkdf  \n2. jzmxbv  \n3. umarsu", "len": 32485, "kept": 1865}
+{"id": "ruler32768_fwe_49", "task": "fwe@32768", "pred": "kxgxce, telque, and emtjmf.", "len": 29373, "kept": 1707}
+{"id": "ruler32768_fwe_51", "task": "fwe@32768", "pred": "tcwbwo, kazyxq, etxyaw", "len": 30939, "kept": 1782}
+{"id": "ruler32768_fwe_52", "task": "fwe@32768", "pred": "sskhgc, jrcxma, and ubycwv.", "len": 30680, "kept": 1767}
+{"id": "ruler32768_fwe_57", "task": "fwe@32768", "pred": "truegv, jloinr, jqgxrq", "len": 29616, "kept": 1722}
+{"id": "ruler32768_fwe_63", "task": "fwe@32768", "pred": "tmbwqf, eqpfdp, and urclxb.", "len": 32506, "kept": 1867}
+{"id": "ruler32768_fwe_71", "task": "fwe@32768", "pred": "1. tcdhvj  \n2. jtwlwg  \n3. uapoia", "len": 31532, "kept": 1816}
+{"id": "ruler32768_fwe_79", "task": "fwe@32768", "pred": "1. tqfizf  \n2. kliwyz  \n3. uwjpwd", "len": 32566, "kept": 1852}
+{"id": "ruler32768_fwe_81", "task": "fwe@32768", "pred": "ualszf, eljhol, and uxojyf.", "len": 30405, "kept": 1762}
+{"id": "ruler32768_fwe_83", "task": "fwe@32768", "pred": "toalya, utiwqr, and jljoie.", "len": 30065, "kept": 1746}
+{"id": "ruler32768_fwe_98", "task": "fwe@32768", "pred": "\"uiownw\", \"kevcyr\", and \"jxlkdm\".", "len": 30937, "kept": 1765}
+{"id": "ruler32768_fwe_101", "task": "fwe@32768", "pred": "tjmusf, ekcfmr, and jttvgv.", "len": 31339, "kept": 1804}
+{"id": "ruler32768_fwe_107", "task": "fwe@32768", "pred": "uevmik, uymrwz, and jhgulb.", "len": 31608, "kept": 1823}
+{"id": "ruler32768_fwe_110", "task": "fwe@32768", "pred": "syzgql, uflxjc, and jnikjr.", "len": 31745, "kept": 1829}
+{"id": "ruler32768_fwe_111", "task": "fwe@32768", "pred": "1. uofamf  \n2. vikpkp  \n3. kgoaks", "len": 31059, "kept": 1793}
+{"id": "ruler32768_fwe_112", "task": "fwe@32768", "pred": "1. tqfyek  \n2. jzimng  \n3. eqpptz", "len": 31463, "kept": 1790}
+{"id": "ruler32768_fwe_114", "task": "fwe@32768", "pred": "suvivc, dxuraj, and iyonxa", "len": 32501, "kept": 1851}
+{"id": "ruler32768_fwe_116", "task": "fwe@32768", "pred": "1. ttwmsl  \n2. ustvqz  \n3. kaomlw", "len": 31245, "kept": 1803}
+{"id": "ruler32768_fwe_119", "task": "fwe@32768", "pred": "tpdtkt, unuvib, and jvnvyl.", "len": 30629, "kept": 1771}
+{"id": "ruler32768_fwe_125", "task": "fwe@32768", "pred": "\"spgowd\", \"tqtouy\", and \"inpwls\".", "len": 30832, "kept": 1780}
+{"id": "ruler32768_fwe_135", "task": "fwe@32768", "pred": "1. ugdrmz  \n2. jbjpef  \n3. vdxksi", "len": 31718, "kept": 1828}
+{"id": "ruler32768_fwe_136", "task": "fwe@32768", "pred": "tfrdii, jliwbq, uftbgs", "len": 30874, "kept": 1771}
+{"id": "ruler32768_fwe_140", "task": "fwe@32768", "pred": "tjxoyt, kdwufs, and upakxs.", "len": 30767, "kept": 1771}
+{"id": "ruler32768_fwe_142", "task": "fwe@32768", "pred": "1. szuxan  \n2. kdsqxu  \n3. tzhsvd", "len": 31995, "kept": 1826}
+{"id": "ruler32768_fwe_148", "task": "fwe@32768", "pred": "syshak, jtlmnm, and ebjuwh.", "len": 30281, "kept": 1752}
+{"id": "ruler32768_fwe_150", "task": "fwe@32768", "pred": "1. tsywun  \n2. kjiafy  \n3. eyihrm", "len": 30192, "kept": 1748}
+{"id": "ruler32768_fwe_172", "task": "fwe@32768", "pred": "1. tezeut  \n2. izuqmb  \n3. ukjccp", "len": 32332, "kept": 1851}
+{"id": "ruler32768_fwe_174", "task": "fwe@32768", "pred": "tidvjw, jyxndg, kdfqlx", "len": 32309, "kept": 1847}
+{"id": "ruler32768_fwe_176", "task": "fwe@32768", "pred": "tjoepa, ulgesc, and jkmgri.", "len": 31381, "kept": 1808}
+{"id": "ruler32768_fwe_181", "task": "fwe@32768", "pred": "1. tfqocs\n2. jyihyb\n3. udzded", "len": 31355, "kept": 1794}
+{"id": "ruler32768_fwe_183", "task": "fwe@32768", "pred": "\"thaihz\", \"jtvesi\", and \"uaammp\".", "len": 28138, "kept": 1638}
+{"id": "ruler32768_fwe_185", "task": "fwe@32768", "pred": "swnbtm, jxzbdn, tzjfkt", "len": 31699, "kept": 1823}
+{"id": "ruler32768_fwe_186", "task": "fwe@32768", "pred": "tpbpqu, jifbrz, and uggviv.", "len": 30853, "kept": 1783}
+{"id": "ruler32768_fwe_189", "task": "fwe@32768", "pred": "tvndjw, uqwztr, and dvncyj.", "len": 32606, "kept": 1871}
+{"id": "ruler32768_fwe_193", "task": "fwe@32768", "pred": "thudrq, ujymka, jnkeev", "len": 31289, "kept": 1807}
+{"id": "ruler32768_fwe_194", "task": "fwe@32768", "pred": "tjnhno, ufkxbw, and cjuntq.", "len": 30916, "kept": 1788}
+{"id": "ruler32768_fwe_214", "task": "fwe@32768", "pred": "toaprc, johznd, and jjxxbo.", "len": 31093, "kept": 1791}
+{"id": "ruler32768_fwe_216", "task": "fwe@32768", "pred": "\"twoweh\", \"upqton\", and \"jssmpu\".", "len": 31276, "kept": 1801}
+{"id": "ruler32768_fwe_229", "task": "fwe@32768", "pred": "tafzve, jfwikd, tzxhvp", "len": 30634, "kept": 1774}
+{"id": "ruler32768_fwe_232", "task": "fwe@32768", "pred": "\"tfwuly\", \"jvnylc\", and \"kalfjm\".", "len": 30431, "kept": 1764}
+{"id": "ruler32768_fwe_235", "task": "fwe@32768", "pred": "\"todu\", \"cz\", and \"khtkyf\".", "len": 31786, "kept": 1830}
+{"id": "ruler32768_fwe_258", "task": "fwe@32768", "pred": "1. tgynep  \n2. uipmmh  \n3. kicsnx", "len": 30718, "kept": 1777}
+{"id": "ruler32768_fwe_274", "task": "fwe@32768", "pred": "1. thkdxd  \n2. jykyic  \n3. uaipzi", "len": 30699, "kept": 1778}
+{"id": "ruler32768_fwe_279", "task": "fwe@32768", "pred": "1. tqyzzh  \n2. kpsxfs  \n3. ukpncg", "len": 31879, "kept": 1834}
+{"id": "ruler32768_fwe_282", "task": "fwe@32768", "pred": "tfalmv, jgldye, and tzwrtb.", "len": 31518, "kept": 1817}
+{"id": "ruler32768_fwe_287", "task": "fwe@32768", "pred": "tpzztt, jtohyk, umdvyf", "len": 30963, "kept": 1791}
+{"id": "ruler32768_fwe_295", "task": "fwe@32768", "pred": "swuveg, jaylxb, ebcfpa", "len": 31577, "kept": 1812}
+{"id": "ruler32768_fwe_301", "task": "fwe@32768", "pred": "tnhsrq, jxptny, and umpjsf.", "len": 31739, "kept": 1829}
+{"id": "ruler32768_fwe_302", "task": "fwe@32768", "pred": "1. tppztd  \n2. kgixyi  \n3. unbpjh", "len": 32583, "kept": 1866}
+{"id": "ruler32768_fwe_308", "task": "fwe@32768", "pred": "1. tenpqz  \n2. entysw  \n3. kmlyih", "len": 30303, "kept": 1755}
+{"id": "ruler32768_fwe_309", "task": "fwe@32768", "pred": "`sonust`, `kpiwfv`, and `tvccjj`.", "len": 28557, "kept": 1658}
+{"id": "ruler32768_fwe_316", "task": "fwe@32768", "pred": "\"tncozu\", \"envdgt\", and \"juzfci\".", "len": 30567, "kept": 1769}
+{"id": "ruler32768_fwe_321", "task": "fwe@32768", "pred": "1. tixxhw  \n2. jwgxia  \n3. esvksm", "len": 30964, "kept": 1788}
+{"id": "ruler32768_fwe_325", "task": "fwe@32768", "pred": "1. szyfph  \n2. twbtny  \n3. jgpnib", "len": 30450, "kept": 1759}
+{"id": "ruler32768_fwe_327", "task": "fwe@32768", "pred": "\"tzbhte\", \"kytcxi\", and \"kytcxi\" (with \"kytcxi\" appearing twice consecutively as part of the most frequent sequence).", "len": 30516, "kept": 1767}
+{"id": "ruler32768_fwe_331", "task": "fwe@32768", "pred": "tjuchf, jokosm, uowajh", "len": 32127, "kept": 1848}
+{"id": "ruler32768_fwe_332", "task": "fwe@32768", "pred": "sxdlie, jikejt, twdcti", "len": 31012, "kept": 1790}
+{"id": "ruler32768_fwe_338", "task": "fwe@32768", "pred": "\"syxure\", \"jaufym\", and \"ucjsqe\".", "len": 31184, "kept": 1797}
+{"id": "ruler32768_fwe_343", "task": "fwe@32768", "pred": "\"tlhona\", \"kffwwx\", and \"umqdoc\".", "len": 31516, "kept": 1816}
+{"id": "ruler32768_fwe_346", "task": "fwe@32768", "pred": "1. tejtrj  \n2. isvrgx  \n3. iopkpx", "len": 31756, "kept": 1829}
+{"id": "ruler32768_fwe_349", "task": "fwe@32768", "pred": "tlhvej, keqxrj, fbejka", "len": 32291, "kept": 1853}
+{"id": "ruler32768_fwe_357", "task": "fwe@32768", "pred": "sxiguw, jkhjsw, uccgjw", "len": 32387, "kept": 1834}
+{"id": "ruler32768_fwe_359", "task": "fwe@32768", "pred": "trqyve, kuqnxr, and uodtlx.", "len": 30743, "kept": 1770}
+{"id": "ruler32768_fwe_360", "task": "fwe@32768", "pred": "sospht, jdihfy, and jeqkkb.", "len": 31091, "kept": 1791}
+{"id": "ruler32768_fwe_366", "task": "fwe@32768", "pred": "tswixz, urarww, jxumma", "len": 32076, "kept": 1841}
+{"id": "ruler32768_fwe_373", "task": "fwe@32768", "pred": "tizvgy, jowzvt, ueoyxn", "len": 32142, "kept": 1825}
+{"id": "ruler32768_fwe_377", "task": "fwe@32768", "pred": "\"talheh\", \"dsfnta\", and \"ixlghz\".", "len": 31473, "kept": 1816}
+{"id": "ruler32768_fwe_379", "task": "fwe@32768", "pred": "toawjf, jjsrwx, efhpxw", "len": 32437, "kept": 1845}
+{"id": "ruler32768_fwe_388", "task": "fwe@32768", "pred": "tltmzc, jfbupn, and ughokcf.", "len": 31887, "kept": 1824}
+{"id": "ruler32768_fwe_390", "task": "fwe@32768", "pred": "\"ttyakx\", \"kjiiiz\", and \"usphlq\".", "len": 30704, "kept": 1775}
+{"id": "ruler32768_fwe_395", "task": "fwe@32768", "pred": "ssrsnh, iuxrvt, and tumbbj.", "len": 29059, "kept": 1694}
+{"id": "ruler32768_fwe_412", "task": "fwe@32768", "pred": "temkvt, iyywaj, and ubbnfg.", "len": 30542, "kept": 1767}
+{"id": "ruler32768_fwe_413", "task": "fwe@32768", "pred": "\"tnynuc\", \"jmtrur\", and \"upyguc\".", "len": 30451, "kept": 1765}
+{"id": "ruler32768_fwe_414", "task": "fwe@32768", "pred": "thiqfj, jrqpuu, and ujcayz.", "len": 30725, "kept": 1777}
+{"id": "ruler32768_fwe_424", "task": "fwe@32768", "pred": "stccxn, tppaoe, jfbual", "len": 30955, "kept": 1790}
+{"id": "ruler32768_fwe_433", "task": "fwe@32768", "pred": "tgdqyq, uiyvit, and evqwal.", "len": 31157, "kept": 1791}
+{"id": "ruler32768_fwe_444", "task": "fwe@32768", "pred": "slkmnq, juzkcv, trmhvd", "len": 31992, "kept": 1840}
+{"id": "ruler32768_fwe_445", "task": "fwe@32768", "pred": "tlianu, jkxzvm, and uphrjm.", "len": 31055, "kept": 1790}
+{"id": "ruler32768_fwe_447", "task": "fwe@32768", "pred": "1. tnezgq  \n2. jeyqsv  \n3. uofndv", "len": 31803, "kept": 1827}
+{"id": "ruler32768_fwe_454", "task": "fwe@32768", "pred": "1. txcgkp  \n2. kdrzrq  \n3. uxctsc", "len": 31451, "kept": 1813}
+{"id": "ruler32768_fwe_456", "task": "fwe@32768", "pred": "1. swxznw  \n2. jvfxly  \n3. tvecsu", "len": 32420, "kept": 1859}
+{"id": "ruler32768_fwe_464", "task": "fwe@32768", "pred": "1. tpfnlh  \n2. usuiuz  \n3. kjapud", "len": 30076, "kept": 1747}
+{"id": "ruler32768_fwe_470", "task": "fwe@32768", "pred": "sohoqy, joxrjx, tzytsc", "len": 31349, "kept": 1810}
+{"id": "ruler32768_fwe_478", "task": "fwe@32768", "pred": "svjwtg, jeaxls, jayxbm", "len": 31450, "kept": 1805}
+{"id": "ruler32768_fwe_480", "task": "fwe@32768", "pred": "1. tvbmus  \n2. jawezj  \n3. iugprc", "len": 30507, "kept": 1757}
+{"id": "ruler32768_fwe_483", "task": "fwe@32768", "pred": "tjfnif, dtuucv, and iqbowf.", "len": 31560, "kept": 1804}
+{"id": "ruler32768_fwe_486", "task": "fwe@32768", "pred": "1. tmdvlw  \n2. usporb  \n3. kjlbdr", "len": 31015, "kept": 1789}
+{"id": "ruler32768_fwe_490", "task": "fwe@32768", "pred": "1. tuqxjp  \n2. urtuxt  \n3. jpsith", "len": 30792, "kept": 1781}
+{"id": "ruler32768_fwe_496", "task": "fwe@32768", "pred": "1. tqlkxj  \n2. tqlkxj  \n3. tqlkxj", "len": 31387, "kept": 1793}
+{"id": "ruler131072_cwe_3", "task": "cwe@131072", "pred": "1. muffin 2. tenor 3. rutabaga 4. incident 5. monocle 6. stability 7. stability 8. stability 9. stability 10. stability.\n\nIt appears that \"stability\" is the word that appears most frequently in the list, with 10 occurrences. The word \"muffin\" and \"tenor\" are tied for second place, each appearing 5 times. \"Rutabaga\" and \"incident\" appear 4 times, and \"monocle\" appears 3 times", "len": 130916, "kept": 6781}
+{"id": "ruler131072_cwe_12", "task": "cwe@131072", "pred": "1. git 2. git 3. git 4. git 5. git 6. git 7. git 8. git 9. git 10. git.\n\nIt appears that \"git\" is the overwhelmingly most common word in the provided list, appearing 10 times.", "len": 130731, "kept": 6775}
+{"id": "ruler131072_cwe_13", "task": "cwe@131072", "pred": "1. fanlight  \n2. pain  \n3. priority  \n4. pain  \n5. pain  \n6. fanlight  \n7. pain  \n8. pain  \n9. pain  \n10. fanlight  \n\nIt appears that \"pain\" and \"fanlight\" are the most common words, with \"pain\" appearing 9 times and \"fanlight\" appearing 5 times.", "len": 130715, "kept": 6777}
+{"id": "ruler131072_cwe_15", "task": "cwe@131072", "pred": "1. nightmare 2. seemly 3. universe 4. nightmare 5. universe 6. nightmare 7. seemly 8. universe 9. nightmare 10. seemly", "len": 130852, "kept": 6781}
+{"id": "ruler131072_cwe_16", "task": "cwe@131072", "pred": "1. traveler 2. exuberant 3. exuberant 4. traveler 5. traveler 6. traveler 7. traveler 8. traveler 9. traveler 10. traveler.\n\nIt appears that \"traveler\" is the most common word in the list, appearing 10 times.", "len": 130771, "kept": 6774}
+{"id": "ruler131072_cwe_22", "task": "cwe@131072", "pred": "1. macabre 2. macabre 3. macabre 4. macabre 5. macabre 6. request 7. request 8. request 9. request 10. request", "len": 130838, "kept": 6780}
+{"id": "ruler131072_cwe_23", "task": "cwe@131072", "pred": "1. livestock 2. surfboard 3. success 4. apse 5. nonsense 6. wobble 7. poor 8. wobble 9. wobble 10. wobble", "len": 130643, "kept": 6774}
+{"id": "ruler131072_cwe_35", "task": "cwe@131072", "pred": "1. git 2. git 3. suffer 4. suffer 5. git 6. git 7. git 8. git 9. git 10. git\n\nIt appears that \"git\" is the overwhelmingly most common word in the provided list, appearing 10 times.", "len": 130617, "kept": 6769}
+{"id": "ruler131072_cwe_36", "task": "cwe@131072", "pred": "1. hypochondria 2. dislike 3. spirituality 4. bus 5. dispense 6. dispensable 7. modernity 8. hypochondria 9. spirituality 10. spirituality", "len": 130942, "kept": 6786}
+{"id": "ruler131072_cwe_40", "task": "cwe@131072", "pred": "1. **endive** - 104 times\n2. **step-daughter** - 82 times\n3. **step-mother** - 78 times\n4. **step-grandmother** - 77 times\n5. **step-father** - 76 times\n6. **step-uncle** - 75 times\n7. **step-aunt** - 74 times\n8. **step-daughter** - 73 times\n9. **step-grandmother** - 72 times\n1", "len": 130814, "kept": 6782}
+{"id": "ruler131072_cwe_44", "task": "cwe@131072", "pred": "1. **programme** (appears 104 times)\n2. **yarn** (appears 96 times)\n3. **epithelium** (appears 95 times)\n4. **dozen** (appears 94 times)\n5. **do** (appears 93 times)\n6. **theism** (appears 92 times)\n7. **theism** (appears 92 times) [Note: This appears to be a duplicate entry]\n8. **theism** (appe", "len": 130905, "kept": 6783}
+{"id": "ruler131072_cwe_47", "task": "cwe@131072", "pred": "1. relationship (1055 times)\n2. relationship (1055 times)\n3. relationship (1055 times)\n4. relationship (1055 times)\n5. relationship (1055 times)\n6. relationship (1055 times)\n7. relationship (1055 times)\n8. relationship (1055 times)\n9. relationship (1055 times)\n10. relationship (1055 times)\n\nIt appears that the word \"relationship\" is the only word that appears in the list,", "len": 130839, "kept": 6779}
+{"id": "ruler131072_cwe_49", "task": "cwe@131072", "pred": "1. loophole\n2. puzzled\n3. technology\n4. gainful\n5. pole\n6. confidentiality\n7. imported\n8. pole\n9. pole\n10. pole\n\nIt appears that \"pole\" is the most common word, appearing multiple times. The next most common words are \"loophole,\" \"puzzled,\" \"technology,\" and \"gainful.\"", "len": 130812, "kept": 6780}
+{"id": "ruler131072_cwe_51", "task": "cwe@131072", "pred": "1. symmetry 2. negotiation 3. sightseeing 4. sightseeing 5. sightseeing 6. negotiation 7. negotiation 8. component 9. sightseeing 10. component", "len": 130835, "kept": 6783}
+{"id": "ruler131072_cwe_52", "task": "cwe@131072", "pred": "1. parenthesis 2. tunic 3. parenthesis 4. register 5. loneliness 6. coincidence 7. coincidence 8. coincidence 9. coincidence 10. coincidence", "len": 130840, "kept": 6779}
+{"id": "ruler131072_cwe_57", "task": "cwe@131072", "pred": "1. dream  \n2. dream  \n3. dream  \n4. dream  \n5. dream  \n6. accomplish  \n7. accomplish  \n8. accomplish  \n9. accomplish  \n10. accomplish  \n\nIt appears that \"dream\" and \"accomplish\" are the most common words in the provided list, each appearing multiple times.", "len": 130792, "kept": 6778}
+{"id": "ruler131072_cwe_63", "task": "cwe@131072", "pred": "1. childlike\n2. cornflakes\n3. isolation\n4. mini\n5. mini\n6. isolation\n7. childlike\n8. isolation\n9. childlike\n10. isolation\n\nIt appears that \"childlike,\" \"cornflakes,\" and \"isolation\" are the most common words, with \"mini\" and \"isolation\" appearing multiple times.", "len": 130937, "kept": 6781}
+{"id": "ruler131072_cwe_71", "task": "cwe@131072", "pred": "1. backbone 2. authenticity 3. inhabitant 4. authenticity 5. inhabitant 6. inhabitant 7. inhabitant 8. inhabitant 9. inhabitant 10. inhabitant", "len": 130898, "kept": 6781}
+{"id": "ruler131072_cwe_79", "task": "cwe@131072", "pred": "1. fishmonger 2. feeding 3. everything 4. wonderful 5. delightful 6. delightful 7. delightful 8. delightful 9. delightful 10. delightful", "len": 130742, "kept": 6780}
+{"id": "ruler131072_cwe_81", "task": "cwe@131072", "pred": "1. topsail 2. councilperson 3. aside 4. line 5. topsail 6. councilperson 7. aside 8. line 9. topsail 10. councilperson", "len": 130807, "kept": 6781}
+{"id": "ruler131072_cwe_83", "task": "cwe@131072", "pred": "1. spokesman 2. overexertion 3. utility 4. overexertion 5. spokesman 6. spokesman 7. overexertion 8. spokesman 9. overexertion 10. spokesman", "len": 130731, "kept": 6775}
+{"id": "ruler131072_cwe_98", "task": "cwe@131072", "pred": "1. normalization 2. normalization 3. normalization 4. normalization 5. normalization 6. normalization 7. normalization 8. normalization 9. normalization 10. normalization.\n\nIt appears that \"normalization\" is the most frequently occurring word in the provided list.", "len": 130822, "kept": 6776}
+{"id": "ruler131072_cwe_101", "task": "cwe@131072", "pred": "1. attraction 2. cowboy 3. development 4. independence 5. independence 6. independence 7. independence 8. independence 9. independence 10. independence.\n\nIt appears that the word \"independence\" is the most frequent word in the provided list, appearing 10 times.", "len": 130844, "kept": 6781}
+{"id": "ruler131072_cwe_107", "task": "cwe@131072", "pred": "1. winery 2. continent 3. draw 4. winery 5. continent 6. winery 7. winery 8. winery 9. winery 10. winery", "len": 130727, "kept": 6771}
+{"id": "ruler131072_cwe_110", "task": "cwe@131072", "pred": "1. absorbing\n2. gullible\n3. absorbing\n4. absorbing\n5. absorbing\n6. absorbing\n7. absorbing\n8. absorbing\n9. absorbing\n10. absorbing\n\nIt appears that \"absorbing\" is the most common word in the list, appearing 10 times.", "len": 130920, "kept": 6785}
+{"id": "ruler131072_cwe_111", "task": "cwe@131072", "pred": "1. definition  \n2. centimeter  \n3. centimeter  \n4. definition  \n5. definition  \n6. definition  \n7. definition  \n8. definition  \n9. definition  \n10. definition  \n\nIt appears that \"definition\" is the most common word, appearing 10 times in the list. The word \"centimeter\" also appears frequently, but not as consistently as \"definition.\"", "len": 130928, "kept": 6782}
+{"id": "ruler131072_cwe_112", "task": "cwe@131072", "pred": "1. steady 2. snowsuit 3. lieutenant 4. gadget 5. parachute 6. entertainment 7. naturalisation 8. snow 9. steady 10. steady", "len": 130576, "kept": 6768}
+{"id": "ruler131072_cwe_114", "task": "cwe@131072", "pred": "1. journal 2. journal 3. journal 4. journal 5. journal 6. journal 7. journal 8. journal 9. journal 10. journal.\n\nIt appears that \"journal\" is the overwhelmingly most common word in the provided list, appearing 10 times.", "len": 130751, "kept": 6774}
+{"id": "ruler131072_cwe_116", "task": "cwe@131072", "pred": "1. cohesion 2. armament 3. industrialisation 4. industrialisation 5. industrialisation 6. industrialisation 7. industrialisation 8. industrialisation 9. industrialisation 10. industrialisation.\n\nIt appears that \"industrialisation\" is the most frequently occurring word in the list, appearing 10 times.", "len": 130927, "kept": 6789}
+{"id": "ruler131072_cwe_119", "task": "cwe@131072", "pred": "1. stair\n2. politician\n3. politician\n4. stair\n5. stair\n6. politician\n7. politician\n8. politician\n9. politician\n10. politician\n\nIt appears that \"politician\" is the most common word in the list, appearing 9 times. \"Stair\" is the second most common word, appearing 5 times.", "len": 130855, "kept": 6785}
+{"id": "ruler131072_cwe_125", "task": "cwe@131072", "pred": "1. **ethics** 2. **uneven** 3. **ethics** 4. **ethics** 5. **ethics** 6. **ethics** 7. **ethics** 8. **ethics** 9. **ethics** 10. **ethics**.\n\nIt appears that the word \"ethics\" is the most frequently occurring word in the list, appearing multiple times.", "len": 130750, "kept": 6773}
+{"id": "ruler131072_cwe_135", "task": "cwe@131072", "pred": "1. mobile 2. communicant 3. mobile 4. communicant 5. mobile 6. communicant 7. mobile 8. communicant 9. mobile 10. communicant", "len": 130684, "kept": 6775}
+{"id": "ruler131072_cwe_136", "task": "cwe@131072", "pred": "1. pig 2. corduroy 3. lane 4. pig 5. pig 6. pig 7. pig 8. pig 9. pig 10. pig.\n\nIt appears that \"pig\" is the overwhelmingly most common word in the list, appearing 10 times.", "len": 130936, "kept": 6784}
+{"id": "ruler131072_cwe_140", "task": "cwe@131072", "pred": "1. clammy\n2. laughable\n3. baboon\n4. laughable\n5. laughable\n6. laughable\n7. laughable\n8. laughable\n9. laughable\n10. laughable\n\nIt appears that \"laughable\" is the most common word in the list, appearing 10 times.", "len": 130935, "kept": 6787}
+{"id": "ruler131072_cwe_142", "task": "cwe@131072", "pred": "1. various  \n2. various  \n3. various  \n4. various  \n5. various  \n6. various  \n7. various  \n8. various  \n9. various  \n10. various  \n\nIt appears that the word \"various\" is the most frequently occurring word in the list, appearing multiple times. However, due to the repetitive nature of \"various,\" it is difficult to determine the exact frequency without a tool to count occurrences. If you can provide the full frequency count, I can give you a more accurate list of the 10 most common words.", "len": 130908, "kept": 6787}
+{"id": "ruler131072_cwe_148", "task": "cwe@131072", "pred": "1. commuter 2. insurgence 3. existence 4. progress 5. inflation 6. progress 7. insurgence 8. insurgence 9. existence 10. existence", "len": 130914, "kept": 6781}
+{"id": "ruler131072_cwe_150", "task": "cwe@131072", "pred": "1. goldfish 2. tumbler 3. tumbler 4. tumbler 5. tumbler 6. tumbler 7. tumbler 8. tumbler 9. tumbler 10. tumbler.\n\nIt appears that \"tumbler\" is the most frequently occurring word in the provided list, appearing 10 times.", "len": 130746, "kept": 6774}
+{"id": "ruler131072_cwe_172", "task": "cwe@131072", "pred": "1. pair 2. pair 3. parenthesis 4. pair 5. pair 6. pair 7. pair 8. pair 9. pair 10. pair", "len": 130598, "kept": 6773}
+{"id": "ruler131072_cwe_174", "task": "cwe@131072", "pred": "1. willing 2. discount 3. willing 4. willing 5. willing 6. willing 7. willing 8. willing 9. willing 10. willing\n\nIt appears that \"willing\" is the overwhelmingly most frequent word in the provided list, appearing 10 times.", "len": 130813, "kept": 6781}
+{"id": "ruler131072_cwe_176", "task": "cwe@131072", "pred": "1. score 2. horrible 3. teeny-tiny 4. horrible 5. horrible 6. horrible 7. horrible 8. horrible 9. horrible 10. horrible", "len": 130918, "kept": 6780}
+{"id": "ruler131072_cwe_181", "task": "cwe@131072", "pred": "1. windscreen 2. Early 3. churn 4. windscreen 5. windscreen 6. windscreen 7. windscreen 8. windscreen 9. windscreen 10. windscreen.\n\nIt appears that \"windscreen\" is overwhelmingly the most common word in the list, appearing 10 times. The next most common word is \"Early,\" which appears only once.", "len": 130909, "kept": 6786}
+{"id": "ruler131072_cwe_183", "task": "cwe@131072", "pred": "1. lacquerware  \n2. common  \n3. goofy  \n4. restoration  \n5. goofy  \n6. goofy  \n7. goofy  \n8. goofy  \n9. goofy  \n10. goofy  \n\nIt appears that the word \"goofy\" is the most common, appearing 10 times in the list. The next most common words are \"lacquerware\" and \"common,\" each appearing twice.", "len": 130716, "kept": 6776}
+{"id": "ruler131072_cwe_185", "task": "cwe@131072", "pred": "1. changeable 2. decisive 3. boyfriend 4. analysis 5. changeable 6. boyfriend 7. decisive 8. analysis 9. boyfriend 10. changeable", "len": 130850, "kept": 6781}
+{"id": "ruler131072_cwe_186", "task": "cwe@131072", "pred": "1. importance\n2. everyone\n3. importance\n4. importance\n5. importance\n6. importance\n7. importance\n8. importance\n9. importance\n10. importance\n\nIt appears that \"importance\" is the most frequently occurring word in the list, appearing 10 times.", "len": 130710, "kept": 6777}
+{"id": "ruler131072_cwe_189", "task": "cwe@131072", "pred": "1. forehead  \n2. historian  \n3. reliability  \n4. organization  \n5. someplace  \n6. someplace  \n7. organization  \n8. someplace  \n9. someplace  \n10. someplace  \n\nIt appears that the word \"someplace\" is the most frequent, appearing 9 times. The next most common words are \"forehead\" and \"historian,\" each appearing 4 times. The list seems to have a lot of repetition of certain words, which may indicate a pattern or error in the data.", "len": 130878, "kept": 6785}
+{"id": "ruler131072_cwe_193", "task": "cwe@131072", "pred": "1. chair 2. eating 3. chair 4. eating 5. chair 6. eating 7. chair 8. eating 9. chair 10. eating", "len": 130584, "kept": 6771}
+{"id": "ruler131072_cwe_194", "task": "cwe@131072", "pred": "1. expense 2. enforcement 3. expense 4. expense 5. expense 6. expense 7. expense 8. expense 9. expense 10. expense\n\nIt appears that \"expense\" is the most frequently occurring word in the provided list.", "len": 130495, "kept": 6760}
+{"id": "ruler131072_cwe_214", "task": "cwe@131072", "pred": "1. **nonstop** - 109 times\n2. **airmail** - 102 times\n3. **memorize** - 97 times\n4. **perspective** - 95 times\n5. **habitual** - 89 times\n6. **me** - 87 times\n7. **memorize** - 87 times (repeated)\n8. **habitual** - 89 times (repeated)\n9. **me** - 87 times (repeated)", "len": 130651, "kept": 6775}
+{"id": "ruler131072_cwe_216", "task": "cwe@131072", "pred": "1. wind-chime 2. location 3. subgroup 4. cop-out 5. organization 6. podcast 7. schedule 8. station 9. station-wagon 10. station-tower", "len": 130918, "kept": 6786}
+{"id": "ruler131072_cwe_229", "task": "cwe@131072", "pred": "1. hostess 2. hostess 3. fascia 4. hostess 5. hostess 6. hostess 7. hostess 8. hostess 9. hostess 10. hostess.\n\nIt appears that \"hostess\" is the most frequently occurring word in the provided list, appearing 10 times.", "len": 130825, "kept": 6782}
+{"id": "ruler131072_cwe_232", "task": "cwe@131072", "pred": "1. season 2. organization 3. fact 4. season 5. season 6. season 7. season 8. season 9. season 10. season.\n\nIt appears that \"season\" is the overwhelmingly most common word in the list, appearing 10 times. If you meant to provide a different list or have a different set of words, please let me know!", "len": 130517, "kept": 6767}
+{"id": "ruler131072_cwe_235", "task": "cwe@131072", "pred": "1. horseradish 2. oriented 3. oriented 4. oriented 5. oriented 6. oriented 7. oriented 8. oriented 9. oriented 10. oriented\n\nIt appears that \"oriented\" is the most frequently occurring word in the provided list.", "len": 130773, "kept": 6775}
+{"id": "ruler131072_cwe_258", "task": "cwe@131072", "pred": "1. linguist 2. program 3. assistant 4. linguist 5. program 6. assistant 7. linguist 8. program 9. assistant 10. linguist", "len": 130843, "kept": 6784}
+{"id": "ruler131072_cwe_274", "task": "cwe@131072", "pred": "1. terminology  \n2. interface  \n3. organization  \n4. materialistic  \n5. violence  \n6. technology  \n7. terminology  \n8. organization  \n9. violence  \n10. technology  \n\nIt appears that \"terminology,\" \"interface,\" \"organization,\" and \"technology\" are the most frequently occurring words, with \"materialistic\" and \"violence\" also appearing frequently.", "len": 130895, "kept": 6787}
+{"id": "ruler131072_cwe_279", "task": "cwe@131072", "pred": "1. running 2. running 3. running 4. running 5. running 6. running 7. running 8. running 9. running 10. running.\n\nIt appears that \"running\" is the overwhelmingly most frequent word in the provided list, appearing 10 times.", "len": 130847, "kept": 6784}
+{"id": "ruler131072_cwe_282", "task": "cwe@131072", "pred": "1. beanie 2. mathematics 3. anticipation 4. wilderness 5. mathematics 6. anticipation 7. anticipation 8. mathematics 9. beanie 10. mathematics", "len": 130871, "kept": 6780}
+{"id": "ruler131072_cwe_287", "task": "cwe@131072", "pred": "1. neologism 2. organization 3. neologism 4. organization 5. organization 6. organization 7. organization 8. organization 9. organization 10. organization", "len": 130567, "kept": 6767}
+{"id": "ruler131072_cwe_295", "task": "cwe@131072", "pred": "1. cheetah 2. bowler 3. cheetah 4. cheetah 5. cheetah 6. cheetah 7. cheetah 8. cheetah 9. cheetah 10. cheetah.\n\nIt appears that \"cheetah\" is the overwhelmingly most common word in the list, appearing 10 times.", "len": 130888, "kept": 6781}
+{"id": "ruler131072_cwe_301", "task": "cwe@131072", "pred": "1. chemistry\n2. yak\n3. chemistry\n4. yak\n5. chemistry\n6. yak\n7. chemistry\n8. yak\n9. chemistry\n10. yak\n\nIt appears that \"chemistry\" and \"yak\" are the most common words in the provided list, with \"chemistry\" appearing 5 times and \"yak\" appearing 4 times.", "len": 130788, "kept": 6779}
+{"id": "ruler131072_cwe_302", "task": "cwe@131072", "pred": "1. oregano\n2. oregano\n3. oregano\n4. oregano\n5. oregano\n6. oregano\n7. oregano\n8. oregano\n9. oregano\n10. oregano\n\nIt appears that \"oregano\" is the overwhelmingly most common word in the list, appearing 10 times.", "len": 130934, "kept": 6787}
+{"id": "ruler131072_cwe_308", "task": "cwe@131072", "pred": "1. banana 2. career 3. frontier 4. majority 5. conservation 6. vintage 7. communication 8. vintage 9. communication 10. communication", "len": 130703, "kept": 6773}
+{"id": "ruler131072_cwe_309", "task": "cwe@131072", "pred": "1. remains 2. industrious 3. labour 4. remains 5. remains 6. labour 7. industrious 8. remains 9. labour 10. remains", "len": 130898, "kept": 6788}
+{"id": "ruler131072_cwe_316", "task": "cwe@131072", "pred": "1. site  \n2. convenience  \n3. heating  \n4. heating  \n5. site  \n6. convenience  \n7. site  \n8. convenience  \n9. site  \n10. convenience  \n\nIt appears that \"site\" and \"convenience\" are the most common words, each appearing multiple times. However, there is a pattern where \"site\" and \"convenience\" are repeated frequently.", "len": 130929, "kept": 6787}
+{"id": "ruler131072_cwe_321", "task": "cwe@131072", "pred": "1. squeal 2. abbreviation 3. matchmaker 4. matchmaker 5. matchmaker 6. matchmaker 7. matchmaker 8. matchmaker 9. matchmaker 10. matchmaker", "len": 130786, "kept": 6780}
+{"id": "ruler131072_cwe_325", "task": "cwe@131072", "pred": "1. pantyhose 2. attribute 3. attribute 4. attribute 5. attribute 6. attribute 7. attribute 8. attribute 9. attribute 10. attribute\n\nIt appears that \"attribute\" is the most frequently occurring word in the list, appearing 10 times. However, if you are looking for distinct words, please let me know, and I can provide the next most common words after \"attribute.\"", "len": 130689, "kept": 6772}
+{"id": "ruler131072_cwe_327", "task": "cwe@131072", "pred": "1. symmetry 2. circumstance 3. symmetry 4. symmetry 5. symmetry 6. symmetry 7. symmetry 8. symmetry 9. symmetry 10. symmetry.\n\nIt appears that \"symmetry\" is the most frequently occurring word in the provided list.", "len": 130880, "kept": 6780}
+{"id": "ruler131072_cwe_331", "task": "cwe@131072", "pred": "1. **responsibility** - 104 times\n2. **rebel** - 92 times\n3. **populist** - 88 times\n4. **bunghole** - 87 times\n5. **garb** - 86 times\n6. **platform** - 85 times\n7. **nickel** - 84 times\n8. **base** - 83 times\n9. **grandparent** - 82 times\n10. **bell** - 81", "len": 130774, "kept": 6780}
+{"id": "ruler131072_cwe_332", "task": "cwe@131072", "pred": "1. return 2. favorite 3. favorite 4. return 5. favorite 6. favorite 7. favorite 8. favorite 9. favorite 10. favorite\n\nIt appears that \"favorite\" is the most common word in the list, appearing 10 times. However, there might be a repetition or error in the list since \"favorite\" is listed consecutively. If you can provide the correct list, I can re-evaluate the frequency of each word.", "len": 130804, "kept": 6781}
+{"id": "ruler131072_cwe_338", "task": "cwe@131072", "pred": "1. express 2. interconnection 3. express 4. evaluate 5. express 6. interconnection 7. express 8. interconnection 9. express 10. express", "len": 130652, "kept": 6772}
+{"id": "ruler131072_cwe_343", "task": "cwe@131072", "pred": "1. gun 2. ethics 3. expedite 4. leprosy 5. crackers 6. memorize 7. memorize 8. memorize 9. memorize 10. memorize", "len": 130638, "kept": 6774}
+{"id": "ruler131072_cwe_346", "task": "cwe@131072", "pred": "1. arrive 2. assault 3. something 4. location 5. arrive 6. arrive 7. something 8. arrive 9. arrive 10. arrive", "len": 130667, "kept": 6775}
+{"id": "ruler131072_cwe_349", "task": "cwe@131072", "pred": "1. slit  \n2. carabao  \n3. disadvantage  \n4. disadvantage  \n5. disadvantage  \n6. disadvantage  \n7. disadvantage  \n8. disadvantage  \n9. disadvantage  \n10. disadvantage  \n\nIt appears that \"disadvantage\" is the most frequently occurring word in the list, appearing 10 times.", "len": 130748, "kept": 6774}
+{"id": "ruler131072_cwe_357", "task": "cwe@131072", "pred": "1. dashboard 2. person 3. vehicle 4. house 5. road 6. car 7. door 8. room 9. window 10. house", "len": 130882, "kept": 6785}
+{"id": "ruler131072_cwe_359", "task": "cwe@131072", "pred": "1. peanut\n2. someone\n3. sunday\n4. someone\n5. sunday\n6. someone\n7. sunday\n8. someone\n9. sunday\n10. someone\n\nIt appears that the words \"peanut\" and \"someone\" are the most common, with \"sunday\" appearing frequently as well. However, there seems to be a pattern where \"someone\" and \"sunday\" are repeated multiple times, which might be due to data entry errors or a specific structure in the provided list.", "len": 130901, "kept": 6781}
+{"id": "ruler131072_cwe_360", "task": "cwe@131072", "pred": "1. flip-flops 2. macaroni 3. macaroni 4. macaroni 5. macaroni 6. macaroni 7. macaroni 8. macaroni 9. macaroni 10. macaroni\n\nIt appears that \"macaroni\" is the overwhelmingly most common word in the list, appearing 10 times.", "len": 130813, "kept": 6776}
+{"id": "ruler131072_cwe_366", "task": "cwe@131072", "pred": "1. grocery 2. someplace 3. motivation 4. messy 5. executor 6. ironclad 7. reorganisation 8. subcontractor 9. memorize 10. airbag", "len": 130913, "kept": 6782}
+{"id": "ruler131072_cwe_373", "task": "cwe@131072", "pred": "1. download 2. stupidity 3. joke 4. overwrought 5. external 6. woebegone 7. turtle 8. battle 9. overwrought 10. overwrought", "len": 130619, "kept": 6769}
+{"id": "ruler131072_cwe_377", "task": "cwe@131072", "pred": "1. option 2. priority 3. priority 4. priority 5. priority 6. priority 7. priority 8. priority 9. priority 10. priority\n\nIt appears that the word \"priority\" is the most frequently occurring word in the provided list, appearing 10 times.", "len": 130792, "kept": 6782}
+{"id": "ruler131072_cwe_379", "task": "cwe@131072", "pred": "1. thunder\n2. councilman\n3. thunder\n4. thunder\n5. councilman\n6. councilman\n7. thunder\n8. councilman\n9. councilman\n10. councilman\n\nIt appears that \"thunder\" and \"councilman\" are the most common words, with \"thunder\" appearing 4 times and \"councilman\" appearing 9 times.", "len": 130852, "kept": 6784}
+{"id": "ruler131072_cwe_388", "task": "cwe@131072", "pred": "1. hydraulics 2. tintype 3. coordinator 4. randomisation 5. randomisation 6. randomisation 7. randomisation 8. randomisation 9. randomisation 10. randomisation", "len": 130520, "kept": 6761}
+{"id": "ruler131072_cwe_390", "task": "cwe@131072", "pred": "1. parched 2. parched 3. parched 4. parched 5. parched 6. parched 7. parched 8. parched 9. parched 10. parched.\n\nIt appears that \"parched\" is the overwhelmingly most common word in the provided list, appearing 10 times.", "len": 130763, "kept": 6776}
+{"id": "ruler131072_cwe_395", "task": "cwe@131072", "pred": "1. graph\n2. enthusiasm\n3. ideology\n4. basics\n5. enthusiasm\n6. enthusiasm\n7. enthusiasm\n8. ideology\n9. enthusiasm\n10. ideology\n\nIt appears that \"enthusiasm\" and \"ideology\" are the most common words, with \"enthusiasm\" appearing 7 times and \"ideology\" appearing 3 times.", "len": 130734, "kept": 6774}
+{"id": "ruler131072_cwe_412", "task": "cwe@131072", "pred": "1. **jumper** - 11 times\n2. **info** - 10 times\n3. **species** - 10 times\n4. **species** - 10 times (appears again, so it's tied with info and jumper)\n5. **species** - 10 times (appears a third time, so it's tied with info and jumper)\n6. **species** - 10 times (appears a fourth time, so it's tied with info and jumper)\n7. **species** - 10", "len": 130566, "kept": 6768}
+{"id": "ruler131072_cwe_413", "task": "cwe@131072", "pred": "1. soybean\n2. girlfriend\n3. broken\n4. macaroon\n5. macaroon\n6. macaroon\n7. macaroon\n8. macaroon\n9. macaroon\n10. macaroon\n\nIt appears that \"macaroon\" is the most common word in the list, appearing 9 times. The next most common words are \"soybean\" and \"girlfriend,\" each appearing once.", "len": 130880, "kept": 6787}
+{"id": "ruler131072_cwe_414", "task": "cwe@131072", "pred": "1. bayou 2. bayou 3. bayou 4. bayou 5. bayou 6. bayou 7. bayou 8. bayou 9. bayou 10. bayou.\n\nIt appears that \"bayou\" is the overwhelmingly most common word in the list, appearing 10 times.", "len": 130874, "kept": 6786}
+{"id": "ruler131072_cwe_424", "task": "cwe@131072", "pred": "1. downforce\n2. usual\n3. protein\n4. down\n5. downforce\n6. down\n7. down\n8. down\n9. down\n10. down\n\nIt appears that \"down\" is the most common word, appearing 9 times, and \"downforce\" is the second most common, appearing 2 times. The list seems to have many repeated entries of \"down,\" which is why it appears so frequently.", "len": 130783, "kept": 6774}
+{"id": "ruler131072_cwe_433", "task": "cwe@131072", "pred": "1. socks 2. transcript 3. socks 4. socks 5. socks 6. socks 7. socks 8. socks 9. socks 10. socks.\n\nIt appears there is an error in the provided list as \"socks\" is repeated excessively, which might be due to a data entry mistake. If you can provide the correct list, I can accurately determine the most common words.", "len": 130611, "kept": 6769}
+{"id": "ruler131072_cwe_444", "task": "cwe@131072", "pred": "1. estimate 2. step-grandmother 3. mini-skirt 4. schedule 5. step-grandfather 6. schedule 7. estimate 8. estimate 9. estimate 10. estimate", "len": 130838, "kept": 6780}
+{"id": "ruler131072_cwe_445", "task": "cwe@131072", "pred": "1. expectation 2. tourist 3. expectation 4. expectation 5. expectation 6. expectation 7. expectation 8. expectation 9. expectation 10. expectation.\n\nIt appears that \"expectation\" is the overwhelmingly most frequent word in the provided list, appearing 10 times.", "len": 130816, "kept": 6779}
+{"id": "ruler131072_cwe_447", "task": "cwe@131072", "pred": "1. cartload\n2. sustenance\n3. mama\n4. forelimb\n5. highlight\n6. mosquito\n7. rely\n8. lid\n9. experimentation\n10. zombie\n\nThese words appear the most frequently based on the provided list.", "len": 130830, "kept": 6778}
+{"id": "ruler131072_cwe_454", "task": "cwe@131072", "pred": "1. sneeze\n2. few\n3. laughable\n4. nonchalant\n5. component\n6. laugh\n7. effect\n8. effect\n9. effect\n10. effect\n\nIt appears that the word \"effect\" is the most common, appearing four times. The next most common words are \"sneeze,\" \"few,\" \"laughable,\" and \"nonchalant,\" each appearing three times.", "len": 130695, "kept": 6777}
+{"id": "ruler131072_cwe_456", "task": "cwe@131072", "pred": "1. cooperative 2. advertising 3. skating 4. cooperative 5. skating 6. cooperative 7. skating 8. cooperative 9. skating 10. cooperative", "len": 130876, "kept": 6782}
+{"id": "ruler131072_cwe_464", "task": "cwe@131072", "pred": "1. horseradish 2. yarmulke 3. decision 4. mom 5. horseradish 6. yarmulke 7. decision 8. mom 9. decision 10. horseradish.\n\nIt appears that \"horseradish\" and \"yarmulke\" are the most common words, each appearing multiple times, followed closely by \"decision\" and \"mom.\"", "len": 130934, "kept": 6788}
+{"id": "ruler131072_cwe_470", "task": "cwe@131072", "pred": "1. string 2. bugle 3. string 4. string 5. string 6. string 7. string 8. string 9. string 10. string.\n\nIt appears that \"string\" is the overwhelmingly most common word in the provided list, appearing 10 times.", "len": 130944, "kept": 6790}
+{"id": "ruler131072_cwe_478", "task": "cwe@131072", "pred": "1. annoying 2. cayenne 3. devilish 4. volunteer 5. experience 6. annoying 7. experience 8. annoying 9. experience 10. annoying", "len": 130900, "kept": 6785}
+{"id": "ruler131072_cwe_480", "task": "cwe@131072", "pred": "1. temp 2. program 3. temp 4. temp 5. temp 6. temp 7. temp 8. temp 9. temp 10. temp.\n\nIt appears that the word \"temp\" is the most frequent word in the provided list, appearing 10 times. However, if you intended for me to analyze the full list for the 10 most common words, please let me know, and I can provide that analysis.", "len": 130776, "kept": 6775}
+{"id": "ruler131072_cwe_483", "task": "cwe@131072", "pred": "1. pants\n2. bathroom\n3. population\n4. pants\n5. population\n6. pants\n7. population\n8. bathroom\n9. population\n10. bathroom\n\nIt appears that \"pants\" and \"population\" are the most common words, each appearing multiple times, while \"bathroom\" appears four times.", "len": 130740, "kept": 6778}
+{"id": "ruler131072_cwe_486", "task": "cwe@131072", "pred": "1. straw  \n2. smiling  \n3. rabbit  \n4. angle  \n5. hospitalization  \n6. hospitalisation  \n7. hospitalisation  \n8. hospitalisation  \n9. hospitalisation  \n10. hospitalisation  \n\nIt appears that the word \"hospitalisation\" (and its variants) is the most frequently occurring word in the list, appearing 9 times.", "len": 130622, "kept": 6767}
+{"id": "ruler131072_cwe_490", "task": "cwe@131072", "pred": "1. bin 2. headrest 3. vendor 4. construction 5. dig 6. peasant 7. bin 8. anarchist 9. catch 10. bin", "len": 130939, "kept": 6789}
+{"id": "ruler131072_cwe_496", "task": "cwe@131072", "pred": "1. crayon 2. cactus 3. shiver 4. airfare 5. weekender 6. crayon 7. crayon 8. crayon 9. crayon 10. crayon.\n\nIt appears that \"crayon\" is the most common word in the list, appearing 10 times. The next most common words are \"cactus\" and \"shiver,\" each appearing 2 times.", "len": 130935, "kept": 6782}
+{"id": "ruler131072_fwe_3", "task": "fwe@131072", "pred": "pukhhi, ijfafn, and zmknnp.", "len": 127377, "kept": 6610}
+{"id": "ruler131072_fwe_12", "task": "fwe@131072", "pred": "ptbqoq, zhjzvn, and bsofnl.", "len": 122319, "kept": 6355}
+{"id": "ruler131072_fwe_13", "task": "fwe@131072", "pred": "zltmhz, bsczjx, and qcudas.", "len": 116193, "kept": 6052}
+{"id": "ruler131072_fwe_15", "task": "fwe@131072", "pred": "qgosqc, jxzjmq, and zkffnb", "len": 118139, "kept": 6147}
+{"id": "ruler131072_fwe_16", "task": "fwe@131072", "pred": "pwzpsk, zkyqeu, bpxknd", "len": 123657, "kept": 6423}
+{"id": "ruler131072_fwe_22", "task": "fwe@131072", "pred": "1. qbvqkf  \n2. zjwmgh  \n3. bwcgln", "len": 123740, "kept": 6428}
+{"id": "ruler131072_fwe_23", "task": "fwe@131072", "pred": "1. qlfoxh\n2. zmeljp\n3. bthytd", "len": 113023, "kept": 5889}
+{"id": "ruler131072_fwe_35", "task": "fwe@131072", "pred": "\"qdycgt\", \"zluwzl\", and \"bulpxo\".", "len": 127440, "kept": 6615}
+{"id": "ruler131072_fwe_36", "task": "fwe@131072", "pred": "psivcg, zhhdyv, and icupxg.", "len": 115824, "kept": 6033}
+{"id": "ruler131072_fwe_40", "task": "fwe@131072", "pred": "pmqybd, zlgpfh, and ijasgn.", "len": 124695, "kept": 6470}
+{"id": "ruler131072_fwe_44", "task": "fwe@131072", "pred": "pqnxek, zffrjk, and bvfwyy.", "len": 118045, "kept": 6133}
+{"id": "ruler131072_fwe_47", "task": "fwe@131072", "pred": "pmohkl, zfkeim, and bqjjkj.", "len": 114336, "kept": 5952}
+{"id": "ruler131072_fwe_49", "task": "fwe@131072", "pred": "1. qhrwrf  \n2. ziksgu  \n3. budjuz", "len": 128531, "kept": 6658}
+{"id": "ruler131072_fwe_51", "task": "fwe@131072", "pred": "pwhkdr, zlblpm, and bqeblr.", "len": 125411, "kept": 6511}
+{"id": "ruler131072_fwe_52", "task": "fwe@131072", "pred": "1. pqonzn\n2. ywpspg\n3. zhfezg", "len": 121199, "kept": 6300}
+{"id": "ruler131072_fwe_57", "task": "fwe@131072", "pred": "\"pysmut\", \"zgltlj\", and \"jvapxz\".", "len": 103642, "kept": 5425}
+{"id": "ruler131072_fwe_63", "task": "fwe@131072", "pred": "ppfeba, zlpqms, and ijppbp", "len": 119128, "kept": 6199}
+{"id": "ruler131072_fwe_71", "task": "fwe@131072", "pred": "1. pqkihp  \n2. ywzgms  \n3. ifcyny", "len": 118202, "kept": 6142}
+{"id": "ruler131072_fwe_79", "task": "fwe@131072", "pred": "plzicg, zgpavh, and bozznm.", "len": 128204, "kept": 6642}
+{"id": "ruler131072_fwe_81", "task": "fwe@131072", "pred": "psrrgq, zkqrou, and bsugxy.", "len": 124643, "kept": 6472}
+{"id": "ruler131072_fwe_83", "task": "fwe@131072", "pred": "ywudjy, bopkum, and psbtis", "len": 120154, "kept": 6239}
+{"id": "ruler131072_fwe_98", "task": "fwe@131072", "pred": "pzqjta, zjbnyb, and yutuxf.", "len": 129826, "kept": 6727}
+{"id": "ruler131072_fwe_101", "task": "fwe@131072", "pred": "poeumc, zjbcjq, and bmqsbs.", "len": 123335, "kept": 6402}
+{"id": "ruler131072_fwe_107", "task": "fwe@131072", "pred": "pxjjzt, zlkfwy, yzjdnk", "len": 121462, "kept": 6309}
+{"id": "ruler131072_fwe_110", "task": "fwe@131072", "pred": "zlsfmj, pxkrwp, bscvbx", "len": 123188, "kept": 6391}
+{"id": "ruler131072_fwe_111", "task": "fwe@131072", "pred": "qawrpy, zkgsgj, and bsnebk.", "len": 128175, "kept": 6635}
+{"id": "ruler131072_fwe_112", "task": "fwe@131072", "pred": "pyqsyn, zkrjar, and brxprx.", "len": 118904, "kept": 6187}
+{"id": "ruler131072_fwe_114", "task": "fwe@131072", "pred": "qguzti, zkwlzb, and btrryv.", "len": 127479, "kept": 6615}
+{"id": "ruler131072_fwe_116", "task": "fwe@131072", "pred": "prxcnh, zlntpm, and tuzstf.", "len": 120681, "kept": 6277}
+{"id": "ruler131072_fwe_119", "task": "fwe@131072", "pred": "qgclvb, brxohr, and yygpsj.", "len": 127016, "kept": 6587}
+{"id": "ruler131072_fwe_125", "task": "fwe@131072", "pred": "ytnzdf, povxlu, and btsocn.", "len": 119343, "kept": 6209}
+{"id": "ruler131072_fwe_135", "task": "fwe@131072", "pred": "\"qempve\", \"zmangg\", and \"jtboqi\".", "len": 112926, "kept": 5880}
+{"id": "ruler131072_fwe_136", "task": "fwe@131072", "pred": "pydtpl, zkgsza, and bsspzx.", "len": 118755, "kept": 6170}
+{"id": "ruler131072_fwe_140", "task": "fwe@131072", "pred": "poiyqr, zkfmox, and ibqaua.", "len": 115431, "kept": 6011}
+{"id": "ruler131072_fwe_142", "task": "fwe@131072", "pred": "1. ptfysg  \n2. zhnypx  \n3. bnyfux", "len": 124845, "kept": 6471}
+{"id": "ruler131072_fwe_148", "task": "fwe@131072", "pred": "1. zjmbxf  \n2. yvozyv  \n3. pstlkp", "len": 118553, "kept": 6159}
+{"id": "ruler131072_fwe_150", "task": "fwe@131072", "pred": "pmfbxg, zgqrap, and bpnkta", "len": 124937, "kept": 6485}
+{"id": "ruler131072_fwe_172", "task": "fwe@131072", "pred": "1. zkgwuo  \n2. pudqbw  \n3. inzehh", "len": 121080, "kept": 6293}
+{"id": "ruler131072_fwe_174", "task": "fwe@131072", "pred": "pugnss, zlgzqb, bsdslb", "len": 124266, "kept": 6437}
+{"id": "ruler131072_fwe_176", "task": "fwe@131072", "pred": "poioqq, zjrfsp, and brtuyo.", "len": 118225, "kept": 6153}
+{"id": "ruler131072_fwe_181", "task": "fwe@131072", "pred": "`pqbbxg`, `zjvtqn`, and `bnwxjq`.", "len": 127099, "kept": 6594}
+{"id": "ruler131072_fwe_183", "task": "fwe@131072", "pred": "puzwnt, zlpvoc, and bubecf.", "len": 130119, "kept": 6748}
+{"id": "ruler131072_fwe_185", "task": "fwe@131072", "pred": "pypyrw, zkhtiq, and blxzgk.", "len": 126277, "kept": 6534}
+{"id": "ruler131072_fwe_186", "task": "fwe@131072", "pred": "pqzlhr, zjduco, and ywzgok.", "len": 123095, "kept": 6395}
+{"id": "ruler131072_fwe_189", "task": "fwe@131072", "pred": "psycdj, zknecp, and bpbrib.", "len": 117367, "kept": 6106}
+{"id": "ruler131072_fwe_193", "task": "fwe@131072", "pred": "qbrhiq, zksrqd, and bwdgmq.", "len": 130325, "kept": 6756}
+{"id": "ruler131072_fwe_194", "task": "fwe@131072", "pred": "pslfin, ziztdc, and boevbl.", "len": 120596, "kept": 6273}
+{"id": "ruler131072_fwe_214", "task": "fwe@131072", "pred": "zlhqcl, qiogzw, and bslrkn.", "len": 122101, "kept": 6339}
+{"id": "ruler131072_fwe_216", "task": "fwe@131072", "pred": "poiwrl, zkmobe, and bsjkdn.", "len": 114952, "kept": 5988}
+{"id": "ruler131072_fwe_229", "task": "fwe@131072", "pred": "1. zievxa  \n2. ptbyye  \n3. bsbcrd", "len": 118112, "kept": 6144}
+{"id": "ruler131072_fwe_232", "task": "fwe@131072", "pred": "pzwles, zinhex, and pzwles again (as it appears more times than zinhex).", "len": 118528, "kept": 6167}
+{"id": "ruler131072_fwe_235", "task": "fwe@131072", "pred": "1. yxmnvq\n2. ziylgz\n3. pfztpl", "len": 118673, "kept": 6168}
+{"id": "ruler131072_fwe_258", "task": "fwe@131072", "pred": "zhninr, pvfcid, and imtpmx", "len": 117103, "kept": 6098}
+{"id": "ruler131072_fwe_274", "task": "fwe@131072", "pred": "qahvjy, jrkqyd, and bxfypv.", "len": 127989, "kept": 6623}
+{"id": "ruler131072_fwe_279", "task": "fwe@131072", "pred": "\"qduaqo\", \"zkfvcs\", and \"bvvadx\".", "len": 123943, "kept": 6432}
+{"id": "ruler131072_fwe_282", "task": "fwe@131072", "pred": "qgqijp, zkuwjm, and buhqsi.", "len": 128669, "kept": 6665}
+{"id": "ruler131072_fwe_287", "task": "fwe@131072", "pred": "pkiuyy, zgvxni, bolxkx", "len": 129848, "kept": 6728}
+{"id": "ruler131072_fwe_295", "task": "fwe@131072", "pred": "zlhvzx, pxarml, and bpgndk.", "len": 122720, "kept": 6376}
+{"id": "ruler131072_fwe_301", "task": "fwe@131072", "pred": "qbsxky, zmnyyb, and jodken.", "len": 125473, "kept": 6516}
+{"id": "ruler131072_fwe_302", "task": "fwe@131072", "pred": "1. zhnqaq  \n2. pxyeus  \n3. ytkwnj", "len": 121497, "kept": 6315}
+{"id": "ruler131072_fwe_308", "task": "fwe@131072", "pred": "\"qbdbbd\", \"zjquyj\", and \"tzpvug\".", "len": 128884, "kept": 6687}
+{"id": "ruler131072_fwe_309", "task": "fwe@131072", "pred": "pssooj, zmmybb, and bsbjuv.", "len": 117227, "kept": 6095}
+{"id": "ruler131072_fwe_316", "task": "fwe@131072", "pred": "ptwtxs, zepgzk, and jkqnbu.", "len": 123151, "kept": 6392}
+{"id": "ruler131072_fwe_321", "task": "fwe@131072", "pred": "1. psmhhx  \n2. zjczxh  \n3. boncyy", "len": 124950, "kept": 6486}
+{"id": "ruler131072_fwe_325", "task": "fwe@131072", "pred": "qdklle, zhtpfg, bxmyxj", "len": 123076, "kept": 6392}
+{"id": "ruler131072_fwe_327", "task": "fwe@131072", "pred": "qeqptq, zndqkf, and bsdjuu.", "len": 130003, "kept": 6735}
+{"id": "ruler131072_fwe_331", "task": "fwe@131072", "pred": "penchb, bpuubx, and zkpeys.", "len": 115930, "kept": 6039}
+{"id": "ruler131072_fwe_332", "task": "fwe@131072", "pred": "pxdflu, zilyxg, and boymvq.", "len": 122148, "kept": 6342}
+{"id": "ruler131072_fwe_338", "task": "fwe@131072", "pred": "pvlifu, zlpyvn, and boyjqr.", "len": 119724, "kept": 6226}
+{"id": "ruler131072_fwe_343", "task": "fwe@131072", "pred": "\"prljcl\", \"zinbbj\", and \"bqxoix\".", "len": 116382, "kept": 6050}
+{"id": "ruler131072_fwe_346", "task": "fwe@131072", "pred": "1. pqknmh\n2. zmkicf\n3. bmuxbn", "len": 117105, "kept": 6091}
+{"id": "ruler131072_fwe_349", "task": "fwe@131072", "pred": "puyqvf, yuxnxp, and puyqvf (appears multiple times due to repetition).", "len": 126033, "kept": 6537}
+{"id": "ruler131072_fwe_357", "task": "fwe@131072", "pred": "1. ptuwtr  \n2. zjtnuj  \n3. bshmox", "len": 119172, "kept": 6200}
+{"id": "ruler131072_fwe_359", "task": "fwe@131072", "pred": "1. pyqdtb  \n2. zmvphg  \n3. bvgans", "len": 129136, "kept": 6697}
+{"id": "ruler131072_fwe_360", "task": "fwe@131072", "pred": "1. pjyhry  \n2. ziszak  \n3. jhpqif", "len": 113828, "kept": 5931}
+{"id": "ruler131072_fwe_366", "task": "fwe@131072", "pred": "pydhxp, jkfjtf, and bovplj.", "len": 118405, "kept": 6160}
+{"id": "ruler131072_fwe_373", "task": "fwe@131072", "pred": "\"pmuihp\", \"zifjbh\", and \"jbusnb\".", "len": 119236, "kept": 6194}
+{"id": "ruler131072_fwe_377", "task": "fwe@131072", "pred": "ptmcvt, yxjowj, and zhukfq", "len": 120018, "kept": 6238}
+{"id": "ruler131072_fwe_379", "task": "fwe@131072", "pred": "1. ppgihi  \n2. zjtizf  \n3. ywxohr", "len": 122678, "kept": 6373}
+{"id": "ruler131072_fwe_388", "task": "fwe@131072", "pred": "psfdtp, zlegnc, and icvdxt.", "len": 115693, "kept": 6022}
+{"id": "ruler131072_fwe_390", "task": "fwe@131072", "pred": "\"pvsojj\", \"zmwaik\", and \"brwuce\".", "len": 116143, "kept": 6041}
+{"id": "ruler131072_fwe_395", "task": "fwe@131072", "pred": "pxczyh, jrwvhp, and zhmkwe.", "len": 129469, "kept": 6710}
+{"id": "ruler131072_fwe_412", "task": "fwe@131072", "pred": "1. zjbzol  \n2. pqfovs  \n3. yxczfm", "len": 120654, "kept": 6275}
+{"id": "ruler131072_fwe_413", "task": "fwe@131072", "pred": "1. pzxnin\n2. zhctae\n3. brlsvc", "len": 115170, "kept": 5990}
+{"id": "ruler131072_fwe_414", "task": "fwe@131072", "pred": "pzcrkq, bojrfq, and zfhcba.", "len": 128156, "kept": 6637}
+{"id": "ruler131072_fwe_424", "task": "fwe@131072", "pred": "zjuwui, prmuof, and boljsp.", "len": 118123, "kept": 6149}
+{"id": "ruler131072_fwe_433", "task": "fwe@131072", "pred": "pwszcb, zjlraq, and jodwcu.", "len": 125895, "kept": 6533}
+{"id": "ruler131072_fwe_444", "task": "fwe@131072", "pred": "1. zkqjyn  \n2. pzdbkp  \n3. tynqfh", "len": 123118, "kept": 6395}
+{"id": "ruler131072_fwe_445", "task": "fwe@131072", "pred": "\"pyrqhi\", \"zlpdlm\", and \"btjqry\".", "len": 120199, "kept": 6246}
+{"id": "ruler131072_fwe_447", "task": "fwe@131072", "pred": "qaeaer, zlqzwy, brjvwh", "len": 126209, "kept": 6552}
+{"id": "ruler131072_fwe_454", "task": "fwe@131072", "pred": "qeogrw, zmdvph, and brhbfw.", "len": 130377, "kept": 6758}
+{"id": "ruler131072_fwe_456", "task": "fwe@131072", "pred": "pxxxsf, zidmzp, btqocv", "len": 119731, "kept": 6225}
+{"id": "ruler131072_fwe_464", "task": "fwe@131072", "pred": "psfvtt, zitnan, ywtnye", "len": 117758, "kept": 6130}
+{"id": "ruler131072_fwe_470", "task": "fwe@131072", "pred": "pwdjhx, zldbcj, and bpvzhc.", "len": 122318, "kept": 6358}
+{"id": "ruler131072_fwe_478", "task": "fwe@131072", "pred": "\"pyyyks\", \"zkmjiw\", and \"btkvlk\".", "len": 123370, "kept": 6408}
+{"id": "ruler131072_fwe_480", "task": "fwe@131072", "pred": "pqcwif, zjtijf, yvzqhy", "len": 122096, "kept": 6343}
+{"id": "ruler131072_fwe_483", "task": "fwe@131072", "pred": "1. zjcwrx  \n2. pxance  \n3. tuxsgy", "len": 111085, "kept": 5797}
+{"id": "ruler131072_fwe_486", "task": "fwe@131072", "pred": "prvvhl, zkljmd, and ifpwat.", "len": 119302, "kept": 6207}
+{"id": "ruler131072_fwe_490", "task": "fwe@131072", "pred": "pkpczq, zkldij, ttcqag", "len": 127279, "kept": 6606}
+{"id": "ruler131072_fwe_496", "task": "fwe@131072", "pred": "pueoou, zgwfxo, and yvxvpt.", "len": 123147, "kept": 6400}

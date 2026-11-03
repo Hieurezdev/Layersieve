@@ -1,0 +1,637 @@
+{
+ "ls_l17": {
+  "C": 0.7234669300551333,
+  "prompts": 144,
+  "full_kept": 144,
+  "dense_correct": 87,
+  "fail": 0,
+  "fail_lost": 0,
+  "force_fix": 0,
+  "placebo_fix": 0,
+  "fail_kept": 0,
+  "lost_still_ok": 0,
+  "fail_ids": {}
+ },
+ "ls_l14": {
+  "C": 0.6436002589663303,
+  "prompts": 144,
+  "full_kept": 144,
+  "dense_correct": 87,
+  "fail": 0,
+  "fail_lost": 0,
+  "force_fix": 0,
+  "placebo_fix": 0,
+  "fail_kept": 0,
+  "lost_still_ok": 0,
+  "fail_ids": {}
+ },
+ "ls_l11": {
+  "C": 0.5637111080694912,
+  "prompts": 144,
+  "full_kept": 119,
+  "dense_correct": 87,
+  "fail": 27,
+  "fail_lost": 24,
+  "force_fix": 24,
+  "placebo_fix": 0,
+  "fail_kept": 3,
+  "lost_still_ok": 0,
+  "fail_ids": {
+   "kv_32000_1": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"9be57401-7b33-2",
+    "force": {
+     "pred": "The value associated with the specified key \"9be57401-7b33-241e-fa22-25d77c6d8ae1\" is \"e5540022-4502-d7f8-54a1-396ce9abfb0d\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7284,
+     "sec": 3.71
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"9be57401-7b33-241e-fa22-25d77c6d8ae1\" is \"024d65de-af44-eaeb-6734-162f362da540\".",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7342,
+     "protected_tok": 72,
+     "sec": 3.605
+    }
+   },
+   "kv_32000_2": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"195f908d-bd96-9",
+    "force": {
+     "pred": "The value associated with the specified key \"195f908d-bd96-95c9-4a08-2de74f6d4f01\" is \"db9098ea-116c-d881-00c0-8143c5a428c6\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7345,
+     "sec": 3.671
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"195f908d-bd96-95c9-4a08-2de74f6d4f01\" is not present in the JSON data you provided. Please double-check the key or provide the correct one.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7347,
+     "protected_tok": 137,
+     "sec": 3.343
+    }
+   },
+   "kv_32000_3": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"20b293a9-b83d-6",
+    "force": {
+     "pred": "The value associated with the specified key \"20b293a9-b83d-667c-7e57-bf3c0461d287\" is \"35ca4006-0856-98d7-a91b-2a6f1f4db3e6\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7311,
+     "sec": 3.336
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"20b293a9-b83d-667c-7e57-bf3c0461d287\" is \"9dd3d38a-237d-19a4-34fd-b434d2cccc37\".",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7370,
+     "protected_tok": 72,
+     "sec": 3.283
+    }
+   },
+   "kv_32000_4": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"12180934-6156-2",
+    "force": {
+     "pred": "The value associated with the specified key \"12180934-6156-20f3-0fa7-a4386f3f49f4\" is \"350a6087-cfbe-c2e6-d4e7-147e76b4ecc7\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7265,
+     "sec": 3.182
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"12180934-6156-20f3-0fa7-a4386f3f49f4\" is not present in the provided JSON data. Please double-check the key or provide additional context if needed.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7329,
+     "protected_tok": 68,
+     "sec": 2.603
+    }
+   },
+   "kv_32000_7": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"2344a2e7-8d2a-a",
+    "force": {
+     "pred": "The value associated with the specified key \"2344a2e7-8d2a-a77e-4c41-1ccbd7e5486c\" is \"14111a0c-f4d1-8235-fd64-9af6d693e133\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7316,
+     "sec": 4.377
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"2344a2e7-8d2a-a77e-4c41-1ccbd7e5486c\" is not present in the provided JSON data. Please double-check the key or provide additional data if needed.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7386,
+     "protected_tok": 136,
+     "sec": 3.959
+    }
+   },
+   "kv_32000_8": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"73d15439-2dc3-6",
+    "force": {
+     "pred": "The value associated with the specified key \"73d15439-2dc3-6d21-6ca6-da5468dbb95a\" is \"ac8822f8-2831-4bdf-f3b7-c415367a413f\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7333,
+     "sec": 3.641
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"73d15439-2dc3-6d21-6ca6-da5468dbb95a\" is \"132fadd0-1589-88c5-e48d-f7a5bd14287e\".",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7335,
+     "protected_tok": 69,
+     "sec": 3.622
+    }
+   },
+   "kv_32000_9": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"3a2c12f7-ac93-c",
+    "force": {
+     "pred": "The value associated with the specified key \"3a2c12f7-ac93-c4d9-e464-427047bceec1\" is \"121d17a1-197f-da95-d2d4-cbf09752bae7\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7351,
+     "sec": 3.211
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"3a2c12f7-ac93-c4d9-e464-427047bceec1\" is \"9cecafd1-fd36-0bf4-c5ab-2a309c6f23c7\".",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7296,
+     "protected_tok": 66,
+     "sec": 3.111
+    }
+   },
+   "kv_32000_11": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"a4eb4c75-0e22-3",
+    "force": {
+     "pred": "The value associated with the specified key \"a4eb4c75-0e22-32e0-29b9-c369f96de1b8\" is \"b3a52fef-8abb-ebc1-f229-7a80c685f2e2\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7288,
+     "sec": 3.676
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"a4eb4c75-0e22-32e0-29b9-c369f96de1b8\" is not present in the JSON data you provided. Please double-check the key or provide additional context if needed.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7290,
+     "protected_tok": 68,
+     "sec": 3.43
+    }
+   },
+   "mk_32000_0": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for searching-version mentioned in ",
+    "force": {
+     "pred": "The special magic number for searching-version mentioned in the provided text is **9325206**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7044,
+     "sec": 2.15
+    },
+    "placebo": {
+     "pred": "The special magic number for searching-version mentioned in the provided text is **6143692**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7025,
+     "protected_tok": 22,
+     "sec": 2.145
+    }
+   },
+   "mk_32000_1": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for clothing-rejection mentioned in",
+    "force": {
+     "pred": "The special magic number for clothing-rejection mentioned in the provided text is **9533585**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7045,
+     "sec": 2.163
+    },
+    "placebo": {
+     "pred": "The special magic number for clothing-rejection mentioned in the provided text is **8971670**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7026,
+     "protected_tok": 23,
+     "sec": 2.136
+    }
+   },
+   "mk_32000_3": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for **dramatic-owing** mentioned in",
+    "force": {
+     "pred": "The special magic number for **dramatic-owing** mentioned in the provided text is **1945912**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7055,
+     "sec": 2.363
+    },
+    "placebo": {
+     "pred": "The special magic number for **dramatic-owing** mentioned in the provided text is **7075285**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7055,
+     "protected_tok": 21,
+     "sec": 2.445
+    }
+   },
+   "mk_32000_4": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for **acres-assistive** mentioned i",
+    "force": {
+     "pred": "The special magic number for acres-assistive mentioned in the provided text is **7505095**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7014,
+     "sec": 2.348
+    },
+    "placebo": {
+     "pred": "The special magic number for **acres-assistive** mentioned in the provided text is **1889863**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7014,
+     "protected_tok": 22,
+     "sec": 2.25
+    }
+   },
+   "mk_32000_5": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for reflecting-winners mentioned in",
+    "force": {
+     "pred": "The special magic number for reflecting-winners mentioned in the provided text is **7827578**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7048,
+     "sec": 2.32
+    },
+    "placebo": {
+     "pred": "The special magic number for reflecting-winners mentioned in the provided text is **7045327**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7048,
+     "protected_tok": 22,
+     "sec": 2.337
+    }
+   },
+   "mk_32000_8": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for **passport-remained** mentioned",
+    "force": {
+     "pred": "The special magic number for passport-remained mentioned in the provided text is **6054483**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7036,
+     "sec": 2.076
+    },
+    "placebo": {
+     "pred": "The special magic number for **passport-remained** mentioned in the provided text is **7256331**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7036,
+     "protected_tok": 22,
+     "sec": 2.122
+    }
+   },
+   "mk_32000_11": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for **historic-prosecute** mentione",
+    "force": {
+     "pred": "The special magic number for historic-prosecute mentioned in the provided text is **7664796**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 7007,
+     "sec": 1.431
+    },
+    "placebo": {
+     "pred": "The special magic number for **historic-prosecute** mentioned in the provided text is **4040092**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 7028,
+     "protected_tok": 22,
+     "sec": 1.499
+    }
+   },
+   "qa2_32000_4": {
+    "lost": false,
+    "first_loss": null,
+    "pred": "Karofo",
+    "force": null,
+    "placebo": null
+   },
+   "kv_64000_0": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"86e2e612-bbf2-6",
+    "force": {
+     "pred": "The value associated with the specified key \"86e2e612-bbf2-685f-b427-14619468165b\" is \"c121259e-0090-a8df-e3c4-f60afb96058e\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 14564,
+     "sec": 5.842
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"86e2e612-bbf2-685f-b427-14619468165b\" is \"b358e875-3a39-6c6d-21dc-cecc17939e5e\".",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 14575,
+     "protected_tok": 133,
+     "sec": 5.421
+    }
+   },
+   "kv_64000_3": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"283bdd87-bac4-8",
+    "force": {
+     "pred": "The value associated with the specified key \"283bdd87-bac4-8f11-40d2-6e8fd3051f42\" is \"b7fdc248-329f-6f17-fb9c-4970366d9638\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 14632,
+     "sec": 5.511
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"283bdd87-bac4-8f11-40d2-6e8fd3051f42\" is \"65fa4ed9-505c-575f-8b43-ce4835ddff4c\".",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 14632,
+     "protected_tok": 133,
+     "sec": 5.539
+    }
+   },
+   "kv_64000_7": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"b28ce4e6-d5ec-9",
+    "force": {
+     "pred": "The value associated with the specified key \"b28ce4e6-d5ec-93e7-fd7f-2a570d3eab20\" is \"aefa5ea4-725a-dba5-2cd3-4ed6c6ec816d\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 14637,
+     "sec": 5.875
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"b28ce4e6-d5ec-93e7-fd7f-2a570d3eab20\" is \"16d18fe6-22b2-1d96-fd5f-a414bd2ea89e\".",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 14639,
+     "protected_tok": 65,
+     "sec": 5.714
+    }
+   },
+   "kv_64000_11": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The value associated with the specified key \"915d7d3d-356f-0",
+    "force": {
+     "pred": "The value associated with the specified key \"915d7d3d-356f-01e0-a1ba-94867b8d73e5\" is \"066dc575-d4c8-9c7a-2e37-650127d925f9\".",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 14549,
+     "sec": 5.619
+    },
+    "placebo": {
+     "pred": "The value associated with the specified key \"915d7d3d-356f-01e0-a1ba-94867b8d73e5\" is \"523470b8-ca18-b85b-5874-ca6c6dcadff5\".",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 14596,
+     "protected_tok": 129,
+     "sec": 5.497
+    }
+   },
+   "vt_64000_1": {
+    "lost": false,
+    "first_loss": null,
+    "pred": "24004",
+    "force": null,
+    "placebo": null
+   },
+   "vt_64000_26": {
+    "lost": false,
+    "first_loss": null,
+    "pred": "51914",
+    "force": null,
+    "placebo": null
+   },
+   "mk_64000_0": {
+    "lost": true,
+    "first_loss": 12,
+    "pred": "The special magic number for \"worked-takes\" mentioned in the",
+    "force": {
+     "pred": "The special magic number for worked-takes is **5365176**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 13919,
+     "sec": 4.148
+    },
+    "placebo": {
+     "pred": "The special magic number for \"worked-takes\" mentioned in the provided text is **9719514**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 13920,
+     "protected_tok": 23,
+     "sec": 4.3
+    }
+   },
+   "mk_64000_3": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for **attainment-parameter** mentio",
+    "force": {
+     "pred": "The special magic number for attainment-parameter is 3722327.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 13930,
+     "sec": 3.738
+    },
+    "placebo": {
+     "pred": "The special magic number for **attainment-parameter** mentioned in the provided text is **9418596**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 13931,
+     "protected_tok": 21,
+     "sec": 2.825
+    }
+   },
+   "mk_64000_7": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for located-remarries mentioned in ",
+    "force": {
+     "pred": "The special magic number for located-remarries mentioned in the provided text is **6303269**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 13891,
+     "sec": 5.056
+    },
+    "placebo": {
+     "pred": "The special magic number for located-remarries mentioned in the provided text is **7031548**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 13913,
+     "protected_tok": 43,
+     "sec": 4.328
+    }
+   },
+   "mk_64000_10": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for along-reimburse mentioned in th",
+    "force": {
+     "pred": "The special magic number for along-reimburse mentioned in the provided text is **2009599**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 13903,
+     "sec": 4.833
+    },
+    "placebo": {
+     "pred": "The special magic number for along-reimburse mentioned in the provided text is **1129839**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 13882,
+     "protected_tok": 23,
+     "sec": 5.276
+    }
+   },
+   "mk_64000_11": {
+    "lost": true,
+    "first_loss": 13,
+    "pred": "The special magic number for shooting-ventured mentioned in ",
+    "force": {
+     "pred": "The special magic number for shooting-ventured is **5231979**.",
+     "ok": true,
+     "ev_kept": 1.0,
+     "kept": 13883,
+     "sec": 4.348
+    },
+    "placebo": {
+     "pred": "The special magic number for shooting-ventured mentioned in the provided text is **3072932**.",
+     "ok": false,
+     "ev_kept": 0.0,
+     "kept": 13903,
+     "protected_tok": 42,
+     "sec": 4.288
+    }
+   }
+  },
+  "instability": {
+   "vol4": {
+    "ev_median": 0.32098678236484174,
+    "ne_median": 0.18752946969741305,
+    "auc": 0.9199237956408634,
+    "auc_near": 0.9377849321713612
+   },
+   "fall": {
+    "ev_median": 0.8599853515625,
+    "ne_median": 0.516845703125,
+    "auc": 0.9627105584686243,
+    "auc_near": 0.9854323728801287
+   },
+   "peak": {
+    "ev_median": 0.99755859375,
+    "ne_median": 0.7216796875,
+    "auc": 0.99976829579786,
+    "auc_near": 0.9997101505238287
+   },
+   "dlast": {
+    "ev_median": -0.594970703125,
+    "ne_median": -0.248779296875,
+    "auc": 0.09867478602095782,
+    "auc_near": 0.07397224106015884
+   },
+   "head_spread": {
+    "ev_median": 0.498779296875,
+    "ne_median": 0.43310546875,
+    "auc": 0.5671240663583135,
+    "auc_near": 0.5469646412599884
+   },
+   "head_top": {
+    "ev_median": 0.0,
+    "ne_median": 0.0,
+    "auc": 0.3850696397863545,
+    "auc_near": 0.3051728839902209
+   },
+   "margin": {
+    "ev_median": 0.6667496562004089,
+    "ne_median": 0.622182309627533,
+    "auc": 0.5452748579302805,
+    "auc_near": 0.3728091747857503
+   },
+   "pct_cut": {
+    "ev_median": 0.1307373046875,
+    "ne_median": 0.1881103515625,
+    "auc": 0.35789579005080835,
+    "auc_near": 0.1808955166247137
+   }
+  },
+  "defer": {
+   "vol4": {
+    "median": 0.1914327018184585,
+    "at5": 0.28,
+    "at10": 0.44,
+    "at20": 0.56
+   },
+   "fall": {
+    "median": 0.11572996341868973,
+    "at5": 0.28,
+    "at10": 0.48,
+    "at20": 0.64
+   },
+   "peak": {
+    "median": 0.010670488931358496,
+    "at5": 1.0,
+    "at10": 1.0,
+    "at20": 1.0
+   },
+   "head_spread": {
+    "median": 0.3914636088549132,
+    "at5": 0.04,
+    "at10": 0.2,
+    "at20": 0.32
+   },
+   "head_top": {
+    "median": 0.5327984898537046,
+    "at5": 0.04,
+    "at10": 0.12,
+    "at20": 0.2
+   },
+   "margin": {
+    "median": 0.572966128521684,
+    "at5": 0.04,
+    "at10": 0.04,
+    "at20": 0.08
+   },
+   "dlast": {
+    "median": 0.2630171464527293,
+    "at5": 0.2,
+    "at10": 0.32,
+    "at20": 0.44
+   }
+  }
+ }
+}
