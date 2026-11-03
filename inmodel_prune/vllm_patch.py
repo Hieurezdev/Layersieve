@@ -26,11 +26,14 @@ _CFG = {}
 _ORIG = {}
 _STATE = {"T": None, "kept": None, "idx": None,   # prompt length, tokens kept per layer (index = layer id), positions kept at the last layer
           "probe": None,                          # probe=True: importance of every current token before every layer
-          "step": 0, "prof": None, "prof_n": 0}   # decode steps since prefill; CUDA profiler of the last steps
+          "step": 0, "prof": None, "prof_n": 0,   # decode steps since prefill; CUDA profiler of the last steps
+          "trace": None,                          # trace_from is not None: per scored layer, positions / scores / drops
+          "protect_pos": None, "budget": None}    # set_intervention(): positions never dropped, tokens kept per layer
 
 
-def _importance(layer, hidden, residual, positions, n_obs, obs_chunk=32):
-    """Attention received by every current token from the last n_obs tokens at this layer (max over heads, summed)."""
+def _importance(layer, hidden, residual, positions, n_obs, obs_chunk=32, per_head=False):
+    """Attention received by every current token from the last n_obs tokens at this layer (max over heads, summed).
+    per_head=True also returns the per-head attention summed over the window, [Hq, T]."""
     x = hidden if residual is None else hidden + residual
     x = layer.input_layernorm(x)
     attn = layer.self_attn
@@ -44,15 +47,19 @@ def _importance(layer, hidden, residual, positions, n_obs, obs_chunk=32):
     q = q[-n_obs:].view(n_obs, Hq, D).transpose(0, 1).float()                     # [Hq, n_obs, D]
     idx = torch.arange(T, device=hidden.device)
     imp = torch.zeros(T, device=hidden.device)
+    head = torch.zeros(Hq, T, device=hidden.device) if per_head else None
     for r0 in range(0, n_obs, obs_chunk):
         r1 = min(r0 + obs_chunk, n_obs)
         s = torch.bmm(q[:, r0:r1].reshape(Hk, G * (r1 - r0), D), k.transpose(1, 2)) * attn.scaling
         s = s.view(Hq, r1 - r0, T)
         rows = T - n_obs + torch.arange(r0, r1, device=hidden.device)
         s.masked_fill_(idx[None, None] > rows[None, :, None], float("-inf"))
-        imp += torch.softmax(s, -1).amax(0).sum(0)
-        del s
-    return imp
+        p = torch.softmax(s, -1)
+        imp += p.amax(0).sum(0)
+        if per_head:
+            head += p.sum(1)
+        del s, p
+    return (imp, head) if per_head else imp
 
 
 def _select(layer, hidden, residual, positions, aux, layer_idx):
@@ -60,21 +67,32 @@ def _select(layer, hidden, residual, positions, aux, layer_idx):
     "acc" importance summed over the layers scored so far (updated in place), "lex" BM25 score (score="bm25")."""
     c = _CFG
     T = hidden.shape[0]
+    tracing = _STATE["trace"] is not None
+    head = None
     if c["score"] == "bm25":
         imp = aux["lex"]
     else:
-        imp = _importance(layer, hidden, residual, positions, c["n_obs"])
+        imp = _importance(layer, hidden, residual, positions, c["n_obs"], per_head=tracing)
+        if tracing:
+            imp, head = imp
         if "acc" in aux:
             aux["acc"] += imp
             imp = aux["acc"]
     idx = torch.arange(T, device=hidden.device)
     prunable = (positions >= c["n_sink"]) & (idx < T - c["n_obs"])
+    n_prunable = int(prunable.sum())
+    if layer_idx == c["start_layer"]:
+        _STATE["n_prunable0"] = n_prunable
     if "protect" in aux:
         prunable &= ~aux["protect"]
-    if c["oneshot_keep"] is None:                                                # progressive: drop_ratio per layer
-        n_drop = int(int(prunable.sum()) * c["drop_ratio"])
+    if _STATE["budget"] is not None:                                             # intervention: same kept count
+        n_drop = max(0, T - _STATE["budget"][layer_idx])                          # per layer as a reference run
+    elif c["oneshot_keep"] is None:                                              # progressive: drop_ratio per layer
+        n_drop = int(n_prunable * c["drop_ratio"])
+        if c["min_keep"]:                                                        # floor: never below min_keep of start
+            n_drop = max(0, min(n_drop, n_prunable - int(_STATE["n_prunable0"] * c["min_keep"])))
     elif layer_idx == c["start_layer"]:                                          # ablation: one cut to oneshot_keep
-        n_drop = int(int(prunable.sum()) * (1 - c["oneshot_keep"]))
+        n_drop = int(n_prunable * (1 - c["oneshot_keep"]))
     else:
         n_drop = 0
     keep = torch.ones(T, dtype=torch.bool, device=hidden.device)
@@ -84,7 +102,16 @@ def _select(layer, hidden, residual, positions, aux, layer_idx):
         if c["pool_kernel"] > 1:
             imp = F.avg_pool1d(imp[None, None], c["pool_kernel"], 1, c["pool_kernel"] // 2, count_include_pad=False)[0, 0]
         keep[torch.topk(imp.masked_fill(~prunable, float("inf")), n_drop, largest=False).indices] = False
+    if tracing:
+        _trace(layer_idx, positions, imp, head, dropped=positions[~keep])
     return idx[keep]
+
+
+def _trace(layer_idx, positions, imp, head, dropped=None):
+    """Record the scores of the current tokens before layer layer_idx (CPU): positions, LayerSieve importance (Eq. 2),
+    per-head window attention (fp16) and the positions dropped before this layer (None = not a pruning layer)."""
+    _STATE["trace"].append({"layer": layer_idx, "pos": positions.cpu(), "imp": imp.float().cpu(),
+                            "head": head.half().cpu(), "dropped": None if dropped is None else dropped.cpu()})
 
 
 def _aux_init(input_ids):
@@ -103,6 +130,10 @@ def _aux_init(input_ids):
             aux["lex"] = s[aux["unit"]]
     if c["accum"]:
         aux["acc"] = torch.zeros(input_ids.shape[0], device=input_ids.device)
+    if _STATE["protect_pos"] is not None:
+        prot = torch.zeros(input_ids.shape[0], dtype=torch.bool, device=input_ids.device)
+        prot[torch.as_tensor(_STATE["protect_pos"], dtype=torch.long, device=input_ids.device)] = True
+        aux["protect"] = aux["protect"] | prot if "protect" in aux else prot
     return aux
 
 
@@ -196,11 +227,14 @@ def _patched_forward(self, input_ids, positions, kv_caches, attn_metadata, inter
         aux = _aux_init(input_ids) if do_prune and not slim else {}
         sets = []                                                                    # positions whose KV layer i writes
         _STATE["probe"] = [] if c["probe"] else None
+        _STATE["trace"] = [] if c["trace_from"] is not None and do_prune else None
         for i in range(self.start_layer, self.end_layer):
             layer = self.layers[i]
             keep = None
             if c["probe"]:
                 _STATE["probe"].append(_importance(layer, hidden, residual, positions, c["n_obs"]).cpu())
+            if _STATE["trace"] is not None and c["trace_from"] <= i < c["start_layer"]:     # dense layers: score only
+                _trace(i, positions, *_importance(layer, hidden, residual, positions, c["n_obs"], per_head=True))
             if do_prune and not slim and i >= c["start_layer"]:                        # ours: select BEFORE layer i
                 keep = _select(layer, hidden, residual, positions, aux, i)
                 aux = {k: v[keep] for k, v in aux.items()}
@@ -284,7 +318,8 @@ def enable_inmodel_prune(start_layer: int = 17, drop_ratio: float = 0.12, n_obs:
                          slim_window: int = 4, unit: bool = False, unit_max: int = 128, accum: bool = False,
                          bm25_frac: float = 0.0, score: str = "attn", tokenizer: str = "Qwen/Qwen2.5-7B-Instruct-1M",
                          mlp_chunk: int = 0, decode_ref: Optional[int] = None, probe: bool = False,
-                         prof_from: int = 0, oneshot_keep: Optional[float] = None):
+                         prof_from: int = 0, oneshot_keep: Optional[float] = None, min_keep: float = 0.0,
+                         trace_from: Optional[int] = None):
     """Monkey-patch vLLM's Qwen2Model.forward. Must match the LLM's block_size (vLLM default 16).
     method="ours": progressive pruning (start_layer, drop_ratio, ...). Variants borrowed from the top-1 team's
       SpecPrefill (inmodel_prune/units.py): unit=True drops whole units (<= unit_max tokens, score = max importance)
@@ -301,6 +336,10 @@ def enable_inmodel_prune(start_layer: int = 17, drop_ratio: float = 0.12, n_obs:
     oneshot_keep = f (ablation): instead of dropping drop_ratio before every layer >= start_layer, cut once before
       start_layer to a fraction f of the prunable tokens and keep that set to the last layer (FastKV-style one-shot
       selection, with LayerSieve's scoring / units).
+    min_keep = f > 0 (floor phi): progressive dropping stops once a fraction f of the prunable tokens of start_layer is
+      left.
+    trace_from = l: record, before every layer >= l, the scores of the tokens entering it (last_trace()); layers before
+      start_layer are scored without dropping anything (they run on the whole prompt, as in dense).
     prof_from = k > 0: from the k-th decode step on, profile GPU kernels (CUDA activity only); read with
       decode_kernel_time() after generate."""
     _CFG.update(start_layer=start_layer, drop_ratio=drop_ratio, n_obs=n_obs, n_sink=n_sink,
@@ -308,7 +347,8 @@ def enable_inmodel_prune(start_layer: int = 17, drop_ratio: float = 0.12, n_obs:
                 slim_layers=slim_layers or {8: 12 * 1024, 17: 6 * 1024, 25: 4 * 1024}, slim_ref_len=slim_ref_len,
                 slim_block=slim_block, slim_unit=slim_unit, slim_window=slim_window, unit=unit, unit_max=unit_max,
                 accum=accum, bm25_frac=bm25_frac, score=score, mlp_chunk=mlp_chunk,
-                decode_ref=decode_ref, probe=probe, prof_from=prof_from, oneshot_keep=oneshot_keep)
+                decode_ref=decode_ref, probe=probe, prof_from=prof_from, oneshot_keep=oneshot_keep,
+                min_keep=min_keep, trace_from=trace_from)
     if unit or bm25_frac > 0 or score == "bm25":
         from transformers import AutoTokenizer
         _CFG["boundary"] = units.boundary_token_ids(AutoTokenizer.from_pretrained(tokenizer))
@@ -332,6 +372,20 @@ def last_kept() -> Optional[List[int]]:
 def last_probe() -> Optional[List[torch.Tensor]]:
     """probe=True: per layer, the importance of every token entering it in the most recent prefill (CPU tensors)."""
     return _STATE["probe"]
+
+
+def last_trace() -> Optional[List[dict]]:
+    """trace_from is set: per scored layer of the most recent prefill, {"layer", "pos" (prompt positions entering the
+    layer), "imp" (Eq. 2 score), "head" ([Hq, n] window attention per head), "dropped" (positions dropped before it)}."""
+    return _STATE["trace"]
+
+
+def set_intervention(protect_pos=None, budget=None):
+    """For the next prefills: never drop the units containing protect_pos (prompt positions); budget = tokens processed
+    per layer (last_kept() of a reference run) replaces drop_ratio / floor, so the same number of tokens is removed and
+    other low-scoring units are dropped in place of the protected ones. Call with no arguments to reset."""
+    _STATE["protect_pos"] = None if protect_pos is None else list(protect_pos)
+    _STATE["budget"] = None if budget is None else list(budget)
 
 
 def decode_kernel_time() -> Optional[float]:
