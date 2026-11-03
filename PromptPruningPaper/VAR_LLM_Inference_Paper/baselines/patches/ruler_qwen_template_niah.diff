@@ -1,0 +1,31 @@
+diff --git a/scripts/data/synthetic/niah.py b/scripts/data/synthetic/niah.py
+index 729eddc..b7452f4 100644
+--- a/scripts/data/synthetic/niah.py
++++ b/scripts/data/synthetic/niah.py
+@@ -191,10 +191,13 @@ def generate_input_output(num_haystack):
+     template = args.template
+     type_needle_v = args.type_needle_v
+     if args.num_needle_q * args.num_needle_v == 1:
++        # only inside the task text: the model chat header (e.g. "You are a helpful assistant.") must stay intact
++        head, sep, template = template.rpartition('<|im_start|>user\n')
+         template = template.replace('Some', 'A')
+         template = template.replace('are all', 'is')
+         template = template.replace('are', 'is')
+         template = template.replace('answers', 'answer')
++        template = head + sep + template
+         type_needle_v = type_needle_v[:-1] # remove "s"
+ 
+     input_text = template.format(
+diff --git a/scripts/data/template.py b/scripts/data/template.py
+index 9bbf7b9..99abc23 100644
+--- a/scripts/data/template.py
++++ b/scripts/data/template.py
+@@ -15,6 +15,8 @@
+ Templates = {
+     'base': "{task_template}",
+ 
++    'qwen2.5': "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n{task_template}<|im_end|>\n<|im_start|>assistant\n",
++
+     'meta-chat': "[INST] {task_template} [/INST]",
+ 
+     'vicuna-chat': "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: {task_template} ASSISTANT:",

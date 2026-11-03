@@ -1,0 +1,20 @@
+diff --git a/baseline/gemfilter/gemfilter_utils.py b/baseline/gemfilter/gemfilter_utils.py
+index 716f110..cc7b386 100644
+--- a/baseline/gemfilter/gemfilter_utils.py
++++ b/baseline/gemfilter/gemfilter_utils.py
+@@ -50,7 +50,6 @@ def get_layer_context(model, tokenizer, input_ids, layer_idx, print_context=Fals
+         print(tokenizer.decode(new_input_ids))
+     return new_input_ids.unsqueeze(0)
+ 
+-def get_layer_context_asl(model, tokenizer,input_ids,print_context=False,use_asl_score=True):
+ def get_layer_context_asl(model, tokenizer,input_ids,print_context=False,use_asl_score=True):
+     past_key_values = DynamicCache()
+     cache_position = torch.arange(0, input_ids.shape[1],device=input_ids.device)
+@@ -148,7 +147,6 @@ def gemfilter_generate(model, tokenizer, pred_token_idx, past_key_values, max_ge
+     return generated_ids,prefill_time
+ 
+ @torch.no_grad()
+-def gemfilter_generate_selection(input_ids, attn_mask, model, tokenizer, max_gen_len=50, select_layer_idx=None, print_context=False):
+ def gemfilter_generate_selection(input_ids, attn_mask, model, tokenizer, max_gen_len=50, select_layer_idx=None, print_context=False):
+     init_time =time.time()
+     use_asl = bool(model.cache_kwargs.layer_th)

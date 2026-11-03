@@ -1,0 +1,7 @@
+# Env chinh: cat dan (HF + vLLM), SlimInfer cai lai tren vLLM, SpecPrefill. Python 3.10.
+vllm==0.6.3.post1
+transformers==4.50.2
+datasets==2.21.0
+huggingface-hub==0.36.2
+numpy==1.26.4
+setuptools

@@ -1,0 +1,260 @@
+@IEEEtranBSTCTL{IEEEexample:BSTcontrol,
+  CTLuse_forced_etal       = "yes",
+  CTLmax_names_forced_etal = "5",
+  CTLnames_show_etal       = "3"
+}
+
+% ---------------- Foundations
+@inproceedings{vaswani2017attention,
+  author = {Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and {\L}ukasz Kaiser and Illia Polosukhin},
+  title = {Attention Is All You Need},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year = {2017}
+}
+@article{su2024roformer,
+  author = {Jianlin Su and Murtadha Ahmed and Yu Lu and Shengfeng Pan and Wen Bo and Yunfeng Liu},
+  title = {{RoFormer}: Enhanced Transformer with Rotary Position Embedding},
+  journal = {Neurocomputing},
+  volume = {568},
+  pages = {127063},
+  year = {2024}
+}
+@inproceedings{peng2024yarn,
+  author = {Peng, Bowen and Quesnelle, Jeffrey and Fan, Honglu and Shippole, Enrico},
+  title = {{YaRN}: Efficient Context Window Extension of Large Language Models},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year = {2024}
+}
+@article{qwen252024,
+  author = {An Yang and Baosong Yang and Beichen Zhang and Binyuan Hui and Bo Zheng and Bowen Yu and Chengyuan Li and Dayiheng Liu and Fei Huang and Haoran Wei and others},
+  title = {{Qwen2.5} Technical Report},
+  journal = {arXiv preprint arXiv:2412.15115},
+  year = {2024}
+}
+@article{qwen25_1m,
+  author = {{Qwen Team}},
+  title = {{Qwen2.5-1M} Technical Report},
+  journal = {arXiv preprint arXiv:2501.15383},
+  year = {2025}
+}
+@inproceedings{dao2022flashattention,
+  author = {Dao, Tri and Fu, Dan and Ermon, Stefano and Rudra, Atri and R\'{e}, Christopher},
+  title = {{FlashAttention}: Fast and Memory-Efficient Exact Attention with {IO}-Awareness},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  pages = {16344--16359},
+  year = {2022}
+}
+@inproceedings{dao2024flashattention2,
+  author = {Dao, Tri},
+  title = {{FlashAttention-2}: Faster Attention with Better Parallelism and Work Partitioning},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year = {2024}
+}
+@inproceedings{kwon2023efficient,
+  author = {Woosuk Kwon and Zhuohan Li and Siyuan Zhuang and Ying Sheng and Lianmin Zheng and Cody Hao Yu and Joseph E. Gonzalez and Hao Zhang and Ion Stoica},
+  title = {Efficient Memory Management for Large Language Model Serving with {PagedAttention}},
+  booktitle = {ACM Symposium on Operating Systems Principles (SOSP)},
+  year = {2023}
+}
+@inproceedings{leviathan2023speculative,
+  author = {Leviathan, Yaniv and Kalman, Matan and Matias, Yossi},
+  title = {Fast Inference from Transformers via Speculative Decoding},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2023}
+}
+@inproceedings{skean2025layerbylayer,
+  author = {Oscar Skean and Md Rifat Arefin and Dan Zhao and Niket Patel and Jalal Naghiyev and Yann LeCun and Ravid Shwartz-Ziv},
+  title = {Layer by Layer: Uncovering Hidden Representations in Language Models},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2025}
+}
+@article{liu2024lost,
+  author = {Liu, Nelson F. and Lin, Kevin and Hewitt, John and Paranjape, Ashwin and Bevilacqua, Michele and Petroni, Fabio and Liang, Percy},
+  title = {Lost in the Middle: How Language Models Use Long Contexts},
+  journal = {Transactions of the Association for Computational Linguistics},
+  volume = {12},
+  pages = {157--173},
+  year = {2024}
+}
+
+% ---------------- Workload / benchmarks
+@techreport{moe2026var,
+  author = {{Team MOE}},
+  title = {Viettel {AI} Race 2026 Technical Report: {LLM} Inference Optimization (Round 3 -- Final)},
+  institution = {Viettel AI Race 2026},
+  year = {2026}
+}
+@inproceedings{zhang_etal_2024_bench,
+  author = {Xinrong Zhang and Yingfa Chen and Shengding Hu and Zihang Xu and Junhao Chen and Moo Khai Hao and Xu Han and Zhen Leng Thai and Shuo Wang and Zhiyuan Liu and Maosong Sun},
+  title = {$\infty${Bench}: Extending Long Context Evaluation Beyond 100{K} Tokens},
+  booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
+  pages = {15262--15277},
+  year = {2024}
+}
+@inproceedings{ruler2024,
+  author = {Hsieh, Cheng-Ping and Sun, Simeng and Kriman, Samuel and Acharya, Shantanu and Rekesh, Dima and Jia, Fei and Zhang, Yang and Ginsburg, Boris},
+  title = {{RULER}: What's the Real Context Size of Your Long-Context Language Models?},
+  booktitle = {Conference on Language Modeling (COLM)},
+  year = {2024}
+}
+@inproceedings{bai2024longbench,
+  author = {Bai, Yushi and Lv, Xin and Zhang, Jiajie and Lyu, Hongchang and Tang, Jiankai and Huang, Zhidian and Du, Zhengxiao and Liu, Xiao and Zeng, Aohan and Hou, Lei and Dong, Yuxiao and Tang, Jie and Li, Juanzi},
+  title = {{LongBench}: A Bilingual, Multitask Benchmark for Long Context Understanding},
+  booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year = {2024}
+}
+@inproceedings{yang2018hotpotqa,
+  author = {Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William W. and Salakhutdinov, Ruslan and Manning, Christopher D.},
+  title = {{HotpotQA}: A Dataset for Diverse, Explainable Multi-hop Question Answering},
+  booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year = {2018}
+}
+@inproceedings{ho2020constructing,
+  author = {Ho, Xanh and Duong Nguyen, Anh-Khoa and Sugawara, Saku and Aizawa, Akiko},
+  title = {Constructing A Multi-hop {QA} Dataset for Comprehensive Evaluation of Reasoning Steps},
+  booktitle = {International Conference on Computational Linguistics (COLING)},
+  year = {2020}
+}
+
+% ---------------- Prompt compression with an external model
+@inproceedings{li2023selective,
+  author = {Li, Yucheng and Dong, Bo and Guerin, Frank and Lin, Chenghua},
+  title = {Compressing Context to Enhance Inference Efficiency of Large Language Models},
+  booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages = {6342--6353},
+  year = {2023}
+}
+@inproceedings{jiang2023llmlingua,
+  author = {Jiang, Huiqiang and Wu, Qianhui and Lin, Chin-Yew and Yang, Yuqing and Qiu, Lili},
+  title = {{LLMLingua}: Compressing Prompts for Accelerated Inference of Large Language Models},
+  booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages = {13358--13376},
+  year = {2023}
+}
+@inproceedings{jiang2024longllmlingua,
+  author = {Jiang, Huiqiang and Wu, Qianhui and Luo, Xufang and Li, Dongsheng and Lin, Chin-Yew and Yang, Yuqing and Qiu, Lili},
+  title = {{LongLLMLingua}: Accelerating and Enhancing {LLMs} in Long Context Scenarios via Prompt Compression},
+  booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
+  pages = {1658--1677},
+  year = {2024}
+}
+@inproceedings{liu2025specprefill,
+  author = {Liu, Jingyu and Chen, Beidi and Zhang, Ce},
+  title = {Speculative Prefill: Turbocharging {TTFT} with Lightweight and Training-Free Token Importance Estimation},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2025}
+}
+@inproceedings{upasani2026crossfamily,
+  author = {Upasani, Shubhangi and Raju, Ravi Shanker and Li, Bo and Ji, Mengmeng and Long, John and Wu, Chen and Thakker, Urmish and Wang, Guangtao},
+  title = {Cross-Family Speculative Prefill: Training-Free Long-Context Compression with Small Draft Models},
+  booktitle = {ICLR Workshop},
+  year = {2026}
+}
+
+% ---------------- KV cache eviction / sparse attention
+@inproceedings{xiao2024efficient,
+  author = {Guangxuan Xiao and Yuandong Tian and Beidi Chen and Song Han and Mike Lewis},
+  title = {Efficient Streaming Language Models with Attention Sinks},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year = {2024}
+}
+@inproceedings{zhang2024h2o,
+  author = {Zhang, Zhenyu and Sheng, Ying and Zhou, Tianyi and Chen, Tianlong and Zheng, Lianmin and Cai, Ruisi and Song, Zhao and Tian, Yuandong and R\'{e}, Christopher and Barrett, Clark and Wang, Zhangyang and Chen, Beidi},
+  title = {{H2O}: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year = {2023}
+}
+@inproceedings{li2024snapkv,
+  author = {Li, Yuhong and Huang, Yingbing and Yang, Bowen and Venkitesh, Bharat and Locatelli, Acyr and Ye, Hanchen and Cai, Tianle and Lewis, Patrick and Chen, Deming},
+  title = {{SnapKV}: {LLM} Knows What You are Looking for Before Generation},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year = {2024}
+}
+@inproceedings{yang2024pyramidinfer,
+  author = {Yang, Dongjie and Han, Xiaodong and Gao, Yan and Hu, Yao and Zhang, Shilin and Zhao, Hai},
+  title = {{PyramidInfer}: Pyramid {KV} Cache Compression for High-throughput {LLM} Inference},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
+  pages = {3258--3270},
+  year = {2024}
+}
+@inproceedings{jiang2024minference,
+  author = {Jiang, Huiqiang and Li, Yucheng and Zhang, Chengruidong and Wu, Qianhui and Luo, Xufang and Ahn, Surin and Han, Zhenhua and Abdi, Amir H. and Li, Dongsheng and Lin, Chin-Yew and Yang, Yuqing and Qiu, Lili},
+  title = {{MInference} 1.0: Accelerating Pre-filling for Long-Context {LLMs} via Dynamic Sparse Attention},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year = {2024}
+}
+@inproceedings{xiao2024infllm,
+  author = {Xiao, Chaojun and Zhang, Pengle and Han, Xu and Xiao, Guangxuan and Lin, Yankai and Zhang, Zhengyan and Liu, Zhiyuan and Sun, Maosong},
+  title = {{InfLLM}: Training-Free Long-Context Extrapolation for {LLMs} with an Efficient Context Memory},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year = {2024}
+}
+@inproceedings{tang2024quest,
+  author = {Tang, Jiaming and Zhao, Yilong and Zhu, Kan and Xiao, Guangxuan and Kasikci, Baris and Han, Song},
+  title = {{Quest}: Query-Aware Sparsity for Efficient Long-Context {LLM} Inference},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2024}
+}
+
+% ---------------- In-model token pruning during prefill
+@inproceedings{fu2024lazyllm,
+  author = {Fu, Qichen and Cho, Minsik and Merth, Thomas and Mehta, Sachin and Rastegari, Mohammad and Najibi, Mahyar},
+  title = {{LazyLLM}: Dynamic Token Pruning for Efficient Long Context {LLM} Inference},
+  booktitle = {ICML Workshop on Efficient Systems for Foundation Models (ES-FoMo II)},
+  year = {2024}
+}
+@article{shi2024gemfilter,
+  author = {Shi, Zhenmei and Ming, Yifei and Nguyen, Xuan-Phi and Liang, Yingyu and Joty, Shafiq},
+  title = {Discovering the Gems in Early Layers: Accelerating Long-Context {LLMs} with 1000x Input Token Reduction},
+  journal = {arXiv preprint arXiv:2409.17422},
+  year = {2024}
+}
+@inproceedings{long2026sliminfer,
+  author = {Long, Lingkun and Yang, Rubing and Huang, Yushi and Hui, Desheng and Zhou, Ao and Yang, Jianlei},
+  title = {{SlimInfer}: Accelerating Long-Context {LLM} Inference via Dynamic Token Pruning},
+  booktitle = {AAAI Conference on Artificial Intelligence},
+  year = {2026}
+}
+@inproceedings{jo2026fastkv,
+  author = {Jo, Dongwon and Song, Jiwon and Kim, Yulhwa and Kim, Jae-Joon},
+  title = {{FastKV}: Decoupling of Context Reduction and {KV} Cache Compression for Prefill-Decoding Acceleration},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2026},
+  year = {2026}
+}
+@inproceedings{taniguchi2026asl,
+  author = {Taniguchi, Rei and Dong, Yuyang and Onizuka, Makoto and Xiao, Chuan},
+  title = {Adaptive Layer Selection for Layer-Wise Token Pruning in {LLM} Inference},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2026},
+  pages = {967--986},
+  year = {2026}
+}
+@article{cai2024pyramidkv,
+  author = {Cai, Zefan and others},
+  title = {{PyramidKV}: Dynamic {KV} Cache Compression based on Pyramidal Information Funneling},
+  journal = {arXiv preprint arXiv:2406.02069},
+  year = {2024}
+}
+@article{liu2025chunkkv,
+  author = {Liu, Xiang and others},
+  title = {{ChunkKV}: Semantic-Preserving {KV} Cache Compression for Efficient Long-Context {LLM} Inference},
+  journal = {arXiv preprint arXiv:2502.00299},
+  year = {2025}
+}
+@inproceedings{chen2025sepllm,
+  author = {Chen, Guoxuan and Shi, Han and others},
+  title = {{SepLLM}: Accelerate Large Language Models by Compressing One Segment into One Separator},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2025}
+}
+@inproceedings{lai2025flexprefill,
+  author = {Lai, Xunhao and Lu, Jianqiao and Luo, Yao and Ma, Yiyuan and Zhou, Xun},
+  title = {{FlexPrefill}: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year = {2025}
+}
+@inproceedings{li2025scbench,
+  author = {Li, Yucheng and Jiang, Huiqiang and others},
+  title = {{SCBench}: A {KV} Cache-Centric Analysis of Long-Context Methods},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year = {2025}
+}

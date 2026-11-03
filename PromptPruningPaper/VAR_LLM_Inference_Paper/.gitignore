@@ -1,0 +1,11 @@
+__pycache__
+*.egg-info
+dist
+build
+.venv
+data/*.jsonl
+results/**/*.log
+local
+data/ruler/
+data/*.log
+results/**/*.done
